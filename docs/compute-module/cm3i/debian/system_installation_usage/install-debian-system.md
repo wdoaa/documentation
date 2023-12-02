@@ -1,35 +1,37 @@
 ---
-sidebar_label: "Debian系统安装"
 sidebar_position: 2
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Debian系统安装
+# 1.2.1 Debian系统安装
 
 CM3I 主要有两种启动方式，从 microSD 卡启动和从 eMMC 启动，这里主要介绍安装系统到这两种介质的方法。
 
 - 安装系统到 microSD 卡上
 - 安装系统到 eMMC 上
 
-## 安装系统到 microSD 卡
 
-### 准备
+## 系统烧录
+
+### 安装系统到 microSD 卡
+
+#### 准备工作
 
 1. 准备一个 microSD 卡
 2. 准备一个 SD 卡读卡器
 3. 下载对应产品的[镜像](/compute-module/images)
 4. 把 microSD 卡插入 SD 读卡器, 然后把 SD 读卡器插入计算机的 USB 接口
 
-### 烧录镜像
+#### 烧录镜像
 
 目前主要使用下面两种工具进行烧录, 你可以根据实际情况选择其中的一个
 
 - Etcher （跨平台）
 - Win32DiskImager （windows）
 
-#### 通过 Etcher 烧录镜像到 microSD 卡
+##### 通过 Etcher 烧录镜像到 microSD 卡
 
 1. [下载](https://etcher.balena.io/)刷写工具 `Etcher`。
    <img src="/img/rock5a/rock5a-etcher.webp" width = "700" alt="CM3I via Etcher 01"/>
@@ -48,7 +50,7 @@ CM3I 主要有两种启动方式，从 microSD 卡启动和从 eMMC 启动，这
 
 **如果烧录失败，请重试。**
 
-#### 通过 Win32DiskImager 烧录镜像到 microSD 卡
+##### 通过 Win32DiskImager 烧录镜像到 microSD 卡
 
 1. [下载](https://win32diskimager.org/)刷写工具 `Win32DiskImager`
    ![CM3I via Win32DiskImager 01](/img/rock5a/rock5a-win32.webp)
@@ -64,20 +66,20 @@ CM3I 主要有两种启动方式，从 microSD 卡启动和从 eMMC 启动，这
 
 <!-- end of the list -->
 
-## 安装系统到 eMMC
+### 安装系统到 eMMC
 
-安装系统之前, CM3I 要先进入[Maskrom 模式](/compute-module/cm3i/maskrom)
+安装系统之前, CM3I 要先进入[Maskrom 模式](/compute-module/cm3i)
 
-### 烧录镜像
+#### 烧录镜像
 
 <Tabs queryString="environment">
 <TabItem value="Linux">
 
-#### rkdeveloptool
+##### rkdeveloptool
 
 rkdeveloptool 是 Rockchip 为 Linux/macOS 平台下进行 USB 烧录所开发的软件。
 
-#### 安装 rkdeveloptool
+##### 安装 rkdeveloptool
 
 如果 rockchip 没有提供对应操作系统下的编译好的 rkdeveloptool 工具，则需要编译源码并安装。
 
@@ -142,15 +144,15 @@ cp rkdeveloptool /opt/homebrew/bin/
 
 ---
 
-#### 使用 rkdeveloptool
+##### 使用 rkdeveloptool
 
-##### 查看已连接的 Maskrom 设备
+###### 查看已连接的 Maskrom 设备
 
 ```bash
 rkdeveloptool ld
 ```
 
-##### 写入文件
+###### 写入文件
 
 :::caution
 如果镜像是压缩文件(例如zip,xz,gz等)，请先进行解压缩。
@@ -168,7 +170,7 @@ sudo rkdeveloptool wl 0 <image>
 
 你可以从这里下载 [Loader](/general-tutorial/rksdk/loader)
 
-##### 重启设备
+###### 重启设备
 
 ```bash
 sudo rkdeveloptool rd
@@ -177,33 +179,33 @@ sudo rkdeveloptool rd
 </TabItem>
 <TabItem value="Windows">
 
-#### RKDevTool
+##### RKDevTool
 
 RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件。
 
-#### 安装 RKDevTool
+##### 安装 RKDevTool
 
 请下载并解压以下文件以安装 RKDevTool：
 
 - [RKDevTool v2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96_zh.zip) (含中文使用文档)
 - [DriverAssistant v5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)
 
-##### 安装驱动
+###### 安装驱动
 
 下载并解压 DriverAssistant，然后执行 DriverInstall.exe 并点击 `Install Driver` 按钮来安装驱动。
 如果你之前已经安装过其他版本的驱动，请先点击 `Uninstall Driver` 卸载驱动，然后再重新安装。
 
 ![RK Driver](/img/configuration/RK-Driver-Assistant-Install-Uninstall.webp)
 
-#### 向设备中写入文件
+##### 向设备中写入文件
 
-##### 运行 RKDevTool
+###### 运行 RKDevTool
 
 ![RKDevTool zh](/img/configuration/rkdevtool-zh.webp)
 
-##### 连接产品并进入 Maskrom 模式
+###### 连接产品并进入 Maskrom 模式
 
-如何进入Maskrom 模式, 请参考 [Maskrom Mode ](/compute-module/cm3i/maskrom)
+如何进入Maskrom 模式, 请参考 [Maskrom Mode ](/compute-module/cm3i)
 
 如操作正常，RKDevTool 会提示 `发现一个MASKROM设备`：
 
@@ -215,7 +217,7 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 如果需要同时写入多个设备，请使用 [upgrade_tool](/general-tutorial/rksdk/upgrade_tool)。
 :::
 
-##### 配置 RKDevTool 写入参数
+###### 配置 RKDevTool 写入参数
 
 :::caution
 如果镜像是压缩文件(例如zip,xz,gz等)，请先进行解压缩。
@@ -255,6 +257,10 @@ SPI Flash 只能烧录对应的 U-BOOT，请勿将镜像烧录到 SPI Flash 中
 
 </TabItem>
 </Tabs>
+
+## 启动系统
+
+
 
 ## FAQ
 

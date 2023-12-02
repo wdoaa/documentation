@@ -2,4 +2,5 @@
 sidebar_position: 10
 ---
 
-# 配件使用教程
+# 2.1 Debian 系统配置 
+
