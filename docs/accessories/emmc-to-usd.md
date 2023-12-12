@@ -12,3 +12,7 @@ Radxa eMMC to uSD 是一个将 eMMC 转换为 uSD 的模块。 它可以通过�
 
 - 产品描述: 将 eMMC 转化为 uSD 接口
 - 尺寸: 40 x 21 x 1.5 mm
+
+  :::info
+  部分SD卡读卡器可能不兼容,如川宇C396。
+  :::

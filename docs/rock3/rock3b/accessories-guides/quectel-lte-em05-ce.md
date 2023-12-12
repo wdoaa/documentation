@@ -180,7 +180,6 @@ SAY "\NSending break to the modem\n"
 
 ""+++ATH"
 SAY "\nGood bye !\n"
-EOF | sudo tee /etc/ppp/peers/rasppp-chat-disconnect
 ```
 
 添加完以上三个脚本文件后，你现在可以使用 `ppp` 尝试拨号：
