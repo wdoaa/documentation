@@ -1,33 +1,17 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# 硬件接口说明
+# ZERO 3 GPIO
 
-## 接口总览
-
-- **ZERO 3W**
-  ![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
-
-- **ZERO 3E**
-  ![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3e.webp)
-
-## 电源接口
-
-## 调试串口
-
-## 有线网口
-
-## 40 PIN GPIO
-
-#### GPIO 电压
+## GPIO 电压
 
 | GPIO        | 电压 | 最高  |
 | ----------- | ---- | ----- |
 | 所有的 GPIO | 3.3V | 3.63V |
 | SARADC_IN5  | 3.3V | 3.3V  |
 
-#### GPIO 接口
+## GPIO 接口
 
 ZERO 3W/3E 提供了一个40 pin 针脚的 GPIO 座子，与市场上大多数的 SBC 配件兼容。
 
@@ -64,24 +48,6 @@ Pin 3 与 Pin 5 为 I2C 设备供电添加了额外的上拉电阻，故在作�
 
 </div>
 
-#### GPIO 编号
+## GPIO 编号
 
 请参阅 [`libgpiod`](/radxa-os/development/libgpiod.md) 来了解该如何控制 GPIO。
-
-## 功能控制接口
-
-## 蓝牙
-
-## USB C OTG 口
-
-## HDMI接口
-
-## USB 口
-
-## MIPI CSI
-
-## MIPI DSI
-
-## WIFI
-
-## MicroSD
