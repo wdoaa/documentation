@@ -1,7 +1,7 @@
 ---
 label: "NIO 12L"
 description: "瑞莎 NIO 12L 单板机"
-sidebar_position: 10
+sidebar_position: 1
 slug: /nio/12l
 ---
 

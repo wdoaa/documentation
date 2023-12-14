@@ -15,13 +15,13 @@ sidebar_position: 3
 
 Linux:
 
-[Flash Tool Linux](https://dl.radxa.com/nio12/tools/SP_Flash_Tool_Selector_exe_Linux_v1.2152.00.100.zip)
+[Flash Tool Linux](https://dl.radxa.com/nio12l/tools/SP_Flash_Tool_Selector_exe_Linux_v1.2152.00.100.zip)
 
 Windows:
 
-[Flash Tool Windows](https://dl.radxa.com/nio12/tools/SP_Flash_Tool_Selector_exe_Windows_v1.2152.00.000.zip)
+[Flash Tool Windows](https://dl.radxa.com/nio12l/tools/SP_Flash_Tool_Selector_exe_Windows_v1.2152.00.000.zip)
 
-[Driver Windows](https://dl.radxa.com/nio12/tools/Driver_Auto_Installer_EXE_v5.2307.00.zip)
+[Driver Windows](https://dl.radxa.com/nio12l/tools/Driver_Auto_Installer_EXE_v5.2307.00.zip)
 
 ### 安装步骤
 
