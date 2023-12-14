@@ -84,7 +84,6 @@ Radxa NX5 目前提供 Debian OS 系统
 <Tabs queryString="target">
  <TabItem value="底板" label="NX5 IO">
 
-
 1. 将micro usb 线缆连接到主机
 
 2. 按住 maskrom 按键后上电，此时会进入 maskrom 模式
@@ -115,4 +114,3 @@ Radxa NX5 目前提供 Debian OS 系统
 </TabItem>
 
 </Tabs>
-

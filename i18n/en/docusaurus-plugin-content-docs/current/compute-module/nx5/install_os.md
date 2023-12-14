@@ -28,7 +28,7 @@ Installation to eMMC requires preparation:
 
 ## Images Download
 
-Please go to [Computing Module Images Download Summary](/compute-module/images.md)  to download the corresponding Images.
+Please go to [Computing Module Images Download Summary](/compute-module/images.md) to download the corresponding Images.
 
 ## Images Installation
 
@@ -83,7 +83,6 @@ There are two ways to burn an image to the SD card, using Etcher or Win32DiskIma
 
 <Tabs queryString="target">
  <TabItem value="io board" label="NX5 IO">
-
 
 1. Connecting the micro usb cable to the host computer.
 

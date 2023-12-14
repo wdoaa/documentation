@@ -13,12 +13,12 @@ sidebar_position: 15
 
 eMMC 做系统盘：
 
-  - 一条 micro USB 转 typea USB 接口线缆 ![10 10](/img/nx5/others/typea2micro.webp).
+- 一条 micro USB 转 typea USB 接口线缆 ![10 10](/img/nx5/others/typea2micro.webp).
 
 microSD卡做系统盘：
 
-  - microSD卡，大于 8GB （推荐class10级以上）
-  - 读卡器： 用于将镜像烧录到 microSD 卡中
+- microSD卡，大于 8GB （推荐class10级以上）
+- 读卡器： 用于将镜像烧录到 microSD 卡中
 
 - 电源供应
 
@@ -108,7 +108,6 @@ root@rock-nx5-io:/home/rock#
 #### HDMI 显示器和鼠标键盘
 
 - 如图所示，插入HDMI线材和鼠标键盘
-  
 
 #### 串口访问
 

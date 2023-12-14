@@ -13,17 +13,17 @@ sidebar_position: 15
 
 eMMC as a system disk:
 
-  - One micro USB to typea USB connector cable ![10 10](/img/nx5/others/typea2micro.webp).
+- One micro USB to typea USB connector cable ![10 10](/img/nx5/others/typea2micro.webp).
 
 MicroSD card as system disk：
 
-  - microSD card, greater than 8GB (recommended class 10 or higher)
-  - Card reader: for burning the image to a microSD card
+- microSD card, greater than 8GB (recommended class 10 or higher)
+- Card reader: for burning the image to a microSD card
 
 - Power supply
 
   - The NX5 IO is powered by a DC interface with an input voltage of 5V.
-The official Radxa Power PD 30W is recommended. ![Radxa Power PD 30W](/img/accessories/pd-30w.webp) ![typec2dc5v](/img/nx5/others/typec2dc5v.webp).
+    The official Radxa Power PD 30W is recommended. ![Radxa Power PD 30W](/img/accessories/pd-30w.webp) ![typec2dc5v](/img/nx5/others/typec2dc5v.webp).
 
 - USB keyboard and mouse
 
@@ -108,7 +108,6 @@ root@rock-nx5-io:/home/rock#
 #### HDMI Monitor and Mouse Keyboard
 
 - Plug in the HDMI cable and mouse keyboard as shown in the figure
-  
 
 #### serial port access
 
