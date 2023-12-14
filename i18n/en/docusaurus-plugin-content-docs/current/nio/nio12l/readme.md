@@ -1,7 +1,7 @@
 ---
 label: "NIO 12L"
 description: "Radxa NIO 12L SBC"
-sidebar_position: 10
+sidebar_position: 1
 slug: /nio/12l
 ---
 
