@@ -43,4 +43,4 @@ NIO 12L 包装清单包含以下：
 
 [Yocto系统安装](/nio/nio12l/install-yocto-system)
 
-[Android系统安装](/nio/nio12l/install-android-system)
+[Android系统安装](/nio/nio12l/android/install-android-system)
