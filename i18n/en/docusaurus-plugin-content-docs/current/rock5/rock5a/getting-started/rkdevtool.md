@@ -2,7 +2,7 @@
 sidebar_position: 36
 ---
 
-# Introduction
+# Maskrom Mode
 
 ROCK 5 supports Maskrom mode, which is a special operation mode for CPU to wait for USB OTG port command.
 The PC tools we use to communicate with ROCK 5 in Maskrom mode are the rkdeveloptool and RKDevTool.

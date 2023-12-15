@@ -44,7 +44,12 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/radxa-docs/documentation/edit/main/",
+          editUrl: ({ locale, docPath }) => {
+            if (locale !== "zh") {
+              return `https://github.com/radxa-docs/documentation/edit/main/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`;
+            }
+            return `https://github.com/radxa-docs/documentation/edit/main/docs/${docPath}`;
+          },
         },
         blog: {
           showReadingTime: true,

@@ -2,7 +2,7 @@
 sidebar_position: 30
 ---
 
-# 第三方镜像
+# ROCK 5A 第三方镜像
 
 除了官方镜像ROCK 5A也支持许多第三方镜像。
 你可以在[ROCK 5系列下载页面](https://wiki.radxa.com/Rock5/downloads)查看并下载。

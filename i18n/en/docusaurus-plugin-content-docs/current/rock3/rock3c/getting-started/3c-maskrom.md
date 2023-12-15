@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Introduction
+# Maskrom Mode
 
 The ROCK 3C supports Maskrom mode, which is a special operation mode where the CPU receives commands through the USB OTG port.
 This guide will instruct you how to operate the ROCK 3C in Maskrom mode.

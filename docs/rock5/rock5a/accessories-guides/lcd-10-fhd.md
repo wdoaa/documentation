@@ -2,4 +2,4 @@
 sidebar_position: 20
 ---
 
-# Coming Soon
+# Radxa display LCD 10 FHD

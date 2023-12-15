@@ -2,8 +2,8 @@
 sidebar_position: 55
 ---
 
-# ROCKPi Series
+# ROCK Pi Family
 
-The ROCKPi series is Radxa's classic SBC series.
+The ROCK Pi series is Radxa's classic SBC series.
 
 <DocCardList />

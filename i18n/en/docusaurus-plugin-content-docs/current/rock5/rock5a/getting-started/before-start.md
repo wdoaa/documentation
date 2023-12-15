@@ -2,7 +2,7 @@
 sidebar_position: 20
 ---
 
-# Preparation
+# Getting Started
 
 - This Preparation guide is designed for Radxa ROCK 5 Model A(Rock 5A) enthusiast. The purpose is to learn about ROCK 5A as well as how to prepare and set up for basic use. When you get a board, you need to know what model it is and which hardware version it is. The information is printed in the top side of the board. We will introduce the board information as much as possible.
 

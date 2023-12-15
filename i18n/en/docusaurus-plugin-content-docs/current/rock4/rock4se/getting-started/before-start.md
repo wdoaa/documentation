@@ -2,7 +2,7 @@
 sidebar_position: 20
 ---
 
-# Introduction
+# Getting Started
 
 This Preparation guide is designed for Radxa ROCK 4SE enthusiast. The purpose is to learn about ROCK 4SE as well as how to prepare and set up for basic use.
 When you get a board, you need to know what model it is and which hardware version it is.

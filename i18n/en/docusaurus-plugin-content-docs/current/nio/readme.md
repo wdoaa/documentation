@@ -1,6 +1,6 @@
 ---
 label: "NIO Family"
-description: "Radxa NIO Series"
+description: "Radxa NIO Family"
 sidebar_position: 100
 slug: /nio
 ---

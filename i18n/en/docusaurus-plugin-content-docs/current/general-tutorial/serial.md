@@ -114,15 +114,21 @@ Create and edit file ~/.minirc.radxa, add the following content:
    pu rtscts           No
 ```
 
-Now run minicom radxa to use the config above and connects to the ROCK board serial console.
+Now run
+
+```bash
+minicom radxa
+```
+
+to use the config above and connects to the ROCK board serial console.
 </TabItem>
 
 <TabItem value="Mac" label="Mac" >
 
 ## Mac
 
-1.  Download and install the[PL2303 Mac OS X Driver](http://www.prolific.com.tw/UserFiles/files/PL2303HXD_G_Mac%20Driver_v2_1_0_20210311.zip)
-2.  Install[CoolTerm](https://freeware.the-meiers.org/previous/CoolTermMacUniversal147.zip)
+1.  Download and install the [PL2303 Mac OS X Driver](http://www.prolific.com.tw/UserFiles/files/PL2303HXD_G_Mac%20Driver_v2_1_0_20210311.zip)
+2.  Install [CoolTerm](https://freeware.the-meiers.org/previous/CoolTermMacUniversal147.zip)
 3.  Click the Option menu and set the following
     >
         Port: select usbserial-xxx

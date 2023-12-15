@@ -2,8 +2,8 @@
 sidebar_position: 50
 ---
 
-# 硬件资料
+# Hardware
 
-硬件资料查询下载。
+Information related to the physical part of ROCK 5B.
 
 <DocCardList />

@@ -26,4 +26,4 @@ ROCK 3B V1.5 底部 2D 设计文件下载(DXF 格式)：[ROCK_3B_V1_51_pcb_2d_bo
 
 ### 3D 文件
 
-ROCK 3B V1.5 PCBA 3D 设计文件(STP 格式)：[ROCK_3B_V1_51_pcb_3d_top](https://dl.radxa.com/rock3/docs/hw/3b/radxa_rock_3b_sbc_3d_v1.51.stp.zip)
+ROCK 3B 单板 3D 设计文件(STP 格式)：[ROCK_3B_V1_51_SBC_3d_top](https://dl.radxa.com/rock3/docs/hw/3b/radxa_rock_3b_sbc_3d_v1.51.stp.zip)

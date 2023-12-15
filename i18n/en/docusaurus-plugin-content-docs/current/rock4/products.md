@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# ROCK 4 Series
+# ROCK 4 Family
 
 ROCK 4 is a series of Rockchip RK3399/RK3399-T/OP1 based SBC(Single
 Board Computer) in a small form factor by

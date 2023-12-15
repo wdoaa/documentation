@@ -2,7 +2,7 @@
 sidebar_position: 20
 ---
 
-# Introduction
+# Getting Started
 
 This Preparation guide is designed for Radxa ROCK 4C plus users.
 The purpose is to learn about ROCK 4C Plus as well as how to prepare and set up for basic use.  

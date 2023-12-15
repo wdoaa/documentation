@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# 简介
+# Maskrom 模式
 
 ROCK 3C 支持 Maskrom 模式，这是 CPU 通过 USB OTG 端口接收命令的一种特殊操作模式。
 本指南将会指导您如何将 ROCK 3C 进入 Maskrom 模式进行操作。

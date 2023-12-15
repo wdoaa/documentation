@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Introduction
+# Getting Started
 
 This guide is written for Radxa ZERO 2 PRO beginners to help you understand the basic preparation and setup of Radxa ZERO 2 PRO.
 When you get a Radxa ZERO 2 PRO motherboard, it is recommended that you first check the model number and hardware version printed on the board.

@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Preparation
+# Getting Started
 
 This guide is designed for ROCK 3C enthusiast. The purpose is to learn about ROCK 3C as well as how to prepare and set up for basic use.
 When you get a board, you need to know what model it is and which hardware version it is. The information is printed in the top side of the board.

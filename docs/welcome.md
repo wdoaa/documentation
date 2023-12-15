@@ -12,7 +12,7 @@ sidebar_position: 1
 
 # 加入社区
 
-- 官方论坛: [Radxa Wiki](http://forum.radxa.com) - 主要技术支持渠道，中英文都支持，中文发帖需要发到中文板块。
+- 官方论坛: [Radxa Forum](http://forum.radxa.com) - 主要技术支持渠道，中英文都支持，中文发帖需要发到中文板块。
 - Discord社群: [Radxa Discord](https://rock.sh/go) - 英文实时讨论群
 - QQ群: 591048098 - 中文讨论 QQ 群
 - 微信群: ![Radxa ROCK5B](/zh/img/wechat_group/ROCK5B.webp) 中文讨论微信群

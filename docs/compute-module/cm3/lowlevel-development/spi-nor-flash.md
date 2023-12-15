@@ -2,7 +2,7 @@
 sidebar_position: 20
 ---
 
-# 简介
+# Maskrom 模式
 
 本指南可帮助您使用 rkdeveloptool 和 RKDevTool，以 maskrom 模式从 USB 端口将镜像安装到 SPI Nor Flash 中。
 

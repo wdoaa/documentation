@@ -2,7 +2,7 @@
 sidebar_position: 34
 ---
 
-# 简介
+# Radxa 25W PoE HAT
 
 Radxa 25W PoE HAT 可以为与之兼容的 Radxa SBC 添加通过以太网供电启动的能力。
 

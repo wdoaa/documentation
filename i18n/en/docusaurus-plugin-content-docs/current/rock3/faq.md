@@ -2,4 +2,4 @@
 sidebar_position: 3
 ---
 
-# ROCK 3 Series FAQ
+# ROCK 3 Family FAQ

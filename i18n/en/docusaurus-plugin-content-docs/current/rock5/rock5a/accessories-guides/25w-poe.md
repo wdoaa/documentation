@@ -2,4 +2,4 @@
 sidebar_position: 20
 ---
 
-# Coming Soon
+# 25W PoE HAT

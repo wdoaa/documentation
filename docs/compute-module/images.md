@@ -32,4 +32,13 @@ Coming soon......
 Coming soon......
 
 </TabItem>
+<TabItem value="Radxa NX5">
+
+## Radxa NX5
+
+### 官方镜像
+
+Coming soon......
+
+</TabItem>
 </Tabs>

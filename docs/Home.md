@@ -13,7 +13,7 @@ sidebar_custom_props: { product_docs: [
           product_name_en: "ROCK 3A",
           # 产品系列
           Product_Line_zh: "ROCK 3 系列",
-          Product_Line_en: "ROCK 3 Series",
+          Product_Line_en: "ROCK 3 Family",
           # 产品对应的所有文档
           docs:
             [
@@ -62,7 +62,7 @@ sidebar_custom_props: { product_docs: [
           product_name_en: "ROCK 3C",
           # 产品系列
           Product_Line_zh: "ROCK 3 系列",
-          Product_Line_en: "ROCK 3 Series",
+          Product_Line_en: "ROCK 3 Family",
           # 产品对应的所有文档
           docs:
             [
@@ -118,7 +118,7 @@ sidebar_custom_props: { product_docs: [
           product_name_en: "ROCK 4SE",
           # 产品系列
           Product_Line_zh: "ROCK 4 系列",
-          Product_Line_en: "ROCK 4 Series",
+          Product_Line_en: "ROCK 4 Family",
           # 产品对应的所有文档
           docs:
             [
@@ -153,7 +153,7 @@ sidebar_custom_props: { product_docs: [
           product_name_en: "ROCK 4C+",
           # 产品系列
           Product_Line_zh: "ROCK 4 系列",
-          Product_Line_en: "ROCK 4 Series",
+          Product_Line_en: "ROCK 4 Family",
           # 产品对应的所有文档
           docs:
             [
@@ -195,7 +195,7 @@ sidebar_custom_props: { product_docs: [
           product_name_en: "ROCK 5A",
           # 产品系列
           Product_Line_zh: "ROCK 5 系列",
-          Product_Line_en: "ROCK 5 Series",
+          Product_Line_en: "ROCK 5 Family",
           # 产品对应的所有文档
           docs:
             [
@@ -251,7 +251,7 @@ sidebar_custom_props: { product_docs: [
           product_name_en: "ROCK 5B",
           # 产品系列
           Product_Line_zh: "ROCK 5 系列",
-          Product_Line_en: "ROCK 5 Series",
+          Product_Line_en: "ROCK 5 Family",
           # 产品对应的所有文档
           docs:
             [
@@ -308,7 +308,7 @@ sidebar_custom_props: { product_docs: [
           product_name_en: "CM3",
           # 产品系列
           Product_Line_zh: "计算模块系列",
-          Product_Line_en: "Compute Module Series",
+          Product_Line_en: "Compute Module Family",
           # 产品对应的所有文档
           docs:
             [
@@ -358,7 +358,7 @@ sidebar_custom_props: { product_docs: [
           product_name_en: "ZERO 2 PRO",
           # 产品系列
           Product_Line_zh: "Radxa ZERO 系列",
-          Product_Line_en: "Radxa ZERO Series",
+          Product_Line_en: "Radxa ZERO Family",
           # 产品对应的所有文档
           docs:
             [
@@ -380,7 +380,7 @@ sidebar_custom_props: { product_docs: [
           product_name_en: "ZERO 3",
           # 产品系列
           Product_Line_zh: "Radxa ZERO 系列",
-          Product_Line_en: "Radxa ZERO Series",
+          Product_Line_en: "Radxa ZERO Family",
           # 产品对应的所有文档
           docs:
             [

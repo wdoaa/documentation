@@ -2,7 +2,7 @@
 sidebar_position: 36
 ---
 
-# 简介
+# Maskrom 模式
 
 ROCK 5 支持 Maskrom 模式，这是 CPU 通过 USB OTG 端口接收命令的一种特殊操作模式。
 我们用来与 ROCK 5 在 Maskrom 模式下进行通信的PC工具是 rkdeveloptool 和 RKDevTool。
