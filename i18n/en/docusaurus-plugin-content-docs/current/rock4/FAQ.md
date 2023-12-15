@@ -16,7 +16,7 @@ If old systems do not have `rsetup` pre-installed, the system will not be able t
 For old systems, if you do not migrate to the latest system, we will provide some bypass methods.
 
 However, if your system has been pre-installed with `rsetup`, please use the online update method through rsetup mentioned above to upgrade the system. Using a bypass method may cause exceptions during the subsequent online upgrade process!
-::::
+:::
 
 <details><summary>The ROCK 4SE old system cannot boot normally on the new hardware version V1.53, and the final output of the serial port is "ERR"</summary>
 
