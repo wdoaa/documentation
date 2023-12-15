@@ -12,7 +12,7 @@ The following will show you how to use bsp to build the U-Boot of Radxa zero3.
 ## Build U-Boot
 
 After completing the bsp environment configuration, you need to compile U-Boot once before pulling the relevant code from the repository.  
-you can execute ``. /bsp u-boot latest radxa-zero3`` to build U-Boot, the path to the U-Boot source code is located in the bsp directory under ``.src/u-boot``.
+you can execute `. /bsp u-boot latest radxa-zero3` to build U-Boot, the path to the U-Boot source code is located in the bsp directory under `.src/u-boot`.
 
 ```
 cd bsp
@@ -21,22 +21,25 @@ cd output
 ../bsp --no-prepare-source u-boot latest radxa-zero3
 
 Parameter Description:
---no-prepare-source  
+--no-prepare-source
+
 #Compile with local changes, if you don't add this parameter it will sync the latest code from the Radxa U-Boot repository and overwrite the local changes.
 ```
 
-For more bsp parameter usage instructions, you can execute ``./bsp`` to view.
+For more bsp parameter usage instructions, you can execute `./bsp` to view.
 
-After compilation, many ``deb`` packages will be generated in the bsp/output directory, you just need to install the following ``deb`` packages.
+After compilation, many `deb` packages will be generated in the bsp/output directory, you just need to install the following `deb` packages.
 
 ```
 u-boot-latest_2023.10-1_arm64.deb
 ```
 
-Copy the above two ``deb`` packages to the board and install them with the ``dpkg`` command to complete the U-Boot installation.
+Copy the above two `deb` packages to the board and install them with the `dpkg` command to complete the U-Boot installation.
+
 ```
 sudo dpkg -i u-boot-latest_2023.10-1_arm64.deb
 ```
+
 U-Boot needs to be flashed onto the boot media after the installation is complete.
 
 ```

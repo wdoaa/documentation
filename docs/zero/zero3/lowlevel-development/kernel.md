@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ## 编译内核
 
-完成 bsp 环境配置后，需要先编译一次内核才会从仓库拉取内核代码，可以执行``./bsp linux rk356x``构建内核, 内核源码的路径位于 bsp 目录下的 ``.src/linux``
+完成 bsp 环境配置后，需要先编译一次内核才会从仓库拉取内核代码，可以执行`./bsp linux rk356x`构建内核, 内核源码的路径位于 bsp 目录下的 `.src/linux`
 
 ```
 cd bsp
@@ -24,20 +24,21 @@ cd output
 -r 20                 # 指定内核的版本号为 20
 ```
 
-更多 bsp 参数使用说明可以执行 ``./bsp``查看
+更多 bsp 参数使用说明可以执行 `./bsp`查看
 
-编译完成后会在 bsp/output 目录生成许多 ``deb`` 包， 只需要安装下面两个 ``deb`` 即可
+编译完成后会在 bsp/output 目录生成许多 `deb` 包， 只需要安装下面两个 `deb` 即可
 
 ```
 linux-headers-5.10.160-20-rk356x_5.10.160-20_arm64.deb
 linux-image-5.10.160-20-rk356x_5.10.160-20_arm64.deb
 ```
 
-将上面两个 ``deb`` 包复制到板子上使用 ``dpkg`` 指令安装即可完成内核安装
+将上面两个 `deb` 包复制到板子上使用 `dpkg` 指令安装即可完成内核安装
+
 ```
 sudo dpkg -i linux-image-5.10.160-20-rk356x_5.10.160-20_arm64.deb
 sudo dpkg -i linux-headers-5.10.160-20-rk356x_5.10.160-20_arm64.deb
 sudo reboot
 ```
 
-重启完成后可以通过 ``uname -a`` 查看当前启动的内核版本号来查看是否安装成功
+重启完成后可以通过 `uname -a` 查看当前启动的内核版本号来查看是否安装成功
