@@ -1,27 +1,24 @@
 # FAQ
 
-## The same system can start on old hardware but runs abnormally on new hardware.
+### The same system can start on old hardware but runs abnormally on new hardware.
 
-Our products are subject to fluctuations in the market environment during production, and the bill of materials of our products are updated from time to time. Sometimes, such updates would involve important components such as memory, eMMC, wireless modules, etc.
-
-Since the old system cannot anticipate these future hardware changes, its software components naturally lack support for these new hardware variants, thus leading to the above mentioned operational anomalies.
+Since the new hardware version may do some material updates (such as material replacement due to material shortages or production shutdowns), the old system may not be compatible with the new hardware version, causing the system to run abnormally.
 
 We recommend that you reconfigure your system based on our latest release when changing hardware versions to ensure optimal software compatibility.
 
-If you are unable to reconfigure your system, you can perform a full backup of your system (e.g., generating a disk image) before system migration, and then perform a [system update](/radxa-os/rsetup#system-update) and a [bootloader update](/radxa-os/rsetup#update-bootloader). This also ensures that your system contains the latest hardware support.
+If you don't reconfigure your system, you can perform a [system update](/radxa-os/rsetup#system-update) and a [bootloader update](/radxa-os/rsetup#update-bootloader).
+This also ensures that your system contains the latest hardware support.Please note that you'b better perform a full backup of your system (e.g., generating a disk image)
+before system migration.
 
 :::caution
-If your system does not come with `rsetup` pre-installed, the system you are currently using is at the end of its product life and no more system updates will be available. This also means that the system you are currently using will not support future hardware versions.
+If old systems do not have `rsetup` pre-installed, the system will not be able to be updated online. We *strongly recommend* that you migrate to the latest RadxaOS to obtain complete product support.
 
-We _strongly recommend_ that you migrate to the latest RadxaOS to get full product support.
+For old systems, if you do not migrate to the latest system, we will provide some bypass methods.
 
-We will provide workarounds for some of the more common problems here, but this **does NOT mean that we endorse** continued use of an EoL system.
-
-::::warning
-If your system contains `rsetup`, please strictly follow the instructions in the previous section. Performing the below workarounds on the latest RadxaOS may result in system anomalies, or even data loss!
+However, if your system has been pre-installed with `rsetup`, please use the online update method through rsetup mentioned above to upgrade the system. Using a bypass method may cause exceptions during the subsequent online upgrade process!
 ::::
 
-<details><summary>ROCK 4A/B fails to start, final output from serial console is "ERR"</summary>
+<details><summary>The ROCK 4SE old system cannot boot normally on the new hardware version V1.53, and the final output of the serial port is "ERR"</summary>
 
 ### Phenomenon
 
@@ -70,7 +67,7 @@ This is a non-exhaustive list. If you find another affected version or memory mo
 
 ### Workaround
 
-You can update the `U-Boot` memory initialization code within your existing system image or system installation device with the following command. This command can also be executed within ROCK 4A/B after it is booted normally.
+You can update the `U-Boot` memory initialization code within your existing system image or system installation device with the following command. This command can also be executed within ROCK 4SE after it is booted normally.
 
 Replace the parameter used by the last command to the storage target you want to update.
 
@@ -80,4 +77,3 @@ sudo ./setup.sh update_idbloader ___/dev/sdX_or_/dev/mmcblkX_or_system.img___
 ```
 
 </details>
-:::
