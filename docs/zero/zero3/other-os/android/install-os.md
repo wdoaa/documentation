@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # 系统安装
 
-本文档将介绍如何把安卓镜像烧录到 Radxa Zero3 。Radxa Zero3 支持 SD 卡启动，也可以把镜像烧录到 SD 卡。
+本文档将介绍如何把安卓镜像烧录到 Radxa Zero3 。
 
 ## 镜像下载
 
@@ -23,7 +23,7 @@ Radxa Zero3 update 格式镜像下载请[点击这里](https://github.com/radxa/
 2. 使用 USB 线将系统镜像直接刷写到 eMMC 上
 
 :::caution 注意
-有的版本不带 eMMC ，将不能使用方法 2。例如 Radxa Zero 3E。
+如果板子不带eMMC ，将不能使用方法 2，例如 Radxa Zero 3E。
 :::
 
 ## 方法一
