@@ -7,10 +7,10 @@ sidebar_position: 4
 ## Interface overview
 
 - **ZERO 3W**
-   ![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
+  ![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
 
 - **ZERO 3E**
-   ![ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
+  ![ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
 
 ## Power
 
@@ -22,10 +22,10 @@ sidebar_position: 4
 
 #### GPIO voltage
 
-| GPIO | Voltage | Maximum |
-| ----------- | ---- | ----- |
-| All GPIOs | 3.3V | 3.63V |
-| SARADC_IN5 | 3.3V | 3.3V |
+| GPIO       | Voltage | Maximum |
+| ---------- | ------- | ------- |
+| All GPIOs  | 3.3V    | 3.63V   |
+| SARADC_IN5 | 3.3V    | 3.3V    |
 
 #### GPIO interface
 

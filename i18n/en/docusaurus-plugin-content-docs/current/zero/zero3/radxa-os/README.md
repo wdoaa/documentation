@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# System usage
+# Radxa OS
 
 Introduces how to use the system
 
