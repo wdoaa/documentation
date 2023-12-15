@@ -11,7 +11,7 @@ This also ensures that your system contains the latest hardware support.Please n
 before system migration.
 
 :::caution
-If old systems do not have `rsetup` pre-installed, the system will not be able to be updated online. We *strongly recommend* that you migrate to the latest RadxaOS to obtain complete product support.
+If old systems do not have `rsetup` pre-installed, the system will not be able to be updated online. We _strongly recommend_ that you migrate to the latest RadxaOS to obtain complete product support.
 
 For old systems, if you do not migrate to the latest system, we will provide some bypass methods.
 
