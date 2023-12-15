@@ -33,6 +33,16 @@ Coming soon......
 
 </TabItem>
 
+<TabItem value="Radxa CM5">
+
+## Radxa CM5
+
+### Testing Images
+
+Radxa CM5 IO: [test-build-1](https://github.com/radxa-build/radxa-cm5-io/releases/download/test-build-1/radxa-cm5-io_debian_bullseye-test_kde_t1.img.xz)
+
+</TabItem>
+
 <TabItem value="Radxa NX5">
 
 ## Radxa NX5
