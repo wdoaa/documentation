@@ -77,6 +77,7 @@ Radxa Zero3 update 格式镜像下载请[点击这里](https://github.com/radxa/
 
 1. 准备一条 USB 线
 2. 按住 Maskrom 按键，用 USB 线连接计算机的 USB 接口和 Radxa Zero 3W 的 OTG Type C 接口
+   ![zero3w](img/zero/zero3w/radxa_zero_3w.webp)
 
 ### 我的电脑是Windows
 
