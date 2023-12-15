@@ -2,6 +2,6 @@
 sidebar_position: 7
 ---
 
-# Low-Level development
+# Lowlevel Development
 
-Introduces how to build uboot, kernel, debian os and do developments on them.
+Mainly introduces uboot, kernel, debian os compilation and packaging and so on.
