@@ -1,6 +1,6 @@
+import http.client
 import json
 import os
-import http.client
 import subprocess as sp
 import sys
 
@@ -50,7 +50,7 @@ def parse_link_header(link_header):
     for link in links:
         parts = link.split(';')
         if 'rel="next"' in parts[1]:
-            next_url = parts[0].strip()[1:-1]  # 移除尖括号和空白字符
+            next_url = parts[0].strip()[1:-1]  # remove < and >
             return next_url
     return None
 
@@ -102,6 +102,8 @@ def add_items(commits, file_result, path):
         return
     commit = get_file_commits(path)
     for i in commit.keys():
+        if not commits.get(i):  # to skip the last commit when running at PR
+            continue
         if not commits[i]['committer']:
             continue
         name = commits[i]['committer']['login']
@@ -125,6 +127,6 @@ def main(repo, token):
 
 if __name__ == '__main__':
     print("run contributors.py")
-    _, repo, token = sys.argv
+    repo, token = sys.argv[1:]
     main(repo, token)
     print("run contributors.py success")
