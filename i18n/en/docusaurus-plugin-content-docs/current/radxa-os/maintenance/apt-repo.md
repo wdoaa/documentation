@@ -112,10 +112,10 @@ Please run the following command to use the RadxaOS test repository:
 VENDOR="$(tr $"\0" $"\n" < /proc/device-tree/compatible | tail -n 1 | cut -d "," -f 1)"
 source /etc/os-release
 echo "deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg]" \
-     "https://radxa-repo.github.io/$VERSION_CODENAME $VERSION_CODENAME-test main" | \
+     "https://radxa-repo.github.io/$VERSION_CODENAME-test $VERSION_CODENAME-test main" | \
      sudo tee "/etc/apt/sources.list.d/radxa.list"
 echo "deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg]" \
-     "https://radxa-repo.github.io/$VERSION_CODENAME $VENDOR-$VERSION_CODENAME-test main" | \
+     "https://radxa-repo.github.io/$VERSION_CODENAME-test $VENDOR-$VERSION_CODENAME-test main" | \
      sudo tee "/etc/apt/sources.list.d/radxa-$VENDOR.list"
 sudo apt-get update
 ```
