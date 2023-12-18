@@ -8,12 +8,7 @@ sidebar_position: 2
 
 ## 镜像下载
 
-Radxa Zero3 安卓镜像格式有两种，分别是gpt、update。可以看镜像文件名称区分。
-推荐使用 gpt 格式镜像。
-
-Radxa Zero3 gpt 格式镜像下载请[点击这里](https://github.com/radxa/manifests/releases/download/Android11_Radxa_rk12_20231109/Radxa_ZERO_3W_3E_Android11_rkr12_20231109-gpt.zip)。
-
-Radxa Zero3 update 格式镜像下载请[点击这里](https://github.com/radxa/manifests/releases/download/Android11_Radxa_rk12_20231109/Radxa_ZERO_3W_3E_Android11_rkr12_20231109-update.zip)。
+Please go to [Resource Download Summary](/zero/zero3/other-os/android/download.md) to download the corresponding image file
 
 ## 系统烧录
 
@@ -77,7 +72,7 @@ Radxa Zero3 update 格式镜像下载请[点击这里](https://github.com/radxa/
 
 1. 准备一条 USB 线
 2. 按住 Maskrom 按键，用 USB 线连接计算机的 USB 接口和 Radxa Zero 3W 的 OTG Type C 接口
-   ![zero3w](img/zero/zero3w/radxa_zero_3w.webp)
+   ![zero3w](/img/zero/zero3w/radxa_zero_3w.webp)
 
 ### 我的电脑是Windows
 

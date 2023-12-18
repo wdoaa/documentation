@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Low-Level development
 
-Mainly introduces uboot, kernel, aosp compilation and packaging, etc.
+Introduces how to download and build uboot, kernel, os etc.
 
 ## Environment configuration
 
