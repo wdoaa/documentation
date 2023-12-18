@@ -46,6 +46,7 @@ Click `Session` in the upper left corner to create a new serial connection, sele
 ## Setting Network
 
 ### Connect WiFi
+
 ```
 nmcli device wifi                                           #Scan WiFi
 sudo nmcli device wifi connect <ssid> password <passwd>     #Connect WiFi

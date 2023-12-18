@@ -18,4 +18,3 @@ To download Radxa Zero3 gpt format image, please [click here](https://github.com
 For Radxa Zero3 update format, please [click here](https://github.com/radxa/manifests/releases/download/Android11_Radxa_rk12_20231109/Radxa_ZERO_3W_3E_).Android11_rkr12_20231109-update.zip).
 
 ## Quality Certification
-

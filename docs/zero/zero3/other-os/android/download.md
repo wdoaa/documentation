@@ -17,5 +17,4 @@ Radxa Zero3 gpt 格式镜像下载请[点击这里](https://github.com/radxa/man
 
 Radxa Zero3 update 格式镜像下载请[点击这里](https://github.com/radxa/manifests/releases/download/Android11_Radxa_rk12_20231109/Radxa_ZERO_3W_3E_Android11_rkr12_20231109-update.zip)。
 
-
 ## 质量认证

@@ -21,11 +21,11 @@ The default serial debugging baud rate is `1500000n8, no flow control`, please m
 
 Connect the USB to TTL serial cable as shown below:
 
-| Radxa SBC | Connections | Serial Cable |
-| --------------- | ----- | ------ |
-| **GND** (pin 6) | <---> | black line |
-| **TX** (pin 8) | <---> | white wire |
-| **RX** (pin 10) | <---> | green wire |
+| Radxa SBC       | Connections | Serial Cable |
+| --------------- | ----------- | ------------ |
+| **GND** (pin 6) | <---------> | black  line  |
+| **TX** (pin 8)  | <---------> | white  wire  |
+| **RX** (pin 10) | <---------> | green  wire  |
 
 ! [USB to TTL connected](/img/accessories/1000px-Serial-connection.webp)
 <Tabs queryString="target">
@@ -74,14 +74,14 @@ ADB is a bridge between your Android device and your computer, and is used to fu
 2. Open the computer terminal and enter adb devices to confirm that the Radxa Zero 3W/E is recognized.
    Type adb shell to login
 
-```bash
+````bash
 $ adb devices
   List of devices attached
   e74a71a469bf207c device
 
 $ adb shell
   rk356x_radxa_zero3:/ $
-``
+ ````
 
 ### Wireless login
 
@@ -100,10 +100,9 @@ Wireless ADB is supported on Android 11 and later.
 3. Go to Developing Options (Settings -> System -> Developing Options), turn on wireless debugging and memorize the IP address and interface (example: 10.0.0.16:45613).
 4. Open a computer terminal and type adb connect 10.0.0.16:45613 to connect to the Radxa Zero 3W, type adb shell to login
 
-```bash
+````bash
 $ adb connect 10.0.0.16:45613
 
 $ adb shell
   rk356x_radxa_zero3:/ $
-
-``
+````
