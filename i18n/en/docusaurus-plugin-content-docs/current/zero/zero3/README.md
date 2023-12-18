@@ -92,23 +92,42 @@ sidebar_position: 2
 ### Documentation guidelines
 
 :::tip
-Except for the Other OS directory, all other directories are for Debian OS.
+Except for the **other systems** directory below, the other contents are based on Radxa OS (Radxa's customized system based on Debian).
 :::
 
-### Getting Started
+### [Getting started](/zero/zero3/getting-started)
 
-### System usage
+By introducing system programming, system login, accessory usage, etc., let user can get started quickly.
 
-### System configuration
+### [Radxa OS](/zero/zero3/radxa-os)
 
-### Application deployment
+Radxa OS is an operating system customized by Radxa based on Debian OS.
+This chapter introduces system login, network connection, etc to let user to be familiar with the system quickly.
 
-### Application development
+### [System Configuration](/zero/zero3/system-configuration)
 
-### Hardware development
+Introduces how to use tools like rsetup or command line to use devices or function.
 
-### low-level development
+### [Application Deployment](/zero/zero3/application-configuration)
 
-### Other OS
+Introduces how to deploy the applications such as Samba, Docker, PVE, OMV, LAMP, Cheese, remote control panel, etc.
 
-### Accessory
+### [Application Development](/zero/zero3/application-development)
+
+Introduces upper-layer application development, such as QT, WiringX, Mraa, etc.
+
+### [Hardware Development](/zero/zero3/hardware-development)
+
+Introduces hardware information, such as hardware interfaces, supported accessories, etc.
+
+### [Lower level Development](/zero/zero3/lowlevel-development)
+
+Introduces uboot, kernel, debian os compilation and packaging, etc.
+
+### [Other Systems](/zero/zero3/other-os)
+
+Introduces Android, Yocto and other systems.
+
+### [Accessories](/zero/zero3/accessories)
+
+Introduces supported accessory models and instructions for use.
