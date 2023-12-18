@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Radxa OS
 
-It introduces you to the basics of using the Radxa Debian system, and helps you to quickly understand the configuration of commonly used systems.
+Introduces system login, network connection, etc to let user to be familiar with the system quickly.
 
 ## User name and Password
 

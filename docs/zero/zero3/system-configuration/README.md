@@ -4,6 +4,6 @@ sidebar_position: 3
 
 # 系统配置
 
-主要介绍如何使用 rsetup 这样的工具来进行打开或者禁止模型功能
+介绍如何通过工具（例如rsetup）或者命令行去使用设备或者功能。
 
 <DocCardList />
