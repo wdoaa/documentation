@@ -10,11 +10,11 @@ sidebar_position: 5
 
 ## 操作系统镜像
 
-Radxa Zero3 安卓镜像格式有两种，分别是gpt、update。可以看镜像文件名称区分。
+Radxa ZERO 3 安卓镜像格式有两种，分别是gpt、update。可以看镜像文件名称区分。
 推荐使用 gpt 格式镜像。
 
-Radxa Zero3 gpt 格式镜像下载请[点击这里](https://github.com/radxa/manifests/releases/download/Android11_Radxa_rk12_20231109/Radxa_ZERO_3W_3E_Android11_rkr12_20231109-gpt.zip)。
+Radxa ZERO 3 gpt 格式镜像下载请[点击这里](https://github.com/radxa/manifests/releases/download/Android11_Radxa_rk12_20231109/Radxa_ZERO_3W_3E_Android11_rkr12_20231109-gpt.zip)。
 
-Radxa Zero3 update 格式镜像下载请[点击这里](https://github.com/radxa/manifests/releases/download/Android11_Radxa_rk12_20231109/Radxa_ZERO_3W_3E_Android11_rkr12_20231109-update.zip)。
+Radxa ZERO 3 update 格式镜像下载请[点击这里](https://github.com/radxa/manifests/releases/download/Android11_Radxa_rk12_20231109/Radxa_ZERO_3W_3E_Android11_rkr12_20231109-update.zip)。
 
 ## 质量认证

@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ### Power
 
-ZERO 3W/3E is powered via Type-C port and only supports 5V input. It is recommended to use a minimum 5V/2A power adapter.
+Radxa ZERO 3 is powered via Type-C port and only supports 5V input. It is recommended to use a minimum 5V/2A power adapter.
 
 :::tip
 Radxa recommends [Radxa Power PD30W](/accessories/pd_30w).
@@ -24,7 +24,7 @@ Used to make system boot disk
 
 ### Display
 
-For monitors with HDMI interface, Zero 3W/3E supports up to 1920 x 1080 resolution.
+For monitors with HDMI interface, Radxa ZERO 3 supports up to 1920 x 1080 resolution.
 
 ### Internet connection
 

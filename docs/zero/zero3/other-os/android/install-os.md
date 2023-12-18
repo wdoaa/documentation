@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # 系统安装
 
-本文档将介绍如何把安卓镜像烧录到 Radxa Zero3 。
+本文档将介绍如何把安卓镜像烧录到 Radxa ZERO 3 。
 
 ## 镜像下载
 
@@ -18,7 +18,7 @@ Please go to [Resource Download Summary](/zero/zero3/other-os/android/download.m
 2. 使用 USB 线将系统镜像直接刷写到 eMMC 上
 
 :::caution 注意
-如果板子不带eMMC ，将不能使用方法 2，例如 Radxa Zero 3E。
+如果板子不带eMMC ，将不能使用方法 2，例如 Radxa ZERO 3E。
 :::
 
 ## 方法一
@@ -66,7 +66,7 @@ Please go to [Resource Download Summary](/zero/zero3/other-os/android/download.m
 
 ## 方法二
 
-由于 Radxa Zero 3E 没有 eMMC ，此方法只适用于 Radxa Zero 3W
+由于 Radxa ZERO 3E 没有 eMMC ，此方法只适用于 Radxa ZERO 3W
 
 ### 准备
 

@@ -8,7 +8,7 @@ It introduces you to the basics of using the Radxa Debian system, and helps you 
 
 ## User name and Password
 
-The user name and password added by default to the Radxa ZERO3 series are:
+The user name and password added by default to the Radxa ZERO 3 series are:
 
 ```
 User name：radxa/rock
@@ -17,7 +17,7 @@ Password： radxa/rock
 
 ## Serial Debug
 
-The Radxa ZREO3 series are equipped with a 40 PIN connector, on which the system serial debugging is enabled by default.
+The Radxa ZERO 3 series are equipped with a 40 PIN connector, on which the system serial debugging is enabled by default.
 
 :::tip
 The default baud rate for serial debugging is `1500000n8, no flow control`, please make sure the USB to TTL serial cable you use supports 1.5M baud rate.

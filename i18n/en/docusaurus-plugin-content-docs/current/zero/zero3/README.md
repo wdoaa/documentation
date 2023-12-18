@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# ZERO 3
+# Radxa ZERO 3
 
 ## Product Description
 
@@ -12,10 +12,10 @@ sidebar_position: 2
 
 ### Physical Photos
 
-- **ZERO 3W**
+- **Radxa ZERO 3W**
   ! [ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
 
-- **ZERO 3E** !
+- **Radxa ZERO 3E** !
   ! [ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
 
 ### Chip Block Diagram
@@ -27,8 +27,8 @@ sidebar_position: 2
 <table>
     <tr>
         <td align="center" >Model</td>
-        <td align="center">ZERO 3W</td>
-        <td align="center">ZERO 3E</td>
+        <td align="center">Radxa ZERO 3W</td>
+        <td align="center">Radxa ZERO 3E</td>
     </tr>
     <tr>
         <td align="center">SoC</td>

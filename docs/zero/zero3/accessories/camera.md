@@ -2,9 +2,9 @@
 sidebar_position: 20
 ---
 
-# ZERO 3W CSI 接口定义
+# Radxa ZERO 3W CSI 接口定义
 
-ZERO 3W 拥有一个22 PIN 的CSI 接口,接口定义如下:
+Radxa ZERO 3W 拥有一个22 PIN 的CSI 接口,接口定义如下:
 
 ![zero3w csi1 ](/img/zero/zero3w/zero3w-csi1.webp)
 

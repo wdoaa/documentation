@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # System Installation
 
-Zero 3W/3E currently provides Debian OS system
+Radxa ZERO 3 currently provides Debian OS system
 
 ## Preparation
 

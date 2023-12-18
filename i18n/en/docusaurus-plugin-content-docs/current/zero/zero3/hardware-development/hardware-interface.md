@@ -6,10 +6,10 @@ sidebar_position: 4
 
 ## Interface overview
 
-- **ZERO 3W**
+- **Radxa ZERO 3W**
   ![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
 
-- **ZERO 3E**
+- **Radxa ZERO 3E**
   ![ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
 
 ## Power
@@ -29,7 +29,7 @@ sidebar_position: 4
 
 #### GPIO interface
 
-ZERO 3W/3E provides a 40-pin GPIO header, which is compatible with most SBC accessories on the market.
+Radxa ZERO 3 provides a 40-pin GPIO header, which is compatible with most SBC accessories on the market.
 
 **Tips: Actual compatibility is based on usage **
 
