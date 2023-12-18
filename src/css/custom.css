@@ -207,11 +207,11 @@ a:hover {
   }
 
   .navbar {
-    height: 5.5rem;
+    height: 3.5rem;
   }
 
   .navbar__inner {
-    height: 5rem;
+    height: 100%;
   }
 }
 
