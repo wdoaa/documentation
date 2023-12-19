@@ -4,6 +4,6 @@ sidebar_position: 3
 
 # System Configuration
 
-Introduces some commands like rsetup to enable or disable certain functions.
+Introduces how to use tools (such as rsetup) or command line to use some devices or functions.
 
 <DocCardList />

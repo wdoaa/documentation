@@ -126,7 +126,7 @@ sidebar_position: 2
 
 ### [其他系统](/zero/zero3/other-os)
 
-介绍Android, Yocto等其他系统。
+介绍非 Radxa OS的其他系统，例如 Android。
 
 ### [配件](/zero/zero3/accessories)
 

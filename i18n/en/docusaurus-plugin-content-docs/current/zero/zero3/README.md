@@ -13,14 +13,14 @@ sidebar_position: 2
 ### Physical Photos
 
 - **Radxa ZERO 3W**
-  ! [ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
+  ![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
 
-- **Radxa ZERO 3E** !
-  ! [ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
+- **Radxa ZERO 3E**
+  ![ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
 
 ### Chip Block Diagram
 
-! [RK3566 block diagram](/img/rock3/rk3566_block_diagram.webp)
+![RK3566 block diagram](/img/rock3/rk3566_block_diagram.webp)
 
 ### Features
 
@@ -126,7 +126,7 @@ Introduces uboot, kernel, debian os compilation and packaging, etc.
 
 ### [Other Systems](/zero/zero3/other-os)
 
-Introduces Android, Yocto and other systems.
+Introduces other systems than Radxa OS, such as Android
 
 ### [Accessories](/zero/zero3/accessories)
 

@@ -4,6 +4,6 @@ sidebar_position: 8
 
 # Other System
 
-Other systems than Yocto, such as Android
+Introduces other systems than Radxa OS, such as Android.
 
 <DocCardList />
