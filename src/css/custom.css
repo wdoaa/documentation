@@ -131,7 +131,7 @@ a:hover {
   border: none;
 }
 
-[tabindex="0"] {
+.menu [tabindex="0"] {
   font-weight: 400;
   font-size: 15px;
   line-height: 22px;

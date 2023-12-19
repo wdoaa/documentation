@@ -43,6 +43,7 @@ const config = {
       ({
         docs: {
           routeBasePath: "/",
+          docItemComponent: "@site/src/components/CustomDocItem",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: ({ locale, docPath }) => {
             if (locale !== "zh") {
