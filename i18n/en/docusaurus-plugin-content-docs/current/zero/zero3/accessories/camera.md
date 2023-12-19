@@ -2,13 +2,15 @@
 sidebar_position: 2
 ---
 
-# ZERO 3W CSI Interface Definition
+# Camera
 
-The ZERO 3W has a 22 PIN CSI interface defined as follows.
+## CSI Interface Definition
 
-![zero3w csi1 ](/img/zero/zero3w/zero3w-csi1.webp)
+The ZERO 3 has a 22 PIN CSI interface defined as follows.
 
-![zero3w csi ](/img/zero/zero3w/zero3w-csi.webp)
+![zero3w csi1](/img/zero/zero3w/zero3w-csi1.webp)
+
+![zero3w csi](/img/zero/zero3w/zero3w-csi.webp)
 
 Currently supported cameras are:
 
@@ -26,7 +28,7 @@ Currently supported cameras are:
 sudo rsetup
 ```
 
-![zero3w camera1 ](/img/zero/zero3w/zero3w-camera1.webp)
+![zero3w camera1](/img/zero/zero3w/zero3w-camera1.webp)
 
 Confirm and reboot to take effect.
 
@@ -38,7 +40,7 @@ Hardware connections are as follows:
 Please pay attention to the direction of the interface of the camera cable!
 :::
 
-![zero3w camera2 ](/img/zero/zero3w/zero3w-camera2.webp)
+![zero3w camera2](/img/zero/zero3w/zero3w-camera2.webp)
 
 ### Image Preview
 
@@ -57,7 +59,7 @@ sudo cheese
 
 You can start implementing the preview camera:
 
-![zero3w camera3 ](/img/zero/zero3w/zero3w-camera3.webp)
+![zero3w camera3](/img/zero/zero3w/zero3w-camera3.webp)
 
 You can also take a picture using the command:
 
@@ -65,9 +67,9 @@ You can also take a picture using the command:
 gst-launch-1.0 v4l2src device=/dev/video0 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! jpegenc ! multifilesink location=/home/radxa/test.jpg
 ```
 
-![zero3w camera4 ](/img/zero/zero3w/zero3w-camera4.webp)
+![zero3w camera4](/img/zero/zero3w/zero3w-camera4.webp)
 
-Execute the command and press `ctrl+c` to take a picture, the path to the photo is `/home/radxa/test.jpg`
+Execute the command and press `Ctrl+c` to take a picture, the path to the photo is `/home/radxa/test.jpg`
 
 ### Troubleshooting
 

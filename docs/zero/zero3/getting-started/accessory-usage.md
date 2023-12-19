@@ -8,8 +8,19 @@ sidebar_position: 4
 
 ## 接口总览
 
+<Tabs queryString="camera">
+<TabItem value="ZERO 3W">
+
+![zero-3w-interface-overview](/img/zero/zero3w/zero-3w-interface-overview.webp)
+
+</TabItem>
+<TabItem value="ZERO 3E">
+
+![zero-3e-interface-overview](/img/zero/zero3w/zero-3e-interface-overview.webp)
+
+</TabItem>
+</Tabs>
+
 ## 摄像头
 
-## 显示屏
-
-## WIFI/BT
+Radxa ZERO 3 带有一个 22-pin 的 CSI 接口。更多信息请参见[摄像头使用教程](/zero/zero3/accessories/camera.md)
