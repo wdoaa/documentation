@@ -49,7 +49,9 @@ Radxa CM5 IO: [test-build-1](https://github.com/radxa-build/radxa-cm5-io/release
 
 ### 官方镜像
 
-Coming soon......
+Debian:
+
+NX5 IO 镜像地址: [radxa-nx5-io_debian_bullseye_kde_b15.img.xz](https://github.com/radxa-build/radxa-nx5-io/releases/download/b15/radxa-nx5-io_debian_bullseye_kde_b15.img.xz)
 
 </TabItem>
 </Tabs>
