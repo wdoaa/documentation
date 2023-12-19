@@ -1,4 +1,8 @@
 {
+  "docs.contributors": {
+    "description": "Contributors",
+    "message": "Contributors"
+  },
   "home.page.HomePageIntroduction": {
     "message": "Choose a product"
   },
