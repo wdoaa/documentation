@@ -49,7 +49,10 @@ export default function DocItemFooter() {
   let { pathname } = useLocation();
   pathname = pathname.replace("/en", "");
   const filename = "docs" + pathname + ".md";
+  const filename_readme = "docs" + pathname + "/README.md";
 
+  const contributorsIndex =
+    contributorsData[filename] || contributorsData[filename_readme];
   const { metadata } = useDoc();
   const {
     editUrl,
@@ -79,7 +82,7 @@ export default function DocItemFooter() {
           />
         )}
       </footer>
-      {contributorsData[filename] && (
+      {contributorsIndex && (
         <h3
           className={clsx(ThemeClassNames.docs.docFooter, "docusaurus-mt-lg")}
         >
@@ -87,8 +90,8 @@ export default function DocItemFooter() {
         </h3>
       )}
       <ul className={styles.dedicateUl}>
-        {contributorsData[filename] &&
-          contributorsData[filename].map((item, key) => {
+        {contributorsIndex &&
+          contributorsIndex.map((item, key) => {
             if (item.name !== "web-flow") {
               return (
                 <li key={key}>
