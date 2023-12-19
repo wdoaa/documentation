@@ -4,12 +4,12 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-import React from 'react';
-import clsx from 'clsx';
-import { ThemeClassNames } from '@docusaurus/theme-common';
-import { useDoc } from '@docusaurus/theme-common/internal';
-import TOCCollapsible from '@theme/TOCCollapsible';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import { ThemeClassNames } from "@docusaurus/theme-common";
+import { useDoc } from "@docusaurus/theme-common/internal";
+import TOCCollapsible from "@theme/TOCCollapsible";
+import styles from "./styles.module.css";
 export default function DocItemTOCMobile() {
   const { toc, frontMatter } = useDoc();
   return (

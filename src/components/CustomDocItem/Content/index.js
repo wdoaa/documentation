@@ -4,12 +4,12 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-import React from 'react';
-import clsx from 'clsx';
-import { ThemeClassNames } from '@docusaurus/theme-common';
-import { useDoc } from '@docusaurus/theme-common/internal';
-import Heading from '@theme/Heading';
-import MDXContent from '@theme/MDXContent';
+import React from "react";
+import clsx from "clsx";
+import { ThemeClassNames } from "@docusaurus/theme-common";
+import { useDoc } from "@docusaurus/theme-common/internal";
+import Heading from "@theme/Heading";
+import MDXContent from "@theme/MDXContent";
 /**
  Title can be declared inside md content or declared through
  front matter and added manually. To make both cases consistent,
@@ -23,7 +23,7 @@ import MDXContent from '@theme/MDXContent';
 function useSyntheticTitle() {
   const { metadata, frontMatter, contentTitle } = useDoc();
   const shouldRender =
-    !frontMatter.hide_title && typeof contentTitle === 'undefined';
+    !frontMatter.hide_title && typeof contentTitle === "undefined";
   if (!shouldRender) {
     return null;
   }
@@ -32,7 +32,7 @@ function useSyntheticTitle() {
 export default function DocItemContent({ children }) {
   const syntheticTitle = useSyntheticTitle();
   return (
-    <div className={clsx(ThemeClassNames.docs.docMarkdown, 'markdown')}>
+    <div className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
       {syntheticTitle && (
         <header>
           <Heading as="h1">{syntheticTitle}</Heading>
