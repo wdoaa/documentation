@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ## 镜像下载
 
-Please go to [Resource Download Summary](/zero/zero3/other-os/android/download.md) to download the corresponding image file
+请到[资源下载汇总](/zero/zero3/other-os/android/download.md) 下载对应的镜像文件。
 
 ## 系统烧录
 
@@ -83,3 +83,5 @@ Please go to [Resource Download Summary](/zero/zero3/other-os/android/download.m
 &emsp;[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
 
 &emsp;[upgrade_tool](general-tutorial/rksdk/upgrade_tool)（可同时烧录多台设备）
+
+## 启动系统
