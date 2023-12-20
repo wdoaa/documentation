@@ -63,4 +63,26 @@ Zero 3W/3E 目前提供 Debian OS 系统
 
 ## 启动系统
 
-## 参考
+<Tabs queryString="install-os">
+<TabItem value="ZERO 3W">
+
+- **ZERO 3W**
+
+![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
+
+</TabItem>
+<TabItem value="ZERO 3E">
+
+- **ZERO 3E**
+
+![ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
+
+</TabItem>
+</Tabs>
+
+- 按照上述步骤成功烧录 microSD 卡后，将 microSD 卡插入 Radxa ZERO 3 的 `Micro SD Card Slot` 插槽内
+- Radxa ZERO 3 的供电接口为 `USB 2.0 OTG Type C port`，请使用 Type-C 线缆连接供电口和适配器
+
+:::tip
+Radxa ZERO 3 只支持 `5V` 供电。瑞莎推荐使用 [Radxa Power PD30W](/accessories/pd_30w)。
+:::

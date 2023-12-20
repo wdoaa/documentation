@@ -63,4 +63,26 @@ There are two ways to flash image on SD card. Use Etcher or Win32DiskImager. You
 
 ## Boot the system
 
-## Reference
+<Tabs queryString="install-os">
+<TabItem value="ZERO 3W">
+
+- **ZERO 3W**
+
+![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
+
+</TabItem>
+<TabItem value="ZERO 3E">
+
+- **ZERO 3E**
+
+![ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
+
+</TabItem>
+</Tabs>
+
+- After successfully burning the microSD card according to the above steps, insert the microSD card into the `MicroSD Card Slot` of the Radxa ZERO 3.
+- The Radxa ZERO 3 is powered by a `USB 2.0 OTG Type C port`, using a Type C cable to connect the power port to the adapter.
+
+:::tip
+Radxa ZERO 3 only supports `5V` power supply.Radxa Recommended [Radxa Power PD30W](/accessories/pd_30w).
+:::
