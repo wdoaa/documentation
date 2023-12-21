@@ -89,6 +89,10 @@ sidebar_position: 2
 
 ### System block diagram
 
+- **Radxa ZERO 3W**
+
+![zero-3w-interface-overview](/img/zero/zero3w/zero-3w-interface-overview.webp)
+
 ### Documentation guidelines
 
 :::tip

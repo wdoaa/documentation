@@ -8,8 +8,8 @@ sidebar_position: 5
 
 ZERO 3W V1.11 Production Version
 
-[v1.11 2D dxf](https://dl.radxa.com/zero3/docs/hw/3w/radxa_zero_3w_2d_dxf.zip) - Download ZERO 3W v1.11 2D file
-[v1.11 Schematic pdf](https://dl.radxa.com/zero3/docs/hw/3w/radxa_zero_3w_v1110_schematic.pdf) - Download ZERO 3W V1.11 schematic file
+[v1.11 2D dxf](https://dl.radxa.com/zero3/docs/hw/3w/radxa_zero_3w_2d_dxf.zip) - Download ZERO 3W v1.11 2D file  
+[v1.11 Schematic pdf](https://dl.radxa.com/zero3/docs/hw/3w/radxa_zero_3w_v1110_schematic.pdf) - Download ZERO 3W V1.11 schematic file  
 [v1.11 CAM pdf](https://dl.radxa.com/zero3/docs/hw/3w/radxa_zero_3w_v1110_smb.zip) - Download ZERO 3W V1.11 Component Location Reference Table
 
 ## Tools
