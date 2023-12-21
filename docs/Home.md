@@ -1,5 +1,6 @@
 ---
 # 源信息如下
+sidebar_class_name: hidden
 sidebar_position: -100
 hide_table_of_contents: true
 hide_title: true

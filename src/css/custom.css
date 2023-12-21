@@ -40,13 +40,6 @@ a:hover {
   text-decoration: none;
 }
 
-.theme-doc-sidebar-menu > li:first-child {
-  display: none;
-  color: red;
-  width: 0;
-  height: 0;
-}
-
 .navbar__logo {
   height: 30px;
   margin-right: 0;
@@ -257,4 +250,8 @@ a:hover {
 img {
   display: block;
   margin: 0px auto;
+}
+
+.hidden {
+  display: none !important;
 }
