@@ -11,7 +11,7 @@ The Radxa Power PD 30W is an adapter designed specifically for Radxa's SBC produ
 # Features
 
 - INPUT: AC100-240V 50/60Hz 1A
-- OUTPUT: 5V/5A 9V/2A 12/2A 30W
+- OUTPUT: 5V/5A 9V/2A 12/2.5A 30W
 - Protection Function  
    — Over Voltage Protection  
    — Short Circuit Protection  
