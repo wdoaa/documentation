@@ -8,7 +8,7 @@ sidebar_position: 5
 
 - The Radxa ZERO 3W/3E is an ultra-small, high-performance single board computer based on the Rockchip RK3566, with a compact form factor and rich interfaces.
 - Tailored for a diverse user base including manufacturers, IoT developers, hobbyists, and PC DIY enthusiasts, the Radxa ZERO 3W/3E is an ultra-small, versatile platform that can be used for a wide variety of applications, including IoT devices, machine learning edge computing, home automation, education, and entertainment.
-- The ROCK 3W and ROCK 3E are basically the same size and model, but differ only in storage and network interfaces. For details, please refer to the Features section of this article.
+- The ZERO 3W and ZERO 3E are basically the same size and model, but differ only in storage and network interfaces. For details, please refer to the Features section of this article.
 
 ### Physical Photos
 
@@ -26,7 +26,7 @@ sidebar_position: 5
 
 <table>
     <tr>
-        <td align="center" >Model</td>
+        <td align="center">Model</td>
         <td align="center">Radxa ZERO 3W</td>
         <td align="center">Radxa ZERO 3E</td>
     </tr>
@@ -36,7 +36,7 @@ sidebar_position: 5
     </tr>
     <tr>
         <td align="center">CPU</td>
-        <td colspan="2" align="center">Quad-core Cortex-A55, up to 1.6Ghz</td>
+        <td colspan="2" align="center">Quad-core Cortex-A55, up to 1.6GHz</td>
     </tr>
     <tr>
         <td align="center">GPU</td>
@@ -48,8 +48,8 @@ sidebar_position: 5
     </tr>
     <tr>
         <td align="center">Storage</td>
-        <td align="center">eMMC on Board：0/8/16/32/64 GB <br/> microSD Storage </td>
-        <td align="center">microSD Storage</td>
+        <td align="center">eMMC on Board：0/8/16/32/64 GB<br/>microSD Card</td>
+        <td align="center">microSD Card</td>
     </tr>
     <tr>
         <td align="center">Display</td>
@@ -61,13 +61,13 @@ sidebar_position: 5
         <td align="center">Gigabit Ethernet, Supports POE<br/>PoE requires additional optional HAT</td>
     </tr>
     <tr>
-        <td align="center">WIFI/BT</td>
-        <td align="center">Wi-Fi 4 (802.11 b/g/n) BT 5.0 with BLE</td>
+        <td align="center">Wireless</td>
+        <td align="center">Wi-Fi 6 (802.11 b/g/n) BT 5.0 with BLE</td>
         <td align="center">/</td>
     </tr>
     <tr>
         <td align="center">USB</td>
-        <td colspan="2" align="center">USB 2.0 Type-C OTG X1 <br/> USB 3.0 Type-C HOST X1</td>
+        <td colspan="2" align="center">USB 2.0 Type-C OTG x1<br/>USB 3.0 Type-C HOST x1</td>
     </tr>
     <tr>
         <td align="center">Camera</td>
