@@ -2,7 +2,7 @@
 sidebar_position: 50
 ---
 
-# Accessories Usage Tutorial
+# Accessories
 
 Using Accessories with Radxa ZERO 3
 
