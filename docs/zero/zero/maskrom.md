@@ -1,5 +1,5 @@
 ---
-sidebar_position: 40
+sidebar_position: 30
 ---
 
 # Maskrom 模式
@@ -28,7 +28,7 @@ sidebar_position: 40
 
 ![Zagdig-libusb](/img/zero/zero/Zagdig-libusb.webp)
 
-Windows下需要使用[Radxa DL](https://dl.radxa.com/zero/tools/windows/RZ_USB_Boot_Helper_V1.0.0.zip)软件从USB加载二进制文件，比如擦除eMMMC的操作。连接Radxa Zero进入Maskrom, Radxa DL **没有**显示 `Not detected, press and hold USB boot key and power on` 的提示就表示已经进入maskrom。接下来就可以进行[擦除eMMC](/zero/zero/erase-emmc).
+Windows下需要使用[RZ USB Boot Helper 工具](https://dl.radxa.com/zero/tools/windows/RZ_USB_Boot_Helper_V1.0.0.zip)软件从USB加载二进制文件，比如擦除eMMMC的操作。连接Radxa Zero进入Maskrom, Radxa DL **没有**显示 `Not detected, press and hold USB boot key and power on` 的提示就表示已经进入maskrom。接下来就可以进行[擦除eMMC](/zero/zero/erase-emmc).
 
 ![Rz-usb-helper-maskrom](/img/zero/zero/Rz-usb-helper-maskrom.webp)
 

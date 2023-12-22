@@ -17,7 +17,7 @@ sidebar_position: 1
 
 #### USB-C hub
 
-- Radxa Zero 有一个板载 Type-C USB3.0接口（靠近板子中间的那个USBC口）。这个接口支持USB3.0 Type-A和有线网，但是不具备视频输出功能。
+- Radxa Zero 有一个板载 Type-C USB3.0接口（靠近板子中间的那个USBC口）。这个接口支持通过 USB Type-C hub 转出 Type-A 口和有线网(如果 hub 支持)，但是不具备视频输出功能。
 
 #### USB 键盘和鼠标
 

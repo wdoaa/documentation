@@ -14,7 +14,7 @@ sidebar_position: 1
   - A microSD card that is at least 8GB if your board doesn't have an eMMC module. You can confirm this by checking if there is a big chip soldered on the bottom side of the board.
     For desktop usage we recommended at least 16GB, preferably 32GB.
 - USB-C hub
-  - Radxa Zero comes with one USB 3.0 Type-C port, located on the top side and is close to the center of the board. This port can be expanded into multiple USB 3.0 Type-A ports as well as Ethernet.No HDMI or DisplayPort Alternate Mode was implemented on this port, so you won't get video output even if your USB-C hub has those connectors.
+  - Radxa Zero comes with one USB 3.0 Type-C port, located on the top side and is close to the center of the board. This port can be expanded into multiple USB 3.0 Type-A ports as well as Ethernet via USB Type-C Hub. No HDMI or DisplayPort Alternate Mode was implemented on this port, so you won't get video output even if your USB-C hub has those connectors.
 - USB Keyboard and Mouse
   - Once a USB-C hub is connected, Radxa Zero can be controlled with a full sized keyboard and mouse.
 - Monitor and HDMI Cable
