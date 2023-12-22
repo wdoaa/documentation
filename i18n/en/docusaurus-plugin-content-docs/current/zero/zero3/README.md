@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 # Radxa ZERO 3
@@ -104,23 +104,23 @@ By introducing system programming, system login, accessory usage, etc., let user
 Radxa OS is an operating system customized by Radxa based on Debian OS.
 This chapter introduces system login, network connection, etc to let user to be familiar with the system quickly.
 
-### [System Configuration](/zero/zero3/system-configuration)
+### [System Configuration](/zero/zero3/os-config)
 
 Introduces how to use tools like rsetup or command line to use devices or function.
 
-### [Application Deployment](/zero/zero3/application-configuration)
+### [Application Deployment](/zero/zero3/apps-deployment)
 
 Introduces how to deploy the applications such as Samba, Docker, PVE, OMV, LAMP, Cheese, remote control panel, etc.
 
-### [Application Development](/zero/zero3/application-development)
+### [Application Development](/zero/zero3/app-development)
 
 Introduces upper-layer application development, such as QT, WiringX, Mraa, etc.
 
-### [Hardware Development](/zero/zero3/hardware-development)
+### [Hardware Development](/zero/zero3/hardware-design)
 
 Introduces hardware information, such as hardware interfaces, supported accessories, etc.
 
-### [Lower level Development](/zero/zero3/lowlevel-development)
+### [Lower level Development](/zero/zero3/low-level-dev)
 
 Introduces uboot, kernel, debian os compilation and packaging, etc.
 

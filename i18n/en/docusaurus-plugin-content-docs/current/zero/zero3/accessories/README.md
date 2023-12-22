@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 50
 ---
 
 # Accessories Usage Tutorial
