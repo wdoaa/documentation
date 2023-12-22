@@ -6,37 +6,37 @@ sidebar_position: 1
 
 ## Development preparation
 
-### Power
+### Power Supply
 
 Radxa ZERO 3 is powered via Type-C port and only supports 5V input. It is recommended to use a minimum 5V/2A power adapter.
 
 :::tip
-Radxa recommends [Radxa Power PD30W](/accessories/pd_30w).
+Radxa recommends [Radxa Power PD30W](../accessories/pd-30w).
 :::
 
-### Storage
+### Boot Media
 
 microSD card, with a capacity of not less than 8GB, used for system startup disk
 
-### microSD card reader
+### microSD Card Reader
 
 Used to make system boot disk
 
 ### Display
 
-For monitors with HDMI interface, Radxa ZERO 3 supports up to 1920 x 1080 resolution.
+With a display with an HDMI interface, Radxa ZERO 3 can support resolutions up to 1920x1080 (known as 1080p) at 60Hz.
 
-### Internet connection
+### Internet
 
-ROCK 3W has an onboard WI-FI module and can access the network through WI-FI.
+ROCK 3W has an onboard Wi-Fi module and can access the network via Wi-Fi.
 
-ROCK 3E does not have an onboard WI-FI module, but has an Ethernet port that can be connected to the network through Ethernet.
+ROCK 3E does not have an onboard Wi-Fi module, but has an Ethernet port that can be connected to the network via Ethernet.
 
 ### Type-C Hub
 
 Used for USB port interface expansion, can be connected to external devices such as USB mouse, USB keyboard, etc.
 
-### USB mouse
+### USB Mouse
 
 ### USB Keyboard
 
