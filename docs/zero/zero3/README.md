@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 # ZERO 3
@@ -104,23 +104,23 @@ sidebar_position: 2
 瑞莎系统 (Radxa OS) 是 Radxa 基于Debian OS 定制的一套操作系统，这里主要介绍 系统登录，网络连接等内容，
 方便用户快速的熟悉并使用系统。
 
-### [系统配置](/zero/zero3/system-configuration)
+### [系统配置](/zero/zero3/os-config)
 
 介绍如何使用通过工具（例如rsetup）或者命令去使用设备或者功能。
 
-### [应用部署](/zero/zero3/application-configuration)
+### [应用部署](/zero/zero3/apps-deployment)
 
 介绍类似 Samba, Docker, PVE, OMV, LAMP, Cheese, 远程控制等常见应用的配置及使用。
 
-### [应用开发](/zero/zero3/application-development)
+### [应用开发](/zero/zero3/app-development)
 
 介绍上层应用开发，比如QT, WiringX, Mraa 等。
 
-### [硬件开发](/zero/zero3/hardware-development)
+### [硬件开发](/zero/zero3/hardware-design)
 
 介绍硬件信息，例如硬件接口，支持的配件等。
 
-### [底层开发](/zero/zero3/lowlevel-development)
+### [底层开发](/zero/zero3/low-level-dev)
 
 介绍 uboot, kernel, debian os 编译打包等内容。
 
