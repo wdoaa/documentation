@@ -11,6 +11,14 @@ sidebar_position: 2
 :::
 
 <Tabs queryString="product">
+
+<TabItem value="ZERO">
+
+Radxa ZERO: [Build 23](https://github.com/radxa-build/radxa-zero/releases/download/b23/radxa-zero_debian_bullseye_kde_b23.img.xz)
+
+更多镜像请查看： [ZERO Release](https://github.com/radxa-build/radxa-zero/releases)
+
+</TabItem>
 <TabItem value="ZERO 2 PRO">
 
 Radxa ZERO 2 PRO: [Build 32](https://github.com/radxa-build/radxa-zero-2pro/releases/download/b32/radxa-zero-2pro_debian_bookworm_kde_b32.img.xz)
