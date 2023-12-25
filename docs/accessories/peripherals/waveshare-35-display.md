@@ -8,7 +8,7 @@ sidebar_position: 10
 
 按照以下方法将屏幕连接到开发板：
 
-![Weveshare35-spi-display](/img/accessories/waveshare35-spi-display.webp)
+![Waveshare35-spi-display](/img/accessories/waveshare35-spi-display.webp)
 
 ## 使用 rsetup 开启 对应 overlay
 

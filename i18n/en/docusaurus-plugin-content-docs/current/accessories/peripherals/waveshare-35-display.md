@@ -8,7 +8,7 @@ sidebar_position: 10
 
 Connect the screen with the development board as follows:
 
-![Weveshare35-spi-display](/img/accessories/waveshare35-spi-display.webp)
+![Waveshare35-spi-display](/img/accessories/waveshare35-spi-display.webp)
 
 ## Use rsetup to enable the corresponding overlay
 
