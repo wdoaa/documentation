@@ -16,7 +16,7 @@ This section describes the supported accessories and how to use them.
 </TabItem>
 <TabItem value="ZERO 3E">
 
-![zero-3e-interface-overview](/img/zero/zero3w/zero-3e-interface-overview.webp)
+coming soon ...
 
 </TabItem>
 </Tabs>
