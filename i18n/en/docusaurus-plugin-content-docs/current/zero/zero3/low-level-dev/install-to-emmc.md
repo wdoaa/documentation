@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Install os on eMMC
+# Install OS to eMMC
 
 ## Maskrom Mode
 

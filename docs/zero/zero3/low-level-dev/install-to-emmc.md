@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Maskrom 模式
+# 安装系统到 eMMC
+
+## Maskrom 模式
 
 <Tabs queryString="maskrom">
 <TabItem value="ZERO 3W">
