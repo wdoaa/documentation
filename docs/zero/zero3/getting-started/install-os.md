@@ -61,6 +61,8 @@ Zero 3W/3E 目前提供 Debian OS 系统
 </TabItem>
 </Tabs>
 
+### [刷入操作系统镜像到 eMMC](/zero/zero3/low-level-dev/maskrom-flash.md)
+
 ## 启动系统
 
 <Tabs queryString="install-os">

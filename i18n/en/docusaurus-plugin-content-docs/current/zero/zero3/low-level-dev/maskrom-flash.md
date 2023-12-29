@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Maskrom Mode
+# Install os on eMMC
+
+## Maskrom Mode
 
 <Tabs queryString="maskrom">
 <TabItem value="ZERO 3W">

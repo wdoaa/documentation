@@ -61,6 +61,8 @@ There are two ways to flash image on SD card. Use Etcher or Win32DiskImager. You
 </TabItem>
 </Tabs>
 
+### [Flash the operating system image to eMMC](/zero/zero3/low-level-dev/maskrom-flash.md)
+
 ## Boot the system
 
 <Tabs queryString="install-os">

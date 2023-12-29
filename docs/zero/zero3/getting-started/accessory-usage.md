@@ -16,7 +16,7 @@ sidebar_position: 4
 </TabItem>
 <TabItem value="ZERO 3E">
 
-coming soon ...
+![zero-3e-interface-overview](/img/zero/zero3w/zero-3e-interface-overview.webp)
 
 </TabItem>
 </Tabs>
