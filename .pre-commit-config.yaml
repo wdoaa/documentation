@@ -2,7 +2,6 @@ repos:
   - repo: https://github.com/radxa-docs/pre-commit-hooks
     rev: 2c1448fab9257562c9b80b6803c4dcfcc215c73f
     hooks:
-      - id: remove-unreferenced-image
       - id: use-webp-image
       - id: fix-en-dash-list
       - id: tab-with-querystring-undefined
