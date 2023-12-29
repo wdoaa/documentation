@@ -2,9 +2,13 @@
 sidebar_position: 1
 ---
 
-# Install os on eMMC
+# Install OS on eMMC
 
-## Maskrom Mode
+## Preparation
+
+## Image download
+
+## Enter Maskrom Mode
 
 <Tabs queryString="maskrom">
 <TabItem value="ZERO 3W">
@@ -34,8 +38,10 @@ The OTG interface on the Radxa ZERO 3 is TYPE-C, which allows communication betw
 
 In Maskrom mode, you can use the [Rockchip Development Kit](/general-tutorial/rksdk) to erase, wire-flash, etc. your product.
 
-## Flash eMMC
+## Install OS on eMMC
 
 [Windows Flash eMMC](/general-tutorial/rksdk/rkdevtool.md)
 
 [Linux Flash eMMC](/general-tutorial/rksdk/rkdeveloptool.md)
+
+## Boot the system

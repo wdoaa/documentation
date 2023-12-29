@@ -2,9 +2,13 @@
 sidebar_position: 1
 ---
 
-# eMMC 烧录
+# 安装系统到 EMMC
 
-## Maskrom 模式
+## 准备工作
+
+## 镜像下载
+
+## 进入 Maskrom 模式
 
 <Tabs queryString="maskrom">
 <TabItem value="ZERO 3W">
@@ -34,8 +38,10 @@ Radxa ZERO 3 的 OTG 接口是 TYPE-C,可通过 USB-C 转 USB-A 线连接主机�
 
 在 Maskrom 模式下，您可使用 [Rockchip 开发套件](/general-tutorial/rksdk)来对您的产品进行擦写、线刷等操作。
 
-## 烧录 eMMC
+## 安装系统到 eMMC
 
-[Windows 烧录 eMMC](/general-tutorial/rksdk/rkdevtool.md)
+[Windows 环境下安装](/general-tutorial/rksdk/rkdevtool.md)
 
-[Linux 烧录 eMMC](/general-tutorial/rksdk/rkdeveloptool.md)
+[Linux 环境下安装](/general-tutorial/rksdk/rkdeveloptool.md)
+
+## 启动系统

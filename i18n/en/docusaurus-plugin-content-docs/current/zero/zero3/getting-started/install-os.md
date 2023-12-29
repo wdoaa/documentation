@@ -12,16 +12,7 @@ Radxa ZERO 3 currently provides Debian OS system
 
 Please go to [Resource Download Summary](/zero/zero3/getting-started/download.md) to download the corresponding image file
 
-## System Flashing
-
-There are two ways to flash image on SD card. Use Etcher or Win32DiskImager. You can choose one of them.
-
-### Flash the operating system image to microSD
-
-<Tabs queryString="target">
-   <TabItem value="via Etcher" label="Etcher">
-
-#### Flash the operating system image to microSD via Etcher
+## Install System
 
 1. [Download](https://etcher.balena.io/) Flash tool `Etcher`.
    ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
@@ -39,29 +30,6 @@ There are two ways to flash image on SD card. Use Etcher or Win32DiskImager. You
    ![ROCK5A via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
 
 **If there is an error in flashing, please try again. **
-
-</TabItem>
-
-   <TabItem value="Via Win32DiskImager" label="Win32DiskImager">
-
-#### Flash the operating system image to microSD via Win32DiskImager
-
-1. [Download](https://win32diskimager.org/) Flash tool `Win32DiskImager`
-   ![ROCK5A via Win32DiskImager 01](/img/rock5a/rock5a-win32.webp)
-
-2. Open Win32DiskImager
-   ![ROCK5A via Win32DiskImager 02](/img/rock5a/rock5a-win32-1.webp)
-
-3. Click the folder icon button and select the image you want to flash
-   ![ROCK5A via Win32DiskImager 03](/img/rock5a/rock5a-win32-2.webp)
-
-4. After completing the above operations, click the `Write` button to start flashing the image, and then wait for the writing of the image to complete.
-   ![ROCK5A via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)
-
-</TabItem>
-</Tabs>
-
-### [Flash the operating system image to eMMC](/zero/zero3/low-level-dev/maskrom-flash.md)
 
 ## Boot the system
 
@@ -88,3 +56,7 @@ There are two ways to flash image on SD card. Use Etcher or Win32DiskImager. You
 :::tip
 Radxa ZERO 3 only supports `5V` power supply.Radxa Recommended [Radxa Power PD30W](/accessories/pd_30w).
 :::
+
+## Reference
+
+[Install OS on eMMC](/zero/zero3/low-level-dev/install-os-on-emmc.md)
