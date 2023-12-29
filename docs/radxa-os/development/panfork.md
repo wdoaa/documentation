@@ -24,7 +24,8 @@ sudo apt-get install xserver-xorg-core/bullseye
 
 ```bash
 sudo apt update
-sudo apt install build-essential meson git python3-mako libexpat1-dev bison flex libwayland-egl-backend-dev libxext-dev libxfixes-dev libxcb-glx0-dev libxcb-shm0-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-present-dev libxshmfence-dev libxxf86vm-dev libxrandr-dev zlib1g-dev pkg-config cmake libwayland-*
+sudo apt install build-essential meson git python3-mako libexpat1-dev bison flex libwayland-egl-backend-dev libxext-dev libxfixes-dev libxcb-glx0-dev libxcb-shm0-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-present-dev libxshmfence-dev libxxf86vm-dev libxrandr-dev zlib1g-dev pkg-config libwayland-* libdrm*
+sudo pip3 install cmake ninja
 ```
 
 ## 编译并安装 dri2to3
