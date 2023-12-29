@@ -46,4 +46,4 @@ Used for USB port interface expansion, can be connected to external devices such
 
 ## Reference
 
-[Supported accessories](/zero/zero3/accessories)
+[Supported accessories](../accessories)
