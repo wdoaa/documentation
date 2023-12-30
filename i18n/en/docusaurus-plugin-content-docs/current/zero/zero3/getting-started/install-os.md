@@ -12,7 +12,7 @@ Radxa ZERO 3 currently provides Debian OS system.
 
 ## Download Image
 
-Please go to [Resource Download Summary](./download.md) to download the corresponding image file.
+Please go to [Resource Download Summary](./download) to download the corresponding image file.
 
 ## Write Image
 
