@@ -30,7 +30,7 @@ We will introduce the board information as much as possible.
   And it supports up to 1080P resolution.
 
 - microSD Card Reader  
-  For flashing the image to the micro SD Card
+  For flashing the image to the microSD Card
 
 ## Optional
 

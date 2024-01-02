@@ -14,17 +14,19 @@ sidebar_position: 2
 
 基于不同的启动介质, 安装操作系统主要使用以下两种方法（具体使用哪种方法，取决于你想让系统从哪里启动）
 
-**从SD卡启动** （**推荐**）
+**从 SD 卡启动** （**推荐**）
+
 - 通过读卡器将系统镜像烧写到 MicroSD 卡
 
 **从板载eMMC 启动**
+
 - 使用 USB 线将系统镜像直接刷写到 eMMC 上
 
 :::caution 注意
 如果板子不带eMMC，则无法从eMMC启动，例如 Radxa ZERO 3E。
 :::
 
-<Tabs>
+<Tabs queryString="Install OS">
 <TableItem value = "安装系统到 SD 卡">
 
 ### 安装系统到 SD 卡
@@ -37,12 +39,12 @@ sidebar_position: 2
 
 #### 通过 Etcher 刷入操作系统镜像到 microSD
 
-1. 把 SD 卡插入 SD 读卡器, 然后把 SD 读卡器插入计算机的 USB 接口
+1. 把 microSD 卡插入 SD 读卡器, 然后把 SD 读卡器插入 PC 的 USB 接口上
 
 2. [下载](https://etcher.balena.io/)刷写工具 `Etcher`。  
    ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
 
-3. 打开 Etcher，将准备的操作系统镜像刷写到 microSD 卡。在 Etcher 窗口中，单击 `Flash from file` 选择刚下载的操作系统镜像。  
+3. 打开 Etcher，将准备的操作系统镜像刷写到 microSD 卡。在 Etcher 窗口中，单击 `Flash from file` 选择刚下载的操作系统镜像。
    ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
 
 4. 在 Etcher 窗口中，点击 `Select target`。  
@@ -64,21 +66,26 @@ sidebar_position: 2
 
 #### 准备
 
-1. 准备一条 USB 线 (一端USB C，一端 USB A)
-   <img src="/img/common/usb-cable-usb-a-usb-c.webp" width = "400" alt="USB Cable"/>
+- 准备一条 USB 线 (一端USB C，一端 USB A)
+  <img src="/img/common/usb-cable-usb-a-usb-c.webp" width = "400" alt="USB Cable"/>
+- 1x 5V 电源适配器 (推荐使用 [Radxa Power PD30W](/accessories/pd_30w))
 
-2. 按住 Maskrom 按键，用 USB 线连接计算机的 USB 接口和 Radxa Zero 3W 的 OTG Type C 接口，然后松开Maskrom
-   ![zero3w](/img/zero/zero3/radxa_zero_3w.webp)
+#### 安装系统
 
-#### 我的电脑是Windows
+##### 进入MaskRom Mode
 
-&emsp;[rkdevtool](/general-tutorial/rksdk/rkdevtool)
+按住 [Maskrom 按键](/zero/zero3/hardware-design/hardware-interface.md)，用 USB 线连接计算机的 USB 接口和 Radxa Zero 3W 的 OTG Type C 接口，然后松开Maskrom
+![zero3w](/img/zero/zero3/radxa_zero_3w.webp)
 
-#### 我是电脑是Linux / macOS
+##### 我的电脑是Windows
 
-&emsp;[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+&emsp;[使用 rkdevtool 安装系统](/general-tutorial/rksdk/rkdevtool)
 
-&emsp;[upgrade_tool](general-tutorial/rksdk/upgrade_tool)（可同时烧录多台设备）
+##### 我是电脑是Linux / macOS
+
+&emsp;[使用 rkdeveloptool 安装系统](/general-tutorial/rksdk/rkdeveloptool)
+
+&emsp;[使用 upgrade_tool 安装系统](general-tutorial/rksdk/upgrade_tool)（可同时烧录多台设备）
 
 </TableItem>
 </Tabs>

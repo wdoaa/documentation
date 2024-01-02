@@ -12,7 +12,7 @@ sidebar_position: 5
 
 ### Physical Photos
 
-<Tabs>
+<Tabs queryString="Physical Photos">
 <TableItem  value="ZERO 3W">
 
 - **Radxa ZERO 3W**
@@ -99,7 +99,7 @@ sidebar_position: 5
 
 ### System block diagram
 
-<Tabs>
+<Tabs queryString="System block diagram">
 <TableItem value="ZERO 3W">
 
 - **Radxa ZERO 3W**

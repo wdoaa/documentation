@@ -10,7 +10,7 @@ Introduces how to install Android os on ZERO 3
 
 Please go to [Resource Download Summary](/zero/zero3/other-os/android/download.md) to download the corresponding image file
 
-## Install OS 
+## Install OS
 
 There are two main methods to install the operating system depends on where you want board to boot from.
 
@@ -26,25 +26,26 @@ There are two main methods to install the operating system depends on where you 
 If the board doesn't come with eMMC, you can't boot from eMMC, such as Radxa ZERO 3E.
 :::
 
-<Tabs>
-<TableItem value="Install System On microSD">
+<Tabs queryString="Install OS">
+<TableItem value="Install OS On microSD Card">
 
-### Install On microSD
+### Install OS On microSD Card
 
 #### Preparation
 
-- 1x microSD （Capacity size >= 8GB）
-- 1x SD Reader
+- 1x microSD Card（Capacity size >= 8GB）
+- 1x SD card Reader
 - 1x 5V Power Supply (Radxa Recommended [Radxa Power PD30W](/accessories/pd_30w))
 
-#### Install the operating system image on microSD
+#### Install OS
 
-1. Insert SD card into SDcard reader, and then insert SDcard Reader into PC's USB Port
+1. Insert MicroSD Card into SD Card reader, and then insert SD card Reader into PC's USB Port
 
 2. [Download](https://etcher.balena.io/) Flash tool `Etcher`.
    ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
 
-3. Open Etcher and flash the prepared operating system image to the microSD card. In the Etcher window, click `Flash from file` to select the operating system image you just downloaded.
+3. Open Etcher and flash the prepared operating system image to the microSD card. In the Etcher window, click `Flash from file` to select the operating
+   system image you just downloaded.
    ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
 
 4. In the Etcher window, click `Select target`.
@@ -66,40 +67,43 @@ If the board doesn't come with eMMC, you can't boot from eMMC, such as Radxa ZER
 
 #### Preparation
 
-1. 1x USB Cable with one end USB C and one end USB A.
+- 1x USB Cable with one end USB C and one end USB A.
+  <img src="/img/common/usb-cable-usb-a-usb-c.webp" width = "400" alt="USB Cable"/>
+- 1x 5V Power Supply. Radxa Recommended [Radxa Power PD30W](/accessories/pd_30w).
 
-<img src="/img/common/usb-cable-usb-a-usb-c.webp" width = "400" alt="USB Cable"/>
+#### Install OS
 
-2. Press the Maskrom Key, and then connect the ZERO 3W's OTG Type C port to the PC's USB port, then release the Maskrom Key.
-   ![zero3w](/img/zero/zero3/radxa_zero_3w.webp)
+##### Enter MaskRom
 
-#### My PC is Windows
+Press the [Maskrom Button](/zero/zero3/hardware-design/hardware-interface.md), and then connect the ZERO 3W's OTG Type C port to the PC's USB port, then release the Maskrom Key.
+![zero3w](/img/zero/zero3/radxa_zero_3w.webp)
 
-&emsp;[rkdevtool](/general-tutorial/rksdk/rkdevtool)
+##### My PC is Windows
 
-#### My PC is Linux / macOS
+&emsp;[Install OS via rkdevtool](/general-tutorial/rksdk/rkdevtool)
 
-&emsp;[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+##### My PC is Linux / macOS
 
-&emsp;[upgrade_tool](general-tutorial/rksdk/upgrade_tool)(Install OS on Multiple devices at the same time)
+&emsp;[Install OS via rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+
+&emsp;[Install OS via upgrade_tool](general-tutorial/rksdk/upgrade_tool)(Install OS on Multiple devices at the same time)
 
 </TableItem>
 </Tabs>
 
 ## Boot the system
 
-#### Boot from SDcard 
+#### Boot from SDcard
 
-- Insert the SDCard (System OS inside) on the board's sdcard slot, and power the board via 
-  [USB 2.0 OTG Type C port](/zero/zero3/hardware-design/hardware-interface.md). Then board will start up with the led blink. 
+- Insert the SDCard (System OS inside) on the board's sdcard slot, and power the board via
+  [USB 2.0 OTG Type C port](/zero/zero3/hardware-design/hardware-interface.md). Then board will start up with the led blink.
 
-#### Boot from eMMC 
+#### Boot from eMMC
 
-- Power the board via [USB 2.0 OTG Type C port](/zero/zero3/hardware-design/hardware-interface.md). Then board will start up with the led blink. 
+- Power the board via [USB 2.0 OTG Type C port](/zero/zero3/hardware-design/hardware-interface.md). Then board will start up with the led blink.
 
 :::tip
 Radxa ZERO 3 only supports `5V` power supply.Radxa Recommended [Radxa Power PD30W](/accessories/pd_30w).
 :::
 
 ## FAQ
-

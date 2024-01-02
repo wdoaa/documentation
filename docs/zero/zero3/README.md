@@ -12,7 +12,7 @@ sidebar_position: 5
 
 ### 实物照片
 
-<Tabs>
+<Tabs queryString="Physical Photos">
 <TabItem value="ZERO 3W">
 
 - **Radxa ZERO 3W**
@@ -23,7 +23,7 @@ sidebar_position: 5
 <TabItem value="ZERO 3E">
 
 - **Radxa ZERO 3E**
-  ![ZERO 3W Overview](/img/zero/zero3/radxa_zero_3e.webp)
+  ![ZERO 3E Overview](/img/zero/zero3/radxa_zero_3e.webp)
 
 </TabItem>
 
@@ -100,7 +100,8 @@ sidebar_position: 5
 
 ### 系统框图
 
-<Tabs>
+<Tabs queryString="System block diagram">
+
 <TabItem value="ZERO 3W">
 
 - **Radxa ZERO 3W**

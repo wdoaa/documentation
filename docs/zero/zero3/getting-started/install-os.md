@@ -8,7 +8,7 @@ Zero 3W/3E 目前提供 Debian OS 系统
 
 ## 准备工作
 
-- 1x microSD (容量 >=8GB)
+- 1x microSD 卡(容量 >=8GB)
 - 1x microSD 读卡器
 - 5V 电源适配器 (推荐使用 [Radxa Power PD30W](/accessories/pd_30w))
 

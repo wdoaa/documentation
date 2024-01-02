@@ -8,8 +8,8 @@ Radxa ZERO 3 currently provides Debian OS system
 
 ## Preparation
 
-- 1x microSD
-- 1x SD Reader
+- 1x microSD Card
+- 1x SD Card Reader
 - 1x 5V Power Supply (Radxa Recommended [Radxa Power PD30W](/accessories/pd_30w))
 
 ## Image download
@@ -18,7 +18,7 @@ Please go to [Resource Download Summary](/zero/zero3/getting-started/download.md
 
 ## Install System
 
-1. Insert SD card into SDcard reader, and then insert SDcard Reader into PC's USB Port
+1. Insert microSD card into SD card reader, and then insert SD card Reader into PC's USB Port
 
 2. [Download](https://etcher.balena.io/) Flash tool `Etcher`.
    ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
@@ -40,7 +40,8 @@ Please go to [Resource Download Summary](/zero/zero3/getting-started/download.md
 ## Boot the system
 
 - After successfully burning the microSD card according to the above steps, insert the microSD card into the MicroSD Card Slot.
-- The Radxa ZERO 3 is powered by a  [USB 2.0 OTG Type C port](/zero/zero3/hardware-design/hardware-interface.md), using a Type C cable to connect the power port to the adapter.
+
+- The Radxa ZERO 3 is powered by a [USB 2.0 OTG Type C port](/zero/zero3/hardware-design/hardware-interface.md), using a Type C cable to connect the power port to the adapter.
 
 :::tip
 Radxa ZERO 3 only supports `5V` power supply.Radxa Recommended [Radxa Power PD30W](/accessories/pd_30w).

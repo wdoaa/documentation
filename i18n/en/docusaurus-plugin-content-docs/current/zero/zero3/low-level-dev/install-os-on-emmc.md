@@ -17,7 +17,7 @@ sidebar_position: 1
 
 How to enter Maskrom mode on Radxa ZERO 3W
 
-1. Remove the micro SD card and power cable
+1. Remove the microSD card and power cable
 2. Press and hold the Maskrom button on the back of the
 3. Connect the USB of PC host via USB-A to USB-C cable, if the green light of the power supply is always on, it will enter the Maskrom mode successfully
 
@@ -28,7 +28,7 @@ How to enter Maskrom mode on Radxa ZERO 3W
 
 How to enter Maskrom mode on Radxa ZERO 3E
 
-1. Remove the micro SD card and power cable
+1. Remove the microSD card and power cable
 2. Connect the USB of PC host via USB-A to USB-C cable, if the green light of the power supply is always on, it will enter the Maskrom mode successfully
 
 </TabItem>
@@ -45,3 +45,11 @@ In Maskrom mode, you can use the [Rockchip Development Kit](/general-tutorial/rk
 [Linux Flash eMMC](/general-tutorial/rksdk/rkdeveloptool.md)
 
 ## Boot the system
+
+- Power the board via [USB 2.0 OTG Type C port](/zero/zero3/hardware-design/hardware-interface.md). Then board will start up with the led blink.
+
+:::tip
+Radxa ZERO 3 only supports `5V` power supply.Radxa Recommended [Radxa Power PD30W](/accessories/pd_30w).
+:::
+
+## FAQ

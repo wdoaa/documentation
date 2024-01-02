@@ -51,7 +51,7 @@ ROCK 5B 提供两个 M.2 连接器：
 
 - **TF卡**
 
-micro SD 卡槽位于 ROCK 5B 的背面。 安装 micro SD 卡时注意 micro SD 卡的管脚要靠近 PCB 板表面。 确保方向没有颠倒，如图所示以供参考。  
+microSD 卡槽位于 ROCK 5B 的背面。 安装 microSD 卡时注意 microSD 卡的管脚要靠近 PCB 板表面。 确保方向没有颠倒，如图所示以供参考。  
 ![rock5b_01](/img/rock5b/rock5b-interface-2.webp)
 
 - **eMMC 模块**
