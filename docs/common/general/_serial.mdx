@@ -28,7 +28,6 @@ import { Section } from "@site/src/utils/docs";
 </Section>
 
 下文使用基于 [CH340](http://wch-ic.com/products/CH340.html) 的串口线进行描述。
-
 :::
 
 ## 串口连接
@@ -51,7 +50,8 @@ import { Section } from "@site/src/utils/docs";
 
 ## 主机串口连接主板
 
-基于Amlogic芯片的瑞莎产品的串口默认配置如下：
+<Section compatible="aml" platform={props.platform}>
+基于 Amlogic 芯片的瑞莎产品的串口默认配置如下：
 
 ```
 baudrate: 115200
@@ -61,7 +61,10 @@ parity  : none
 flow control: none
 ```
 
-基于Rockchip芯片的瑞莎产品的串口默认配置如下：
+</Section>
+
+<Section compatible="rk" platform={props.platform}>
+基于 Rockchip 芯片的瑞莎产品的串口默认配置如下：
 
 ```
 baudrate: 1500000
@@ -71,13 +74,15 @@ parity  : none
 flow control: none
 ```
 
+</Section>
+
 ### minicom
 
 **_支持 Linux_**
 
 1. 将串口 USB 端插入主机 PC 后，请先找到串口设备：
 
-命令行执行`dmesg | tail`会输出以下信息：
+在终端输入 `dmesg | tail` 会得到类似下面的打印：
 
 ```bash
 [10.654076] usb 1-6.4.3: new full-speed USB device number 103 using xhci_hcd
@@ -92,20 +97,19 @@ flow control: none
 
 依照最后一行所示，**/dev/ttyUSB0** 即是新插入的串口设备。
 
-:::caution
+:::tip
+可能存在没有权限读写串口的情况。
 
-这里串口存在无权限读取的情况。
-
-**临时处理: 通过 chmod 命令**
+**临时处理：通过 chmod 命令修改权限**
 
 ```bash
 sudo chmod 777 /dev/ttyUSB0
 ```
 
-**永久处理： 通过将当前用户加入 dialout 组**
+**永久处理：通过将当前用户加入 dialout 组**
 
 ```bash
-sudo usermod -aG dialout 当前用户名
+sudo usermod -aG dialout $USER
 ```
 
 :::
@@ -131,7 +135,28 @@ sudo usermod -aG plugdev $USER
 alias minicom='minicom -w -t xterm -l -R UTF-8'
 ```
 
-创建并且编辑文件 ~/.minirc.rockchip，添加下列内容，该处目的是设置 rockchip 的配置。
+<Section compatible="aml" platform={props.platform}>
+创建并且编辑文件 ~/.minirc.115200-usb0，添加下列内容：
+
+```
+pu port             /dev/ttyUSB0
+pu baudrate         115200
+pu bits             8
+pu parity           N
+pu stopbits         1
+pu rtscts           No
+```
+
+4. 执行以下命令以连接设备，指定参数 usb0-115200 来使用上面的配置。
+
+```bash
+minicom 115200-usb0
+```
+
+</Section>
+
+<Section compatible="rk" platform={props.platform}>
+创建并且编辑文件 ~/.minirc.1500000-usb0，添加下列内容：
 
 ```
 pu port             /dev/ttyUSB0
@@ -142,11 +167,13 @@ pu stopbits         1
 pu rtscts           No
 ```
 
-4. 执行以下命令，即可连接基于Rockchip芯片的瑞莎产品。 参数 rockchip 是为了使用上面的配置。
+4. 执行以下命令以连接设备，指定参数 usb0-1500000 来使用上面的配置。
 
 ```bash
-minicom rockchip
+minicom 1500000-usb0
 ```
+
+</Section>
 
 ### Putty
 
