@@ -1,24 +1,33 @@
+import { Section } from "@site/src/utils/docs";
+
 瑞莎的绝大多数产品将 GPIO 引脚上的第 8 (TX)、第 10 (RX) 引脚定义为 UART 串口通信接口，以方便排查系统早期启动阶段的问题。
 
 ## 必要准备
 
 - 任意瑞莎提供了 GPIO 引脚的产品，及兼容供电方案
 - 个人电脑
-- 兼容的 USB 转 TTL 串口线
+- USB 转 TTL 串口线
 
 ![USB to TTL](/img/accessories/600px-Usb2ttl-cable-definition.webp)
 
-:::caution
+:::tip
 
-基于Amlogic芯片的瑞莎产品的默认配置为 115200n8，无流量控制。
+<Section compatible="aml" platform={props.platform}>
+基于 Amlogic 芯片的瑞莎产品，UART 默认配置为 115200n8，无流量控制。
 
-基于Rockchip芯片的瑞莎产品的默认配置为 1500000n8，无流量控制。请检查您的 USB 转 TTL 串口线是否支持 1.5M 波特率：
+</Section>
+
+<Section compatible="rk" platform={props.platform}>
+基于 Rockchip 芯片的瑞莎产品，UART 默认配置为 1500000n8，无流量控制。
+
+请检查您的 USB 转 TTL 串口线是否支持 1.5M 波特率：
 
 - 基于 [CP210X](https://www.silabs.com/interface/usb-bridges) 和 [PL2303x](https://www.prolific.com.tw/US/index.aspx) 的部分产品有波特率限制。
 - 基于 FT232RL 的部分产品有[电源问题](https://forum.radxa.com/t/u-boot-cant-boot-with-serial-console-attached/7684)。
 
-请确保选择正品串口线。
-以下说明使用基于 [CH340](http://wch-ic.com/products/CH340.html) 的串口线。
+</Section>
+
+下文使用基于 [CH340](http://wch-ic.com/products/CH340.html) 的串口线进行描述。
 
 :::
 
