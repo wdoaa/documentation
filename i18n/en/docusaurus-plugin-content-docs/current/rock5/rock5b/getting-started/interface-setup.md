@@ -55,8 +55,8 @@ The ROCK 5B is supplied with two M.2 connectors:
 
 - **TF Card**
 
-The micro SD card slot is located on the back of the ROCK 5B.
-When installing the micro SD card take care that the pins of the micro SD card are close to the surface of the PCB.
+The microSD card slot is located on the back of the ROCK 5B.
+When installing the microSD card take care that the pins of the microSD card are close to the surface of the PCB.
 Make sure that the orientation is not reversed as shown in the diagram for reference.  
 ![rock5b_01](/img/rock5b/rock5b-interface-2.webp)
 

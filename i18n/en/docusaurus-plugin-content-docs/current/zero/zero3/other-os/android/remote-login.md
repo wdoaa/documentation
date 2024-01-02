@@ -36,7 +36,7 @@ Windows system can use [Mobaxterm](https://mobaxterm.mobatek.net/) to debug seri
 
 Click `Session` in the upper left corner to create a new serial connection, select the serial port number in `Serial port`, fill in `1500000` in `Speed`, click OK and then double-click on the session, enter the password and then you can access it.
 
-![mobaxterm serial ](/img/zero/zero3w/mobaxterm-serial.webp)
+![mobaxterm serial ](/img/zero/zero3/mobaxterm-serial.webp)
 </TabItem>
 <TabItem value="Ubuntu" label="Ubuntu">
 Ubuntu systems can be debugged using the Mincom serial tool

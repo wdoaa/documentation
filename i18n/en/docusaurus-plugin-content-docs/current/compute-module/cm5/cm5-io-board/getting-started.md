@@ -28,7 +28,7 @@ We will introduce the board information as much as possible.
   Radxa CM5 IO is equipped with a full-featured typec interface. DP display is supported, as well as USB 3.0 devices.
 
 - microSD Card Reader  
-  For flashing the image to the micro SD Card
+  For flashing the image to the microSD Card
 
 ## Optional
 

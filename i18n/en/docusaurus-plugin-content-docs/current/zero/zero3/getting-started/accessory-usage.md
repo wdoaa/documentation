@@ -11,12 +11,12 @@ This section focuses on the accessories supported by ZERO 3 and how to use them.
 <Tabs queryString="camera">
 <TabItem value="zero-3w">
 
-![zero-3w-interface-overview](/img/zero/zero3w/zero-3w-interface-overview.webp)
+![zero-3w-interface-overview](/img/zero/zero3/zero-3w-interface-overview.webp)
 
 </TabItem>
 <TabItem value="zero-3e">
 
-coming soon ...
+![zero-3e-interface-overview](/img/zero/zero3/zero-3e-interface-overview.webp)
 
 </TabItem>
 </Tabs>

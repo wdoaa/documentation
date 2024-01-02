@@ -7,10 +7,10 @@ sidebar_position: 4
 ## Interface overview
 
 - **Radxa ZERO 3W**
-  ![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
+  ![ZERO 3W Overview](/img/zero/zero3/radxa_zero_3w.webp)
 
 - **Radxa ZERO 3E**
-  ![ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
+  ![ZERO 3E Overview](/img/zero/zero3/radxa_zero_3e.webp)
 
 ## Power
 

@@ -12,11 +12,22 @@ sidebar_position: 5
 
 ### 实物照片
 
+<Tabs queryString="Physical Photos">
+<TabItem value="ZERO 3W">
+
 - **Radxa ZERO 3W**
-  ![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
+  ![ZERO 3W Overview](/img/zero/zero3/radxa_zero_3w.webp)
+
+</TabItem>
+
+<TabItem value="ZERO 3E">
 
 - **Radxa ZERO 3E**
-  ![ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
+  ![ZERO 3E Overview](/img/zero/zero3/radxa_zero_3e.webp)
+
+</TabItem>
+
+</Tabs>
 
 ### 芯片框图
 
@@ -89,9 +100,23 @@ sidebar_position: 5
 
 ### 系统框图
 
+<Tabs queryString="System block diagram">
+
+<TabItem value="ZERO 3W">
+
 - **Radxa ZERO 3W**
 
-![zero-3w-interface-overview](/img/zero/zero3w/zero-3w-interface-overview.webp)
+![zero-3w-interface-overview](/img/zero/zero3/zero-3w-interface-overview.webp)
+
+</TabItem>
+<TabItem value="ZERO 3E">
+
+- **Radxa ZERO 3E**
+
+![zero-3e-interface-overview](/img/zero/zero3/zero-3e-interface-overview.webp)
+
+</TabItem>
+</Tabs>
 
 ## 文档使用指引
 

@@ -19,7 +19,7 @@ The [wireless guide](/radxa-os/config/network.md) may be helpful.
 
 _Note: Some solutions require a WiFi module to be installed in order to connect to the wireless network. For more details, please check product parameters on [Product Introduction](https://radxa.com/products)._
 
-After flashing the image to a micro SD card, keep it connected with your Linux or Windows machines, the config folder will be available on file system. There are two files **before.txt** and **config.txt** in it.
+After flashing the image to a microSD card, keep it connected with your Linux or Windows machines, the config folder will be available on file system. There are two files **before.txt** and **config.txt** in it.
 
 **before.txt**: Radxa First Boot Configuration, it will be copied into the correct location in the Linux root file system, the machine will use those settings to start up wireless networking.
 

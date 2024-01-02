@@ -10,7 +10,7 @@ sidebar_position: 15
 
 - Radxa ROCK 5 Model A(Rock 5A)
 
-- micro SD卡， 至少16GB
+- microSD 卡， 至少16GB
 
 - 电源适配器：ROCK 5A支持各种电源，包括智能协商电源以及固定电压：
 

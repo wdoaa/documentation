@@ -35,7 +35,7 @@ Windows 系统可以使用 [Mobaxterm](https://mobaxterm.mobatek.net/) 调试串
 
 点击左上角的 `Session` 新建 Serial 连接，在 `Serial port` 处选择串口号， `Speed` 处填入 `1500000`, 点击 OK 后双击会话，输入密码后即可访问。
 
-![mobaxterm serial ](/img/zero/zero3w/mobaxterm-serial.webp)
+![mobaxterm serial ](/img/zero/zero3/mobaxterm-serial.webp)
 </TabItem>
 <TabItem value="Ubuntu" label="Ubuntu">
 Ubuntu 系统可以使用 Mincom 串口工具调试

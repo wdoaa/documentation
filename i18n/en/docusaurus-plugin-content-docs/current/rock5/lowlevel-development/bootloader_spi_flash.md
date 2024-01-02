@@ -15,7 +15,7 @@ ROCK 5 has a SPI flash on the board, it contains the bootloader for backup booti
 
 This page describe how to write/install the bootloader to the SPI flash on the ROCK 5B, ROCK 5A in a similar way.
 
-**Notice: As eMMC and spi module share a common interface on the ROCK 5A, please use micro SD card when using simple method.**
+**Notice: As eMMC and spi module share a common interface on the ROCK 5A, please use microSD card when using simple method.**
 
 There are two methods available to flash the SPI:
 

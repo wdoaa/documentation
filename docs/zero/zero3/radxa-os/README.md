@@ -41,7 +41,7 @@ Radxa ZREO 3 系列均配备 40PIN 排针接口，在40 PIN 排针接口上默�
 
 点击左上角的 `Session` 新建 Serial 连接，在 `Serial port` 处选择串口号， `Speed` 处填入 `1500000`, 点击 OK 后双击会话，输入密码后即可访问。
 
-![mobaxterm serial ](/img/zero/zero3w/mobaxterm-serial.webp)
+![mobaxterm serial ](/img/zero/zero3/mobaxterm-serial.webp)
 
 ## 设置网络
 
@@ -87,9 +87,9 @@ sudo dpkg-reconfigure locales
 
 3. 选择中文语言
 
-![set language1 ](/img/zero/zero3w/set-language1.webp)
+![set language1 ](/img/zero/zero3/set-language1.webp)
 
-![set language2 ](/img/zero/zero3w/set-language2.webp)
+![set language2 ](/img/zero/zero3/set-language2.webp)
 
 4. 重启系统后即可
 
@@ -122,7 +122,7 @@ Windows 有许多 SSH 工具，这里以 [Mobaxterm](https://mobaxterm.mobatek.n
 
 点击左上角的 `Session` 新建 SSH 连接，在 `Remote host` 处输入板子的 IP，勾选 `Specify usernema` 并填入登录的用户, 双击会话开始连接后输入登录密码即可连接。
 
-![mobaxterm ssh ](/img/zero/zero3w/mobaxterm-ssh.webp)
+![mobaxterm ssh ](/img/zero/zero3/mobaxterm-ssh.webp)
 
 ### VNC 远程桌面
 
@@ -190,7 +190,7 @@ X DISPLAY #     RFB PORT #      PROCESS ID      SERVER
 
 点击左上角的 `Session` 新建 VNC 连接，在 `Remote hostname of IP address` 处输入板子的 IP，Port为 `vncserver -list` 获取到的端口号
 
-![mobaxterm vnc ](/img/zero/zero3w/mobaxterm-vnc.webp)
+![mobaxterm vnc ](/img/zero/zero3/mobaxterm-vnc.webp)
 
 ## 音视频
 
