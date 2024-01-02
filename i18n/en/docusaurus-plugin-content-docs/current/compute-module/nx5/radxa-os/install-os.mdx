@@ -7,9 +7,134 @@ This document introduces how to install Radxa OS image to Radxa NX5.
 
 ## Preparation
 
+### Prepare the installation media
+
+Burning to a microSD card requires preparation:
+
+- microSD card (recommended class10 rating or higher)
+
+- USB card reader
+
+For burning to eMMC:
+
+- micro usb to typea usb interface cable
+
+- micro usb to typea usb connector cable
+
+### Prepare the image file
+
+Please go to [Compute Module Images Download Summary](../../images.md) to download the corresponding image file.
+
+### Other
+
+(Optional) USB to TTL serial cable, please refer to `Serial Port Login` later.
+
 ## System installation
 
+Here are the steps for installation via `Etcher`.
+
+### Installation to microSD
+
+<Tabs queryString="target">
+
+<TabItem value="via Etcher" label="Etcher">
+
+#### Installing an OS image to microSD via Etcher
+
+1. Download [Etcher](https://etcher.balena.io/)
+   ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
+
+2. Open Etcher and flash the prepared OS image to the microSD card. In the Etcher window, click `Flash from file` to select the OS image you just downloaded. 
+   ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
+
+3. In the Etcher window, click `Select target`.
+   ![ROCK5A via Etcher 03](/img/rock5a/rock5a-etcher-2.webp)
+
+4. In the Etcher window, click `Flash!` and wait for a progress bar to be flushed.
+   ![ROCK5A via Etcher 04](/img/rock5a/rock5a-etcher-3.webp)
+
+5. In the Etcher window, `Flash Complete!` will be displayed when the flush is successful.
+   ![ROCK5A via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
+
+</TabItem>
+
+</Tabs>
+
+### Installing to eMMC
+
+1. Connect the micro usb cable to the host computer. 2.
+
+2. Press and hold the maskrom button and power on the device.
+
+<Tabs queryString="target">
+
+<TabItem value="Linux/Mac" label="Linux">
+
+#### Linux/Mac systems use rkdeveloptool to write to
+
+&emsp;[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+
+&emsp;[upgrade_tool](/general-tutorial/rksdk/upgrade_tool) (can burn multiple devices simultaneously)
+
+</TabItem>
+
+<TabItem value="Windows" label="Windows">
+
+#### Windows system write with rkdeveloptool
+
+&emsp;[rkdevtool](/general-tutorial/rksdk/rkdevtool)
+
+</TabItem>
+
+</Tabs>
+
 ## System startup
+
+### Starting NX5 IO
+1. Insert the microSD card with the operating system installed (if the system is installed to eMMC, do not insert the microSD card).
+2. Power up the NX5 IO via the adapter.
+3. The NX5 IO will boot up with the green power LED on, and the blue LED will start blinking after entering the system.
+
+### Login to NX5 IO
+
+
+Serial Port Login
+
+- Refer to [Serial port access](/general-tutorial/serial)
+
+SSH login
+
+- Refer to [SSH access](/radxa-os/config/ssh-access.md).
+
+Graphical interface login
+
+- Connect the HDMI/DP monitor, USB keyboard and mouse, and follow the system prompts to log in.
+
+Default User Password
+
+```bash
+User Name : radxa
+Password  : radxa
+# or
+User Name : rock
+Password  : rock
+```
+Switch to the root user
+```bash
+rock@rock-nx5-io:~$ sudo su
+[sudo] password for rock:
+root@rock-nx5-io:/home/rock#
+```
+
+The root user has no password by default. You can set the password with "passwd root".
+
+```bash
+root@rock-nx5-io:/home/rock# passwd root
+New password:
+Retype new password:
+passwd: password updated successfully
+root@rock-nx5-io:/home/rock#
+```
 
 ## Frequently Asked Questions
 
