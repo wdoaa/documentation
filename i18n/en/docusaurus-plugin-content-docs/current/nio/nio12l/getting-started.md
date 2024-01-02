@@ -55,7 +55,7 @@ sidebar_position: 1
     </tr>
     <tr>
         <td align="center">Camera</td>
-        <td colspan="2" align="center">2个 4 Lan MIPI CSI</td>
+        <td colspan="2" align="center">2x 4 Lan MIPI CSI</td>
     </tr>
     <tr>
         <td align="center">Others</td>

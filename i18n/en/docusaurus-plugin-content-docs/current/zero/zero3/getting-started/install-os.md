@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# System Installation
+import Ether from '../../../common/general/\_etcher.mdx'
 
-Radxa ZERO 3 currently provides Debian OS system
+# Install an operating system
 
 ## Preparation
 
@@ -44,7 +44,7 @@ Please go to [Resource Download Summary](/zero/zero3/getting-started/download.md
 - The Radxa ZERO 3 is powered by a [USB 2.0 OTG Type C port](/zero/zero3/hardware-design/hardware-interface.md), using a Type C cable to connect the power port to the adapter.
 
 :::tip
-Radxa ZERO 3 only supports `5V` power supply.Radxa Recommended [Radxa Power PD30W](/accessories/pd_30w).
+Radxa ZERO 3 only supports `5V` power supply. Radxa Recommended [Radxa Power PD30W](../accessories/pd-30w).
 :::
 
 ## Reference

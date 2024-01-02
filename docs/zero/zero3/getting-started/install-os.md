@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# 系统烧录
+import Ether from '../../../common/general/\_etcher.mdx'
 
-Zero 3W/3E 目前提供 Debian OS 系统
+# 安装操作系统
 
 ## 准备工作
 
@@ -43,7 +43,7 @@ Zero 3W/3E 目前提供 Debian OS 系统
 - Radxa ZERO 3 的供电接口为 [USB 2.0 OTG Type C port](/zero/zero3/hardware-design/hardware-interface.md)，请使用 Type-C 线缆连接供电口和适配器。
 
 :::tip
-Radxa ZERO 3 只支持 `5V` 供电。瑞莎推荐使用 [Radxa Power PD30W](/accessories/pd_30w)。
+Radxa ZERO 3 只支持 `5V` 供电。瑞莎推荐使用 [Radxa Power PD30W](../accessories/pd-30w)。
 :::
 
 ## 参考文档

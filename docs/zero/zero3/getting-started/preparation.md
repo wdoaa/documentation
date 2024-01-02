@@ -46,4 +46,4 @@ ROCK 3E 没有板载 Wi-Fi 模块，它有以太网口，可以通过以太网�
 
 ## Reference
 
-[支持的配件](/zero/zero3/accessories)
+[支持的配件](../accessories)
