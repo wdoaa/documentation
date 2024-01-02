@@ -30,6 +30,7 @@ Display with HDMI or DP connector, HDMI can support up to 8K display output.
 ### USB Mouse/Keyboard
 
 Standard mouse and keyboard peripherals can be inserted for system debugging and operation.
+
 ## FAQ
 
 ## Precautions
