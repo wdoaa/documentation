@@ -9,12 +9,12 @@ sidebar_position: 4
 ## 接口总览
 
 <Tabs queryString="model">
-<TabItem value="zero-3w">
+<TabItem value="zero-3w" label="ZERO 3W">
 
 ![zero-3w-interface-overview](/img/zero/zero3/zero-3w-interface-overview.webp)
 
 </TabItem>
-<TabItem value="zero-3e">
+<TabItem value="zero-3e" label="ZERO 3E">
 
 ![zero-3e-interface-overview](/img/zero/zero3/zero-3e-interface-overview.webp)
 

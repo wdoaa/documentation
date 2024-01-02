@@ -26,8 +26,8 @@ sidebar_position: 2
 如果板子不带eMMC，则无法从eMMC启动，例如 Radxa ZERO 3E。
 :::
 
-<Tabs queryString="Install OS">
-<TableItem value = "安装系统到 SD 卡">
+<Tabs queryString="install-method">
+<TabItem value = "sdcard" label="安装系统到 SD 卡">
 
 ### 安装系统到 SD 卡
 
@@ -58,9 +58,9 @@ sidebar_position: 2
 
 **如果刷写操作系统镜像错误, 请手动再试一次。**
 
-</TableItem>
+</TabItem>
 
-<TableItem value = "安装系统到板载 eMMC">
+<TabItem value = "emmc" label="安装系统到板载 eMMC">
 
 ### 安装系统到板载 eMMC
 
@@ -87,7 +87,7 @@ sidebar_position: 2
 
 &emsp;[使用 upgrade_tool 安装系统](general-tutorial/rksdk/upgrade_tool)（可同时烧录多台设备）
 
-</TableItem>
+</TabItem>
 </Tabs>
 
 ## 启动系统

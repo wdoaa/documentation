@@ -12,21 +12,21 @@ sidebar_position: 5
 
 ### Physical Photos
 
-<Tabs queryString="Physical Photos">
-<TableItem  value="ZERO 3W">
+<Tabs queryString="model">
+<TabItem  value="zero-3w" label="ZERO 3W">
 
 - **Radxa ZERO 3W**
   ![ZERO 3W Overview](/img/zero/zero3/radxa_zero_3w.webp)
 
-</TableItem>
+</TabItem>
 
-<TableItem value="ZERO 3E">
+<TabItem value="zero-3e" label="ZERO 3E">
 
 - **Radxa ZERO 3E**
 
   ![ZERO 3E Overview](/img/zero/zero3/radxa_zero_3e.webp)
 
-</TableItem>
+</TabItem>
 </Tabs>
 ### Chip Block Diagram
 
@@ -99,22 +99,22 @@ sidebar_position: 5
 
 ### System block diagram
 
-<Tabs queryString="System block diagram">
-<TableItem value="ZERO 3W">
+<Tabs queryString="model">
+<TabItem value="zero-3w" label="ZERO 3W">
 
 - **Radxa ZERO 3W**
 
 ![zero-3w-interface-overview](/img/zero/zero3/zero-3w-interface-overview.webp)
 
-</TableItem>
+</TabItem>
 
-<TableItem value="ZERO 3E">
+<TabItem value="zero-3e" label="ZERO 3E">
 
 - **Radxa ZERO 3E**
 
 ![zero-3e-interface-overview](/img/zero/zero3/zero-3e-interface-overview.webp)
 
-</TableItem>
+</TabItem>
 
 </Tabs>
 
