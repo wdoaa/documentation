@@ -11,12 +11,12 @@ sidebar_position: 4
 <Tabs queryString="camera">
 <TabItem value="ZERO 3W">
 
-![zero-3w-interface-overview](/img/zero/zero3w/zero-3w-interface-overview.webp)
+![zero-3w-interface-overview](/img/zero/zero3/zero-3w-interface-overview.webp)
 
 </TabItem>
 <TabItem value="ZERO 3E">
 
-![zero-3e-interface-overview](/img/zero/zero3w/zero-3e-interface-overview.webp)
+![zero-3e-interface-overview](/img/zero/zero3/zero-3e-interface-overview.webp)
 
 </TabItem>
 </Tabs>

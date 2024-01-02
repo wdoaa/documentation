@@ -12,12 +12,22 @@ sidebar_position: 5
 
 ### Physical Photos
 
+<Tabs>
+<TableItem  value="ZERO 3W">
+
 - **Radxa ZERO 3W**
-  ![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
+  ![ZERO 3W Overview](/img/zero/zero3/radxa_zero_3w.webp)
+
+</TableItem>
+
+<TableItem value="ZERO 3E">
 
 - **Radxa ZERO 3E**
-  ![ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
 
+  ![ZERO 3E Overview](/img/zero/zero3/radxa_zero_3e.webp)
+
+</TableItem>
+</Tabs>
 ### Chip Block Diagram
 
 ![RK3566 block diagram](/img/rock3/rk3566_block_diagram.webp)
@@ -89,9 +99,24 @@ sidebar_position: 5
 
 ### System block diagram
 
+<Tabs>
+<TableItem value="ZERO 3W">
+
 - **Radxa ZERO 3W**
 
-![zero-3w-interface-overview](/img/zero/zero3w/zero-3w-interface-overview.webp)
+![zero-3w-interface-overview](/img/zero/zero3/zero-3w-interface-overview.webp)
+
+</TableItem>
+
+<TableItem value="ZERO 3E">
+
+- **Radxa ZERO 3E**
+
+![zero-3e-interface-overview](/img/zero/zero3/zero-3e-interface-overview.webp)
+
+</TableItem>
+
+</Tabs>
 
 ### Documentation guidelines
 

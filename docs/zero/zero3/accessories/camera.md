@@ -8,9 +8,9 @@ sidebar_position: 20
 
 Radxa ZERO 3 拥有一个22 PIN 的CSI 接口,接口定义如下:
 
-![zero3w csi1](/img/zero/zero3w/zero3w-csi1.webp)
+![zero3w csi1](/img/zero/zero3/zero3w-csi1.webp)
 
-![zero3w csi](/img/zero/zero3w/zero3w-csi.webp)
+![zero3w csi](/img/zero/zero3/zero3w-csi.webp)
 
 目前支持的摄像头有:
 
@@ -28,7 +28,7 @@ Radxa ZERO 3 拥有一个22 PIN 的CSI 接口,接口定义如下:
 sudo rsetup
 ```
 
-![zero3w camera1](/img/zero/zero3w/zero3w-camera1.webp)
+![zero3w camera1](/img/zero/zero3/zero3w-camera1.webp)
 
 确认之后重启生效
 
@@ -40,7 +40,7 @@ sudo rsetup
 请注意 camera 排线的接口朝向！
 :::
 
-![zero3w camera2](/img/zero/zero3w/zero3w-camera2.webp)
+![zero3w camera2](/img/zero/zero3/zero3w-camera2.webp)
 
 ### 图像预览
 
@@ -57,7 +57,7 @@ sudo apt install cheese
 sudo cheese
 ```
 
-![zero3w camera3](/img/zero/zero3w/zero3w-camera3.webp)
+![zero3w camera3](/img/zero/zero3/zero3w-camera3.webp)
 
 也可以使用指令拍照：
 
@@ -65,7 +65,7 @@ sudo cheese
 gst-launch-1.0 v4l2src device=/dev/video0 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! jpegenc ! multifilesink location=/home/radxa/test.jpg
 ```
 
-![zero3w camera4](/img/zero/zero3w/zero3w-camera4.webp)
+![zero3w camera4](/img/zero/zero3/zero3w-camera4.webp)
 
 执行指令，开始读秒后按下 `Ctrl + C`即可拍照, 照片路径为 `/home/radxa/test.jpg`
 

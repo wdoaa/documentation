@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Radxa ZERO 3W 板载AP6212 WiFi&BT模块, 有一个板载天线和一个外接天线座子, 默认使用板载天线, 可以通过overlay自由选择使用板载天线或外接天线。
 
-![zero3w antenna1 ](/img/zero/zero3w/zero3w-antenna1.webp)
+![zero3w antenna1 ](/img/zero/zero3/zero3w-antenna1.webp)
 
 - **1: 板载天线**
 - **2: 外接天线**
@@ -19,4 +19,4 @@ Radxa ZERO 3W 板载AP6212 WiFi&BT模块, 有一个板载天线和一个外接�
 sudo rsetup
 ```
 
-![zero3w antenna2 ](/img/zero/zero3w/zero3w-antenna2.webp)
+![zero3w antenna2 ](/img/zero/zero3/zero3w-antenna2.webp)

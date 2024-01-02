@@ -13,7 +13,7 @@ sidebar_position: 1
 <Tabs queryString="maskrom">
 <TabItem value="ZERO 3W">
 
-![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
+![ZERO 3W Overview](/img/zero/zero3/radxa_zero_3w.webp)
 
 How to enter Maskrom mode on Radxa ZERO 3W
 
@@ -24,7 +24,7 @@ How to enter Maskrom mode on Radxa ZERO 3W
 </TabItem>
 <TabItem value="ZERO 3E">
 
-![ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
+![ZERO 3E Overview](/img/zero/zero3/radxa_zero_3e.webp)
 
 How to enter Maskrom mode on Radxa ZERO 3E
 

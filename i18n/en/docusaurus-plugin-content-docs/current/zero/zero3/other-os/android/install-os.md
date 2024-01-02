@@ -4,63 +4,102 @@ sidebar_position: 2
 
 # System installation
 
-Radxa ZERO 3 currently provides Debian OS system
-
-## Preparation
+Introduces how to install Android os on ZERO 3
 
 ## Image download
 
 Please go to [Resource Download Summary](/zero/zero3/other-os/android/download.md) to download the corresponding image file
 
-## System Flashing
+## Install OS 
 
-There are two ways to flash image on SD card. Use Etcher or Win32DiskImager. You can choose one of them.
+There are two main methods to install the operating system depends on where you want board to boot from.
 
-### Flash the operating system image to microSD
+**Boot from SD Card** (**recommended**)
 
-<Tabs queryString="target">
-   <TabItem value="via Etcher" label="Etcher">
+- Install the system image to a MicroSD card via a card reader
 
-#### Flash the operating system image to microSD via Etcher
+**Boot from eMMC OnBoard**
 
-1. [Download](https://etcher.balena.io/) Flash tool `Etcher`.
+- Using a USB cable to write the system image directly to eMMC.
+
+:::caution Note
+If the board doesn't come with eMMC, you can't boot from eMMC, such as Radxa ZERO 3E.
+:::
+
+<Tabs>
+<TableItem value="Install System On microSD">
+
+### Install On microSD
+
+#### Preparation
+
+- 1x microSD （Capacity size >= 8GB）
+- 1x SD Reader
+- 1x 5V Power Supply (Radxa Recommended [Radxa Power PD30W](/accessories/pd_30w))
+
+#### Install the operating system image on microSD
+
+1. Insert SD card into SDcard reader, and then insert SDcard Reader into PC's USB Port
+
+2. [Download](https://etcher.balena.io/) Flash tool `Etcher`.
    ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
 
-2. Open Etcher and flash the prepared operating system image to the microSD card. In the Etcher window, click `Flash from file` to select the operating system image you just downloaded.
+3. Open Etcher and flash the prepared operating system image to the microSD card. In the Etcher window, click `Flash from file` to select the operating system image you just downloaded.
    ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
 
-3. In the Etcher window, click `Select target`.
+4. In the Etcher window, click `Select target`.
    ![ROCK5A via Etcher 03](/img/rock5a/rock5a-etcher-2.webp)
 
-4. In the Etcher window, click `Flash!` and wait for the flash progress bar to flash.
+5. In the Etcher window, click `Flash!` and wait for the flash progress bar to flash.
    ![ROCK5A via Etcher 04](/img/rock5a/rock5a-etcher-3.webp)
 
-5. In the Etcher window, `Flash Complete!` will be displayed when the flash is successful.
+6. In the Etcher window, `Flash Complete!` will be displayed when the flash is successful.
    ![ROCK5A via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
 
 **If there is an error in flashing, please try again. **
 
-</TabItem>
+</TableItem>
 
-   <TabItem value="Via Win32DiskImager" label="Win32DiskImager">
+<TableItem value="Install OS on eMMC OnBoard">
 
-#### Flash the operating system image to microSD via Win32DiskImager
+### Install OS on eMMC OnBoard
 
-1. [Download](https://win32diskimager.org/) Flash tool `Win32DiskImager`
-   ![ROCK5A via Win32DiskImager 01](/img/rock5a/rock5a-win32.webp)
+#### Preparation
 
-2. Open Win32DiskImager
-   ![ROCK5A via Win32DiskImager 02](/img/rock5a/rock5a-win32-1.webp)
+1. 1x USB Cable with one end USB C and one end USB A.
 
-3. Click the folder icon button and select the image you want to flash
-   ![ROCK5A via Win32DiskImager 03](/img/rock5a/rock5a-win32-2.webp)
+<img src="/img/common/usb-cable-usb-a-usb-c.webp" width = "400" alt="USB Cable"/>
 
-4. After completing the above operations, click the `Write` button to start flashing the image, and then wait for the writing of the image to complete.
-   ![ROCK5A via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)
+2. Press the Maskrom Key, and then connect the ZERO 3W's OTG Type C port to the PC's USB port, then release the Maskrom Key.
+   ![zero3w](/img/zero/zero3/radxa_zero_3w.webp)
 
-</TabItem>
+#### My PC is Windows
+
+&emsp;[rkdevtool](/general-tutorial/rksdk/rkdevtool)
+
+#### My PC is Linux / macOS
+
+&emsp;[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+
+&emsp;[upgrade_tool](general-tutorial/rksdk/upgrade_tool)(Install OS on Multiple devices at the same time)
+
+</TableItem>
 </Tabs>
 
 ## Boot the system
 
-## Reference
+#### Boot from SDcard 
+
+- Insert the SDCard (System OS inside) on the board's sdcard slot, and power the board via 
+  [USB 2.0 OTG Type C port](/zero/zero3/hardware-design/hardware-interface.md). Then board will start up with the led blink. 
+
+#### Boot from eMMC 
+
+- Power the board via [USB 2.0 OTG Type C port](/zero/zero3/hardware-design/hardware-interface.md). Then board will start up with the led blink. 
+
+:::tip
+Radxa ZERO 3 only supports `5V` power supply.Radxa Recommended [Radxa Power PD30W](/accessories/pd_30w).
+:::
+
+## FAQ
+
