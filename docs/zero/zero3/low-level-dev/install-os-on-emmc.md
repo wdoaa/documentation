@@ -15,8 +15,8 @@ sidebar_position: 1
 
 ## 进入 Maskrom 模式
 
-<Tabs queryString="maskrom">
-<TabItem value="ZERO 3W">
+<Tabs queryString="model">
+<TabItem value="zero-3w" label="ZERO 3W">
 
 ![ZERO 3W Overview](/img/zero/zero3/radxa_zero_3w.webp)
 
@@ -27,7 +27,7 @@ Radxa ZERO 3W 进入 Maskrom 模式的方法
 3. 通过 USB-A 转 USB-C 线连接PC 主机的 USB，如果电源绿灯常亮则成功进入 Maskrom 模式
 
 </TabItem>
-<TabItem value="ZERO 3E">
+<TabItem value="zero-3e" label="ZERO 3E">
 
 ![ZERO 3E Overview](/img/zero/zero3/radxa_zero_3e.webp)
 

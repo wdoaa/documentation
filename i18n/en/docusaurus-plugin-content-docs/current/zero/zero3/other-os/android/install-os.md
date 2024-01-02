@@ -26,8 +26,8 @@ There are two main methods to install the operating system depends on where you 
 If the board doesn't come with eMMC, you can't boot from eMMC, such as Radxa ZERO 3E.
 :::
 
-<Tabs queryString="Install OS">
-<TableItem value="Install OS On microSD Card">
+<Tabs queryString="install-method">
+<TabItem value="install-os-on-microsd-card" label="Install OS on microSD card">
 
 ### Install OS On microSD Card
 
@@ -59,9 +59,9 @@ If the board doesn't come with eMMC, you can't boot from eMMC, such as Radxa ZER
 
 **If there is an error in flashing, please try again. **
 
-</TableItem>
+</TabItem>
 
-<TableItem value="Install OS on eMMC OnBoard">
+<TabItem value="install-os-on-emmc-onboard" label="Install OS on eMMC onboard">
 
 ### Install OS on eMMC OnBoard
 
@@ -88,7 +88,7 @@ Press the [Maskrom Button](/zero/zero3/hardware-design/hardware-interface.md), a
 
 &emsp;[Install OS via upgrade_tool](general-tutorial/rksdk/upgrade_tool)(Install OS on Multiple devices at the same time)
 
-</TableItem>
+</TabItem>
 </Tabs>
 
 ## Boot the system

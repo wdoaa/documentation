@@ -10,8 +10,8 @@ sidebar_position: 1
 
 ## Enter Maskrom Mode
 
-<Tabs queryString="maskrom">
-<TabItem value="ZERO 3W">
+<Tabs queryString="model">
+<TabItem value="zero-3w" label="ZERO 3W">
 
 ![ZERO 3W Overview](/img/zero/zero3/radxa_zero_3w.webp)
 
@@ -22,7 +22,7 @@ How to enter Maskrom mode on Radxa ZERO 3W
 3. Connect the USB of PC host via USB-A to USB-C cable, if the green light of the power supply is always on, it will enter the Maskrom mode successfully
 
 </TabItem>
-<TabItem value="ZERO 3E">
+<TabItem value="zero-3e" label="ZERO 3E">
 
 ![ZERO 3E Overview](/img/zero/zero3/radxa_zero_3e.webp)
 
