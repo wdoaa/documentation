@@ -18,22 +18,10 @@ Please go to [Resource Download Summary](/zero/zero3/getting-started/download.md
 
 ## Install System
 
-1. Insert microSD card into SD card reader, and then insert SD card Reader into PC's USB Port
+Balena Etcher is a cross-platform and user friendly image file burning tool that we recommend you use.
+If you use Windows and are more familiar with [Win32DiskImager](https://win32diskimager.org) or [Rufus](https://github.com/pbatard/rufus), you can use them as well.
 
-2. [Download](https://etcher.balena.io/) Flash tool `Etcher`.
-   ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
-
-3. Open Etcher and flash the prepared operating system image to the microSD card. In the Etcher window, click `Flash from file` to select the operating system image you just downloaded.
-   ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
-
-4. In the Etcher window, click `Select target`.
-   ![ROCK5A via Etcher 03](/img/rock5a/rock5a-etcher-2.webp)
-
-5. In the Etcher window, click `Flash!` and wait for the flash progress bar to flash.
-   ![ROCK5A via Etcher 04](/img/rock5a/rock5a-etcher-3.webp)
-
-6. In the Etcher window, `Flash Complete!` will be displayed when the flash is successful.
-   ![ROCK5A via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
+<Ether model="zero3" />
 
 **If there is an error in flashing, please try again. **
 
