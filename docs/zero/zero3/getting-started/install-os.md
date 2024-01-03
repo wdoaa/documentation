@@ -10,30 +10,18 @@ import Ether from '../../../common/general/\_etcher.mdx'
 
 - 1x microSD 卡(容量 >=8GB)
 - 1x microSD 读卡器
-- 5V 电源适配器 (推荐使用 [Radxa Power PD30W](/accessories/pd_30w))
+- 5V 电源适配器 (推荐使用 [Radxa Power PD30W](../accessories/pd-30w))
 
 ## 镜像下载
 
 请到 [资源下载汇总](/zero/zero3/getting-started/download.md) 下载对应的镜像文件
 
-## 系统安装
+## 安装系统
 
-1. 将 microSD 卡插入到读卡器中，然后将读卡器插到 PC 的usb口中
+Balena Etcher 是一个跨平台且，用户界面友好的镜像文件烧写工具，我们推荐你使用它。
+如果你使用 Windows，并且对 [Win32DiskImager](https://win32diskimager.org) 或 [Rufus](https://github.com/pbatard/rufus) 更熟悉，你也可以使用它们。
 
-2. [下载](https://etcher.balena.io/)刷写工具 `Etcher`。  
-   ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
-
-3. 打开 Etcher，将准备的操作系统镜像刷写到 microSD 卡。在 Etcher 窗口中，单击 `Flash from file` 选择刚下载的操作系统镜像。  
-   ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
-
-4. 在 Etcher 窗口中，点击 `Select target`。  
-   ![ROCK5A via Etcher 03](/img/rock5a/rock5a-etcher-2.webp)
-
-5. 在 Etcher 窗口中，点击 `Flash!` 然后等待刷写进度条。  
-   ![ROCK5A via Etcher 04](/img/rock5a/rock5a-etcher-3.webp)
-
-6. 在 Etcher 窗口中，当刷写成功时将会显示 `Flash Complete!`  
-   ![ROCK5A via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
+<Ether model="zero3" />
 
 **如果刷写操作系统镜像错误, 请手动再试一次。**
 
