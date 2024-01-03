@@ -1,7 +1,7 @@
 ---
 title: "驱动安装"
 description: "Radxa X2L 驱动下载"
-sidebar_position: 1
+sidebar_position: 30
 slug: /x/x2l/driver
 ---
 
