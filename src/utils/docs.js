@@ -27,7 +27,7 @@ const Image = ({ src, alt, width, height, ...rest }) => {
   if (match) {
     let capture = match[1];
     let file1 = src.replace(`#${capture}#`, rest[capture]);
-    let file2 = src.replace(`#${capture}#`, rest["common"]);
+    let file2 = src.replace(`#${capture}#`, rest["fallback"]);
     _src = fallback(file1, file2);
   }
   return <img src={_src} alt={_alt} width={width} height={height} />;
