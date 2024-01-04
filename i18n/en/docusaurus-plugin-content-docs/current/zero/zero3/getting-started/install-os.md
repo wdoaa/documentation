@@ -18,12 +18,7 @@ Please go to [Resource Download Summary](/zero/zero3/getting-started/download.md
 
 ## Install System
 
-Balena Etcher is a cross-platform and user friendly image file burning tool that we recommend you use.
-If you use Windows and are more familiar with [Win32DiskImager](https://win32diskimager.org) or [Rufus](https://github.com/pbatard/rufus), you can use them as well.
-
 <Ether model="zero3" />
-
-**If there is an error in flashing, please try again. **
 
 ## Boot the system
 
