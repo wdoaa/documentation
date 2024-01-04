@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Radxa ZERO 3
+# ZERO 3
 
 ## Product Description
 
