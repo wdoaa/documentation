@@ -60,7 +60,7 @@ ROCK 4C+ 支持千兆以太网。
 
 - USB 转 TTL 串口线
 
-该线缆用于 [串口调试](/general-tutorial/serial).
+该线缆用于 [串口调试](../low-level-dev/serial).
 
 - 摄像头
 

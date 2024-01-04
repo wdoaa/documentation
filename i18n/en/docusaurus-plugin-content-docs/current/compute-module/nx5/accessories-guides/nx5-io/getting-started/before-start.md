@@ -111,7 +111,7 @@ root@rock-nx5-io:/home/rock#
 
 #### serial port access
 
-- [serial port access](/general-tutorial/serial)
+- [serial port access](../../../low-level-dev/serial)
 
 #### SSH access
 

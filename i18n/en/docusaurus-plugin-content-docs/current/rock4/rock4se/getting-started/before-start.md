@@ -60,7 +60,7 @@ This is needed for fastboot/adb commands and the maskrom mode for advanced flash
 
 - USB to TTL serial cable
 
-This is needed for [serial console](/general-tutorial/serial).
+This is needed for [serial console](../low-level-dev/serial).
 
 - Camera Module
 

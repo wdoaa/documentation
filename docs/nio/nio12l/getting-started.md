@@ -34,7 +34,7 @@ NIO 12L 包装清单包含以下：
   将镜像刷写到板子上。
 
 - USB 转 TTL 串口线:  
-  用于[串口调试](/general-tutorial/serial), 串口波特率为921600。
+  用于[串口调试](./low-level-dev/serial), 串口波特率为921600。
 
 - 摄像头  
   支持MIPI CSI摄像头。

@@ -36,7 +36,7 @@ sidebar_position: 5
   用于 `fastboot`/`adb` 命令和 maskrom 模式通信。
 
 - USB 转 TTL 串口线:  
-  用于[串口调试](/general-tutorial/serial)。
+  用于[串口调试](../low-level-dev/serial)。
 
 - 以太网线、PCIE 接口的 wifi 模块
   Radxa CM5 IO 支持 Wi-Fi 或以太网连接。

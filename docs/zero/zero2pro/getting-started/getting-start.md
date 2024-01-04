@@ -35,7 +35,7 @@ sidebar_position: 5
   用于 `fastboot`/`adb` 命令和 maskrom 模式通信，线刷时需要使用到此配件。
 
 - USB 转 TTL 串口线:  
-  用于[串口调试](/general-tutorial/serial)。
+  用于[串口调试](../low-level-dev/serial)。
 
 - 音频线  
   可通过扬声器或标准 3.5 毫米插孔的耳机播放音频。

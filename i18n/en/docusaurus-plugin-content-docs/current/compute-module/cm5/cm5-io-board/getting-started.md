@@ -36,7 +36,7 @@ We will introduce the board information as much as possible.
   This is needed for fastboot/adb commands and the maskrom mode for advanced flashing.
 
 - USB to TTL serial cable:  
-  This is needed for [serial console](/general-tutorial/serial).
+  This is needed for [serial console](../low-level-dev/serial).
 
 - Ethernet cable, PCIE interface wifi module
   Radxa CM5 IO supports Internet access via WIFI or Ethernet.  

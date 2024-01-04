@@ -90,7 +90,7 @@ sidebar_position: 1
 ### Optional
 
 - USB to TTL serial cable.
-  For [Serial Debugging](/general-tutorial/serial),serial port baud rate is 921600.
+  For [Serial Debugging](./low-level-dev/serial),serial port baud rate is 921600.
 
 - Camera
   Support MIPI CSI camera.
