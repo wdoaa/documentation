@@ -18,12 +18,7 @@ import Ether from '../../../common/general/\_etcher.mdx'
 
 ## 安装系统
 
-Balena Etcher 是一个跨平台且，用户界面友好的镜像文件烧写工具，我们推荐你使用它。
-如果你使用 Windows，并且对 [Win32DiskImager](https://win32diskimager.org) 或 [Rufus](https://github.com/pbatard/rufus) 更熟悉，你也可以使用它们。
-
 <Ether model="zero3" />
-
-**如果刷写操作系统镜像错误, 请手动再试一次。**
 
 ## 启动系统
 
