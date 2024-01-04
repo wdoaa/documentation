@@ -36,7 +36,7 @@ We will cover as much information as possible.
   Used for `fastboot`/`adb` command and maskrom mode communication, this accessory is required for wire brushing.
 
 - USB to TTL serial cable.  
-  Used for [serial debugging](/general-tutorial/serial).
+  Used for [serial debugging](../low-level-dev/serial).
 
 - Audio cable  
   Audio can be played through speakers or headphones with a standard 3.5 mm jack.
