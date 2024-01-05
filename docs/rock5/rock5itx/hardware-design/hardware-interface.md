@@ -7,8 +7,8 @@ sidebar_position: 4
 ## 接口总览
 
 - **ROCK 5 ITX**
-  ![ROCK 5 ITX TOP Overview](/img/rock5itx/ROCK-5-ITX-TOP.webp)
-  ![ROCK 5 ITX BUTTON Overview](/img/rock5itx/ROCK-5-ITX-BOTTON.webp)
+  ![ROCK 5 ITX TOP Overview](/img/rock5itx/rock5itx-top.webp)
+  ![ROCK 5 ITX BUTTON Overview](/img/rock5itx/rock5itx-button.webp)
 
 ## 接口说明
 
