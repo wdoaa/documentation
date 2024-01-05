@@ -34,13 +34,25 @@ import { Section, Image } from "@site/src/utils/docs";
 
 如下所示连接 USB 转 TTL 串口线：
 
-| Radxa SBC       | 连接  | 串口线 |
-| --------------- | ----- | ------ |
-| **GND** (pin 6) | <---> | 黑色线 |
-| **TX** (pin 8)  | <---> | 白色线 |
-| **RX** (pin 10) | <---> | 绿色线 |
+<Section compatible="^rock5itx" model={props.model}>
 
-{" "}
+| Radxa SBC       | 连接        | 串口线 |
+| --------------- | ----------- | ------ |
+| **GND** (pin 6) | &lt;---&gt; | 黑色线 |
+| **TX** (pin 8)  | &lt;---&gt; | 白色线 |
+| **RX** (pin 10) | &lt;---&gt; | 绿色线 |
+
+</Section>
+
+<Section compatible="rock5itx" model={props.model}>
+
+| Radxa SBC       | 连接        | 串口线 |
+| --------------- | ----------- | ------ |
+| **GND** (pin 1) | &lt;---&gt; | 黑色线 |
+| **TX** (pin 2)  | &lt;---&gt; | 白色线 |
+| **RX** (pin 3)  | &lt;---&gt; | 绿色线 |
+
+</Section>
 
 <Image
   src="/img/accessories/#model#-1000px-Serial-connection.webp"
