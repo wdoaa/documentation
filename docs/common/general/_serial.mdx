@@ -1,4 +1,4 @@
-import { Section } from "@site/src/utils/docs";
+import { Section, Image } from "@site/src/utils/docs";
 
 瑞莎的绝大多数产品将 GPIO 引脚上的第 8 (TX)、第 10 (RX) 引脚定义为 UART 串口通信接口，以方便排查系统早期启动阶段的问题。
 
@@ -40,7 +40,13 @@ import { Section } from "@site/src/utils/docs";
 | **TX** (pin 8)  | <---> | 白色线 |
 | **RX** (pin 10) | <---> | 绿色线 |
 
-![USB to TTL connected](/img/accessories/1000px-Serial-connection.webp)
+{" "}
+
+<Image
+  src="/img/accessories/#model#-1000px-Serial-connection.webp"
+  model={props.model}
+  fallback="rock5a"
+/>
 
 :::danger
 
