@@ -2,8 +2,13 @@ import React from "react";
 
 const Section = ({ compatible, children, ...rest }) => {
   const item = rest["model"] || rest["platform"];
-  const eq = (elem) => elem.trim() == item;
-  if (!compatible.split(",").some(eq)) {
+  const words = compatible.split(",").map((x) => x.trim());
+  const _in = words.filter((x) => !x.startsWith("^"));
+  const _out = words.filter((x) => x.startsWith("^"));
+  if (_in.length != 0 && !_in.some((x) => x == item)) {
+    children = "";
+  }
+  if (_out.length != 0 && _out.some((x) => x == `^${item}`)) {
     children = "";
   }
   return <>{children}</>;
