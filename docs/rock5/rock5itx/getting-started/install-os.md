@@ -16,26 +16,9 @@ import Ether from '../../../common/general/\_etcher.mdx'
 
 请到 [资源下载汇总](/rock5/rock5itx/getting-started/download.md) 下载对应的镜像文件
 
-## 系统安装
+## 安装系统
 
-1. 将 microSD 卡插入到读卡器中，然后将读卡器插到 PC 的usb口中
-
-2. [下载](https://etcher.balena.io/)刷写工具 `Etcher`。  
-   ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
-
-3. 打开 Etcher，将准备的操作系统镜像刷写到 microSD 卡。在 Etcher 窗口中，单击 `Flash from file` 选择刚下载的操作系统镜像。  
-   ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
-
-4. 在 Etcher 窗口中，点击 `Select target`。  
-   ![ROCK5A via Etcher 03](/img/rock5a/rock5a-etcher-2.webp)
-
-5. 在 Etcher 窗口中，点击 `Flash!` 然后等待刷写进度条。  
-   ![ROCK5A via Etcher 04](/img/rock5a/rock5a-etcher-3.webp)
-
-6. 在 Etcher 窗口中，当刷写成功时将会显示 `Flash Complete!`  
-   ![ROCK5A via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
-
-**如果刷写操作系统镜像错误, 请手动再试一次。**
+<Ether model="rock5itx" />
 
 ## 启动系统
 
