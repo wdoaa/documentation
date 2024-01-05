@@ -2,6 +2,8 @@
 sidebar_position: 15
 ---
 
+import Serail from "../../../common/general/\_serial.mdx"
+
 # 瑞莎系统
 
 主要介绍 Radxa Debian 系统的基本使用方法，帮助你快速了解常用的系统的配置。
@@ -17,31 +19,7 @@ Radxa ZERO 3 系列默认添加的用户名和密码为：
 
 ## 串口登录
 
-Radxa ZREO 3 系列均配备 40PIN 排针接口，在40 PIN 排针接口上默认开启了系统串口调试。
-
-:::tip
-默认的串口调试波特率为 `1500000n8，无流量控制`,请确保使用的 USB 转 TTL 串口线支持 1.5M 波特率
-:::
-
-![USB to TTL](/img/accessories/600px-Usb2ttl-cable-definition.webp)
-
-- 接线方法
-
-如下所示连接 USB 转 TTL 串口线：
-
-| Radxa SBC       | 连接  | 串口线 |
-| --------------- | ----- | ------ |
-| **GND** (pin 6) | <---> | 黑色线 |
-| **TX** (pin 8)  | <---> | 白色线 |
-| **RX** (pin 10) | <---> | 绿色线 |
-
-![USB to TTL connected](/img/accessories/1000px-Serial-connection.webp)
-
-- 使用 [Mobaxterm](https://mobaxterm.mobatek.net/) 调试串口
-
-点击左上角的 `Session` 新建 Serial 连接，在 `Serial port` 处选择串口号， `Speed` 处填入 `1500000`, 点击 OK 后双击会话，输入密码后即可访问。
-
-![mobaxterm serial ](/img/zero/zero3/mobaxterm-serial.webp)
+<Serail platform="rk" />
 
 ## 设置网络
 

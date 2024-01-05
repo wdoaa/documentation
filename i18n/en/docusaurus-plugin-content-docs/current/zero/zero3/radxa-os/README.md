@@ -2,6 +2,8 @@
 sidebar_position: 15
 ---
 
+import Serail from "../../../common/general/\_serial.mdx"
+
 # Radxa OS
 
 Introduces system login, network connection, etc to let user to be familiar with the system quickly.
@@ -17,31 +19,7 @@ Password： radxa/rock
 
 ## Serial Debug
 
-The Radxa ZERO 3 series are equipped with a 40 PIN connector, on which the system serial debugging is enabled by default.
-
-:::tip
-The default baud rate for serial debugging is `1500000n8, no flow control`, please make sure the USB to TTL serial cable you use supports 1.5M baud rate.
-:::
-
-![USB to TTL](/img/accessories/600px-Usb2ttl-cable-definition.webp)
-
-- Wiring method
-
-Connect the USB to TTL serial cable as shown below:
-
-| Radxa SBC       | connect | serial cable |
-| --------------- | ------- | ------------ |
-| **GND** (pin 6) | <--->   | Black line   |
-| **TX** (pin 8)  | <--->   | White line   |
-| **RX** (pin 10) | <--->   | Green Line   |
-
-![USB to TTL connected](/img/accessories/1000px-Serial-connection.webp)
-
-- Use [Mobaxterm](https://mobaxterm.mobatek.net/) Debugging Serial Ports.
-
-Click `Session` in the upper left corner to create a new serial connection, select the serial port number in the `Serial port` field, enter `1500000` in the `Speed` field, click OK and then double-click on the session, enter the password and then you can access it.
-
-![mobaxterm serial ](/img/zero/zero3/mobaxterm-serial.webp)
+<Serail platform="rk" />
 
 ## Setting Network
 
