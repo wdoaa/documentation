@@ -1,3 +1,5 @@
+import { Section, Image } from "@site/src/utils/docs";
+
 Most of radxa's products define pins 8 (TX) and 10 (RX) on the GPIO pins as UART serial communication interfaces to make it easier to troubleshoot problems in the early startup phase of the system.
 
 ## USB to TTL serial cable
@@ -14,7 +16,11 @@ Connect the USB to TTL serial cable as below.
 | **TX** (pin 8)  | <--->   | White wire       |
 | **RX** (pin 10) | <--->   | Green wire       |
 
-![USB to TTL connected](/img/accessories/1000px-Serial-connection.webp)
+<Image
+  src="/img/accessories/#model#-1000px-Serial-connection.webp"
+  model={props.model}
+  fallback="rock5a"
+/>
 
 :::danger
 

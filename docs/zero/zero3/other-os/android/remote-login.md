@@ -2,59 +2,15 @@
 sidebar_position: 3
 ---
 
+import Serail from "../../../../common/general/\_serial.mdx"
+
 # 远程登录
 
 本章节旨在向需要通过个人电脑（PC）远程访问 SBC 的用户介绍如何通过串口、adb 等方式进行远程登录
 
 ## 串口登录
 
-串口登录是一种通过串口连接设备并登录设备后台的方式。
-Radxa ZERO 3 系列均配备 40-PIN 排针，并默认开启了串口终端
-
-:::tip
-默认的串口调试波特率为 `1500000n8，无流量控制`,请确保使用的 USB 转 TTL 串口线支持 1.5M 波特
-:::
-
-![USB to TTL](/img/accessories/600px-Usb2ttl-cable-definition.webp)
-
-- 接线方法
-
-如下所示连接 USB 转 TTL 串口线：
-
-| Radxa SBC       | 连接  | 串口线 |
-| --------------- | ----- | ------ |
-| **GND** (pin 6) | <---> | 黑色线 |
-| **TX** (pin 8)  | <---> | 白色线 |
-| **RX** (pin 10) | <---> | 绿色线 |
-
-![USB to TTL connected](/img/accessories/1000px-Serial-connection.webp)
-<Tabs queryString="target">
-<TabItem value="Windows" label="Windows">
-
-Windows 系统可以使用 [Mobaxterm](https://mobaxterm.mobatek.net/) 调试串口
-
-点击左上角的 `Session` 新建 Serial 连接，在 `Serial port` 处选择串口号， `Speed` 处填入 `1500000`, 点击 OK 后双击会话，输入密码后即可访问。
-
-![mobaxterm serial ](/img/zero/zero3/mobaxterm-serial.webp)
-</TabItem>
-<TabItem value="Ubuntu" label="Ubuntu">
-Ubuntu 系统可以使用 Mincom 串口工具调试
-
-```bash
-$ sudo apt-get update
-$ sudo apt-get install minicom
-```
-
-安装完成后，就可以开始配置和使用Minicom。
-首先，执行命令sudo minicom -s 打开minicom配置界面。
-
-在配置界面中，选择“Serial port setup”，按下回车键进入串口设置。
-
-选择save setup as dfl，可以将刚刚的修改作为默认配置，以后启动都按照这个配置启动。
-启动minicom，执行命令sudo minicom。
-
-</TabItem>
-</Tabs>
+<Serail platform="rk" />
 
 ## Adb 登录
 
