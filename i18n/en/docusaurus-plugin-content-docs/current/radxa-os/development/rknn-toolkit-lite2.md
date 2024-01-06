@@ -32,8 +32,9 @@ sudo apt install python3-rknnlite2-example
 :::info
 RKNN Toolkit Lite2 is mainly used for deploying RKNN models on Rockchip NPU.  
 Before using RKNN Toolkit Lite2, users need to convert the models exported by deep learning frameworks to RKNN models through RKNN Toolkit2.  
-The tutorial of using RKNN Toolkit2 can be found in [PC-based NPU model transformation and inference tutorial (RKNN Toolkit2)](/general-tutorial/rknn-toolkit2.md).
 :::
+
+<!-- The tutorial of using RKNN Toolkit2 can be found in [PC-based NPU model transformation and inference tutorial (RKNN Toolkit2)](/general-tutorial/rknn-toolkit2.md). -->
 
 ```bash
 cd /usr/share/python3-rknnlite2
