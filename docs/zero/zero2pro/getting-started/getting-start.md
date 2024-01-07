@@ -2,6 +2,8 @@
 sidebar_position: 5
 ---
 
+import Ether from '../../../common/general/\_etcher.mdx'
+
 # 新手入门
 
 本指南是为 瑞莎 ZERO 2 PRO 初级使用者编写，可以帮助您了解 瑞莎 ZERO 2 PRO 基本的准备和设置。
@@ -44,7 +46,9 @@ sidebar_position: 5
 
 首先，选择您要使用的[官方镜像](/zero/images)并下载。
 
-然后，参考[操作系统安装指南](/general-tutorial/os-installation)将镜像刷写到 microSD 卡中。
+然后，使用 Etcher 将镜像刷写到 microSD 卡中。
+
+<Ether model="zero2pro" />
 
 最后，将 microSD 卡插入主板上的插口，并通过 Type-C 电源适配器供电启动。
 

@@ -2,6 +2,8 @@
 sidebar_position: 5
 ---
 
+import Ether from '../../../common/general/\_etcher.mdx'
+
 # Getting Started
 
 This guide is written for Radxa ZERO 2 PRO beginners to help you understand the basic preparation and setup of Radxa ZERO 2 PRO.
@@ -45,7 +47,9 @@ We will cover as much information as possible.
 
 First, select the [official image](/zero/images) you want to use and download it.
 
-Then, refer to the [OS Installation Guide](/general-tutorial/os-installation) to flash the image to the microSD card.
+Then, use Etcher to flash the image to the microSD card.
+
+<Ether model="zero2pro" />
 
 Finally, insert the microSD card into the socket on the motherboard and boot up powered by the Type-C power adapter.
 
