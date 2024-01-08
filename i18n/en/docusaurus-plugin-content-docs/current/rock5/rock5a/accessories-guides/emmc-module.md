@@ -6,7 +6,7 @@ sidebar_position: 20
 
 Radxa eMMC Module is an embedded storage module with high performance and reliability in a ultra small form factor. With dual B2B (Board to Board) connector, Radxa eMMC module can be unplug and replaced without soldering, making data storage maintenance easy.
 
-How to write OS with emmc module, please refer to [Install OS to an eMMC Module](/general-tutorial/os-installation?target=eMMC+Module).
+How to write OS with emmc module, please refer to [Install OS to an eMMC Module](../getting-started/install-os?target=emmc-module).
 
 # How to use eMMC module on ROCK 5A
 

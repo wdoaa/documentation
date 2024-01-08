@@ -52,7 +52,7 @@ Radxa Zero 的功耗比较低，可以直接使用电脑USB供电，所以不再
 
 1. 选择您要使用的[官方镜像](/zero/images)并下载。
 
-2. 参考[操作系统安装指南](/general-tutorial/os-installation)将镜像刷写到存储介质(SD卡)中。
+2. 参考[操作系统安装指南](install-os)将镜像刷写到存储介质(SD卡)中。
 
 ### eMMC烧录
 

@@ -66,7 +66,7 @@ ROCK 3A 的 OTG 接口位于处于上方的 USB 3.0 接口，可通过 USB-A 转
 
 1. 选择您要使用的[官方镜像](/rock3/images)并下载。
 
-2. 参考[操作系统安装指南](/general-tutorial/os-installation)将镜像刷写到存储介质中。
+2. 参考[操作系统安装指南](install-os)将镜像刷写到存储介质中。
 
 3. 将系统存储介质：microSD 卡或 eMMC 模块插入主板上的插口，并通过 Type-C 电源适配器供电启动您的产品。
 

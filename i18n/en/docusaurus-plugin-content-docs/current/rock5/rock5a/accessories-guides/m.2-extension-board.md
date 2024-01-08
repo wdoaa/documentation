@@ -58,4 +58,4 @@ radxa@rock-5a:~$
 
 ## As a system drive
 
-1. Please check the tutorial [Install OS to M.2 NVMe SSD](/general-tutorial/os-installation)
+1. Please check the tutorial [Install OS to M.2 NVMe SSD](../getting-started/install-os)

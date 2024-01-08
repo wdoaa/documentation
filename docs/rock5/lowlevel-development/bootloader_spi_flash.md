@@ -142,7 +142,7 @@ ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模
 
 现在，您已经完成了烧录支持 NVMe 引导的引导加载程序。
 
-- 如果您没有在 NVMe SSD 烧录系统，请查看[安装镜像到 NVME](/general-tutorial/os-installation) 以进行烧录。
+- 如果您没有在 NVMe SSD 烧录系统，请查看[安装镜像到 NVMe](../rock5a/getting-started/install-os) 以进行烧录。
 - 如果您已经在 NVMe SSD 烧录了系统，请关闭 ROCK 5B 的电源，取出 µSD 卡或 eMMC 模块并重新通电。现在应该从 NVMe 启动
 
 </TabItem>

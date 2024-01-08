@@ -58,6 +58,6 @@ We will introduce the board information as much as possible.
 
 First, choose the [official image](/compute-module/images) that you want to flash and download it.
 
-Then, flash the image to the storage media by referring the [OS Installation guide](/general-tutorial/os-installation).
+Then, flash the image to the storage media by referring the [OS Installation guide](install-os).
 
 Finally, insert the system storage media: microSD card into the socket on the motherboard and start the Radxa CM5 IO by powering it through the DC power adapter, or if the image is burned in EMMC, the Radxa CM5 IO can be started by powering it directly.
