@@ -1,8 +1,5 @@
 ---
-title: "Heatsink 9010A"
-description: "Heatsink 9010A Installation"
-sidebar_position: 10
-slug: /x/x2l/accessories/heatsink-9010a
+sidebar_position: 15
 ---
 
 # Installation Guide for Radxa Heatsink 9010A

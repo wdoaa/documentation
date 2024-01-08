@@ -1,11 +1,8 @@
 ---
-title: "散热器 9010A"
-description: "Radxa X2L 散热片安装教程"
-sidebar_position: 10
-slug: /x/x2l/accessories/heatsink-9010a
+sidebar_position: 15
 ---
 
-# Radxa Heatsink 9010A 安装教程
+# 散热器 9010A 安装教程
 
 ![install_heatsink_01](/img/x/x2l/heatsink_9010a_01.webp)
 

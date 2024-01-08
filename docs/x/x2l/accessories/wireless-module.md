@@ -1,11 +1,8 @@
 ---
-title: "无线模块"
-description: "Radxa X2L 无线模块教程"
 sidebar_position: 10
-slug: /x/x2l/accessories/wireless-module
 ---
 
-# 无线模块安装
+# 无线模块安装教程
 
 ## Radxa Wireless Module A8 驱动安装
 

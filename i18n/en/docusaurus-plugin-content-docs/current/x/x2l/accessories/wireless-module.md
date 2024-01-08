@@ -1,8 +1,5 @@
 ---
-title: "Wireless Module"
-description: "Wireless Module"
 sidebar_position: 10
-slug: /x/x2l/accessories/wireless-module
 ---
 
 # Wireless Module Installation

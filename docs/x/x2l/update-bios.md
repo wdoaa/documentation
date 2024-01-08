@@ -1,5 +1,5 @@
 ---
-sidebar_position: 40
+sidebar_position: 20
 ---
 
 # 升级 BIOS

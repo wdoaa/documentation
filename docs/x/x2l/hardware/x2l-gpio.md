@@ -1,8 +1,5 @@
 ---
-title: "GPIO 使用"
-description: "GPIO 使用"
-sidebar_position: 10
-slug: /x/x2l/hardware/x2l-gpio
+sidebar_position: 15
 ---
 
 # GPIO 使用

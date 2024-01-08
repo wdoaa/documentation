@@ -1,8 +1,5 @@
 ---
-title: "GPIO Tutorials"
-description: "GPIO Tutorials"
 sidebar_position: 10
-slug: /x/x2l/hardware/x2l-gpio
 ---
 
 # GPIO Tutorials

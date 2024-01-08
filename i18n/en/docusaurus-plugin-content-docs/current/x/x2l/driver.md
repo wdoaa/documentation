@@ -1,8 +1,5 @@
 ---
-title: "Driver Installation"
-description: "Driver Installation"
-sidebar_position: 1
-slug: /x/x2l/driver
+sidebar_position: 15
 ---
 
 # Driver Installation
