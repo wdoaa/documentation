@@ -38,7 +38,7 @@ sidebar_position: 6
 推荐使用[瑞莎 PD 30W 适配器](/accessories/pd_30w)。
 :::
 
-- 已烧录对应产品官方最新固件的存储介质，烧录教程请参阅[操作系统安装教程](/general-tutorial/os-installation)
+- 已烧录对应产品官方最新固件的存储介质
 - USB 串口线或 HDMI 显示器及线缆
 
 ### 操作步骤
@@ -76,7 +76,7 @@ sidebar_position: 6
 推荐使用[瑞莎 PD 30W 适配器](/accessories/pd_30w)。
 :::
 
-- 已烧录对应产品官方最新固件的存储介质，烧录教程请参阅[操作系统安装教程](/general-tutorial/os-installation)
+- 已烧录对应产品官方最新固件的存储介质
 - USB 串口线或 HDMI 显示器及线缆
 
 ### 操作步骤

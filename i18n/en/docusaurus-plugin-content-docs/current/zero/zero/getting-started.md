@@ -39,7 +39,7 @@ sidebar_position: 1
 ### Flash image to microSD card
 
 1. Download the [offial image](/zero/images)。
-2. Refer to the [Operating System Installation Guide](/general-tutorial/os-installation) to overwrite the image to the storage media.
+2. Refer to the [Operating System Installation Guide](install-os) to overwrite the image to the storage media.
 
 ### Flash image to eMMC
 

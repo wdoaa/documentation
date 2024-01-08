@@ -38,7 +38,7 @@ The ROCK 5A is used here as a demonstration, and other boards operate in a simil
 Recommended [Radxa PD 30W Adapter](/accessories/pd_30w).
 :::
 
-- Storage media with the latest official software of the corresponding product, please refer to [OS Installation Tutorial](/general-tutorial/os-installation) for the flashing tutorial.
+- Storage media with the latest official software of the corresponding product.
 - USB to TTL serial cable or HDMI monitor and cable.
 
 ### Procedures
@@ -76,7 +76,7 @@ The ROCK 3C is used here as a demonstration, and other products operate in a sim
 Recommended [Radxa PD 30W Adapter](/accessories/pd_30w).
 :::
 
-- Storage media with the latest official software of the corresponding product, please refer to [OS Installation Tutorial](/general-tutorial/os-installation) for the flashing tutorial.
+- Storage media with the latest official software of the corresponding product.
 - USB to TTL serial cable or HDMI monitor and cable.
 
 ### Procedures

@@ -22,7 +22,7 @@ sidebar_position: 3
 
 1. Select the [Official Image](/rock3/images) you want to use and download it. 2.
 
-2. Refer to the [Operating System Installation Guide](/general-tutorial/os-installation) to overwrite the image to the storage media.
+2. Refer to the [Operating System Installation Guide](install-os) to overwrite the image to the storage media.
 
 3. Insert the system storage media: microSD card or eMMC module into the socket on the board and boot your product powered by the Type-C power adapter.
 

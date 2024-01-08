@@ -58,6 +58,6 @@ sidebar_position: 5
 
 首先，选择您要使用的[官方镜像](/compute-module/images)并下载。
 
-然后，参考[操作系统安装指南](/general-tutorial/os-installation)将镜像刷写到存储介质中。
+然后，参考[操作系统安装指南](install-os)将镜像刷写到存储介质中。
 
 最后，将系统存储介质：microSD 卡插入主板上的插口，通过 DC 电源适配器供电启动 Radxa CM5 IO，如果镜像烧录在EMMC中，直接供电即可启动 Radxa CM5 IO。

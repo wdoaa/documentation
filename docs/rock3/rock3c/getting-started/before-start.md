@@ -60,6 +60,6 @@ sidebar_position: 5
 
 首先，选择您要使用的[官方镜像](/rock3/images)并下载。
 
-然后，参考[操作系统安装指南](/general-tutorial/os-installation)将镜像刷写到存储介质中。
+然后，参考[操作系统安装指南](install-os)将镜像刷写到存储介质中。
 
 最后，将系统存储介质：microSD 卡或 eMMC 模块插入主板上的插口，并通过 Type-C 电源适配器供电启动 ROCK 3C。

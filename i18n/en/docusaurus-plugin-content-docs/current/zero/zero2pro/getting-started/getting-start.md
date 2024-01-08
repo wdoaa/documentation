@@ -137,7 +137,7 @@ Once the tool detects the Maskrom mode, you can click the `Select` button to sel
 
 The result of running is shown above.
 
-After that, your computer will recognise the Radxa ZERO 2 PRO as a USB storage device, and you just need to follow the instructions in the [OS Installation Guide](/general-tutorial/os-installation) to flash the system image into it, and then boot it up normally.
+After that, your computer will recognise the Radxa ZERO 2 PRO as a USB storage device, and you just need to follow the instructions in the [OS Installation Guide](install-os) to flash the system image into it, and then boot it up normally.
 
 </TabItem>
 <TabItem value="Linux/MacOS">
@@ -156,7 +156,7 @@ On Linux platforms, you will also need to add `sudo` for permissions:
   sudo boot-g12.py radxa-zero2-2pro-erase-emmc.bin
 ```
 
-After that, your computer will recognise the Radxa ZERO 2 PRO as a USB storage device, and you just need to follow the instructions in the [OS Installation Guide](/general-tutorial/os-installation) to flash the system image into it, and then boot it up normally.
+After that, your computer will recognise the Radxa ZERO 2 PRO as a USB storage device, and you just need to follow the instructions in the [OS Installation Guide](install-os) to flash the system image into it, and then boot it up normally.
 
 </TabItem>
 </Tabs>

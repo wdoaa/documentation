@@ -67,4 +67,4 @@ radxa@rock-5a:~$
 
 ## 系统启动
 
-1. 请查看教程 [Install OS to M.2 NVMe SSD](/general-tutorial/os-installation)
+1. 请查看教程 [Install OS to M.2 NVMe SSD](../getting-started/install-os)
