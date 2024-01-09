@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+import Loader from "../../common/general/\_loader.mdx"
+
 # upgrade_tool
 
 upgrade_tool is the software developed by Rockchip for USB flashing on Linux platform.
@@ -46,7 +48,11 @@ sudo ./upgrade_tool db <loader>
 sudo ./upgrade_tool wl 0 <image>
 ```
 
-Links to download the Loader files used by some products can be found on the [Loader](Loader) page.
+Download links for the required Loader and Image files can be found below.
+
+### SPI U-Boot and Loader
+
+<Loader />
 
 ### Reboot device
 

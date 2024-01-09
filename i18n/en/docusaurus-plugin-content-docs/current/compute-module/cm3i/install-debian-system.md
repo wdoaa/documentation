@@ -3,8 +3,7 @@ sidebar_label: "Install Debian System"
 sidebar_position: 2
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Etcher from "../../common/general/\_etcher.mdx"
 
 # Install Debian System
 
@@ -24,43 +23,9 @@ There are two main startup ways for CM3I,boot from microSD and boot from eMMC, T
 
 ### Install System Image
 
-There are two main tools to install image on microSD card, you can choose one of them base on the actual situation.
-
-- Ethcher (Multi-platform)
-- Win32DiskImager (windows)
-
 #### Install System Image on microSD Card via Etcher
 
-1. [Download](https://etcher.balena.io/) flash tool `Etcher`
-   <img src="/img/rock5a/rock5a-etcher.webp" width = "700" alt="CM3I via Etcher 01"/>
-
-2. Open Etcher, Click `Flash from file` to select the OS image you prepared.
-   <img src="/img/rock5a/rock5a-etcher-1.webp" width = "700" alt="CM3I via Etcher 02"/>
-
-3. In the Etcher window, click on `Select target`.  
-   <img src="/img/rock5a/rock5a-etcher-2.webp" width = "700" alt="CM3I via Etcher 03"/>
-
-4. In the Etcher window, click on `Flash!` and wait for the progress bar to be painted.
-   <img src="/img/rock5a/rock5a-etcher-3.webp" width = "700" alt="CM3I via Etcher 04"/>
-
-5. In the Etcher window, `Flash Complete!` will show when the flashing is completed.
-   <img src="/img/rock5a/rock5a-etcher-4.webp" width = "700" alt="CM3I via Etcher 05"/>
-
-**If Install failed, please try again**
-
-#### Install System image on microSD Card via Win32DiskImager
-
-1. [Download](https://win32diskimager.org/) flash tool `Win32DiskImager`.
-   ![CM3I via Win32DiskImager 01](/img/rock5a/rock5a-win32.webp)
-
-2. Open Win32DiskImager.
-   ![CM3I via Win32DiskImager 02](/img/rock5a/rock5a-win32-1.webp)
-
-3. Click on the folder icon button and select the image to be flashed.
-   ![CM3I via Win32DiskImager 03](/img/rock5a/rock5a-win32-2.webp)
-
-4. Once you have done so, click the `Write` button to start writing the image and wait for the writing to be completed.
-   ![CM3I via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)
+<Etcher model="cm3i" />
 
 ## Install System image on eMMC
 
@@ -68,8 +33,8 @@ CM3I needs to Enter [Maskrom Mode ](/compute-module/cm3i/maskrom) before install
 
 ### Install System image
 
-<Tabs queryString="environment">
-<TabItem value="Linux">
+<Tabs queryString="os">
+<TabItem value="linux" label="Linux">
 
 #### rkdeveloptool
 
@@ -79,13 +44,13 @@ rkdeveloptool is a USB flashing software developed by Rockchip for Linux/macOS p
 
 If rockchip doesn't provide the Precompiled rkdeveloptool tools on your Operating System, you will need to compile it from source and then install it.
 
-<Tabs queryString="host_os">
-<TabItem value="Arch Linux">
+<Tabs queryString="host-os">
+<TabItem value="archlinux" label="Arch Linux">
 
 The rkdeveloptool can be installed from [AUR](https://aur.archlinux.org/packages/rkdeveloptool).
 
 </TabItem>
-<TabItem value="Debian">
+<TabItem value="debian" label="Debian">
 
 Execute the following command from the command line to install:
 
@@ -105,7 +70,7 @@ sudo cp rkdeveloptool /usr/local/sbin/
 
 </TabItem>
 
-<TabItem value="Ubuntu">
+<TabItem value="ubuntu" label="Ubuntu">
 
 Execute the following command from the command line to install:
 
@@ -118,7 +83,7 @@ If the command above failed, please refer to the debian to compile the source.
 
 </TabItem>
 
-<TabItem value="macOS">
+<TabItem value="macos" label="macOS">
 
 Please install [Homebrew](https://brew.sh/) first, then run the following command from the command line to install it:
 
@@ -165,7 +130,7 @@ sudo rkdeveloptool db <loader>
 sudo rkdeveloptool wl 0 <image>
 ```
 
-you can download [Loader](/general-tutorial/rksdk/loader) here.
+you can download [Loader](loader) here.
 
 ##### Reboot device
 
@@ -174,7 +139,7 @@ sudo rkdeveloptool rd
 ```
 
 </TabItem>
-<TabItem value="Windows">
+<TabItem value="windows" label="Windows">
 
 #### RKDevTool
 
@@ -222,19 +187,19 @@ If you need to write to multiple devices at the same time, use [upgrade_tool](/g
 If the image file is a compressed file (such as zip,xz,gz etc), please unzip it first.
 :::
 
-Click a blank cell to select the [Loader](/general-tutorial/rksdk/loader) and Image file to be used:
+Click a blank cell to select the [Loader](loader) and Image file to be used:
 
 ![RKDevTool zh choose](/img/configuration/rkdevtool-zh-choose.webp)
 
 Select the target media in the `Storage` option:
 
 <Tabs queryString="storage">
-<TabItem value="eMMC">
+<TabItem value="emmc" label="eMMC">
 
 ![RKDevTool zh storage](/img/configuration/rkdevtool-zh-storage.webp)
 
 </TabItem>
-<TabItem value="SPINOR">
+<TabItem value="spi" label="SPINOR">
 
 :::tip
 SPI Flash can only be burned into the corresponding U-BOOT. Please do not burn the image into SPI Flash.
@@ -265,4 +230,5 @@ If both SPI Flash and eMMC have boot images, you need to ensure that the Maskrom
 ### Unable to enter the system after flashing image
 
 1. Since there are two boot medias, SPI Flash and eMMC on CM3I, booting from SPI Flash is preferred by default. If the image in SPI Flash is damaged, the system will not start.
+
 2. The image may be flashed to SPI Flash by wrong operations when flashing the image. You can press and hold the Maskrom button of another boot medium before flashing. For example, if you want to flash an image to eMMC, press and hold the Maskrom Button (SPI Flash) before flashing, and release the button until the flashing begin.

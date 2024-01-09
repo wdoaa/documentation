@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+import Loader from "../../common/general/\_loader.mdx"
+
 # RKDevTool
 
 :::caution
@@ -58,7 +60,7 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 请首先将使用到的文件进行解压缩，并在 RKDevTool 中指定解压缩后的文件。
 :::
 
-点击空白单元格选择待使用的 [Loader](Loader) 和 Image 文件：
+点击空白单元格选择待使用的 Loader 和 Image 文件：
 
 ![RKDevTool zh choose](/img/configuration/rkdevtool-zh-choose.webp)
 
@@ -84,3 +86,9 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 等待写入完成，随后设备将自动重启：
 
 ![RKDevTool zh complete](/img/configuration/rkdevtool-zh-complete.webp)
+
+可以在下面找到所需的 Loader 和 Image 文件的下载链接。
+
+# SPI U-Boot 及 Loader
+
+<Loader />

@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+import Loader from "../../common/general/\_loader.mdx"
+
 # RKDevTool
 
 :::caution
@@ -58,7 +60,7 @@ RKDevTool does not automatically decompress compressed files when writing to the
 First extract the used files and specify the extracted files in the RKDevTool.
 :::
 
-Click a blank cell to select the [Loader](Loader) and Image file to be used:
+Click a blank cell to select the Loader and Image file to be used:
 
 ![RKDevTool choose](/img/configuration/rkdevtool-choose.webp)
 
@@ -84,3 +86,9 @@ Select `Write by Address` and click `run`:
 Wait for the write to complete, after which the device will reboot automatically:
 
 ![RKDevTool complete](/img/configuration/rkdevtool-complete.webp)
+
+Download links for the required Loader and Image files can be found below.
+
+### SPI U-Boot and Loader
+
+<Loader />
