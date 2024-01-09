@@ -26,7 +26,7 @@ This guide will instruct you how to put the Radxa CM5 into Maskrom mode for oper
    <TabItem value="Linux_MacOS">
 
    For Linux and MacOS, you can use rkdeveloptool and upgrade_tool.  
-   Please refer to [rkdeveloptool guide](/general-tutorial/rksdk/rkdeveloptool) and [upgrade_tool guide](/general-tutorial/rksdk/upgrade_tool) for installation and tutorial.
+   Please refer to [rkdeveloptool guide](/general-tutorial/rksdk/rkdeveloptool) and [upgrade_tool guide](../low-level-dev/upgrade-tool) for installation and tutorial.
 
    </TabItem>
    </Tabs>

@@ -10,7 +10,6 @@ Rockchip SDK 提供了为 Rockchip SoC 进行二次开发所需的软件资源�
 
 - [RKDevTool](rksdk/rkdevtool)：适用于 Windows
 - [rkdeveloptool](rksdk/rkdeveloptool)：适用于 Linux / macOS
-- [upgrade_tool](rksdk/upgrade_tool)：适用于 Linux
 
 ---
 
