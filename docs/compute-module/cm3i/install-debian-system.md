@@ -1,12 +1,11 @@
 ---
-sidebar_label: "Debian系统安装"
+sidebar_label: "Debian 系统安装"
 sidebar_position: 2
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Etcher from "../../common/general/\_etcher.mdx"
 
-# Debian系统安装
+# Debian 系统安装
 
 CM3I 主要有两种启动方式，从 microSD 卡启动和从 eMMC 启动，这里主要介绍安装系统到这两种介质的方法。
 
@@ -24,45 +23,9 @@ CM3I 主要有两种启动方式，从 microSD 卡启动和从 eMMC 启动，这
 
 ### 烧录镜像
 
-目前主要使用下面两种工具进行烧录, 你可以根据实际情况选择其中的一个
-
-- Etcher （跨平台）
-- Win32DiskImager （windows）
-
 #### 通过 Etcher 烧录镜像到 microSD 卡
 
-1. [下载](https://etcher.balena.io/)刷写工具 `Etcher`。
-   <img src="/img/rock5a/rock5a-etcher.webp" width = "700" alt="CM3I via Etcher 01"/>
-
-2. 打开 Etcher，在 Etcher 窗口中，单击 `Flash from file` 选择准备好的镜像。
-   <img src="/img/rock5a/rock5a-etcher-1.webp" width = "700" alt="CM3I via Etcher 02"/>
-
-3. 在 Etcher 窗口中，点击 `Select target`，选择要烧录的设备
-   <img src="/img/rock5a/rock5a-etcher-2.webp" width = "700" alt="CM3I via Etcher 03"/>
-
-4. 在 Etcher 窗口中，点击 `Flash` 然后等待刷写进度条。  
-   <img src="/img/rock5a/rock5a-etcher-3.webp" width = "700" alt="CM3I via Etcher 04"/>
-
-5. 在 Etcher 窗口中，当刷写成功时将会显示 `Flash Complete`。
-   <img src="/img/rock5a/rock5a-etcher-4.webp" width = "700" alt="CM3I via Etcher 05"/>
-
-**如果烧录失败，请重试。**
-
-#### 通过 Win32DiskImager 烧录镜像到 microSD 卡
-
-1. [下载](https://win32diskimager.org/)刷写工具 `Win32DiskImager`
-   ![CM3I via Win32DiskImager 01](/img/rock5a/rock5a-win32.webp)
-
-2. 打开 Win32DiskImager
-   ![CM3I via Win32DiskImager 02](/img/rock5a/rock5a-win32-1.webp)
-
-3. 点击文件夹图标按钮然后选择要刷写的镜像
-   ![CM3I via Win32DiskImager 03](/img/rock5a/rock5a-win32-2.webp)
-
-4. 完成上述操作后，单击 `写入` 按钮开始刷写镜像，然后等待写入镜像完成。
-   ![CM3I via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)
-
-<!-- end of the list -->
+<Etcher model="cm3i" />
 
 ## 安装系统到 eMMC
 
@@ -70,8 +33,8 @@ CM3I 主要有两种启动方式，从 microSD 卡启动和从 eMMC 启动，这
 
 ### 烧录镜像
 
-<Tabs queryString="environment">
-<TabItem value="Linux">
+<Tabs queryString="os">
+<TabItem value="linux" label="Linux">
 
 #### rkdeveloptool
 
@@ -81,13 +44,13 @@ rkdeveloptool 是 Rockchip 为 Linux/macOS 平台下进行 USB 烧录所开发�
 
 如果 rockchip 没有提供对应操作系统下的编译好的 rkdeveloptool 工具，则需要编译源码并安装。
 
-<Tabs queryString="host_os">
-<TabItem value="Arch Linux">
+<Tabs queryString="host-os">
+<TabItem value="archlinux" label="Arch Linux">
 
 可从 [AUR](https://aur.archlinux.org/packages/rkdeveloptool) 安装 rkdeveloptool。
 
 </TabItem>
-<TabItem value="Debian">
+<TabItem value="debian" label="Debian">
 
 从命令行中执行以下命令进行安装：
 
@@ -107,7 +70,7 @@ sudo cp rkdeveloptool /usr/local/sbin/
 
 </TabItem>
 
-<TabItem value="Ubuntu">
+<TabItem value="ubuntu" label="Ubuntu">
 
 从命令行中执行以下命令进行安装：
 
@@ -120,7 +83,7 @@ sudo apt-get install rkdeveloptool
 
 </TabItem>
 
-<TabItem value="macOS">
+<TabItem value="macos" label="macOS">
 
 请首先安装 [Homebrew](https://brew.sh/)，然后从命令行中执行以下命令进行安装：
 
@@ -166,7 +129,7 @@ sudo rkdeveloptool db <loader>
 sudo rkdeveloptool wl 0 <image>
 ```
 
-你可以从这里下载 [Loader](/general-tutorial/rksdk/loader)
+你可以从这里下载 [Loader](loader)
 
 ##### 重启设备
 
@@ -175,7 +138,7 @@ sudo rkdeveloptool rd
 ```
 
 </TabItem>
-<TabItem value="Windows">
+<TabItem value="windows" label="Windows">
 
 #### RKDevTool
 
@@ -222,22 +185,22 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 
 :::
 
-点击空白单元格选择待使用的 [Loader](/general-tutorial/rksdk/loader) 和 Image 文件：
+点击空白单元格选择待使用的 [Loader](loader) 和 Image 文件：
 
 ![RKDevTool zh choose](/img/configuration/rkdevtool-zh-choose.webp)
 
 在 `存储` 选项中选择目标介质：
 
 <Tabs queryString="storage">
-<TabItem value="eMMC">
+<TabItem value="emmc" label="eMMC">
 
 ![RKDevTool zh storage](/img/configuration/rkdevtool-zh-storage.webp)
 
 </TabItem>
-<TabItem value="SPINOR">
+<TabItem value="spi" label="SPINOR">
 
 :::tip
-SPI Flash 只能烧录对应的 U-BOOT，请勿将镜像烧录到 SPI Flash 中
+SPI Flash 只能烧录对应的 U-BOOT，请勿将镜像烧录到 SPI Flash 中。
 :::
 
 ![RKDevTool zh SPINOR](/img/configuration/rkdevtool-zh-spinor.webp)

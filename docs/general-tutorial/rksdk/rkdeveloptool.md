@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+import Loader from "../../common/general/\_loader.mdx"
+
 # rkdeveloptool
 
 :::caution
@@ -93,7 +95,11 @@ sudo rkdeveloptool db <loader>
 sudo rkdeveloptool wl 0 <image>
 ```
 
-可以在 [Loader](Loader) 页面找到部分产品所使用的 Loader 文件下载链接。
+可以在下面找到所需的 Loader 和 Image 文件的下载链接。
+
+### SPI U-Boot 及 Loader
+
+<Loader />
 
 ### 重启设备
 

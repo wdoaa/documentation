@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+import Loader from "../../common/general/\_loader.mdx"
+
 # rkdeveloptool
 
 :::caution
@@ -93,7 +95,11 @@ sudo rkdeveloptool db <loader>
 sudo rkdeveloptool wl 0 <image>
 ```
 
-Links to download the Loader files used by some products can be found on the [Loader](Loader) page.
+Download links for the required Loader and Image files can be found below.
+
+### SPI U-Boot and Loader
+
+<Loader />
 
 ### Reboot device
 

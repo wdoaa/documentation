@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+import Loader from "../../common/general/\_loader.mdx"
+
 # upgrade_tool
 
 upgrade_tool 是 Rockchip 为 Linux 平台下进行 USB 烧录所开发的软件。
@@ -46,7 +48,11 @@ sudo ./upgrade_tool db <loader>
 sudo ./upgrade_tool wl 0 <image>
 ```
 
-可以在 [Loader](Loader) 页面找到部分产品所使用的 Loader 文件下载链接。
+可以在下面找到所需的 Loader 和 Image 文件的下载链接。
+
+### SPI U-Boot 及 Loader
+
+<Loader />
 
 ### 重启设备
 
