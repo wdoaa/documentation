@@ -14,10 +14,4 @@ Since the Rockchip SDK is quite extensive, this section will only cover some of 
 
 ---
 
-## Userspace APIs
-
-- [MPP](rksdk/mpp): video acceleration APIs
-
----
-
 <DocCardList />
