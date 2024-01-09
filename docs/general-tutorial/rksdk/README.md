@@ -14,10 +14,4 @@ Rockchip SDK 提供了为 Rockchip SoC 进行二次开发所需的软件资源�
 
 ---
 
-## 应用层API
-
-- [MPP](rksdk/mpp)：视频加速 API
-
----
-
 <DocCardList />
