@@ -122,7 +122,7 @@ If the image file is a compressed file (such as zip,xz,gz etc), please unzip it 
 :::caution
 rkdeveloptool can only flash one device at a time,
 
-If needs to flash multiple devices at the same time, use [upgrade_tool](/general-tutorial/rksdk/upgrade_tool).
+If needs to flash multiple devices at the same time, use [upgrade_tool](low-level-dev/upgrade-tool).
 :::
 
 ```bash
@@ -178,7 +178,7 @@ If the operation is normal, RKDevTool will prompt `Found One MASKROM Device`:
 :::caution
 rkdeveloptool can only flash one device at a time,
 
-If you need to write to multiple devices at the same time, use [upgrade_tool](/general-tutorial/rksdk/upgrade_tool).
+If you need to write to multiple devices at the same time, use [upgrade_tool](low-level-dev/upgrade-tool).
 :::
 
 ##### Configuring RKDevTool Write Parameters

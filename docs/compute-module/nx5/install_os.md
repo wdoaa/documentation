@@ -28,7 +28,7 @@ Radxa NX5 目前提供 Debian OS 系统
 
 ## 镜像下载
 
-请到 [计算模块镜像下载汇总](/docs/compute-module/images.md) 下载对应的镜像文件
+请到 [计算模块镜像下载汇总](/compute-module/images) 下载对应的镜像文件
 
 ## 系统烧录
 
@@ -101,7 +101,7 @@ Radxa NX5 目前提供 Debian OS 系统
 
 &emsp;[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
 
-&emsp;[upgrade_tool](general-tutorial/rksdk/upgrade_tool)（可同时烧录多台设备）
+&emsp;[upgrade_tool](low-level-dev/upgrade-tool)（可同时烧录多台设备）
 
 </TabItem>
 

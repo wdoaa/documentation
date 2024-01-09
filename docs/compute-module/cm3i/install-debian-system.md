@@ -121,7 +121,7 @@ rkdeveloptool ld
 
 :::caution
 rkdeveloptool 一次只能烧录一个设备
-如果需要同时写入多个设备，请使用 [upgrade_tool](/general-tutorial/rksdk/upgrade_tool)。
+如果需要同时写入多个设备，请使用 [upgrade_tool](low-level-dev/upgrade-tool)。
 :::
 
 ```bash
@@ -175,7 +175,7 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 :::caution
 虽然 RKDevTool 支持选择 Maskrom 设备，但在同时写入多个设备时会导致正在写入的设备写入失败。
 
-如果需要同时写入多个设备，请使用 [upgrade_tool](/general-tutorial/rksdk/upgrade_tool)。
+如果需要同时写入多个设备，请使用 [upgrade_tool](low-level-dev/upgrade-tool)。
 :::
 
 ##### 配置 RKDevTool 写入参数

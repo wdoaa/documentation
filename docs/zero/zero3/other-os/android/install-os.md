@@ -85,7 +85,7 @@ sidebar_position: 2
 
 &emsp;[使用 rkdeveloptool 安装系统](/general-tutorial/rksdk/rkdeveloptool)
 
-&emsp;[使用 upgrade_tool 安装系统](general-tutorial/rksdk/upgrade_tool)（可同时烧录多台设备）
+&emsp;[使用 upgrade_tool 安装系统](../../low-level-dev/upgrade-tool)（可同时烧录多台设备）
 
 </TabItem>
 </Tabs>

@@ -10,7 +10,6 @@ Since the Rockchip SDK is quite extensive, this section will only cover some of 
 
 - [RKDevTool](rksdk/rkdevtool): for Windows
 - [rkdeveloptool](rksdk/rkdeveloptool): for Linux / macOS
-- [upgrade_tool](rksdk/upgrade_tool): for Linux
 
 ---
 

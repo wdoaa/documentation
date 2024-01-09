@@ -101,7 +101,7 @@ There are two ways to burn an image to the SD card, using Etcher or Win32DiskIma
 
 &emsp;[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
 
-&emsp;[upgrade_tool](general-tutorial/rksdk/upgrade_tool)（Multiple devices can be burned at the same time）
+&emsp;[upgrade_tool](low-level-dev/upgrade-tool)（Multiple devices can be burned at the same time）
 
 </TabItem>
 
