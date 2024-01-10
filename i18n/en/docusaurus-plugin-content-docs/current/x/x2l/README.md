@@ -15,9 +15,9 @@ The Radxa X2L is a new X86 SBC launched by Radxa, featuring the Intel J4125 proc
 
   ![Radxa X2L Overview](/img/x/x2l/radxa_x2l_ports.webp)
 
-## 特性
+## Features
 
-|    模块    | Radxa X2L                                                                                                                                                     |
+|   Model    | Radxa X2L                                                                                                                                                     |
 | :--------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |    SoC     | **Intel® Celeron® Processor J4125**                                                                                                                         |
 |    GPU     | **Intel® UHD Graphics 600**                                                                                                                                  |
