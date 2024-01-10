@@ -73,6 +73,11 @@ ROCK 3C: [Build 38](https://github.com/radxa-build/rock-3c/releases/download/b38
 [ROCK 3C Debian11 版本发布指南](https://forum.radxa.com/t/230428-system-release-notice-for-rock-3c/16282)
 
 </TabItem>
+<TabItem value="E25">
+
+coming soon ...
+
+</TabItem>
 </Tabs>
 
 ## 第三方镜像
