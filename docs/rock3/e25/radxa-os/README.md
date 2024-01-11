@@ -14,8 +14,8 @@ import SSH from "../../../common/general/\_ssh.mdx"
 Radxa E25 系列默认添加的用户名和密码为：
 
 ```
-用户名：radxa/rock
-密码：  radxa/rock
+用户名：radxa
+密码：  radxa
 ```
 
 ## 串口登录

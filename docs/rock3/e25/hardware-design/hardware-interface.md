@@ -46,4 +46,4 @@ E25 提供了一个 26 pin 针脚的 GPIO 座子
 
 #### GPIO 编号
 
-请参阅 [`libgpiod`](/radxa-os/development/libgpiod.md) 来了解该如何控制 GPIO。
+请参阅 [`libgpiod`](rock3/e25/low-level-dev/libgpiod.md) 来了解该如何控制 GPIO。

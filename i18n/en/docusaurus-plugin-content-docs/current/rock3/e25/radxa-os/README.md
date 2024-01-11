@@ -14,8 +14,8 @@ Introduces system login, network connection, etc to let user to be familiar with
 The user name and password added by default to the Radxa ZERO 3 series are:
 
 ```
-User name：radxa/rock
-Password： radxa/rock
+User name：radxa
+Password： radxa
 ```
 
 ## Serial Debug

@@ -10,7 +10,7 @@ import Ether from '../../../common/general/\_etcher.mdx'
 
 - 1x microSD 卡(容量 >=8GB)
 - 1x microSD 读卡器
-- 5V 电源适配器 (推荐使用 [Radxa Power PD30W](/accessories/pd_30w))
+- 5V 电源适配器 (推荐使用 [Radxa Power PD30W](/rock3/e25/accessories/pd_30w))
 
 ## 镜像下载
 
@@ -18,7 +18,7 @@ import Ether from '../../../common/general/\_etcher.mdx'
 
 ## 安装系统
 
-<Ether model="E25" />
+<Ether model="e25" />
 
 ## 启动系统
 
@@ -26,5 +26,5 @@ import Ether from '../../../common/general/\_etcher.mdx'
 - Radxa E25 的供电接口为 [USB Type C port](/rock3/e25/README.md)，请使用 Type-C 线缆连接供电口和适配器。
 
 :::tip
-Radxa E25 只支持 `5V` 供电。瑞莎推荐使用 [Radxa Power PD30W](/accessories/pd_30w)。
+Radxa E25 只支持 `5V` 供电。瑞莎推荐使用 [Radxa Power PD30W](/rock3/e25/accessories/pd_30w)。
 :::
