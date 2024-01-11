@@ -7,7 +7,7 @@ sidebar_position: 4
 ## Product Description
 
 <Tabs queryString="target">
-  <TabItem value="NX5" label="NX5 Core">
+  <TabItem value="nx5" label="NX5 Core">
 
 - Radxa NX5
   ![Radxa NX5](/img/nx5/nx5-overview.webp)
@@ -25,7 +25,7 @@ sidebar_position: 4
 
 </TabItem>
 
-<TabItem value="NX5 IO Board" label="NX5 IO Board">
+<TabItem value="nx5-io-board" label="NX5 IO Board">
 
 - Radxa NX5-IO
   ![Radxa NX5 IO](/img/nx5/nx5-io/nx5-io-overview.webp)

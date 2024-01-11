@@ -7,7 +7,7 @@ sidebar_position: 4
 ## 产品介绍
 
 <Tabs queryString="target">
-  <TabItem value="NX5" label="NX5 核心板">
+  <TabItem value="nx5" label="NX5 核心板">
 
 #### 实物照片
 
@@ -27,7 +27,7 @@ sidebar_position: 4
 
 </TabItem>
 
-<TabItem value="NX5 IO Board" label="NX5 底板">
+<TabItem value="nx5-io-board" label="NX5 底板">
 
 #### 实物照片
 
