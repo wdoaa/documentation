@@ -1,13 +1,7 @@
----
-sidebar_position: 2
----
+import Loader from "../general/_loader.mdx";
 
-import Loader from "../../common/general/\_loader.mdx"
-
-# RKDevTool
-
-:::caution
-本文的主题不是 [rkdeveloptool](rkdeveloptool)（适用于 Linux / macOS）。
+:::tip
+本文的主题不是 rkdeveloptool（适用于 Linux / macOS）。
 :::
 
 RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件。
@@ -23,7 +17,7 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 
 ### 安装驱动
 
-下载并解压 DriverAssistant，然后执行 DriverInstall.exe 并点击 `Install Driver` 按钮来安装驱动。  
+下载并解压 DriverAssistant，然后执行 DriverInstall.exe 并点击 `Install Driver` 按钮来安装驱动。
 如果你之前已经安装过其他版本的驱动，请先点击 `Uninstall Driver` 卸载驱动，然后再重新安装。
 
 ![RK Driver](/img/configuration/RK-Driver-Assistant-Install-Uninstall.webp)
@@ -38,7 +32,7 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 
 ### 连接产品并进入 Maskrom 模式
 
-:::info
+:::tip
 请参照产品相关说明进行操作。不同产品进入 Maskrom 模式的方式会略有不同。
 :::
 
@@ -46,15 +40,15 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 
 ![RKDevTool zh maskrom](/img/configuration/rkdevtool-zh-maskrom.webp)
 
-:::caution
+:::tip
 虽然 RKDevTool 支持选择 Maskrom 设备，但在同时写入多个设备时会导致正在写入的设备写入失败。
 
-如果需要同时写入多个设备，请使用 [upgrade_tool](upgrade_tool)。
+如果需要同时写入多个设备，请使用 upgrade_tool。
 :::
 
 ### 配置 RKDevTool 写入参数
 
-:::caution
+:::tip
 写入文件时，RKDevTool 不会自动对压缩文件进行解压缩。
 
 请首先将使用到的文件进行解压缩，并在 RKDevTool 中指定解压缩后的文件。
@@ -67,12 +61,12 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 在 `存储` 选项中选择目标介质：
 
 <Tabs queryString="storage">
-<TabItem value="eMMC">
+<TabItem value="emmc" label="eMMC">
 
 ![RKDevTool zh storage](/img/configuration/rkdevtool-zh-storage.webp)
 
 </TabItem>
-<TabItem value="SPINOR">
+<TabItem value="spi" label="SPINOR">
 
 ![RKDevTool zh SPINOR](/img/configuration/rkdevtool-zh-spinor.webp)
 

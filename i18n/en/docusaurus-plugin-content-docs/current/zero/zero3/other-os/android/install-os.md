@@ -80,7 +80,7 @@ Press the [Maskrom Button](/zero/zero3/hardware-design/hardware-interface.md), a
 
 ##### My PC is Windows
 
-&emsp;[Install OS via rkdevtool](/general-tutorial/rksdk/rkdevtool)
+&emsp;[Install OS via rkdevtool](../../low-level-dev/rkdevtool)
 
 ##### My PC is Linux / macOS
 

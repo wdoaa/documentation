@@ -40,7 +40,7 @@ In Maskrom mode, you can use the [Rockchip Development Kit](/general-tutorial/rk
 
 ## Install OS on eMMC
 
-[Windows Flash eMMC](/general-tutorial/rksdk/rkdevtool.md)
+[Windows Flash eMMC](rkdevtool)
 
 [Linux Flash eMMC](/general-tutorial/rksdk/rkdeveloptool.md)
 

@@ -7,12 +7,12 @@ import Loader from "../../common/general/\_loader.mdx"
 # rkdeveloptool
 
 :::caution
-本文的主题不是 [RKDevTool](RKDevTool)（适用于 Windows）。
+本文的主题不是 RKDevTool（适用于 Windows）。
 :::
 
 rkdeveloptool 是 Rockchip 为 Linux/macOS 平台下进行 USB 烧录所开发的软件。
 
-rkdeveloptool 可以被认为是[开源版本](https://opensource.rock-chips.com/wiki_Rkdeveloptool)的 [upgrade_tool](upgrade_tool)。
+rkdeveloptool 可以被认为是[开源版本](https://opensource.rock-chips.com/wiki_Rkdeveloptool)的 upgrade_tool。
 
 ---
 
@@ -87,7 +87,7 @@ rkdeveloptool ld
 rkdeveloptool 不支持选择 Maskrom 设备，也无法选择待写入的存储介质。  
 通常使用 rkdeveloptool 时，只会硬件连接一部设备和一个存储介质。这一步无法用软件控制。
 
-如果需要同时写入多个设备，请使用 [upgrade_tool](upgrade_tool)。
+如果需要同时写入多个设备，请使用 upgrade_tool。
 :::
 
 ```bash

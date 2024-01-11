@@ -45,7 +45,7 @@ Radxa ZERO 3 的 OTG 接口是 TYPE-C,可通过 USB-C 转 USB-A 线连接主机�
 
 ## 安装系统到 eMMC
 
-[Windows 环境下安装](/general-tutorial/rksdk/rkdevtool.md)
+[Windows 环境下安装](rkdevtool)
 
 [Linux 环境下安装](/general-tutorial/rksdk/rkdeveloptool.md)
 

@@ -22,7 +22,7 @@ ROCK 3C 支持 Maskrom 模式，这是 CPU 通过 USB OTG 端口接收命令的�
    <Tabs queryString="host_os">
    <TabItem value="Windows">
 
-   Windows 下使用 RKDevTool 进行开发，其安装及教程请参阅：[RKDevTool 指南](/general-tutorial/rksdk/rkdevtool)。
+   Windows 下使用 RKDevTool 进行开发，其安装及教程请参阅：[RKDevTool 指南](../low-level-dev/rkdevtool)。
 
    </TabItem>
    <TabItem value="Linux_MacOS">
