@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+import Serial from "../../../../common/general/\_serial.mdx"
+
 # Radxa OS Usage
 
 Introduces system login, network connection, etc to let user to be familiar with the system quickly.
@@ -16,6 +18,8 @@ Password： radxa/rock
 ```
 
 ## Serial Debug
+
+<Serial platform="rk" model="nx5"/>
 
 ## Setting Network
 
@@ -59,9 +63,9 @@ sudo dpkg-reconfigure locales
 
 3. Select Chinese Language
 
-![set language1 ](/img/zero/zero3w/set-language1.webp)
+![set language1 ](/img/zero/zero3/set-language1.webp)
 
-![set language2 ](/img/zero/zero3w/set-language2.webp)
+![set language2 ](/img/zero/zero3/set-language2.webp)
 
 4. Just reboot the system
 
@@ -94,7 +98,7 @@ There are a number of SSH tools available for Windows, here's [Mobaxterm](https:
 
 Click `Session` in the upper left corner to create a new SSH connection, enter the IP of the board in the `Remote host` field, tick `Specify usernema` and fill in the user who logs in, and then double-click on the session to start the connection and enter the login password to connect.
 
-![mobaxterm ssh ](/img/zero/zero3w/mobaxterm-ssh.webp)
+![mobaxterm ssh ](/img/zero/zero3/mobaxterm-ssh.webp)
 
 ### VNC remote desktop
 
@@ -163,7 +167,7 @@ X DISPLAY #     RFB PORT #      PROCESS ID      SERVER
 
 Click `Session` in the upper left corner to create a new VNC connection, enter the board's IP in the `Remote hostname of IP address` field, and the port number obtained by `vncserver -list`.
 
-![mobaxterm vnc ](/img/zero/zero3w/mobaxterm-vnc.webp)
+![mobaxterm vnc ](/img/zero/zero3/mobaxterm-vnc.webp)
 
 ## Audio and video usage
 
