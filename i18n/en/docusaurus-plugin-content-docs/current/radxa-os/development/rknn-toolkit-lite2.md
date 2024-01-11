@@ -2,6 +2,8 @@
 sidebar_position: 20
 ---
 
+import ImportRknn from "../../common/dev/\_rknn-toolkit2.mdx"
+
 # Board-side Python NPU model inference tutorial (RKNN Toolkit Lite2)
 
 :::info
@@ -34,7 +36,9 @@ RKNN Toolkit Lite2 is mainly used for deploying RKNN models on Rockchip NPU.
 Before using RKNN Toolkit Lite2, users need to convert the models exported by deep learning frameworks to RKNN models through RKNN Toolkit2.  
 :::
 
-<!-- The tutorial of using RKNN Toolkit2 can be found in [PC-based NPU model transformation and inference tutorial (RKNN Toolkit2)](/general-tutorial/rknn-toolkit2.md). -->
+<!-- The tutorial of using RKNN Toolkit2 can be found in [PC-based NPU model transformation and inference tutorial RKNN Toolkit2. -->
+
+<ImportRknn />
 
 ```bash
 cd /usr/share/python3-rknnlite2

@@ -1,5 +1,7 @@
 ---
-sidebar_position: 30
+sidebar_position: 4
 ---
 
-# Hardware
+# Hardware Info
+
+<DocCardList />
