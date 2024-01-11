@@ -84,7 +84,7 @@ Press the [Maskrom Button](/zero/zero3/hardware-design/hardware-interface.md), a
 
 ##### My PC is Linux / macOS
 
-&emsp;[Install OS via rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+&emsp;[Install OS via rkdeveloptool](../../low-level-dev/rkdeveloptool)
 
 &emsp;[Install OS via upgrade_tool](../../low-level-dev/upgrade-tool)(Install OS on Multiple devices at the same time)
 

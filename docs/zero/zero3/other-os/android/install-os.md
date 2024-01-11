@@ -83,7 +83,7 @@ sidebar_position: 2
 
 ##### 我是电脑是Linux / macOS
 
-&emsp;[使用 rkdeveloptool 安装系统](/general-tutorial/rksdk/rkdeveloptool)
+&emsp;[使用 rkdeveloptool 安装系统](../../low-level-dev/rkdeveloptool)
 
 &emsp;[使用 upgrade_tool 安装系统](../../low-level-dev/upgrade-tool)（可同时烧录多台设备）
 

@@ -41,7 +41,7 @@ Please go to [Computing Module Images Download Summary](/compute-module/images) 
 
 #### Writing with rkdeveloptool on Linux/Mac
 
-&emsp;[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+&emsp;[rkdeveloptool](low-level-dev/rkdeveloptool)
 
 &emsp;[upgrade_tool](low-level-dev/upgrade-tool)（Multiple devices can be burned at the same time）
 

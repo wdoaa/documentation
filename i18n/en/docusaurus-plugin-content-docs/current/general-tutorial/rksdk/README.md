@@ -6,10 +6,6 @@ Since the Rockchip SDK is quite extensive, this section will only cover some of 
 
 ---
 
-## System recovery tools
-
-- [rkdeveloptool](rksdk/rkdeveloptool): for Linux / macOS
-
 ---
 
 <DocCardList />
