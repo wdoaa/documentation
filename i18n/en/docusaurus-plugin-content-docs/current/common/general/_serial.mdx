@@ -10,11 +10,25 @@ The definition of each pin of USB to TTL cable is showing like this:
 
 Connect the USB to TTL serial cable as below.
 
-| Radxa SBC       | connect | USB to TTL cable |
-| --------------- | ------- | ---------------- |
-| **GND** (pin 6) | <--->   | Black wire       |
-| **TX** (pin 8)  | <--->   | White wire       |
-| **RX** (pin 10) | <--->   | Green wire       |
+<Section compatible="^rock5itx" model={props.model}>
+
+| Radxa SBC       | connect     | USB to TTL cable |
+| --------------- | ----------- | ---------------- |
+| **GND** (pin 6) | &lt;---&gt; | Black wire       |
+| **TX** (pin 8)  | &lt;---&gt; | White wire       |
+| **RX** (pin 10) | &lt;---&gt; | Green wire       |
+
+</Section>
+
+<Section compatible="rock5itx" model={props.model}>
+
+| Radxa SBC       | connect     | USB to TTL cable |
+| --------------- | ----------- | ---------------- |
+| **GND** (pin 1) | &lt;---&gt; | Black wire       |
+| **TX** (pin 2)  | &lt;---&gt; | White wire       |
+| **RX** (pin 3)  | &lt;---&gt; | Green wire       |
+
+</Section>
 
 <Image
   src="/img/accessories/#model#-1000px-Serial-connection.webp"
