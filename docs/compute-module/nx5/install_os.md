@@ -41,7 +41,7 @@ Radxa NX5 目前提供 Debian OS 系统
 
 #### Linux/Mac 系统使用 rkdeveloptool 烧录
 
-&emsp;[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+&emsp;[rkdeveloptool](low-level-dev/rkdeveloptool)
 
 &emsp;[upgrade_tool](low-level-dev/upgrade-tool)（可同时烧录多台设备）
 

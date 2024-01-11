@@ -14,7 +14,7 @@ This guide can help you to install the image to the SPI Nor Flash from the USB p
 
 - Power adapter
 - USB Male A to Micro USB cable
-- PC with [RKDevTool](rkdevtool) or [rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+- PC with [RKDevTool](rkdevtool) or [rkdeveloptool](rkdeveloptool)
 - Get Radxa CM3 IO loader and U-Boot images  
   [RK356X loader](https://dl.radxa.com/rock3/images/loader/radxa-cm3-io/rk356x_spl_loader_ddr1056_v1.10.111.bin)  
   [Radxa CM3 IO idbloader](https://dl.radxa.com/rock3/images/loader/radxa-cm3-io/radxa-cm3-io-idbloader-g8684d740b9f.img)  

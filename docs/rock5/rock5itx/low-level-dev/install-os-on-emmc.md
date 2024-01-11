@@ -34,7 +34,7 @@ Radxa ROCK 5 ITX 的 OTG 接口是 TYPE-C,可通过 USB-C 转 USB-A 线连接主
 
 [Windows 环境下安装](rkdevtool)
 
-[Linux 环境下安装](/general-tutorial/rksdk/rkdeveloptool.md)
+[Linux 环境下安装](rkdeveloptool)
 
 ## 启动系统
 

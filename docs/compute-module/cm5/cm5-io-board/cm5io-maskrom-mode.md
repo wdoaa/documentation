@@ -26,7 +26,7 @@ Radxa CM5 支持 Maskrom 模式，这是 CPU 通过 USB OTG 端口接收命令�
    <TabItem value="Linux_MacOS">
 
    在 Linux 及 MacOS 的环境下，可使用 rkdeveloptool 及 upgrade_tool 进行操作。  
-   对应的安装及教程请参阅：[rkdeveloptool 指南](/general-tutorial/rksdk/rkdeveloptool)，[upgrade_tool 指南](../low-level-dev/upgrade-tool)。
+   对应的安装及教程请参阅：[rkdeveloptool 指南](../low-level-dev/rkdevtool)，[upgrade_tool 指南](../low-level-dev/upgrade-tool)。
 
    </TabItem>
    </Tabs>

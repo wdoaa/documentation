@@ -14,7 +14,7 @@ sidebar_position: 20
 
 - 电源适配器
 - USB-A 转 Micro USB 线
-- 装有 [RKDevTool](rkdevtool) 或 [rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool) 的电脑
+- 装有 [RKDevTool](rkdevtool) 或 [rkdeveloptool](rkdeveloptool) 的电脑
 - 获取 Radxa CM3 IO loader 和 U-Boot 映像  
   [RK356X loader](https://dl.radxa.com/rock3/images/loader/radxa-cm3-io/rk356x_spl_loader_ddr1056_v1.10.111.bin)  
   [Radxa CM3 IO SPI Image](https://dl.radxa.com/rock3/images/loader/radxa-cm3-io/radxa-cm3-io-spi-image-g8684d740b9f.img.gz)
