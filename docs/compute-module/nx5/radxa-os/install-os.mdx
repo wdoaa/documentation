@@ -5,39 +5,25 @@ title: 系统安装
 
 本文档将介绍如何把 Radxa OS 镜像安装到 Radxa NX5。
 
+NX5 可以从 microSD 卡启动，也可以从板载 EMMC 启动，基于不同的启动方式，安装系统到不同的介质上.
+
+<Tabs queryString="target">
+
+<TabItem value="microSD" label="安装系统到 microSD 卡">
+
 ## 准备工作
 
 ### 准备安装介质
 
-安装到microSD卡需要准备：
+- microSD 卡 (建议class10等级以上)
 
-- microSD卡 (建议class10等级以上)
+- USB 读卡器
 
-- USB读卡器
+### 镜像下载
 
-安装到eMMC需要准备:
-
-- micro usb 转 typea usb 接口线缆
-
-### 准备镜像文件
-
-请到 [计算模块镜像下载汇总](/docs/compute-module/images.md) 下载对应的镜像文件
-
-### 其他
-
-（可选）USB 转 TTL 串口线, 请参考后文`串口登录`。
+请到 [资源下载汇总](../getting-started/download.md) 下载对应的镜像文件
 
 ## 系统安装
-
-有两种烧录SD卡的方式，使用 Etcher 或者 Win32DiskImager，可以选择其中一种进行烧录
-
-### 安装到 microSD
-
-<Tabs queryString="target">
-
-<TabItem value="通过Etcher" label="Etcher">
-
-#### 通过 Etcher 安装操作系统镜像到 microSD
 
 1. 下载 [Etcher](https://etcher.balena.io/)。
    ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
@@ -54,29 +40,31 @@ title: 系统安装
 5. 在 Etcher 窗口中，当刷写成功时将会显示 `Flash Complete!`
    ![ROCK5A via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
 
-</TabItem>
+## 系统启动
 
-<TabItem value="通过 Win32DiskImager" label="Win32DiskImager">
+### 启动 NX5 IO
 
-#### 通过 Win32DiskImager 安装操作系统镜像到 microSD
-
-1. 下载 [Win32DiskImager](https://win32diskimager.org/)
-   ![ROCK5A via Win32DiskImager 01](/img/rock5a/rock5a-win32.webp)
-
-2. 打开 Win32DiskImager
-   ![ROCK5A via Win32DiskImager 02](/img/rock5a/rock5a-win32-1.webp)
-
-3. 点击文件夹图标按钮然后选择要安装的镜像
-   ![ROCK5A via Win32DiskImager 03](/img/rock5a/rock5a-win32-2.webp)
-
-4. 完成上述操作后，单击 `Write` 按钮开始安装镜像，然后等待写入镜像完成。
-   ![ROCK5A via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)
+1. 插入安装好操作系统的microSD卡
+2. 通过适配器为 NX5 IO 供电
+3. NX5 IO 将在绿色电源 LED 亮起的情况下启动， 进入系统后蓝色 LED 开始闪烁
 
 </TabItem>
 
-</Tabs>
+<TabItem value="eMMC" label="安装系统到 eMMC ">
 
-### 安装到 eMMC
+## 准备工作
+
+### 准备安装介质
+
+- micro usb 转 typea usb 接口线缆
+
+### 镜像下载
+
+请到 [资源下载汇总](../getting-started/download.md) 下载对应的镜像文件
+
+## 系统安装
+
+### 系统安装
 
 1. 将micro usb 线缆连接到主机
 
@@ -108,51 +96,12 @@ title: 系统安装
 
 ### 启动 NX5 IO
 
-1. 插入安装好操作系统的microSD卡(如安装了系统到eMMC,请勿插入microSD卡）
-2. 通过适配器为 NX5 IO 供电
-3. NX5 IO 将在绿色电源 LED 亮起的情况下启动， 进入系统后蓝色 LED 开始闪烁
+1. 通过适配器为 NX5 IO 供电
+2. NX5 IO 将在绿色电源 LED 亮起的情况下启动， 进入系统后蓝色 LED 开始闪烁
 
-### 登录 NX5 IO
+</TabItem>
 
-串口登录
-
-- 参考 [串口访问](/general-tutorial/serial)
-
-SSH登录
-
-- 参考 [SSH访问](/radxa-os/config/ssh-access.md)
-
-图形界面登录
-
-- 连接HDMI/DP 显示器，USB 键盘和鼠标，根据系统提示登录
-
-默认用户密码
-
-```bash
-User Name : radxa
-Password  : radxa
-# or
-User Name : rock
-Password  : rock
-```
-
-切换到 root 用户
-
-```bash
-rock@rock-nx5-io:~$ sudo su
-[sudo] password for rock:
-root@rock-nx5-io:/home/rock#
-```
-
-root 用户默认没有密码。 您可以通过“passwd root”设置密码。
-
-```bash
-root@rock-nx5-io:/home/rock# passwd root
-New password:
-Retype new password:
-passwd: password updated successfully
-root@rock-nx5-io:/home/rock#
-```
+</Tabs>
 
 ## 常见问题
 
