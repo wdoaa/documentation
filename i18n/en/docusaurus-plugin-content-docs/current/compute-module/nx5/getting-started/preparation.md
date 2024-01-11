@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import ImportPD30W from "../../../common/accessories/\_pd-30w.mdx"
+
 # Preparation
 
 ## Development preparation
@@ -11,8 +13,10 @@ sidebar_position: 1
 The RADXA NX5 IO is powered by the DC connector and supports 5V input only. It is recommended to use a 5V/2A power adapter as a minimum.
 
 :::tip
-RADXA recommends using the [Radxa Power PD30W](../accessories/pd-30w.md).
+RADXA recommends using the Radxa Power PD30W.
 :::
+
+<ImportPD30W />
 
 ### Storage
 
