@@ -7,12 +7,12 @@ import Loader from "../../common/general/\_loader.mdx"
 # rkdeveloptool
 
 :::caution
-This article is not about [RKDevTool](RKDevTool) (for Windows).
+This article is not about RKDevTool (for Windows).
 :::
 
 rkdeveloptool is a USB flashing software developed by Rockchip for Linux/macOS platforms.
 
-rkdeveloptool can be thought of as [upgrade_tool](upgrade_tool) for [open source version](https://opensource.rock-chips.com/wiki_Rkdeveloptool).
+rkdeveloptool can be thought of as upgrade_tool for [open source version](https://opensource.rock-chips.com/wiki_Rkdeveloptool).
 
 ---
 
@@ -87,7 +87,7 @@ First extract the used files and specify the extracted files in rkdeveloptool.
 rkdeveloptool does not support the selection of Maskrom devices, nor can it select the storage media to be written to.  
 Normally when using rkdeveloptool, only a device and a storage medium are connected in hardware. This step cannot be controlled by software.
 
-If you need to write to multiple devices at the same time, use [upgrade_tool](upgrade_tool).
+If you need to write to multiple devices at the same time, use upgrade_tool.
 :::
 
 ```bash

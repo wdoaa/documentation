@@ -20,7 +20,7 @@ This guide will instruct you how to put the Radxa CM5 into Maskrom mode for oper
    <Tabs queryString="host_os">
    <TabItem value="Windows">
 
-   Use RKDevTool for Windows, please refer to [RKDevTool Guide](/general-tutorial/rksdk/rkdevtool) for installation and tutorial.
+   Use RKDevTool for Windows, please refer to [RKDevTool Guide](../low-level-dev/rkdevtool) for installation and tutorial.
 
    </TabItem>
    <TabItem value="Linux_MacOS">

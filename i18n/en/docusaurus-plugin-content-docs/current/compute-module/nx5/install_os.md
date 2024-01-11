@@ -51,7 +51,7 @@ Please go to [Computing Module Images Download Summary](/compute-module/images) 
 
 #### Writing with rkdeveloptool on Windows
 
-&emsp;[rkdevtool](/general-tutorial/rksdk/rkdevtool)
+&emsp;[rkdevtool](low-level-dev/rkdevtool)
 
 </TabItem>
 

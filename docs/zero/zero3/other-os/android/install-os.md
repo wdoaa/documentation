@@ -79,7 +79,7 @@ sidebar_position: 2
 
 ##### 我的电脑是Windows
 
-&emsp;[使用 rkdevtool 安装系统](/general-tutorial/rksdk/rkdevtool)
+&emsp;[使用 rkdevtool 安装系统](../../low-level-dev/rkdevtool)
 
 ##### 我是电脑是Linux / macOS
 

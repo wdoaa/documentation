@@ -8,7 +8,6 @@ Since the Rockchip SDK is quite extensive, this section will only cover some of 
 
 ## System recovery tools
 
-- [RKDevTool](rksdk/rkdevtool): for Windows
 - [rkdeveloptool](rksdk/rkdeveloptool): for Linux / macOS
 
 ---

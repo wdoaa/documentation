@@ -1,13 +1,7 @@
----
-sidebar_position: 2
----
+import Loader from "../general/_loader.mdx";
 
-import Loader from "../../common/general/\_loader.mdx"
-
-# RKDevTool
-
-:::caution
-This article is not about [rkdeveloptool](rkdeveloptool) (for Linux / macOS).
+:::tip
+This article is not about rkdeveloptool (for Linux / macOS).
 :::
 
 RKDevTool is a USB flashing software developed by Rockchip for Windows platforms.
@@ -23,7 +17,7 @@ Please download and extract the following files to install RKDevTool:
 
 ### Installation of drivers
 
-Download and unzip DriverAssistant, then execute DriverInstall.exe and click the `Install Driver` button to install the driver.  
+Download and unzip DriverAssistant, then execute DriverInstall.exe and click the `Install Driver` button to install the driver.
 If you have previously installed another version of driver, please click `Uninstall Driver` to uninstall the driver first and then reinstall it.
 
 ![RK Driver](/img/configuration/RK-Driver-Assistant-Install-Uninstall.webp)
@@ -38,7 +32,7 @@ If you have previously installed another version of driver, please click `Uninst
 
 ### Connect the product and enter Maskrom mode
 
-:::info
+:::tip
 Please refer to the instructions of the product for operation. The way to enter Maskrom mode varies slightly from product to product.
 :::
 
@@ -46,15 +40,15 @@ If the operation is normal, RKDevTool will prompt `Found One MASKROM Device`:
 
 ![RKDevTool maskrom](/img/configuration/rkdevtool-maskrom.webp)
 
-:::caution
+:::tip
 Although RKDevTool supports the selection of Maskrom devices, writing to multiple devices at the same time will result in a write failure for the device being written to.
 
-If you need to write to multiple devices at the same time, use [upgrade_tool](upgrade_tool).
+If you need to write to multiple devices at the same time, use upgrade_tool.
 :::
 
 ### Configuring RKDevTool Write Parameters
 
-:::caution
+:::tip
 RKDevTool does not automatically decompress compressed files when writing to them.
 
 First extract the used files and specify the extracted files in the RKDevTool.
@@ -67,12 +61,12 @@ Click a blank cell to select the Loader and Image file to be used:
 Select the target media in the `Storage` option:
 
 <Tabs queryString="storage">
-<TabItem value="eMMC">
+<TabItem value="emmc" label="eMMC">
 
 ![RKDevTool storage](/img/configuration/rkdevtool-storage.webp)
 
 </TabItem>
-<TabItem value="SPINOR">
+<TabItem value="spi" label="SPINOR">
 
 ![RKDevTool SPINOR](/img/configuration/rkdevtool-spinor.webp)
 

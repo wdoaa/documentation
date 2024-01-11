@@ -8,7 +8,6 @@ Rockchip SDK 提供了为 Rockchip SoC 进行二次开发所需的软件资源�
 
 ## 系统恢复工具
 
-- [RKDevTool](rksdk/rkdevtool)：适用于 Windows
 - [rkdeveloptool](rksdk/rkdeveloptool)：适用于 Linux / macOS
 
 ---

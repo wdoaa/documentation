@@ -51,7 +51,7 @@ Radxa NX5 目前提供 Debian OS 系统
 
 #### Windows 系统使用 rkdeveloptool 烧录
 
-&emsp;[rkdevtool](/general-tutorial/rksdk/rkdevtool)
+&emsp;[rkdevtool](low-level-dev/rkdevtool)
 
 </TabItem>
 
