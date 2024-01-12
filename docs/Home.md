@@ -359,7 +359,7 @@ sidebar_custom_props: { product_docs: [
           product_name_en: "NX5",
           # 产品系列
           Product_Line_zh: "计算模块系列",
-          Product_Line_en: "Compute Module Series",
+          Product_Line_en: "Compute Module Family",
           # 产品对应的所有文档
           docs:
             [
