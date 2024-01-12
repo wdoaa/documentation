@@ -17,7 +17,7 @@ ROCK 3A 配备了四核 Cortex-A55 ARM 处理器和 LPDDR4 运行内存，
 <summary>Maskrom 模式</summary>
 
 ROCK 3A 的 OTG 接口位于处于上方的 USB 3.0 接口，可通过 USB-A 转 USB-A 线连接主机和进入 Maskrom 的主板进行通信。
-在 Maskrom 模式下，您可使用 [Rockchip 开发套件](/general-tutorial/rksdk)来对您的产品进行操作。
+在 Maskrom 模式下，您可使用 [rkdevtool](low-level-dev/rkdevtool) 或 [upgrade-tool](low-level-dev/upgrade-tool) 来对您的产品进行操作。
 
 以下是 ROCK 3A 进入 Maskrom 模式的步骤：
 

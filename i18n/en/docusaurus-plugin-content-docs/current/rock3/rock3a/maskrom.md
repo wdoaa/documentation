@@ -5,7 +5,7 @@ sidebar_position: 40
 # Maskrom Mode
 
 The OTG interface of ROCK 3A is located on the upper USB 3.0 port, and can be used to communicate with the host computer and the board in Maskrom via the USB-A to USB-A cable.
-In Maskrom mode, you can use [Rockchip Development Kit](/general-tutorial/rksdk) to write and erase your product.
+In Maskrom mode, you can use [rkdevtool](low-level-dev/rkdevtool) or [upgrade-tool](low-level-dev/upgrade-tool) to write and erase your product.
 
 ## Enter the Maskrom mode
 
@@ -28,4 +28,4 @@ Steps for the ROCK 3A to enter Maskrom mode:
 
 7. Connect the OTG port of the board to the USB port of the host PC via the USB-A to USB-A cable.
    ![ROCK 3A Maskrom OTG](/img/rock3/3a/rock3a-maskrom-otg.webp)
-8. Use [Rockchip Development Kit](/general-tutorial/rksdk) for Maskrom mode operation
+8. Use [rkdevtool](low-level-dev/rkdevtool) or [upgrade-tool](low-level-dev/upgrade-tool) for Maskrom mode operation

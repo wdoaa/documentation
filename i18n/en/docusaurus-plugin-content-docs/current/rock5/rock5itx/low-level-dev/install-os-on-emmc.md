@@ -28,13 +28,13 @@ If the operation is normal, RKDevTool will prompt `A MASKROM device was found`:
 If the operation is normal, `rkdeveloptool ld` will prompt to enter MASKROM mode:
 ![rkdeveloptool zh](/img/rock5itx/rock5itx-rkdeveloptool.webp)
 
-In Maskrom mode, you can use the [Rockchip Development Kit](/general-tutorial/rksdk) to erase, wire-flash, etc. your product.
+In Maskrom mode, you can use the [rkdevtool](rkdevtool) or [upgrade-tool](upgrade-tool) to erase, wire-flash, etc. your product.
 
 ## Install OS on eMMC
 
 [Windows Flash eMMC](rkdevtool)
 
-[Linux Flash eMMC](/general-tutorial/rksdk/rkdeveloptool.md)
+[Linux Flash eMMC](rkdeveloptool)
 
 ## Boot the system
 

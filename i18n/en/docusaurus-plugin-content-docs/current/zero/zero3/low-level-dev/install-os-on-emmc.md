@@ -36,7 +36,7 @@ How to enter Maskrom mode on Radxa ZERO 3E
 
 The OTG interface on the Radxa ZERO 3 is TYPE-C, which allows communication between the host computer and the motherboard entering the Maskrom via a USB-C to USB-A cable.
 
-In Maskrom mode, you can use the [Rockchip Development Kit](/general-tutorial/rksdk) to erase, wire-flash, etc. your product.
+In Maskrom mode, you can use the [rkdevtool](rkdevtool) or [upgrade-tool](upgrade-tool) to erase, wire-flash, etc. your product.
 
 ## Install OS on eMMC
 

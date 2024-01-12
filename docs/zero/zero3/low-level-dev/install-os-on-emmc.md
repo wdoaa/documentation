@@ -41,7 +41,7 @@ Radxa ZERO 3E 进入 Maskrom 模式的方法
 
 Radxa ZERO 3 的 OTG 接口是 TYPE-C,可通过 USB-C 转 USB-A 线连接主机和进入 Maskrom 的主板进行通信。
 
-在 Maskrom 模式下，您可使用 [Rockchip 开发套件](/general-tutorial/rksdk)来对您的产品进行擦写、线刷等操作。
+在 Maskrom 模式下，您可使用 [rkdevtool](rkdevtool) 或 [upgrade-tool](upgrade-tool) 来对您的产品进行擦写、线刷等操作。
 
 ## 安装系统到 eMMC
 
