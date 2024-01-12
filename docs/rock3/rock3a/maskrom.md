@@ -5,7 +5,7 @@ sidebar_position: 40
 # Maskrom 模式
 
 ROCK 3A 的 OTG 接口位于处于上方的 USB 3.0 接口，可通过 USB-A 转 USB-A 线连接主机和进入 Maskrom 的主板进行通信。
-在 Maskrom 模式下，您可使用 [Rockchip 开发套件](/general-tutorial/rksdk)来对您的产品进行擦写、线刷等操作。
+在 Maskrom 模式下，您可使用 [rkdevtool](low-level-dev/rkdevtool) 或 [upgrade-tool](low-level-dev/upgrade-tool) 来对您的产品进行擦写、线刷等操作。
 
 ## 进入 Maskrom 模式的方法
 
@@ -27,4 +27,4 @@ ROCK 3A 进入 Maskrom 模式的步骤：
 
 7. 通过 USB-A 转 USB-A 线连接主板的 OTG 口和 PC 主机的 USB 口
    ![ROCK 3A Maskrom OTG](/img/rock3/3a/rock3a-maskrom-otg.webp)
-8. 使用 [Rockchip 开发套件](/general-tutorial/rksdk)来对您的产品进行擦写、线刷等操作。
+8. 使用 [rkdevtool](low-level-dev/rkdevtool) 或 [upgrade-tool](low-level-dev/upgrade-tool) 来对您的产品进行擦写、线刷等操作。

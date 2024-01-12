@@ -28,7 +28,7 @@ Radxa ROCK 5 ITX 的 OTG 接口是 TYPE-C,可通过 USB-C 转 USB-A 线连接主
 如操作正常， `rkdeveloptool ld`会提示 进入MASKROM模式：
 ![rkdeveloptool zh](/img/rock5itx/rock5itx-rkdeveloptool.webp)
 
-在 Maskrom 模式下，您可使用 [Rockchip 开发套件](/general-tutorial/rksdk)来对您的产品进行擦写、线刷等操作。
+在 Maskrom 模式下，您可使用 [rkdevtool](rkdevtool) 或 [upgrade-tool](upgrade-tool) 来对您的产品进行擦写、线刷等操作。
 
 ## 安装系统到 eMMC
 
