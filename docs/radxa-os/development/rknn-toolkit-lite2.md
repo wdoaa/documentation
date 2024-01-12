@@ -2,8 +2,6 @@
 sidebar_position: 20
 ---
 
-import ImportRknn from "../../common/dev/\_rknn-toolkit2.mdx"
-
 # 板端 Python NPU 模型推理教程 (RKNN Toolkit Lite2)
 
 :::info
@@ -37,8 +35,6 @@ RKNN Toolkit Lite2 主要用于 RKNN 模型在 Rockchip NPU 上的部署。
 :::
 
 <!-- RKNN Toolkit2 使用教程可以参考 PC 端 npu 模型转换与推理教程 (RKNN Toolkit2) -->
-
-<ImportRknn />
 
 ```bash
 cd /usr/share/python3-rknnlite2
