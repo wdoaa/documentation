@@ -2,8 +2,6 @@
 sidebar_position: 20
 ---
 
-import ImportRknn from "../../common/dev/\_rknn-toolkit2.mdx"
-
 # Board-side Python NPU model inference tutorial (RKNN Toolkit Lite2)
 
 :::info
@@ -37,8 +35,6 @@ Before using RKNN Toolkit Lite2, users need to convert the models exported by de
 :::
 
 <!-- The tutorial of using RKNN Toolkit2 can be found in [PC-based NPU model transformation and inference tutorial RKNN Toolkit2. -->
-
-<ImportRknn />
 
 ```bash
 cd /usr/share/python3-rknnlite2
