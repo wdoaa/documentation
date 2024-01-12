@@ -1,4 +1,7 @@
 import Etcher from "./_etcher.mdx";
+import Rkdeveloptool from "../dev/_rkdeveloptool.mdx";
+import Rkdevtool from "../dev/_rkdevtool.mdx";
+import Upgradetool from "../dev/_upgrade-tool.mdx";
 
 :::tip
 官方镜像的默认账号/密码为 **radxa**/**radxa**。
@@ -80,7 +83,6 @@ import Etcher from "./_etcher.mdx";
 #### 从 NVMe SSD 启动
 
 将镜像写入 NVMe SSD 后，要从 NVMe SSD 启动，您需要将 bootloader 写入 SPI Flash。
-{/* 详情请查看安装 [bootloader 到 SPI Flash]/general-tutorial/rksdk/rkdevtool */}
 
   </TabItem>
 </Tabs>
@@ -91,10 +93,16 @@ import Etcher from "./_etcher.mdx";
 
 ### 我的电脑是 Windows
 
-{/* &emsp;[rkdevtool]/general-tutorial/rksdk/rkdevtool */}
+#### rkdevtool
+
+<Rkdevtool />
 
 ### 我是电脑是 Linux / macOS
 
-{/* &emsp;[rkdeveloptool]/general-tutorial/rksdk/rkdeveloptool */}
+#### Rkdeveloptool
 
-{/* &emsp;[upgrade_tool]/general-tutorial/rksdk/upgrade_tool（可同时烧录多台设备） */}
+<Rkdeveloptool />
+
+#### upgrade-tool （可同时烧录多台设备）
+
+<Upgradetool />
