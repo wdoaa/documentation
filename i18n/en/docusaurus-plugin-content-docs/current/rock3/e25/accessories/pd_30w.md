@@ -1,31 +1,32 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 # Radxa Power PD 30W
 
-Radxa Power PD 30W 是专为 Radxa 的 SBC 产品设计的适配器。 它可以在 5V 时提供高达 5A 的电流，以满足 Radxa SBC 连接多个外围设备的电源要求。 对于支持 PD/QC 协议的 SBC，它可以在 12V/2.5A 下提供总共 30W 的功率。 兼容所有 Radxa SBC。
+The Radxa Power PD 30W is an adapter designed specifically for Radxa's SBC products. It can deliver up to 5A at 5V to meet the power requirements of Radxa SBCs even when multiple peripherals are connected. For SBCs that support PD/QC protocol, it can deliver a total of 30W of power at 12V/2.5A. Compatible for all Radxa SBCs.
 
 ![](/img/accessories/power-pd-30w-2.webp)
 
-# 特征
+# Features
 
-- 输入：AC100-240V 50/60Hz 1A
-- 输出：5V/5A 9V/2A 12/2.5A 30W
-- 保护功能  
-   — 过压保护  
-   — 短路保护  
-   — 过流保护
-- 环境要求  
-   1、温度：  
-   — 工作环境：0℃ - +40℃  
-   — 非工作环境：-25℃ - +55℃
-  2、湿度：
-  — 工作：25% - 90% 相对湿度（非冷凝）
-  — 非工作：10% - 90% 相对湿度（非冷凝）3.海拔高度：
-  — 运行：2000 米
-  — 非工作：2000 米
+- INPUT: AC100-240V 50/60Hz 1A
+- OUTPUT: 5V/5A 9V/2A 12/2.5A 30W
+- Protection Function  
+   — Over Voltage Protection  
+   — Short Circuit Protection  
+   — Over Current Protection
+- Environment Requirement
+  1. Temperature:  
+     — Operation Ambient: 0℃ - +40℃  
+     — Non-operating Ambient: -25℃ - +55℃
+  2. Humidity:  
+     — Operating: 25% - 90% relative humidity (Non- condensing)  
+     — Non-operating: 10% - 90% relative humidity (Non- condensing)
+  3. Altitude:  
+     — Operating: 2000 meters  
+     — Non-operating: 2000meters
 
-# 机械规格
+# Mechanical Appendix
 
 ![](/img/accessories/power-pd-30w-mechanical.webp)
