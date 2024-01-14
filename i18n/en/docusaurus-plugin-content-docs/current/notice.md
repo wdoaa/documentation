@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Notice for using Single Board Computer
+# Precautions for use
 
-## Static Protection
+:::caution [Static Protection]
 
 1. Always use a static hand ring or static discharge before touching the single board computer to avoid generating static electricity and damaging the development board.
 2. When you need to do the assembly of the single board computer, you should do it in a static dissipative environment and avoid dry air and low humidity environment.
@@ -14,6 +14,10 @@ sidebar_position: 3
 6. When using the single board machine, do not plug or unplug wires or other devices during operation to avoid generating current surges that could damage the single board machine.
 7. When inserting or unplugging the expansion GPIO interface of the single board, turn off the power and disconnect the power cable first to avoid current damage.
 
-## Pay attention to heat dissipation
+:::
+
+:::danger [Attention to heat dissipation]
 
 Some CPU chip may reach a temperature of 60 degrees or more on the surface of the chp without effective heat dissipation measures. When handling the board, do not touch the CPU and inductors around the power supply to avoid burns. When using the board, make sure the surrounding environment is well ventilated to prevent local heat buildup leading to overheating. Do not place the board in an area exposed to direct sunlight. It is recommended to use official heatsink with fans or metal cooling cases or third-party cooling kits.
+
+:::
