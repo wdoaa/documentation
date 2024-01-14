@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 单板机使用注意事项
+# 使用注意事项
 
 :::caution [静电保护]
 
