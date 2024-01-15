@@ -410,6 +410,28 @@ sidebar_custom_props: { product_docs: [
 
         {
           # 产品代号
+          product_code: "rs102",
+          # 产品名
+          product_name_zh: "ZERO",
+          product_name_en: "ZERO",
+          # 产品系列
+          Product_Line_zh: "Radxa ZERO 系列",
+          Product_Line_en: "Radxa ZERO Family",
+          # 产品对应的所有文档
+          docs:
+            [
+              {
+                title_zh: "新手入门指南",
+                info_zh: "从这里开始你的 ZERO 之旅",
+                title_en: "Getting Started Guide",
+                info_en: "Start Your ZERO Here",
+                url: "/zero/zero",
+              },
+            ],
+        },
+
+        {
+          # 产品代号
           product_code: "rs105",
           # 产品名
           product_name_zh: "ZERO 2 PRO",

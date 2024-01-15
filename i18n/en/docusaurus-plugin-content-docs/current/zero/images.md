@@ -20,7 +20,7 @@ For more images, please check: [ZERO 2 PRO Release](https://github.com/radxa-bui
 </TabItem>
 <TabItem value="ZERO 3W/E">
 
-Radxa ZERO 3: [Build 3](https://github.com/radxa-build/radxa-zero3/releases/download/b3/radxa-zero3_debian_bullseye_xfce_b3.img.xz)
+Radxa ZERO 3: [Build 6](https://github.com/radxa-build/radxa-zero3/releases/download/b6/radxa-zero3_debian_bullseye_xfce_b6.img.xz)
 
 For more images, please check: [ZERO 3 Release](https://github.com/radxa-build/radxa-zero3/releases/latest)
 
