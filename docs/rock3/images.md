@@ -66,11 +66,7 @@ ROCK 3B：[Build 18](https://github.com/radxa-build/rock-3b/releases/download/b1
 
 以下系统已由瑞莎官方测试验证：
 
-ROCK 3C: [Build 38](https://github.com/radxa-build/rock-3c/releases/download/b38/rock-3c_debian_bullseye_xfce_b38.img.xz)
-
-### 发布信息
-
-[ROCK 3C Debian11 版本发布指南](https://forum.radxa.com/t/230428-system-release-notice-for-rock-3c/16282)
+ROCK 3C: [Build 42](https://github.com/radxa-build/rock-3c/releases/download/b42/rock-3c_debian_bullseye_xfce_b42.img.xz)
 
 </TabItem>
 <TabItem value="E25">

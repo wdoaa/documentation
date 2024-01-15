@@ -68,11 +68,7 @@ For more images, please check: [ROCK 3B radxa-build](https://github.com/radxa-bu
 
 The following systems have been officially tested and verified by Renesas:
 
-ROCK 3C: [Build 38](https://github.com/radxa-build/rock-3c/releases/download/b38/rock-3c_debian_bullseye_xfce_b38.img.xz)
-
-### release notes
-
-[ROCK 3C Debian 11 version release notes](https://forum.radxa.com/t/230428-system-release-notice-for-rock-3c/16282)
+ROCK 3C: [Build 42](https://github.com/radxa-build/rock-3c/releases/download/b42/rock-3c_debian_bullseye_xfce_b42.img.xz)
 
 </TabItem>
 <TabItem value="E25">
