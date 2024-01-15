@@ -1,11 +1,11 @@
 ---
 label: "X Series"
-description: "Radxa X Series"
+description: "X Series"
 sidebar_position: 100
 slug: /x
 ---
 
-# Radxa X Series
+# X Series
 
 ## Radxa X Series: Redefine the Experience of SBC
 

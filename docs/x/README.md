@@ -1,11 +1,11 @@
 ---
 label: "X 系列"
-description: "Radxa X Series"
+description: "X Series"
 sidebar_position: 100
 slug: /x
 ---
 
-# Radxa X 系列
+# X 系列
 
 ## Radxa X 系列：重新定义单板计算机体验
 
