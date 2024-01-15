@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # ROCK S0 简介
 
-![Radxa ROCK S0](/img/rockpi/s0/rock_s0.webp)
+![Radxa ROCK S0](/img/rockpi/s0/mark_rock_pi_s0.webp)
 
 **提示：主板外观可能因为硬件版本不同而有细微的差别。**
 

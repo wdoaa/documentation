@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # ROCK S0 Overview
 
-![Radxa ROCK S0](/img/rockpi/s0/rock_s0.webp)
+![Radxa ROCK S0](/img/rockpi/s0/mark_rock_pi_s0.webp)
 
 _The images presented depict a particular configuration of the Radxa ROCK S0. Please note that the actual component layout and specifications may differ based on the selected Stock Keeping Unit (SKU)._
 
