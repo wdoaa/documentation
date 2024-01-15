@@ -31,7 +31,7 @@ Radxa ZERO 3W V1.11 量产版本
 
 ## 操作系统镜像
 
-- [Radxa ZERO 3 Debian Build 3](https://github.com/radxa-build/radxa-zero3/releases/download/b3/radxa-zero3_debian_bullseye_xfce_b3.img.xz)
+- [Radxa ZERO 3 Debian Build 6](https://github.com/radxa-build/radxa-zero3/releases/download/b6/radxa-zero3_debian_bullseye_xfce_b6.img.xz)
 
 :::caution
 除了上面的镜像经过官方充分测试外，其他镜像未经过严格测试，可能会存在未知问题，仅用于评估使用。
