@@ -77,9 +77,9 @@ Radxa X2L 没有配备 CMOS 电池。首次开机时，BIOS 会初始化硬件�
 
 - 请浏览[驱动安装](/x/x2l/driver)
 
-## 升级 BIOS
+## BIOS 设置
 
-- 请浏览[升级 BIOS](/x/x2l/update-bios)
+- 请浏览[升级 BIOS](/x/x2l/bios)
 
 ## 配件使用
 

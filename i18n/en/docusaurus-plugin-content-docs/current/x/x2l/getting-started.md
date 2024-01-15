@@ -77,9 +77,9 @@ The Radxa X2L doesn't come with a CMOS battery. For the first time power on, the
 
 - Please refer to [Install Driver](/x/x2l/driver)
 
-## Upgrade BIOS
+## BIOS Setting
 
-- Please refer to [Upgrade BIOS](/x/x2l/update-bios)
+- Please refer to [BIOS Setting](/x/x2l/bios)
 
 ## Use of accessories
 

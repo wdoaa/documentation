@@ -2,7 +2,7 @@
 sidebar_position: 15
 ---
 
-# Installation Guide for Radxa Heatsink 9010A
+# Installation for Radxa Heatsink 9010A
 
 ![install_heatsink_01](/img/x/x2l/heatsink_9010a_01.webp)
 
