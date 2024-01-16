@@ -64,5 +64,3 @@ Not all functions can be turned on at the same time. Only one function can be as
   - For v1.4 and later hardware, on board SPI flash is soldered, UART4 PINs are used as SPI function.
 - For I2C-2 and I2C-7
   - We have do the test using the i2c device e2prom. We need to open the i2c device file, and then do the read or write operation.
-
-Please refer to [`libgpiod`](/radxa-os/development/libgpiod.md) for how to control GPIO.

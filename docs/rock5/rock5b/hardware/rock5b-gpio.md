@@ -45,5 +45,3 @@ ROCK 5B提供了一个40pin针脚的GPIO座子，兼容于市面上大部分传�
 |             |             |              |              |             |               |             |            |    GND    | <div className='black'>39</div>  | <div className='green'>40</div> |  GPIO3_B3  |            |            |                UART2_RTSN                 |             | I2S2_SDO_M1  |              |           |     107     |
 
 </div>
-
-请参阅 [`libgpiod`](/radxa-os/development/libgpiod.md) 来了解该如何控制 GPIO。

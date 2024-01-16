@@ -77,5 +77,3 @@ ROCK 5A provides a 40pin GPIO socket, which is compatible with most sensor appli
 </div>
 </TabItem>
 </Tabs>
-
-Please refer to [`libgpiod`](/radxa-os/development/libgpiod.md) for how to control GPIO.

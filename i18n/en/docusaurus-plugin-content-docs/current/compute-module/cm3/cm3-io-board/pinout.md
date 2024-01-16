@@ -60,5 +60,3 @@ Radxa CM3 IO Board and Raspberry Pi CM4 IO Baseboard's 40-pin expansion header a
 
 </TabItem>
 </Tabs>
-
-Please refer to [`libgpiod`](/radxa-os/development/libgpiod.md) for how to control GPIO.

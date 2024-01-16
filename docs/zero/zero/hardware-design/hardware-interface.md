@@ -50,7 +50,3 @@ GPIOA_14 和 GPIOA_15 连接到了上拉电阻和 USB-C 控制器，因此不能
 |             |               |               |               |    GND     | <div className='black'>39</div>  | <div className='green'>40</div> | GPIOAO_11  |                   PWMAO_A                   |               |               | 423         |
 
 </div>
-
-#### GPIO 编号
-
-请参阅 [`libgpiod`](/radxa-os/development/libgpiod.md) 来了解该如何控制 GPIO。

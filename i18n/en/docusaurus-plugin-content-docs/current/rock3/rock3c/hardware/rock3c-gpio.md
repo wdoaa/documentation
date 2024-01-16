@@ -51,5 +51,3 @@ Pin 3 and Pin 5 have additional pull-up to power downstream I2C devices, as such
 </div>
 
 [**wiringX GPIO mapping**](https://github.com/nascs/wiringX/blob/rock3/docs/source/platforms/radxa/rock3c.rst)
-
-Please refer to [`libgpiod`](/radxa-os/development/libgpiod.md) for how to control GPIO.
