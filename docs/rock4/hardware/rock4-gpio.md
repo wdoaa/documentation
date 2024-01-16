@@ -64,5 +64,3 @@ ROCK 4 系列有一个 40 引脚的扩展针座。每个引脚用颜色区分。
   - 某些板子的板载 SPI 闪存已焊接，UART4 引脚用于 SPI 功能。
 - 对于 I2C-2 和 I2C-7
   - 我们已经使用 i2c 设备 e2prom 进行测试。我们需要打开 i2c 设备文件，然后进行读或写操作。
-
-请参阅 [`libgpiod`](/radxa-os/development/libgpiod.md) 来了解该如何控制 GPIO。

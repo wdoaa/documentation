@@ -51,5 +51,3 @@ Pin 3 与 Pin 5 为 I2C 设备供电添加了额外的上拉电阻，故在作�
 </div>
 
 [**wiringX GPIO 映射**](https://github.com/nascs/wiringX/blob/rock3/docs/source/platforms/radxa/rock3c.rst)
-
-请参阅 [`libgpiod`](/radxa-os/development/libgpiod.md) 来了解该如何控制 GPIO。

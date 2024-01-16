@@ -58,5 +58,3 @@ Radxa CM5 IO provides a 40pin GPIO socket, which is compatible with most sensor 
 
 </TabItem>
 </Tabs>
-
-Please refer to [`libgpiod`](/radxa-os/development/libgpiod.md) for how to control GPIO.

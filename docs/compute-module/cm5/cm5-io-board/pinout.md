@@ -60,5 +60,3 @@ Radxa CM5 IO 提供一个 40 pin GPIO 扩展座，兼容市场上大多数传感
 
 </TabItem>
 </Tabs>
-
-请参阅 [`libgpiod`](/radxa-os/development/libgpiod.md) 来了解该如何控制 GPIO。

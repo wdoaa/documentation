@@ -42,7 +42,3 @@ Radxa E25 provides a 26-pin GPIO header.
 |             |                 |             |              |   GND    | <div className='black'>25</div> | <div className='green'>26</div> |  GPIO3_C0   |              | PWM13_M0    | UART3_RX_M1     |     112     |
 
 </div>
-
-#### GPIO Number
-
-Please Refer to [`libgpiod`](/radxa-os/development/libgpiod.md) to learn how to control GPIO。

@@ -64,10 +64,6 @@ Pin 3 and Pin 5 add extra pull-up resistors for I2C device power supply, so they
 
 </div>
 
-#### GPIO Number
-
-Please Refer to [`libgpiod`](/radxa-os/development/libgpiod.md) to learn how to control GPIO。
-
 ## Bluetooth
 
 ## USB C OTG

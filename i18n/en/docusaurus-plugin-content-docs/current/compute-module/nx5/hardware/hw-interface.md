@@ -69,8 +69,6 @@ Radxa NX5 IO provides a 40pin GPIO socket, which is compatible with most sensor 
 
 </div>
 
-Please refer to [`libgpiod`](/radxa-os/development/libgpiod.md) for how to control GPIO.
-
 ## WIFI/BT
 
 ## HDMI/DP

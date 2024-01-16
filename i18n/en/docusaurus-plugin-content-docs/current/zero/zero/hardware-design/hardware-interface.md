@@ -50,7 +50,3 @@ Pin 22 (GPIOC_7) and pin 36 (GPIOH_8) are open-drain pins. This means that they 
 |             |               |               |               |    GND     | <div className='black'>39</div>  | <div className='green'>40</div> | GPIOAO_11  |                   PWMAO_A                   |               |               | 423         |
 
 </div>
-
-#### GPIO Number
-
-Please Refer to [`libgpiod`](/radxa-os/development/libgpiod.md) to learn how to control GPIO。

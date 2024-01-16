@@ -43,7 +43,3 @@ E25 提供了一个 26 pin 针脚的 GPIO 座子
 |             |                 |             |              |   GND    | <div className='black'>25</div> | <div className='green'>26</div> |  GPIO3_C0   |              | PWM13_M0    | UART3_RX_M1     |     112     |
 
 </div>
-
-#### GPIO 编号
-
-请参阅 [`libgpiod`](rock3/e25/low-level-dev/libgpiod.md) 来了解该如何控制 GPIO。

@@ -45,5 +45,3 @@ ROCK 5B provides a 40pin GPIO socket, which is compatible with most sensor appli
 |             |             |              |              |             |               |             |            |    GND    | <div className='black'>39</div>  | <div className='green'>40</div> |  GPIO3_B3  |            |            |                UART2_RTSN                 |             | I2S2_SDO_M1  |              |           |     107     |
 
 </div>
-
-Please refer to [`libgpiod`](/radxa-os/development/libgpiod.md) for how to control GPIO.

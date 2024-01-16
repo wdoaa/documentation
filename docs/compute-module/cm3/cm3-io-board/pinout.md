@@ -62,5 +62,3 @@ Radxa CM3 IO 板和 Raspberry Pi CM4 IO 底板的 40 引脚扩展头是兼容的
 
 </TabItem>
 </Tabs>
-
-请参阅 [`libgpiod`](/radxa-os/development/libgpiod.md) 来了解该如何控制 GPIO。
