@@ -20,7 +20,9 @@ import TabItem from '@theme/TabItem';
 
 ### 官方镜像
 
-Coming soon......
+Debian 镜像：
+
+CM3 IO：https://github.com/radxa-build/radxa-cm3-io/releases/download/b27/radxa-cm3-io_debian_bullseye_xfce_b27.img.xz
 
 </TabItem>
 <TabItem value="Radxa CM3I">
