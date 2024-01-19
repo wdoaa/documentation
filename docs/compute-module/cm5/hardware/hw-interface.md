@@ -1,26 +1,83 @@
 ---
-sidebar_position: 50
+sidebar_position: 4
 ---
 
-# 引脚定义
+# 硬件接口说明
 
-## 电压范围
+## 接口总览
 
-| Type | Voltage | Tolerance |
-| ---- | ------- | --------- |
-| GPIO | 3.3V    | 3.63V     |
-| ADC  | 1.8V    | 1.98V     |
+![Radxa CM5](/img/cm5/cm5-overview.webp)
 
-## GPIO 接口
+![Radxa CM5 IO Board](/img/cm5/cm5-io-board-overview.webp)
 
-Radxa CM5 IO 提供一个 40 pin GPIO 扩展座，兼容市场上大多数传感器应用。
+## 电源接口
 
-:::caution
-提示：实际兼容性以实际使用情况为准。
+Radxa CM5 IO 采用 DC 电源接口供电，支持 5V、12V 输入，推荐使用12V，这样供电比较稳定。
+
+## 调试串口
+
+用于[串口调试](../radxa-os/low-level-dev/serial)。
+
+## 有线网口
+
+Radxa CM5 IO 提供以太网口可接入1000M 以太网
+
+## WIFI/BT
+
+提供 M.2 KEY 接口，可兼容市面上常见的 PCIe 协议网卡，如 Radxa Wireless A8 模组 。
+
+## HDMI
+
+Radxa CM5 IO 配备了全尺寸 HDMI 接口。建议使用具有 HDMI 功能的显示器。  
+Radxa CM5 IO 最高支持 8K 分辨率，以及常规的4K、2K、1080P等分辨率。
+
+## Type-C
+
+Radxa CM5 IO 配备了全功能typec接口。支持DP显示，以及连接 USB-Hub 设备。
+
+## USB
+
+搭配 USB3.0 x1 和 USB2.0 x2 HOST
+
+## MIPI CSI
+
+Radxa CM5 IO 支持摄像头功能
+
+## MIPI DSI
+
+Radxa CM5 IO 支持 MIPI DSI 显示功能。
+:::tip
+瑞莎建议使用 [Radxa Display 8 HD](/accessories/lcd-8-hd) 或 [Radxa Display 10 FHD](/accessories/lcd-10-fhd)。
 :::
 
+## MicroSD
+
+可用于系统启动盘，也可以充当存储介质使用
+
+## 耳机接口
+
+支持标准3.5mm 耳机（带麦克风）
+
+## RTC
+
+连接 RTC 电池
+
+## 40 PIN GPIO
+
+### GPIO 电压
+
+| GPIO       | 电压 | 最高  |
+| ---------- | ---- | ----- |
+| 所有的GPIO | 3.3V | 3.63V |
+| SARADC_IN4 | 1.8V | 1.98V |
+
+### GPIO 接口
+
+Radxa CM5 IO 提供了一个40pin针脚的GPIO座子，兼容于市面上大部分传感器的应用。
+**_提示:_ 实际兼容情况以使用为准。**
+
 <Tabs queryString="revision">
-<TabItem value="x2_1" label="x2.1">
+<TabItem value="x2_2" label="x2.2">
 
 <div className='gpio_style'>
 
@@ -49,7 +106,7 @@ Radxa CM5 IO 提供一个 40 pin GPIO 扩展座，兼容市场上大多数传感
 
 </div>
 
-### 关于 X2.1 硬件版本的 40-pin 扩展座的补充
+### 关于 X2.2 硬件版本的 40-pin 扩展座的补充
 
 - 标有橙色的引脚用于 debug console。
 - PWM: x7, PWM6 / PWM7 / PWM10 / PWM11 / PWM13 / PWM14 / PWM15
