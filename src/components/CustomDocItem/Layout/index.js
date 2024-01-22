@@ -11,7 +11,6 @@ import DocItemTOCMobile from "@theme/DocItem/TOC/Mobile";
 import DocItemContent from "@theme/DocItem/Content";
 import DocBreadcrumbs from "@theme/DocBreadcrumbs";
 import styles from "./styles.module.css";
-import ExecutionEnvironment from "@docusaurus/ExecutionEnvironment";
 import { ThemeClassNames } from "@docusaurus/theme-common";
 import { useState, useEffect } from "react";
 
@@ -51,11 +50,16 @@ function DocItemTOCDesktop() {
 }
 
 function useDocTOC() {
-  const { frontMatter, toc } = useDoc();
-  const _toc = ExecutionEnvironment.canUseDOM ? getTOC() : toc;
+  const { frontMatter } = useDoc();
+  const [toc, updateTOC] = useState([]);
+
+  useEffect(() => {
+    updateTOC(getTOC());
+  }, []);
+
   const windowSize = useWindowSize();
   const hidden = frontMatter.hide_table_of_contents;
-  const canRender = !hidden && _toc.length > 0;
+  const canRender = !hidden && toc.length > 0;
   const mobile = canRender ? <DocItemTOCMobile /> : undefined;
   const desktop =
     canRender && (windowSize === "desktop" || windowSize === "ssr") ? (
