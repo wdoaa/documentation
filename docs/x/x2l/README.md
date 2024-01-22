@@ -21,8 +21,8 @@ Radxa X2L 是瑞莎全新推出的 基于 Intel J4125 的 X86 单板机。
 | :----: | :-------------------------------------------------------------------------------------------------------------------------------------------- |
 |  SoC   | **Intel® Celeron® Processor J4125**                                                                                                         |
 |  GPU   | **Intel® UHD Graphics 600**                                                                                                                  |
-|  内存  | LPDDR4 RAM                                                                                                                                    |
-|  存储  | M.2 M Key 接口，支持 2280 NVMe SSD                                                                                                            |
+|  内存  | LPDDR4 RAM（2GB / 4GB / 8GB）                                                                                                                 |
+|  存储  | M.2 M Key 接口，支持 2280 NVMe SSD（不支持SATA协议）                                                                                          |
 |  显示  | 提供 2 个最高支持 4K@30 的标准 HDMI 接口                                                                                                      |
 |  声音  | 带麦克风功能的 3.5 毫米耳机插孔                                                                                                               |
 |  无线  | M.2 E Key 接口，用来支持无线功能。支持 AX210 和 [Radxa Wireless Module A8](/accessories/wireless-a8)                                          |
