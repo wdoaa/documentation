@@ -25,7 +25,8 @@ ROCK 5B 的内存是 LPDDR 4x，由两个 32 bits LPDDR 4x 芯片组成 64 bits�
 
 Radxa ROCK 5 Model B 被设计为低功耗的 ARM 台式单板计算机。它支持以下电源输入：
 
-- USB PD2.0 电源适配器，支持 5V/5A，支持 12V / 15V / 20V，输出电流为 2A 或更高。
+- Type-C 5V 输入，高负载下推荐输入电流 5A
+- USB PD2.0 电源适配器，支持 12V / 15V / 20V，输出电流为 2A 或更高。
 - 具有固定 9V 至 20V 直流电压和 USB-C 插头的电源适配器
 - 来自 GPIO PIN 2 和 4 的 5V PoE 电源
 

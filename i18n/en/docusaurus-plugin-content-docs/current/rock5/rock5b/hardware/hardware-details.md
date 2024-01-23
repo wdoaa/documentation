@@ -25,7 +25,8 @@ The ram for ROCK 5B is LPDDR 4x, two 32bits LPDDR 4x chips make 64bits, data fre
 
 The Radxa ROCK 5 Model B is designed to be an ARM desktop Single Board Computer with low power consumption. It supports the following power input:
 
-- USB PD2.0 power adapter which support 5v with 5A current or 12V/15V/20V with 2A current or higher output
+- Type-C 5V, recommended high load input current: 5A
+- USB PD2.0 power adapter which 12V/15V/20V with 2A current or higher output
 - Power adapter with fixed 9V to 20V DC voltage and USB C plug
 - 5V PoE power from the GPIO PIN 2 & 4
 
