@@ -41,7 +41,7 @@ Coming soon......
 
 ### Testing Images
 
-Radxa CM5 IO: [test-build-1](https://github.com/radxa-build/radxa-cm5-io/releases/download/test-build-1/radxa-cm5-io_debian_bullseye-test_kde_t1.img.xz)
+Radxa CM5 IO: [test-build-5](https://github.com/radxa-build/radxa-cm5-io/releases/download/test-build-5/radxa-cm5-io_debian_bullseye-test_kde_t5.img.xz)
 
 </TabItem>
 
