@@ -353,6 +353,56 @@ sidebar_custom_props: { product_docs: [
 
         {
           # 产品代号
+          product_code: "rm120",
+          # 产品名
+          product_name_zh: "CM5",
+          product_name_en: "CM5",
+          # 产品系列
+          Product_Line_zh: "计算模块系列",
+          Product_Line_en: "Compute Module Family",
+          # 产品对应的所有文档
+          docs:
+            [
+              {
+                title_zh: "新手入门指南",
+                info_zh: "从这里开始你的 CM5 之旅",
+                title_en: "Getting Started Guide",
+                info_en: "Start Your CM5 Journey Here",
+                url: "/compute-module/cm5",
+              },
+              {
+                title_zh: "配件使用指南",
+                info_zh: "使用 CM5 配件",
+                title_en: "Accessories Guide",
+                info_en: "Using CM5 Accessories",
+                url: "/compute-module/cm5/accessories",
+              },
+              {
+                title_zh: "编译源码指南",
+                info_zh: "编译源码",
+                title_en: "Compile Source Guide",
+                info_en: "Compile the Source Code",
+                url: "/compute-module/cm5/radxa-os/low-level-dev",
+              },
+              {
+                title_zh: "相关认证信息",
+                info_zh: "CM5 认证文件",
+                title_en: "Certification Information",
+                info_en: "CM5 Certification Document",
+                url: "/compliance/compute-module/radxa-cm5",
+              },
+              {
+                title_zh: "官方系统镜像",
+                info_zh: "支持多种镜像下载",
+                title_en: "Image Download",
+                info_en: "Support Multiple Images Download",
+                url: "/compute-module/images",
+              },
+            ],
+        },
+
+        {
+          # 产品代号
           product_code: "rm121",
           # 产品名
           product_name_zh: "NX5",
