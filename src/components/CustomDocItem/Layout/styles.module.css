@@ -7,4 +7,14 @@
   .docItemCol {
     max-width: 75% !important;
   }
+
+  .tocMobile {
+    display: none;
+  }
+}
+
+@media print {
+  .tocMobile {
+    display: none;
+  }
 }

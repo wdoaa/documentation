@@ -1,20 +1,20 @@
 import React from "react";
 import clsx from "clsx";
-import { useWindowSize } from "@docusaurus/theme-common";
+import { useState, useEffect } from "react";
+import { useWindowSize, ThemeClassNames } from "@docusaurus/theme-common";
 import { useDoc } from "@docusaurus/theme-common/internal";
+
+import DocBreadcrumbs from "@theme/DocBreadcrumbs";
+import DocItemContent from "@theme/DocItem/Content";
 import DocItemPaginator from "@theme/DocItem/Paginator";
 import DocVersionBanner from "@theme/DocVersionBanner";
 import DocVersionBadge from "@theme/DocVersionBadge";
-import DocItemFooter from "../Footer";
-import DocItemTOCMobile from "@theme/DocItem/TOC/Mobile";
-// import DocItemTOCDesktop from "@theme/DocItem/TOC/Desktop";
-import DocItemContent from "@theme/DocItem/Content";
-import DocBreadcrumbs from "@theme/DocBreadcrumbs";
-import styles from "./styles.module.css";
-import { ThemeClassNames } from "@docusaurus/theme-common";
-import { useState, useEffect } from "react";
-
 import TOC from "@theme/TOC";
+import TOCCollapsible from "@theme/TOCCollapsible";
+
+import DocItemFooter from "../Footer";
+import styles from "./styles.module.css";
+
 /**
  * Decide if the toc should be rendered, on mobile or desktop viewports
  */
@@ -45,6 +45,24 @@ function DocItemTOCDesktop() {
       minHeadingLevel={frontMatter.toc_min_heading_level}
       maxHeadingLevel={frontMatter.toc_max_heading_level}
       className={ThemeClassNames.docs.docTocDesktop}
+    />
+  );
+}
+
+function DocItemTOCMobile() {
+  const { frontMatter } = useDoc();
+  const [toc, updateTOC] = useState([]);
+
+  useEffect(() => {
+    updateTOC(getTOC());
+  }, []);
+
+  return (
+    <TOCCollapsible
+      toc={toc}
+      minHeadingLevel={frontMatter.toc_min_heading_level}
+      maxHeadingLevel={frontMatter.toc_max_heading_level}
+      className={clsx(ThemeClassNames.docs.docTocMobile, styles.tocMobile)}
     />
   );
 }
