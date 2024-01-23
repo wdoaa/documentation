@@ -2,8 +2,8 @@
 sidebar_position: 3
 ---
 
-# Led
+import Led from '../../../../common/radxa-os/rsetup/\_led.mdx';
 
-import Led from '../../../../radxa-os/rsetup/led.mdx';
+# Led
 
 <Led />

@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-# Devicetree
+import Devicetree from '../../../../common/radxa-os/rsetup/\_devicetree.mdx';
 
-import Devicetree from '../../../../radxa-os/rsetup/devicetree.mdx';
+# Devicetree
 
 <Devicetree />

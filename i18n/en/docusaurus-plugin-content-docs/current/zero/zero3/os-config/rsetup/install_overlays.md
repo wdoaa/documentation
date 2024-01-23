@@ -2,8 +2,8 @@
 sidebar_position: 2
 ---
 
-# Install Overlays
+import Overlays from '../../../../common/radxa-os/rsetup/\_install_overlays.mdx';
 
-import Overlays from '../../../../radxa-os/rsetup/install_overlays.mdx';
+# Install Overlays
 
 <Overlays />
