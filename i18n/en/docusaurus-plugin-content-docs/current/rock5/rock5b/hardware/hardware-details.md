@@ -194,11 +194,11 @@ After that short press power button would power on the device.
 
 ## RGB LED (23)
 
-Please check [LED guide](/radxa-os/rsetup/led).
+Please check [LED guide](../os-config/rsetup#leds).
 
 ## Fan (24)
 
-You can check [rsetup-thermal-governor](/radxa-os/rsetup#thermal-governor) to set up the fan.
+You can check [rsetup: thermal-governor](../os-config/rsetup#thermal-governor) to set up the fan.
 Definition table (From top to bottom in the picture):
 
 | Pin# | Name  |

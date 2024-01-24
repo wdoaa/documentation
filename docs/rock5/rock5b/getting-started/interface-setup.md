@@ -40,7 +40,7 @@ ROCK 5B 提供了一个 3.5mm 耳机接口，你可以将耳机或喇叭连接�
 ROCK 5B 提供两个 M.2 连接器：
 
 - 主板正面有一个带 2230 安装孔的 M.2 E Key 连接器，提供 PCIe 2.1 单通道、USB、SATA、SDIO、PCM 和 UART 信号，支持工业标准 M.2 WiFi 6 模块。  
-  如果你想通过无线模块上网，Radxa 推荐使用 [Radxa Wireless A8](/accessories/wireless-a8)。Radxa Wireless A8 的接口规格是 M.2 2230 E 口，安装在 ROCK 5B 的 M.2 E 口然后设置 wifi 网络就可以上网，具体操作请查考[网络设置](/radxa-os/config/network.md)。
+  如果你想通过无线模块上网，Radxa 推荐使用 [Radxa Wireless A8](/accessories/wireless-a8)。Radxa Wireless A8 的接口规格是 M.2 2230 E 口，安装在 ROCK 5B 的 M.2 E 口然后设置 wifi 网络就可以上网，具体操作请查考[网络设置](../radxa-os/network)。
 
 ![rock5b_01](/img/rock5b/rock5b-use-wireless.webp)
 

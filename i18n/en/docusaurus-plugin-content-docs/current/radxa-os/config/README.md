@@ -1,6 +1,0 @@
----
----
-
-# System Configuration
-
-<DocCardList />

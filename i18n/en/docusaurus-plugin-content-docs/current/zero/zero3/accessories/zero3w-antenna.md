@@ -13,7 +13,7 @@ Radxa ZERO 3W has an onboard AP6212 WiFi&BT module, an onboard antenna and an ex
 
 ## Use external antenna
 
-If you need to use an external antenna, you need to enable the external antenna overlay, Use rsetup [Enable overlay](/radxa-os/rsetup/devicetree).
+If you need to use an external antenna, you need to enable the external antenna overlay, Use rsetup [Device Tree Configuration](../os-config/rsetup#overlays).
 
 ```bash
 sudo rsetup

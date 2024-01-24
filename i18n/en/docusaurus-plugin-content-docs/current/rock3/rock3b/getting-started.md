@@ -26,6 +26,6 @@ sidebar_position: 3
 
 3. Insert the system storage media: microSD card or eMMC module into the socket on the board and boot your product powered by the Type-C power adapter.
 
-4. Connect the peripherals and start using [Radxa OS](/radxa-os).
+4. Connect the peripherals and start using Radxa OS.
 
 If you already know the product well enough, you can also use the direct connection method to flash the device：

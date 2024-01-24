@@ -20,16 +20,16 @@ Please refer to [Radxa 25W PoE HAT](/i18n/en/docusaurus-plugin-content-docs/curr
 
 If you need to enable the fan and temperature sensor, you need to enable the corresponding Overlay.
 
-Please refer to [Device Tree Configuration](/radxa-os/rsetup/devicetree#how-to-enable-an-overlay) to enable the overlay named "Enable Radxa 25W PoE HAT".
+Please refer to [Device Tree Configuration](../os-config/rsetup#overlays) to enable the overlay named "Enable Radxa 25W PoE HAT".
 
-```bash.
+```bash
   [*] Enable Radxa 25W PoE HAT
 ```
 
 Finally, reboot the device to enable the overlay.
 
 :::info
-If you cannot find the corresponding Overlay in `rsetup`, please refer to [System Update Guide](/radxa-os/rsetup#system-update) to update the system first and then do the steps above.
+If you cannot find the corresponding Overlay in `rsetup`, please refer to [System Update Guide](../os-config/rsetup#system-update) to update the system first and then do the steps above.
 :::
 
 ### Check the Temperature Sensor's function

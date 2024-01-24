@@ -12,7 +12,8 @@ sidebar_position: 10
 
 ## 使用 rsetup 开启 对应 overlay
 
-- 进入 rsetup 后，跟随[设备树设置](/radxa-os/rsetup/devicetree)进入设备树管理界面
+- 进入 rsetup 后，进入设备树管理界面
+<!-- - 进入 rsetup 后，跟随[设备树设置](/radxa-os/rsetup/devicetree)进入设备树管理界面 -->
 
 - 启用 Waveshare 3.5 inch Display 的 overlay
 

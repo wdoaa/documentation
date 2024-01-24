@@ -40,7 +40,7 @@ The following are the steps for the ROCK 3A to enter Maskrom mode:
 |            Audio            | 3.5mm jack with mic<br/>HD codec that supports up to 24-bit/96KHz audio                                                                                                                            |
 |           Camera            | MIPI CSI 2 lanes via FPC connector, support up to 8 MP camera                                                                                                                                      |
 |          Wireless           | None on board. Optional [Radxa Wireless Module A8](/accessories/wireless-a8)                                                                                                                       |
-|             USB             | USB 3.0 OTG X1, software([rsetup](/radxa-os/rsetup)) switch for host/device switch, upper one<br/>USB 3.0 HOST X1<br/>USB 2.0 HOST X2                                                              |
+|             USB             | USB 3.0 OTG X1, software([rsetup](os-config/rsetup)) switch for host/device switch, upper one<br/>USB 3.0 HOST X1<br/>USB 2.0 HOST X2                                                              |
 |          Ethernet           | GbE LAN with Power over Ethernet (PoE) support<br/>additional HAT is required for powering from PoE                                                                                                |
 |             IO              | 40-pin expansion header                                                                                                                                                                            |
 |            Power            | USB PD, support USB Type-C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A (Recommended)<br/>Qualcomm® Quick ChargeTM: Supports QC 3.0/2.0 adapter, 9V/2A, 12V/1.5A (Recommended)<br/>DC 5V/4A power supply |
@@ -70,7 +70,7 @@ The following are the steps for the ROCK 3A to enter Maskrom mode:
 
 3. Insert the system storage media: microSD card or eMMC module into the socket on the board and boot your product powered by the Type-C power adapter.
 
-4. Connect the peripherals and start using [Radxa OS](/radxa-os).
+4. Connect the peripherals and start using Radxa OS.
 
 If you already know the product well enough, you can also use the Direct Connection method to flash the device.
 
