@@ -38,4 +38,13 @@ const Image = ({ src, alt, width, height, ...rest }) => {
   return <img src={_src} alt={_alt} width={width} height={height} />;
 };
 
-export { Section, Image };
+const Details = ({ summary, children }) => {
+  return (
+    <details>
+      <summary>{summary}</summary>
+      {children}
+    </details>
+  );
+};
+
+export { Section, Image, Details };
