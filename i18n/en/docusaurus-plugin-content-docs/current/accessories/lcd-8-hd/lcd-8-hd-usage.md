@@ -53,7 +53,8 @@ Recommended [Radxa PD 30W Adapter](/accessories/pd_30w).
 
 3. Connect the monitor or USB serial port debugging, power into the system
 
-4. Enable the overlay option of `Radxa Display 8 HD' via the terminal, see [Device Tree Settings](/radxa-os/rsetup/devicetree) for details.
+4. Enable the overlay option of `Radxa Display 8 HD' via the terminal, see Device Tree Settings.
+<!-- [Device Tree Settings](/radxa-os/rsetup/devicetree) for details. -->
 
 5. Reboot the SBC to apply overlay and the display will output a screen.
 
@@ -157,7 +158,8 @@ The physical connection diagram is referenced below:
 
 4. Connect the monitor or USB serial port debugging, power into the system
 
-5. Enable the overlay option of `Radxa Display 8 HD' via the terminal, see [Device Tree Settings](/radxa-os/rsetup/devicetree) for details.
+5. Enable the overlay option of `Radxa Display 8 HD' via the terminal, see Device Tree Settings.
+<!-- [Device Tree Settings](/radxa-os/rsetup/devicetree) for details. -->
 
 6. Reboot the SBC to apply overlay and the display will output a screen.
 

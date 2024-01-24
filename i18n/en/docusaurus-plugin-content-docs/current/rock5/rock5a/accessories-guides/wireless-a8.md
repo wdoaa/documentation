@@ -88,7 +88,7 @@ If you see the interface name of the wireless card, it means that it has been su
   nmcli dev wifi connect "wifi_name" password "wifi_password"
   ```
 
-For network settings and IP settings, you can also refer to [Network Settings](/radxa-os/config/network.md).
+For network settings and IP settings, you can also refer to [Network Settings](../radxa-os/network).
 
 ### Bluetooth Settings
 

@@ -15,7 +15,7 @@ sidebar_position: 3
 radxa@rock-5b:~$ rsetup
 ```
 
-- Enable Overlay of the Radxa camera 4K via [Enable Device Tree Guidance](/radxa-os/rsetup/devicetree).
+- Enable Overlay of the Radxa camera 4K via [Device Tree Configuration](../os-config/rsetup#overlays).
 
 :::caution [Caution]
 

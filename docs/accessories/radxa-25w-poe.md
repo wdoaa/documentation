@@ -79,7 +79,9 @@ Radxa 25W PoE 的包装清单如下：
 
 如需要启用温控风扇以及温度传感器，则需要开启对应 Overlay。
 
-请参照[设备树配置](/radxa-os/rsetup/devicetree#how-to-enable-an-overlay)，启用名为 "Enable Radxa 25W PoE HAT "的 Overlay。
+请参照设备树配置，启用名为 "Enable Radxa 25W PoE HAT "的 Overlay。
+
+<!-- 请参照[设备树配置](/radxa-os/rsetup/devicetree#how-to-enable-an-overlay)，启用名为 "Enable Radxa 25W PoE HAT "的 Overlay。 -->
 
 ```bash
   [*] Enable Radxa 25W PoE HAT
@@ -88,7 +90,10 @@ Radxa 25W PoE 的包装清单如下：
 最后，重启设备以加载 Overlay。
 
 :::info
-如果您无法在`rsetup`中找到对应的 Overlay，请参考 [System Update Guide](/radxa-os/rsetup#system-update) 首先进行系统更新，然后再执行以上操作。
+如果您无法在 `rsetup` 中找到对应的 Overlay，请使用 `rsetup -> system-update` 首先进行系统更新，然后再执行以上操作。
+
+<!-- 如果您无法在`rsetup`中找到对应的 Overlay，请参考 [System Update Guide](/radxa-os/rsetup#system-update) 首先进行系统更新，然后再执行以上操作。 -->
+
 :::
 
 5. 检查温度传感器读数

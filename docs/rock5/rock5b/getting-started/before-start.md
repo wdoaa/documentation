@@ -218,7 +218,7 @@ root@rock-5b:/home/rock#
 
 #### SSH访问
 
-- [SSH访问](/radxa-os/config/ssh-access.md)
+- [SSH 访问](../os-config/ssh)
 
 ### 文件传输
 

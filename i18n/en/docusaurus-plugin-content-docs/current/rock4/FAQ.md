@@ -6,11 +6,11 @@ Since the new hardware version may do some material updates (such as material re
 
 We recommend that you reconfigure your system based on our latest release when changing hardware versions to ensure optimal software compatibility.
 
-If you don't reconfigure your system, you can perform a [system update](/radxa-os/rsetup#system-update) and a [bootloader update](/radxa-os/rsetup#update-bootloader).
+If you don't reconfigure your system, you can perform a [system update](os-config/rsetup#system-update) and a [bootloader update](os-config/rsetup#update-bootloader).
 This also ensures that your system contains the latest hardware support.Please note that you'b better perform a full backup of your system (e.g., generating a disk image)
 before system migration.
 
-:::caution
+:::tip
 If old systems do not have `rsetup` pre-installed, the system will not be able to be updated online. We _strongly recommend_ that you migrate to the latest RadxaOS to obtain complete product support.
 
 For old systems, if you do not migrate to the latest system, we will provide some bypass methods.

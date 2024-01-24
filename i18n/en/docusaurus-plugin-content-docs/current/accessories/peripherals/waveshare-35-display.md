@@ -12,8 +12,8 @@ Connect the screen with the development board as follows:
 
 ## Use rsetup to enable the corresponding overlay
 
-- after entering rsetup, follow [Device Tree Settings](/radxa-os/rsetup/devicetree) to enter the device tree management interface.
-
+- after entering rsetup, enter the device tree management interface.
+<!-- - after entering rsetup, follow [Device Tree Settings](/radxa-os/rsetup/devicetree) to enter the device tree management interface. -->
 - Enable the overlay of Waveshare 3.5 inch Display
 
 ```

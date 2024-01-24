@@ -194,11 +194,11 @@ Open RKDevTool and you would see the device is in Found One MASKROM Device.
 
 ## RGB LED (23)
 
-请查阅 [LED 指导](/radxa-os/rsetup/led).
+请查阅 [LED 指导](../os-config/rsetup#leds).
 
 ## Fan (24)
 
-你可以查阅 [rsetup: thermal-governor](/radxa-os/rsetup#thermal-governor) 来进行风扇设置。
+你可以查阅 [rsetup: thermal-governor](../os-config/rsetup#thermal-governor) 来进行风扇设置。
 定义表（图片中从上到下）：
 
 | Pin# | Name  |

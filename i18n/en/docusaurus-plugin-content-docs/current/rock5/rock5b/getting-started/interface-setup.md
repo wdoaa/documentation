@@ -43,7 +43,7 @@ The ROCK 5B is supplied with two M.2 connectors:
 - The board has an M.2 E Key connector with 2230 specification, providing PCIe 2.1 single channel, USB, SATA, SDIO, PCM and UART signals and supporting industry standard M.2 WiFi 6 modules.  
   If you want to access the internet via a wireless module, Radxa recommends the [Radxa Wireless A8](/accessories/wireless-a8).
   The Radxa Wireless A8 has an M.2 2230 E port and can be installed on the M.2 E port of the ROCK 5B and set up for a wifi network.
-  Please refer to [network settings](/radxa-os/config/network.md) for details.
+  Please refer to [network settings](../radxa-os/network) for details.
 
 ![rock5b_01](/img/rock5b/rock5b-use-wireless.webp)
 

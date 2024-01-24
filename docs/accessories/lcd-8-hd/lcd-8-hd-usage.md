@@ -53,7 +53,8 @@ sidebar_position: 6
 
 3. 连接显示器或 USB 串口调试，通电进入系统
 
-4. 通过终端打开 `Radxa Display 8 HD` 的 overlay 选项，具体操作请参阅[设备树设置](/radxa-os/rsetup/devicetree)。
+4. 通过终端打开 `Radxa Display 8 HD` 的 overlay 选项，具体操作请参阅设备树设置。
+<!-- [设备树设置](/radxa-os/rsetup/devicetree)。 -->
 
 5. 重启 SBC 以启用 overlay，显示屏输出画面
 
@@ -157,7 +158,8 @@ Step 3：将卡扣向下按紧，固定排线
 
 4. 连接显示器或 USB 串口调试，通电进入系统
 
-5. 通过终端打开 `Radxa Display 8 HD` 的 overlay 选项，具体操作请参阅[设备树设置](/radxa-os/rsetup/devicetree)。
+5. 通过终端打开 `Radxa Display 8 HD` 的 overlay 选项，具体操作请参阅设备树设置。
+<!-- [设备树设置](/radxa-os/rsetup/devicetree)。 -->
 
 6. 重启 SBC 以启用 overlay，显示屏将会输出画面
 
