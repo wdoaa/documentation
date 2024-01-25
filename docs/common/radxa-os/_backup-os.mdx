@@ -1,0 +1,28 @@
+## 通过脚本备份
+
+我们提供了一个脚本，方便把系统进行备份，该脚本需要运行在板子上。
+
+:::tip
+该脚本仅在瑞莎官方系统充分测试，第三方系统使用该脚本备份，可能会不成功。
+:::
+
+1. 下载脚本
+
+```bash
+wget https://github.com/radxa/backup-sh/raw/master/rockpi-backup.sh -O rockpi-backup.sh
+```
+
+2. 查看帮助
+
+```bash
+sudo ./rockpi-backup.sh -h
+```
+
+3. 备份镜像
+
+以下命令假设我们把镜像镜像备份到 U 盘中，我们先挂载 U 盘，然后运行脚本的时候指定备份路径
+
+```bash
+sudo mount /dev/sda1 /mnt
+sudo ./rockpi-backup.sh -o /mnt
+```
