@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-import Docker from "../../../common/general/\_docker.mdx"
+import Docker from "../../../common/apps/\_docker.mdx"
 
 # Docker
 
