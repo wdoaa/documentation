@@ -10,6 +10,14 @@ The Radxa X series is a newly launched single-board computer series by Radxa, ba
 The Radxa X2L doesn't come with a CMOS battery. For the first time power on, the BIOS initializes hardware setting, the red light is on. This will last about 1 minute then X2L will reboot, and the white light is on, and the BIOS boots normally. Without CMOS battery(Type: CR1220), the above will repeat.
 :::
 
+## Activate Onboard eMMC
+
+** Skip if No Onboard eMMC **
+
+- By default, the eMMC is not recognized. It needs to be activated using the eMMC Recovery Button.
+- Before powering on, press and hold the eMMC Recovery Button, then insert the power plug to start the device. Release the eMMC Recovery Button once the display lights up.
+- At this point, the power indicator will be red, indicating that the system can now recognize and access the eMMC module.
+
 ## Install OS
 
 ### Before Start
