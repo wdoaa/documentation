@@ -1,0 +1,28 @@
+## Backup via script
+
+We provide a script to facilitate the backup of the system, which needs to be run on the board.
+
+:::tip
+This script is only fully tested on Radxa's official systems, and third-party systems using this script backup may not be successful.
+: : :
+
+1. Download script
+
+```bash
+wget https://github.com/radxa/backup-sh/raw/master/rockpi-backup.sh -O rockpi-backup.sh
+```
+
+2. View help
+
+```bash
+sudo ./rockpi-backup.sh -h
+```
+
+3. Backup image
+
+以下命令假设我们把镜像镜像备份到 U 盘中，我们先挂载 U 盘，然后运行脚本的时候指定备份路径
+
+```bash
+sudo mount /dev/sda1 /mnt
+sudo ./rockpi-backup.sh -o /mnt
+```
