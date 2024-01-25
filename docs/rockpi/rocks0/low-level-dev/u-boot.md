@@ -40,7 +40,7 @@ sudo dpkg -i u-boot-latest_2023.10-1_arm64.deb
 安装完成后需要将 U-Boot 刷到启动介质中
 
 ```
-cd /usr/lib/u-boot/radxa-zero3/
+cd /usr/lib/u-boot/rock-s0/
 sudo ./setup.sh update_bootloader /dev/mmcblk1   #/dev/mmcblk1 为你当前使用的启动介质，需要根据实际使用的设备来选择
 sudo reboot
 ```

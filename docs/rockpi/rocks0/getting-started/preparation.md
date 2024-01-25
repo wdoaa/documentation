@@ -30,6 +30,6 @@ ROCK S0 板载了 Wi-Fi 模块，可以通过 Wi-Fi 接入网络，也通过[以
 
 ## 注意事项
 
-## Reference
+## 配件
 
 [支持的配件](../accessories)

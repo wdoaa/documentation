@@ -14,6 +14,11 @@ Rock S0 v1.1 版本
 
 ## 刷机工具
 
+1. [Etcher](https://etcher.balena.io/#download-etcher/)
+2. [rkdeveloptool 开源版本](https://opensource.rock-chips.com/wiki_Rkdeveloptool)
+3. [RKDevTool v2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96_zh.zip) (含中文使用文档)  
+   [DriverAssistant v5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)（相关驱动）
+
 ## 操作系统镜像
 
 - [Radxa Rock S0 Debian Build 6](https://github.com/radxa-build/rock-s0/releases/download/b6/rock-s0_debian_bookworm_cli_b6.img.xz)

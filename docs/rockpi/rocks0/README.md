@@ -60,7 +60,7 @@ sidebar_position: 55
 
 ### [其他系统](/rockpi/rocks0/other-os)
 
-介绍非 Radxa OS的其他系统，例如 Android。
+介绍非 Radxa OS的其他系统。
 
 ### [配件列表](/rockpi/rocks0/accessories)
 

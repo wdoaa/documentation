@@ -4,22 +4,22 @@ sidebar_position: 2
 
 # Samba
 
-Samba 是 Linux 下常用的 SMB/CIFS 工具。通过 Samba ，您可以和包含 Windows 和 Android 在内的多种不同操作系统间进行文件分享。
+Samba is a popular SMB/CIFS tool for Linux. With Samba, you can share files with many different operating systems, including Windows and Android.
 
-1. 安装 samba
+1. Install samba
 
 ```
 sudo apt-get update
 sudo apt-get install samba
 ```
 
-2. 编辑Samba配置文件,打开 /etc/samba/smb.conf 文件
+2. Editing the Samba Configuration File `/etc/samba/smb.conf`
 
 ```
-sudo nano /etc/samba/smb.conf
+sudo vim /etc/samba/smb.conf
 ```
 
-3. 在文件末尾添加以下配置
+3. Add the following configuration to the end of the file
 
 ```
 [radxa]
@@ -31,26 +31,26 @@ public = yes
 writable = yes
 ```
 
-4. 创建共享文件夹
+4. Creating a shared folder
 
 ```
 sudo mkdir /media/samba
 sudo chmod 755 /media/samba
 ```
 
-5. 创建 Samba 用户和密码
+5. Create Samba user and password
 
 ```
 sudo smbpasswd -a radxa
 ```
 
-6. 重新启动 Samba 服务以加载更新后的配置
+6. Restart the Samba service to load the updated configuration
 
 ```
 sudo systemctl restart
 ```
 
-7. 执行 `systemctl status smbd` 查看 samba 运行状态
+7. Execute `systemctl status smbd` to check the status of samba
 
 ```
 $ systemctl status smbd
