@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ### 电源
 
-Radxa Rock S0 的供电接口为 [4 Pin USB 2.0 OTG port](/img/rockpi/s0/rocks0-otg-wire.webp)，仅支持 5V 输入。
+Radxa ROCK S0 的供电接口为 [4 Pin USB 2.0 OTG port](/img/rockpi/s0/rocks0-otg-wire.webp)，仅支持 5V 输入。
 
 ### 启动介质
 

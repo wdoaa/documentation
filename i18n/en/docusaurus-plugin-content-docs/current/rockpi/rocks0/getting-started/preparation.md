@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ### Power supply
 
-The Radxa Rock S0 is powered by [4 Pin USB 2.0 OTG port](/img/rockpi/s0/rocks0-otg-wire.webp), which supports 5V input only.
+The Radxa ROCK S0 is powered by [4 Pin USB 2.0 OTG port](/img/rockpi/s0/rocks0-otg-wire.webp), which supports 5V input only.
 
 ### Boot Media
 

@@ -4,6 +4,6 @@ sidebar_position: 50
 
 # Accessories
 
-Using Accessories with Radxa Rock S0
+Using Accessories with Radxa ROCK S0
 
 <DocCardList />

@@ -11,7 +11,7 @@ sidebar_position: 4
 
 ## 电源接口
 
-Radxa Rock S0 的供电接口为 [4 Pin USB 2.0 OTG port](/img/rockpi/s0/rocks0-otg-wire.webp)，仅支持 5V 输入。
+Radxa ROCK S0 的供电接口为 [4 Pin USB 2.0 OTG port](/img/rockpi/s0/rocks0-otg-wire.webp)，仅支持 5V 输入。
 
 ## 调试串口
 
@@ -37,7 +37,7 @@ Radxa Rock S0 的供电接口为 [4 Pin USB 2.0 OTG port](/img/rockpi/s0/rocks0-
 
 板载了AP6212 Wi-Fi/BT 模块，可以通过 BT 接入设备，如蓝牙音响等。
 
-## MicroSD
+## microSD
 
 可作为系统启动介质，也可以作为存储介质
 

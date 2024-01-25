@@ -10,7 +10,7 @@ import Serail from "../../../common/general/\_serial.mdx"
 
 ## 用户名和密码
 
-Radxa Rock S0 系列默认添加的用户名和密码为：
+Radxa ROCK S0 系列默认添加的用户名和密码为：
 
 ```
 用户名：radxa/rock
@@ -32,7 +32,7 @@ sudo nmcli device wifi connect <ssid> password <passwd>     #连接WiFi
 
 ### 以太网连接
 
-Radxa Rock S0 板载100M以太网，只需要将网线连接即可开启上网，使用`ip a `指令可以查看 ip。
+Radxa ROCK S0 板载100M以太网，只需要将网线连接即可开启上网，使用`ip a `指令可以查看 ip。
 
 ## 远程登录
 
