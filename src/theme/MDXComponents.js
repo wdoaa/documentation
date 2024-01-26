@@ -5,6 +5,12 @@ import MDXComponents from "@theme-original/MDXComponents";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import DocCardList from "@theme/DocCardList";
+import {
+  InlineDanger,
+  InlineWarning,
+  InlineInfo,
+  InlineSuccess,
+} from "../components/CustomDocItem/InlineText";
 
 export default {
   // Re-use the default mapping
@@ -13,4 +19,8 @@ export default {
   Tabs,
   TabItem,
   DocCardList,
+  InlineDanger,
+  InlineWarning,
+  InlineInfo,
+  InlineSuccess,
 };
