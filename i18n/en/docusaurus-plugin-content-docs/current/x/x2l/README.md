@@ -1,7 +1,7 @@
 ---
 title: "Radxa X2L"
 description: "Radxa X2L"
-sidebar_position: 10
+sidebar_position: 20
 slug: /x/x2l
 ---
 
@@ -22,7 +22,7 @@ The Radxa X2L is a new X86 SBC launched by Radxa, featuring the Intel J4125 proc
 |    SoC     | **Intel® Celeron® Processor J4125**                                                                                                                         |
 |    GPU     | **Intel® UHD Graphics 600**                                                                                                                                  |
 |    RAM     | LPDDR4 (2GB / 4GB / 8GB)                                                                                                                                      |
-|  Storage   | M.2 M Key Connector for M.2 M Key 2280 NVMe (Does not support SATA protocol.)                                                                                 |
+|  Storage   | M.2 M Key Connector for M.2 M Key 2280 NVMe (Does not support SATA protocol.) <br/> Optional onboard eMMC                                                     |
 |  Display   | 2x Standard HDMI up to 4K@30fps                                                                                                                               |
 |   Audio    | Headphone Jack with MIC IN                                                                                                                                    |
 |  Wireless  | M.2 E Key Connector for Wi-Fi / BT, supports AX210 and [Radxa Wireless Module A8](/accessories/wireless-a8)                                                   |
