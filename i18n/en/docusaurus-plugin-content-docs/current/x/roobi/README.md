@@ -31,7 +31,7 @@ ROOBI OS will be included with the machine you purchase, so manual installation 
 
 :::
 
-If you have purchased a Radxa X-Series SBC with eMMC, you can manually flash the ROOBI OS using this [tutorial](./x/roobi/install-roobi).
+If you have purchased a Radxa X-Series SBC with eMMC, you can manually flash the ROOBI OS using this [tutorial](/x/roobi/install-roobi).
 
 ## Supported Devices
 
