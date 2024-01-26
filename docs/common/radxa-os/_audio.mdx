@@ -1,34 +1,24 @@
----
-sidebar_position: 10
----
+系统默认声音输出优先级为：蓝牙音频 > 耳机 > HDMI 音频。 手动选择音频输出后，该选择将被提升到最高优先级。
 
-# Audio Introdution
+这意味着连接其他音频设备不会在设备以最高优先级设备播放时切换音频输出。
 
-The system default sound output priority is: Bluetooth Audio > Headphones > HDMI Audio. After manual selection of audio output, The selection will be raised to the highest priority.
+## 音频设置
 
-It means that connecting other audio devices does not switch the audio output when the device is playing at the highest priority device.
+### 桌面设置
 
-## Audio Settings
+左键单击桌面任务栏上的音量图标会调出音频输出选择器，你可以在内部音频输出之间进行选择，同时你也可以选择任何外部音频设备，例如 USB 声卡和蓝牙音频设备。
 
-In addition to the graphical interface, we can also set up the audio from the terminal.
-
-### Desktop Settings
-
-Left-clicking the volume icon on the desktop taskbar brings up the audio output selector; this allows you to select between the internal audio outputs.
-It also allows you to select any external audio devices, such as USB sound cards and Bluetooth audio devices.
-A blue tick is shown against the currently selected audio output device — simply left-click the desired output to change this.
-The volume control and mute operate on the currently selected device.
 ![audio manager](/img/configuration/audio_manager.webp)
 
-### Command Line Config
+### 命令行配置
 
-We provide `alsamixer` for volume management, entering the setting ui by this command:
+除了图形界面，我们还可以从终端设置音频。我们提供了 `alsamixer` 用于音量管理，通过这个命令进入设置 UI：
 
 ```
 radxa@rock-5a:~$ alsamixer
 ```
 
-Use the `up` and `down` arrow keys to adjust the volume.
+使用`up`和`down`箭头键调节音量。
 
 ```
 ┌────────────────────────────── AlsaMixer v1.2.4 ──────────────────────────────┐
@@ -56,13 +46,13 @@ Use the `up` and `down` arrow keys to adjust the volume.
 │                                  < Master >
 ```
 
-For changing to other audio output devices, you should get which devices are connected at first, a search is provided below:
+切换其他音频输出设备，首先要知道连接了哪些设备，下面提供了一个搜索方法：
 
 ```
 radxa@rock-5a:~$ pacmd list-sinks | grep -e 'index:' -e 'name:'
 ```
 
-You will see the index and name of the connected audio devices like this:
+您将看到连接的音频设备的索引和名称，如下所示：
 
 ```
     index: 0
@@ -73,11 +63,11 @@ You will see the index and name of the connected audio devices like this:
         name: <bluez_sink.C0_09_0B_48_26_53.a2dp_sink>
 ```
 
-The index with `*` indicates that it's the highest priority device.
-The following command would help you to change default output device:
+带有“\*”的索引表示它是最高优先级的设备。
+以下命令将帮助您更改默认输出设备：
 
 ```
 radxa@rock-5a:~$ pacmd set-default-sink alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink  # 'alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink' is the name of the device you want to set.
 ```
 
-For more information, please check [pacmd page](https://man.archlinux.org/man/extra/pulseaudio/pacmd.1.en).
+想了解更多信息，请查看 [pacmd page](https://man.archlinux.org/man/extra/pulseaudio/pacmd.1.en).
