@@ -25,6 +25,7 @@ sidebar_position: 55
 | 无线连接  | 板载无线芯片，支持 Wi-Fi 4 或 Wi-Fi 5 及蓝牙 5.0                      |
 | USB       | 1 个 USB 3.0 HOST Type-A 接口                                         |
 | 音频      | 1 个 4 环 3.5 毫米耳机插孔                                            |
+| 以太网    | 1 个 100Mbps 以太网接口和 1 个 1000Mbps 以太网接口带 PoE 支持         |
 | GPIO 接口 | 40-Pin GPIO 接口                                                      |
 | 电源      | 1 个 USB Type-C 电源接口                                              |
 | 主板尺寸  | 65mm x 56mm                                                           |

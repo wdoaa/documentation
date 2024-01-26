@@ -25,6 +25,7 @@ _The images presented depict a particular configuration of the Radxa ROCK S0. Pl
 | Wireless    | Onboard Wireless WiFi4 / WiFi5 and BT 5.0                                   |
 | USB         | 1x USB 3.0 HOST Type-A Interface                                            |
 | Audio       | 1x 4‑ring 3.5mm headphone jack                                              |
+| Ethernet    | 1x 100Mbps Ethernet and 1x 1000Mbps Ethernet with PoE Support               |
 | GPIO        | 40-Pin GPIO Header                                                          |
 | Power       | 1x USB Type-C Power Interface                                               |
 | Form Factor | 65mm x 56mm                                                                 |
