@@ -4,11 +4,11 @@ sidebar_position: 55
 
 # ROCK Pi E
 
-## Vesion V1.21
+## Version V1.21
 
 ![Radxa ROCK Pi E V1.21](/img/rockpi/pie/marked_rock_pi_e_v1210.webp)
 
-## Vesion V3.00
+## Version V3.00
 
 ![Radxa ROCK Pi E V3.0](/img/rockpi/pie/marked_rock_pi_e_v3000.webp)
 
@@ -16,15 +16,15 @@ _The images presented depict a particular configuration of the Radxa ROCK S0. Pl
 
 ## 主要参数
 
-| 型号     | Radxa ROCK Pi E                                                                                                    |
-| -------- | :---------------------------------------------------------------------------------------------------------------- |
-| SoC      | RK3328                                                                                                           |
-| CPU      | Quad‑core ARM Cortex‑A53 64‑bit @ 1.3GHz                                                                      |
-| RAM      | 512MB / 1GB / 2GB DDR3 或 DDR4 RAM                                                                                        |
-| Storage  | 0GB / 4GB / 8GB / 16GB Onboard eMMC / eMMC Connector and Micro SD Card Slot                                                     |
-| Wireless | Onboard Wireless WiFi4 / WiFi5 and BT 5.0                                                                             |
-| USB      | 1x USB 3.0 HOST Type-A Interface |
-| Audio    | 1x 4‑ring 3.5mm headphone jack                                                                   |
-| GPIO     | 40-Pin GPIO Header                                                                                                  |
-| Power    | 1x USB Tyoe-C Power Interface                                              |
-| Form Factor | 65mm x 56mm                                                                                                       |
+| 型号        | Radxa ROCK Pi E                                                             |
+| ----------- | :-------------------------------------------------------------------------- |
+| SoC         | RK3328                                                                      |
+| CPU         | Quad‑core ARM Cortex‑A53 64‑bit @ 1.3GHz                                    |
+| RAM         | 512MB / 1GB / 2GB DDR3 或 DDR4 RAM                                          |
+| Storage     | 0GB / 4GB / 8GB / 16GB Onboard eMMC / eMMC Connector and Micro SD Card Slot |
+| Wireless    | Onboard Wireless WiFi4 / WiFi5 and BT 5.0                                   |
+| USB         | 1x USB 3.0 HOST Type-A Interface                                            |
+| Audio       | 1x 4‑ring 3.5mm headphone jack                                              |
+| GPIO        | 40-Pin GPIO Header                                                          |
+| Power       | 1x USB Type-C Power Interface                                               |
+| Form Factor | 65mm x 56mm                                                                 |
