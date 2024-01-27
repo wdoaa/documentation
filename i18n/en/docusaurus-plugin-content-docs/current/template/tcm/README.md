@@ -2,9 +2,9 @@
 sidebar_position: 5
 ---
 
-# Radxa SBC
+# Radxa TCM
 
-<!-- SBC 产品型号 -->
+<!-- TCM 产品型号 -->
 
 ## Product Description
 
@@ -39,17 +39,9 @@ Introduces how to use tools like rsetup or command line to use devices or functi
 
 Introduces how to deploy the applications such as Samba, Docker, PVE, OMV, LAMP, Cheese, remote control panel, etc.
 
-### [Application Development](/template/sbc/app-development)
-
-Introduces upper-layer application development, such as QT, WiringX, Mraa, etc.
-
 ### [Hardware Development](/template/sbc/hardware-design)
 
 Introduces hardware information, such as hardware interfaces, supported accessories, etc.
-
-### [Lower level Development](/template/sbc/low-level-dev)
-
-Introduces uboot, kernel, debian os compilation and packaging, etc.
 
 ### [Other Systems](/template/sbc/other-os)
 
