@@ -73,3 +73,15 @@ sidebar_position: 15
 ![Zadig_02](/img/x/x2l/zadig_02.webp)
 
 ![Zadig_03](/img/x/x2l/zadig_03.webp)
+
+## Audio Driver Installation
+
+- Download the installation package [Realtek Audio Controller Driver](https://dl.radxa.com/x/x2l/radxa_x2l_audio_driver.zip)
+
+- Copy the Realtek Audio Controller Driver to the Radxa X2L.
+
+- Double-click to open the Realtek Audio Controller Driver installation package, then restart the system after installation is complete.
+
+![Realtek Audio_01](/img/x/x2l/realtek_audio_01.webp)
+
+![Realtek Audio_02](/img/x/x2l/realtek_audio_02.webp)

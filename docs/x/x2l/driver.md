@@ -73,3 +73,15 @@ sidebar_position: 15
 ![Zadig_02](/img/x/x2l/zadig_02.webp)
 
 ![Zadig_03](/img/x/x2l/zadig_03.webp)
+
+## 音频驱动安装
+
+- 安装包下载 [Realtek Audio Controller Driver](https://dl.radxa.com/x/x2l/radxa_x2l_audio_driver.zip)
+
+- 将 Realtek Audio Controller Driver 复制到 Radxa X2L 内
+
+- 双击打开 Realtek Audio Controller Driver 安装包，安装完成后重新启动系统。
+
+![Realtek Audio_01](/img/x/x2l/realtek_audio_01.webp)
+
+![Realtek Audio_02](/img/x/x2l/realtek_audio_02.webp)
