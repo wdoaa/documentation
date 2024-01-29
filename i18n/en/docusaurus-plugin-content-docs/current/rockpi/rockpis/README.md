@@ -22,7 +22,7 @@ sidebar_position: 55
 | Storage     | 0GB / 4GB / 8GB Onboard eMMC OR 256MB / 512MB / 1GB / 2GB NAND Flash <br/> microSD Card Slot |
 | Wireless    | Onboard Wireless, Wi-Fi 4 & BT 4.0                                                           |
 | USB         | 1x USB 2.0 HOST Type‑A Port <br/> 1x USB2.0 OTG Type-C Port for data and power               |
-| Ethernet    | 1x 100Mbps Ethernet with PoE support                                                         |
+| Ethernet    | 1x 100Mbps Ethernet with PoE support(Additional PoE HAT Required)                            |
 | GPIO        | 2x 26-Pin GPIO Interface                                                                     |
 | Power       | 1x USB Type-C Power Port                                                                     |
 | Form Factor | 43mm x 43mm                                                                                  |
