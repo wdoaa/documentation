@@ -2,7 +2,7 @@
 sidebar_position: 15
 ---
 
-import Serail from "../../../common/general/\_serial.mdx"
+import Serial from "../../../common/general/\_serial.mdx"
 
 # 瑞莎系统
 
@@ -19,7 +19,7 @@ Radxa ROCK S0 系列默认添加的用户名和密码为：
 
 ## 串口登录
 
-<Serail platform="rk" />
+<Serial platform="rk" />
 
 ## 设置网络
 

@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-import Ether from '../../../common/general/\_etcher.mdx'
+import Etcher from '../../../common/general/\_etcher.mdx'
 
 # 新手入门
 
@@ -15,31 +15,31 @@ import Ether from '../../../common/general/\_etcher.mdx'
 
 - microSD 卡，容量不小于 8GB（如果您的 ZERO 2 PRO 配备板载 eMMC，您可以直接将系统烧录其中）
 
-- 电源：  
+- 电源：
   瑞莎 ZERO 2 PRO 采用 Type-C 接口供电，仅支持 5V 输入。
 
   :::tip
   瑞莎推荐使用 [瑞莎 Power PD30W](/accessories/pd_30w)。
   :::
 
-- Type-C 集线器及 USB 键鼠  
+- Type-C 集线器及 USB 键鼠
   ZERO 2 PRO 拥有两个 Type-C 接口，其中一个用于供电时，另一个可使用 Type-C 集线器来扩展键鼠或其他外设。
 
-- 显示器和 micro HDMI 线  
+- 显示器和 micro HDMI 线
   ZERO 2 PRO 配备的是 micro HDMI 接口。建议使用具有 HDMI 功能的显示器，最高支持 4K60p 分辨率。
 
-- microSD 读卡器  
+- microSD 读卡器
   将镜像刷写到 microSD 卡上。
 
 ## 可选项
 
-- USB-A 转 USB-C 线：  
+- USB-A 转 USB-C 线：
   用于 `fastboot`/`adb` 命令和 maskrom 模式通信，线刷时需要使用到此配件。
 
-- USB 转 TTL 串口线:  
+- USB 转 TTL 串口线：
   用于[串口调试](../low-level-dev/serial)。
 
-- 音频线  
+- 音频线
   可通过扬声器或标准 3.5 毫米插孔的耳机播放音频。
 
 ## 系统安装
@@ -48,7 +48,7 @@ import Ether from '../../../common/general/\_etcher.mdx'
 
 然后，使用 Etcher 将镜像刷写到 microSD 卡中。
 
-<Ether model="zero2pro" />
+<Etcher model="zero2pro" />
 
 最后，将 microSD 卡插入主板上的插口，并通过 Type-C 电源适配器供电启动。
 

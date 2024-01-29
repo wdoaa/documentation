@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-import Ether from '../../../common/general/\_etcher.mdx'
+import Etcher from '../../../common/general/\_etcher.mdx'
 
 # Install an operating system
 
@@ -18,7 +18,7 @@ Please go to [Resource Download Summary](/rock5/rock5itx/getting-started/downloa
 
 ## Install System
 
-<Ether model="rock5itx" />
+<Etcher model="rock5itx" />
 
 ## Boot the system
 
