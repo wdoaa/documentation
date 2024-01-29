@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-import Serail from "../../../../common/general/\_serial.mdx"
+import Serial from "../../../../common/general/\_serial.mdx"
 
 # Remote login
 
@@ -10,7 +10,7 @@ Introduce how to access SBC through a personal computer (PC) via serial port, ad
 
 ## Serial Login
 
-<Serail platform="rk" />
+<Serial platform="rk" />
 
 ## Adb Login
 

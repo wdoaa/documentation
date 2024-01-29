@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-import Serail from "../../../../common/general/\_serial.mdx"
+import Serial from "../../../../common/general/\_serial.mdx"
 
 # 远程登录
 
@@ -10,7 +10,7 @@ import Serail from "../../../../common/general/\_serial.mdx"
 
 ## 串口登录
 
-<Serail platform="rk" />
+<Serial platform="rk" />
 
 ## Adb 登录
 

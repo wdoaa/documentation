@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-import Ether from '../../../common/general/\_etcher.mdx'
+import Etcher from '../../../common/general/\_etcher.mdx'
 
 # 安装操作系统
 
@@ -18,7 +18,7 @@ import Ether from '../../../common/general/\_etcher.mdx'
 
 ## 安装系统
 
-<Ether model="e25" />
+<Etcher model="e25" />
 
 ## 启动系统
 

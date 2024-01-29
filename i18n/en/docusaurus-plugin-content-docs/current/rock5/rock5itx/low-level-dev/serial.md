@@ -1,5 +1,5 @@
-import Serail from "../../../common/general/\_serial.mdx"
+import Serial from "../../../common/general/\_serial.mdx"
 
 # UART Serial Console
 
-<Serail platform="rk" model="rock5itx"/>
+<Serial platform="rk" model="rock5itx"/>

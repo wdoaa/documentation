@@ -2,7 +2,7 @@
 sidebar_position: 15
 ---
 
-import Serail from "../../../common/general/\_serial.mdx"
+import Serial from "../../../common/general/\_serial.mdx"
 
 # Radxa OS
 
@@ -19,7 +19,7 @@ Password： radxa/rock
 
 ## Serial Debug
 
-<Serail platform="rk" />
+<Serial platform="rk" />
 
 ## Setting Network
 

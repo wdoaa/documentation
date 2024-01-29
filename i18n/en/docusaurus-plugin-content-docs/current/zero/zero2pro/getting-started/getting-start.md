@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-import Ether from '../../../common/general/\_etcher.mdx'
+import Etcher from '../../../common/general/\_etcher.mdx'
 
 # Getting Started
 
@@ -16,31 +16,31 @@ We will cover as much information as possible.
 
 - microSD card with a capacity of at least 8GB (if your ZERO 2 PRO is equipped with on-board eMMC, you can flash your system directly onto it).
 
-- Power supply:  
+- Power supply:
   The Radxa ZERO 2 PRO is powered by a Type-C connector and only supports 5V input.
 
   :::tip
   Radxa recommends the [Radxa Power PD30W](/accessories/pd_30w).
   :::
 
-- Type-C splitter and USB keyboard and mouse  
+- Type-C splitter and USB keyboard and mouse
   The ZERO 2 PRO has two Type-C connectors, one for power supply and the other can be used as a Type-C splitter to extend a keyboard, mouse or other peripherals.
 
-- Display and micro HDMI cable  
+- Display and micro HDMI cable
   The ZERO 2 PRO is equipped with a micro HDMI connector. It is recommended to use an HDMI-enabled monitor that supports resolutions up to 1920 x 1080.
 
-- microSD card reader  
+- microSD card reader
   Flashes the image to a microSD card.
 
 ## Optional
 
-- USB-A to USB-C cable:  
+- USB-A to USB-C cable:
   Used for `fastboot`/`adb` command and maskrom mode communication, this accessory is required for wire brushing.
 
-- USB to TTL serial cable.  
+- USB to TTL serial cable.
   Used for [serial debugging](../low-level-dev/serial).
 
-- Audio cable  
+- Audio cable
   Audio can be played through speakers or headphones with a standard 3.5 mm jack.
 
 ## System Installation
@@ -49,7 +49,7 @@ First, select the [official image](/zero/images) you want to use and download it
 
 Then, use Etcher to flash the image to the microSD card.
 
-<Ether model="zero2pro" />
+<Etcher model="zero2pro" />
 
 Finally, insert the microSD card into the socket on the motherboard and boot up powered by the Type-C power adapter.
 
