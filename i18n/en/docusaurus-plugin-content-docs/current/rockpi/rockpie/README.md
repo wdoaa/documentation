@@ -14,9 +14,9 @@ sidebar_position: 55
 
 _The images presented depict a particular configuration of the Radxa ROCK S0. Please note that the actual component layout and specifications may differ based on the selected Stock Keeping Unit (SKU)._
 
-## 主要参数
+## Features
 
-| 型号        | Radxa ROCK Pi E                                                             |
+| Interface   | Radxa ROCK Pi E                                                             |
 | ----------- | :-------------------------------------------------------------------------- |
 | SoC         | RK3328                                                                      |
 | CPU         | Quad‑core ARM Cortex‑A53 64‑bit @ 1.3GHz                                    |
