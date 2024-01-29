@@ -59,7 +59,7 @@ ROOBI Flasher 是用于恢复 ROOBI OS 的一个刷入工具，如果您因为�
 
 ![Balena_Etcher](/img/x/roobi/success.webp)
 
-> :::tip
+:::tip
 
 按 `Enter` 并**不会**直接进入到ROOBI OS 中。
 
