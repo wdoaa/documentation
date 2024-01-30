@@ -1,11 +1,105 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Remote Login
+import Serail from "../../../common/general/\_serial.mdx"
 
-Introduces how to login remotely via serial port, adb, etc. from pc.
+# Remote login
 
-## Serial Login
+Introduce how to access SBC through a personal computer (PC) via serial port,adb,etc.
 
-## Adb Login
+<Tabs queryString="target">
+
+<TabItem value="Serial" label="Serial login">
+
+<Serail platform="rk" model="nx5"/>
+
+</TabItem>
+
+<TabItem value="ADB" label="ADB login ">
+
+ADB is a bridge between your Android device and your computer, and is used to fully operate and manage your Android device on your computer.
+
+### preparation
+
+install adb(Android Debug Bridge):
+
+#### Windows
+Download the Windows version of the adb toolkit from [Android](https://developer.android.google.cn/),and after downloading and decompressing,you need to configure the environment variables:
+
+Method 1:Enter the following command in the terminal window:set HTTP_PROXY=myserver:1981
+
+Method 2:Open system settings and modify environment variables:![NX5 adb](/img/nx5/adb_config_en.webp)
+
+#### Linux
+
+Use the following command to install:
+```bash
+sudo apt install adb
+```
+
+#### Mac
+
+Download the Mac version of the adb toolkit from [Android](https://developer.android.google.cn/),and after downloading and decompressing,you need to configure the environment variables:
+
+```bash
+export PATH=${path}:~/platform-tools( '~' is the path of the extracted toolkit)
+```
+
+<Tabs queryString="target">
+
+<TabItem value="wired_adb" label="Wired login">
+
+#### Requirements
+
+1. a USB cable
+2. a computer or laptop with the ADB tool installed on it
+3. a Radxa NX5
+
+#### Steps
+
+1. Connect the USB cable between the USB connector of the computer and the OTG Type C connector of the Radxa NX5.
+2. Open the computer terminal and enter adb devices to confirm that the Radxa NX5 is recognized.Type adb shell to login.
+
+```bash
+$ adb devices
+  List of devices attached
+  f94f8e0d28380ceb device
+
+$ adb shell
+  RadxaRockNX5:/ $
+```
+
+</TabItem>
+
+<TabItem value="wireless_adb" label="Wireless login">
+
+Wireless ADB is supported on Android 11 and later.
+
+#### Requirements
+
+1. a computer or laptop with ADB tools installed and ADB version greater than 31.0.0.
+2. a Radxa NX5 with an Android image greater than or equal to 11.
+3. the computer and Radxa NX5 need to be on the same LAN.
+
+#### Steps
+
+1. Start Radxa NX5 and connect to the network using wifi.
+2. Enter the Developing mode by tapping the version number 7 times (Settings -> About Tablet -> Version Number).
+3. Go to Developing Options (Settings -> System -> Developing Options),turn on wireless debugging and memorize the IP address and interface (example: 10.0.0.16:45613).
+4. Open a computer terminal and type adb connect 10.0.0.16:45613 to connect to the Radxa NX5,type adb shell to login.
+
+```bash
+$ adb connect 10.0.0.16:45613
+
+$ adb shell
+  RadxaRockNX5:/ $
+```
+
+</TabItem>
+
+</Tabs>
+
+</TabItem>
+
+</Tabs>
