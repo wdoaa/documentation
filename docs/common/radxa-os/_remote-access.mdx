@@ -1,38 +1,71 @@
----
-sidebar_position: 60
----
-
-# 远程登录
-
 ## SSH
 
-这是一个教程，介绍如何从 Windows 计算机使用 SSH 远程登录 ROCK 5A。
+这是一个教程，介绍如何从其他计算机使用 SSH 远程访问板子。
 
-通过SSH协议连接到Debian系统，需要确保Debian系统上已经安装了SSH服务器。 您可以按照以下步骤操作：
-
-1.  确保 Debian 系统上已经安装了 SSH 服务器。 在终端中运行以下命令：
+1.  检查 SSH 服务状态。 在终端中运行以下命令：
 
         sudo service ssh status
 
-    如果没有安装 SSH 服务器，可以使用以下命令安装：
+    如果没有安装 SSH 服务，可以使用以下命令安装：
 
         sudo apt-get update
         sudo apt-get install ssh
 
+    如果 SSH 服务没有启动或者运行异常，可以使用以下命令重新启动：
+
+        sudo service sshd restart
+
 2.  打开终端程序并输入以下命令：
 
-        ssh [username]@[hostname]
-        or
-        ssh [username]@[IP address]
+        ssh [username]@[IP address]  # 或者 ssh [username]@[hostname]
 
     例如：
 
-        ssh radxa@192.168.1.100
+        ssh radxa@192.168.2.100
 
 3.  需要输入用户密码才能成功连接到Debian系统。
     这是一个基本的 SSH 连接过程。 您可以使用其他 SSH 选项进行更高级的连接。
 
-## 远程桌面-KDE桌面
+### 查看 IP 地址
+
+#### 通过命令查看 IP
+
+通过 `Ctrl + Alt + T` 打开终端，在终端中输入以下命令查看IP地址：
+
+```bash
+ip a
+```
+
+其中与主机同一个网段的IP地址即是SSH连接时所需要的 ip 地址，如以下输出中 `192.168.2.100` 即是我们需要的ip地址:
+
+```bash
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 56:ae:03:82:18:51 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.2.100/24 brd 192.168.2.255 scope global dynamic noprefixroute eth0
+       valid_lft 43176sec preferred_lft 43176sec
+    inet6 fe80::8e:d164:96ea:40b6/64 scope link noprefixroute
+       valid_lft forever preferred_lft forever
+```
+
+#### 使用 Angryip 查找 IP
+
+在无屏或远程情况下无法直接操作主板来获取 ip 地址时，可使用此方法查询ip地址。
+
+- 首先主机 PC 需要下载[Angryip](https://angryip.org/download/)，然后确保主机 PC 和板子处于同一局域网。
+
+- 打开 Angryip，选择 IP 范围，范围在 192.168.2.0 - 192.168.2.255（选择主机与主板所在的网段）， 点击开始，如图所示。
+
+- ![Angryip](/img/configuration/ssh-Angryip.webp)
+
+- Ctrl + F 查找 `rock` 关键词，找到板子的 IP 地址。
+
+## VNC
 
 这是一个教程，介绍如何从 Windows 计算机使用 VNC 远程访问系统。
 
