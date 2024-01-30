@@ -1,5 +1,5 @@
 import Office from "../../../common/radxa-os/\_office.mdx";
 
-# Office
+# 办公软件
 
 <Office />
