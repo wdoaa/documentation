@@ -216,9 +216,9 @@ root@rock-5b:/home/rock#
 
 - [串口访问](../low-level-dev/serial)
 
-#### SSH访问
+#### 远程访问
 
-- [SSH 访问](../os-config/ssh)
+- [远程访问](../radxa-os/remote-access)
 
 ### 文件传输
 
