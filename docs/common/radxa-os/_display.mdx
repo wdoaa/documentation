@@ -1,36 +1,25 @@
----
-sidebar_position: 10
----
+显示设置只有在你在显示器上操作时可用，你可以通过以下方式进行显示设置。
 
-# Display Introduction
+## 系统设置-显示设置
 
-When choosing a monitor, you need to be aware of that different products support different display resolutions, please check the information on your product for details.
-However, if you want to build a [headless platform](headless), it'll not be a problem for you.
-
-## Display Setup
-
-This setting is just available when you operating on the monitor, or you can set up a [Headless Device](headless) as an alternative. You can change the display setting by following ways.
-
-### System Settings-Display Settings
-
-On KDE desktop, you would see the `System Settings` after left clicking on the `Application Launcher` in the lower left corner.
+在KDE桌面上，左键点击左下角的 `Application Launcher`，就可以看到 `System Settings` 。
 ![System settings](/img/configuration/start_sys_setting.webp)
-Select the `System Settings`, find `Display and Monitor` in the `Hardware` option:
+选择 `System Settings`，在 `Hardware`选项中找到 `Display and Monitor`：
 ![System Settings](/img/configuration/system_setting.webp)
-You can modify the following settings in it:
+你可以在其中修改以下设置：
 ![Display Settings](/img/configuration/display_setting.webp)
-**Note: If you are using multiple monitors, the same steps are effective.**
+**注意：如果你使用的是多个显示器，也是同样的步骤。**
 
-### Terminal Command Settings
+## 命令行设置
 
-We also provide `xrandr` for display settings.
-With the following command you can check the current display status:
+我们还提供了`xrandr`用于显示设置。
+通过以下命令，你可以检查当前的显示状态：
 
 ```
 xrandr
 ```
 
-There is an example:
+举例：
 
 ```
 radxa@rock-5a:~$ xrandr
@@ -53,12 +42,12 @@ HDMI-1 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis
 DP-1 disconnected (normal left inverted right x axis y axis)
 ```
 
-You can check which monitor is connected and the corresponding resolution.
+你可以检查连接了哪些显示器，以及对应的分辨率。
 
-#### Display Rotation
+## 显示旋转
 
-You can rotate your screen display by modifying the [Display Settings](display#system-settings-display-settings)-Orientation.
-Or you can also achieving by command:
+你可以通过修改[Display Settings](display#system-settings-display-settings)-Orientation来旋转你的屏幕显示。
+或者你也可以通过命令实现：
 
 ```
 Single Screen:
@@ -71,13 +60,13 @@ Single Screen:
    xrandr -rate       # Set refresh rate
 ```
 
-#### Using MIPI Screen
+## 使用 MIPI 屏幕
 
-Some of Radxa products support MIPI displays connected via ribbon cable. However, they are not enabled by default.
+Radxa 的一些产品支持通过带状线缆连接的 MIPI 显示器。但是它们在默认情况下是被禁用的。
 
-You can get the supported mipi screen model from the [overlay menu](/radxa-os/rsetup/devicetree#how-to-enable-an-overlay).
+你可以从[overlay 菜单](../os-config/rsetup#overlays)获得支持的 MIPI 屏幕型号。
 
-Before using the mipi screen, you need to enable the corresponding overlay and reboot.
+在使用 MIPI 屏幕之前，你需要启用相应的 overlay 并重启。
 
 ```
         ...
@@ -86,11 +75,11 @@ Before using the mipi screen, you need to enable the corresponding overlay and r
         ...
 ```
 
-**Note: Different product may support different screen.**
+**注意：不同的产品可能支持不同的屏幕。**
 
-#### Multiple Screen Settings
+## 多屏设置
 
-In addition to Settings, the following commands enable you to modify in the display settings:
+除设置 之外，以下命令也能够修改显示设置：
 
 ```
 Dual Screen:
@@ -102,4 +91,4 @@ Dual Screen:
    xrandr --output HDMI-1 --right-of DP-1 --auto # DP-1 is the main display, the HDMI-1 is an extension and to the right of DP-1
 ```
 
-For more information , please check [X.Org Server RandR](https://en.wikipedia.org/wiki/X.Org_Server#Other_DDX_components).
+更多信息请查看[X.Org Server RandR](https://en.wikipedia.org/wiki/X.Org_Server#Other_DDX_components)。
