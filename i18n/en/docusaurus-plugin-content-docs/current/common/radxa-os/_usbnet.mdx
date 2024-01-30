@@ -1,9 +1,3 @@
----
-sidebar_position: 10
----
-
-# USB Networking
-
 Most of radxa products have reserved a USB port as an OTG port, it also a adb debug port when runuing Android. You can consult the port definitions of the corresponding [products](https://radxa.com/products).
 You can set up a shared network between two products by connecting their OTG ports. Now officially supported for latest linux and android images.
 
@@ -34,7 +28,7 @@ The service active status is usually `active(exited)` when running.
 ## OTG Settings
 
 At first, connect the two SBC OTG ports by USB-A to USB-A cable.
-Device identity of this shared network depends on what [overlay](/radxa-os/rsetup/devicetree) you enable,the host machine shares the network to device mahine.
+Device identity of this shared network depends on what [overlay](../os-config/rsetup#overlay) you enable,the host machine shares the network to device mahine.
 The host machine enable this overlay:
 
 ```

@@ -1,9 +1,3 @@
----
-sidebar_position: 10
----
-
-# USB共享网络简介
-
 大多数radxa产品都预留了一个USB端口作为OTG端口，在运行Android时也作为adb调试端口。你可以在此查阅相应[产品](https://radxa.com/products)的端口定义。
 你可以通过OTG端口连接两个产品来建立一个共享网络。现在官方支持最新的linux和android图像。
 
@@ -34,7 +28,7 @@ sudo systemctl status radxa-usbnet.service
 ## OTG设置
 
 首先，用USB-A转USB-A数据线连接两个SBC的OTG端口。
-共享网络里的设备性质由你所启用的[overlay](/radxa-os/rsetup/devicetree)决定，主机的设备名称为host。
+共享网络里的设备性质由你所启用的[overlay](../os-config/rsetup#overlay)决定，主机的设备名称为host。
 主机启用此项overlay：
 
 ```
