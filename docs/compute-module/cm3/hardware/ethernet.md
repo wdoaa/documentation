@@ -6,12 +6,15 @@ sidebar_position: 10
 
 Radxa CM3 板集成了千兆 PHY 芯片 RTL8211F。 四组差分信号 PHY1_MDI0、PHY1_MDI01、PHY1_MDI02 和 PHY1_MDI03 连接到 B2B 连接器。 在 1000BASE‑T 下运行时，将使用所有四组差分信号。 在 100BASE‑TX 下运行时，仅使用 PHY1_MDI0 和 PHY1_MDI01。
 
+** 参考示意图 **
+
+** 具体信号定义请参考示意图 **
+
 ![Ethernet](/img/cm3/ethernet-phy-design.webp)
 
-RTL8211F 是电压模式 PHY，使用时变压器的中心抽头要通过 1uF 的电容接地。
+Radxa CM3 IO Board 采用变压器和以太网网口一体式设计。参考提供设计如下：
 
-在 CM3 计算模块上，四个串联共模电感与四组差分信号对齐。 这些电感器有助于抑制电磁干扰 (EMI) 并提供共模滤波。 设计定制底板时，参考提供的设计如下꞉  
-![Ethernet](/img/cm3/eth-design.webp)
+![Ethernet](/img/cm3/ethernet_combo.webp)
 
 计算模块上 MDI 信号的走线长度。
 
