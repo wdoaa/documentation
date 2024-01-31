@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-import Serail from "../../../common/general/\_serial.mdx"
+import Serial from "../../../common/general/\_serial.mdx"
 
 # 远程登录
 
@@ -12,7 +12,7 @@ import Serail from "../../../common/general/\_serial.mdx"
 
 <TabItem value="Serial" label="串口登录">
 
-<Serail platform="rk" model="nx5"/>
+<Serial platform="rk" model="nx5"/>
 
 </TabItem>
 
@@ -22,27 +22,38 @@ import Serail from "../../../common/general/\_serial.mdx"
 
 adb（调试桥）安装：
 
-#### Windows
+<Tabs queryString="target">
+
+<TabItem value="adb_windows" label="Windows">
+
 从Android[官方网站](https://developer.android.google.cn/)下载Windows版本的adb工具包，下载解压后需要配置环境变量:
 
 方式一：在终端窗口输入以下命令：set HTTP_PROXY=myserver:1981
 
 方式二：打开系统设置，修改环境变量：![NX5 adb](/img/nx5/adb_config.webp)
 
-#### Linux
+</TabItem> 
+
+<TabItem value="adb_linux" label="Linux">
 
 使用以下命令安装即可：
 ```bash
 sudo apt install adb
 ```
 
-#### Mac
+</TabItem> 
+
+<TabItem value="adb_mac" label="Mac">
 
 从Android[官方网站](https://developer.android.google.cn/)下载Mac版本的adb工具包，下载解压后需要配置环境变量:
 打开终端输入一下命令进行环境变量配置：
 ```bash
-export PATH=${path}:~/platform-tools(~代表解压出来的工具包路径)
+export PATH=${path}:~/platform-tools('~'代表解压出来的工具包路径)
 ```
+
+</TabItem> 
+
+</Tabs>
 
 <Tabs queryString="target">
 

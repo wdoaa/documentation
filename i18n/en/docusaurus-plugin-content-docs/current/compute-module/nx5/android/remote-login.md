@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-import Serail from "../../../common/general/\_serial.mdx"
+import Serial from "../../../common/general/\_serial.mdx"
 
 # Remote login
 
@@ -12,7 +12,7 @@ Introduce how to access SBC through a personal computer (PC) via serial port,adb
 
 <TabItem value="Serial" label="Serial login">
 
-<Serail platform="rk" model="nx5"/>
+<Serial platform="rk" model="nx5"/>
 
 </TabItem>
 
@@ -24,21 +24,28 @@ ADB is a bridge between your Android device and your computer, and is used to fu
 
 install adb(Android Debug Bridge):
 
-#### Windows
+<Tabs queryString="target">
+
+<TabItem value="adb_windows" label="Windows">
+
 Download the Windows version of the adb toolkit from [Android](https://developer.android.google.cn/),and after downloading and decompressing,you need to configure the environment variables:
 
 Method 1:Enter the following command in the terminal window:set HTTP_PROXY=myserver:1981
 
 Method 2:Open system settings and modify environment variables:![NX5 adb](/img/nx5/adb_config_en.webp)
 
-#### Linux
+</TabItem> 
+
+<TabItem value="adb_linux" label="Linux">
 
 Use the following command to install:
 ```bash
 sudo apt install adb
 ```
 
-#### Mac
+</TabItem> 
+
+<TabItem value="adb_mac" label="Mac">
 
 Download the Mac version of the adb toolkit from [Android](https://developer.android.google.cn/),and after downloading and decompressing,you need to configure the environment variables:
 
@@ -46,15 +53,19 @@ Download the Mac version of the adb toolkit from [Android](https://developer.and
 export PATH=${path}:~/platform-tools( '~' is the path of the extracted toolkit)
 ```
 
+</TabItem> 
+
+</Tabs>
+
 <Tabs queryString="target">
 
 <TabItem value="wired_adb" label="Wired login">
 
 #### Requirements
 
-1. a USB cable
-2. a computer or laptop with the ADB tool installed on it
-3. a Radxa NX5
+1. 1 x USB cable
+2. 1 x computer or laptop with the ADB tool installed on it
+3. 1 x Radxa NX5
 
 #### Steps
 
