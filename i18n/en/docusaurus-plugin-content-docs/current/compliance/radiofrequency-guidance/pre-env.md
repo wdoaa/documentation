@@ -72,10 +72,16 @@ sudo hcitool cmd 0x03 0x003 # No error, means Bluetooth is working.
 <TabItem value="rtl8723ds" label="RTL8723DS">
 
 ```bash
-sudo wget -O /lib/firmware/mp_rtl8821c_config   https://dl.radxa.com/fix_freq_docs/rtl8723ds/mp_rtl8821c_config
-sudo wget -O /lib/firmware/mp_rtl8821c_fw       https://dl.radxa.com/fix_freq_docs/rtl8723ds/mp_rtl8821c_fw
+sudo wget -O /lib/firmware/mp_rtl8821c_config   https://dl.radxa.com/fix_freq_docs/rtl87123ds/mp_rtl8723ds_config
+sudo wget -O /lib/firmware/mp_rtl8821c_fw       https://dl.radxa.com/fix_freq_docs/rtl87123ds/mp_rtl8723d_fw
 
 reboot
+```
+
+The rtl8723ds-btfw-load.service service needs to be shut down before the bt fix can be performed
+
+```bash
+sudo systemctl stop rtl8723ds-btfw-load.service
 ```
 
 </TabItem>

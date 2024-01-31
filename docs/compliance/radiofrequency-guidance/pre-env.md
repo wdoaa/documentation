@@ -72,10 +72,16 @@ sudo hcitool cmd 0x03 0x003       # 没有报错，说明蓝牙环境正常
 <TabItem value="rtl8723ds" label="RTL8723DS">
 
 ```bash
-sudo wget -O /lib/firmware/mp_rtl8821c_config   https://dl.radxa.com/fix_freq_docs/rtl8723ds/mp_rtl8821c_config
-sudo wget -O /lib/firmware/mp_rtl8821c_fw       https://dl.radxa.com/fix_freq_docs/rtl8723ds/mp_rtl8821c_fw
+sudo wget -O /lib/firmware/mp_rtl8821c_config   https://dl.radxa.com/fix_freq_docs/rtl87123ds/mp_rtl8723ds_config
+sudo wget -O /lib/firmware/mp_rtl8821c_fw       https://dl.radxa.com/fix_freq_docs/rtl87123ds/mp_rtl8723d_fw
 
 reboot
+```
+
+在进行bt定频之前，需要先关闭 rtl8723ds-btfw-load.service 服务
+
+```bash
+sudo systemctl stop rtl8723ds-btfw-load.service
 ```
 
 </TabItem>
