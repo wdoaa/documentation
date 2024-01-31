@@ -72,9 +72,9 @@ export PATH=${path}:~/platform-tools( '~' is the path of the extracted toolkit)
 
 #### Requirements
 
-1. 1 x USB cable
-2. 1 x computer or laptop with the ADB tool installed on it
-3. 1 x Radxa NX5
+- 1 x USB cable
+- 1 x computer or laptop with the ADB tool installed on it
+- 1 x Radxa NX5
 
 #### Steps
 
