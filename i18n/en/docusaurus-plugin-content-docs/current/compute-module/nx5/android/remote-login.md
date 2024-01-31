@@ -16,7 +16,7 @@ Introduce how to access SBC through a personal computer (PC) via serial port,adb
 
 </TabItem>
 
-<TabItem value="ADB" label="ADB login ">
+<TabItem value="ADB" label="ADB login">
 
 ADB is a bridge between your Android device and your computer, and is used to fully operate and manage your Android device on your computer.
 
@@ -28,7 +28,7 @@ install adb(Android Debug Bridge):
 
 <TabItem value="adb_windows" label="Windows">
 
-Download the Windows version of the adb toolkit from [Android](https://developer.android.google.cn/),and after downloading and decompressing,you need to configure the environment variables:
+Download the Windows version of the adb toolkit from [Android](https://source.android.com/docs/setup/build/adb),and after downloading and decompressing,you need to configure the environment variables:
 
 Method 1:Enter the following command in the terminal window:
 
@@ -40,7 +40,7 @@ set HTTP_PROXY=myserver:1981
 
 Method 2:Open system settings and modify environment variables:![NX5 adb](/img/nx5/adb_config_en.webp)
 
-</TabItem> 
+</TabItem>
 
 <TabItem value="adb_linux" label="Linux">
 
@@ -52,17 +52,17 @@ sudo apt install adb
 
 ```
 
-</TabItem> 
+</TabItem>
 
 <TabItem value="adb_mac" label="Mac">
 
-Download the Mac version of the adb toolkit from [Android](https://developer.android.google.cn/),and after downloading and decompressing,you need to configure the environment variables:
+Download the Mac version of the adb toolkit from [Android](https://source.android.com/docs/setup/build/adb),and after downloading and decompressing,you need to configure the environment variables:
 
 ```bash
 export PATH=${path}:~/platform-tools( '~' is the path of the extracted toolkit)
 ```
 
-</TabItem> 
+</TabItem>
 
 </Tabs>
 
@@ -114,10 +114,9 @@ Wireless ADB is supported on Android 11 and later.
 ```bash
 
 $ adb connect 10.0.0.16:45613
-
 $ adb shell
   RadxaRockNX5:/ $
-  
+
 ```
 
 </TabItem>

@@ -38,7 +38,7 @@ set HTTP_PROXY=myserver:1981
 
 方式二：打开系统设置，修改环境变量：![NX5 adb](/img/nx5/adb_config.webp)
 
-</TabItem> 
+</TabItem>
 
 <TabItem value="adb_linux" label="Linux">
 
@@ -50,7 +50,7 @@ sudo apt install adb
 
 ```
 
-</TabItem> 
+</TabItem>
 
 <TabItem value="adb_mac" label="Mac">
 
@@ -63,7 +63,7 @@ export PATH=${path}:~/platform-tools('~'代表解压出来的工具包路径)
 
 ```
 
-</TabItem> 
+</TabItem>
 
 </Tabs>
 
