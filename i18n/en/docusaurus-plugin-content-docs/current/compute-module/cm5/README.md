@@ -6,6 +6,8 @@ sidebar_position: 4
 
 ## Product Description
 
+The Radxa CM5 is a System on Module (SoM) based on a the Rockchip RK3588S System onChip (SoC). The Radxa CM5 integrates the Central Process Unit (CPU), Graphics ProcessingUnit (GPU), Neural Processing Unit (NPU), Power Management Unit (PMU), LPDDR4X DRAM Memory, and Onboard eMMC Storage in a small form factor of just 55mm x 40mm. RadxaCM5 offers out of box high performance solution for multiple purpose applications, accel‑erates customer’s product development.
+
 <Tabs queryString="target">
   <TabItem value="cm5" label="CM5 Core">
 
@@ -52,7 +54,11 @@ sidebar_position: 4
 
 ### Chip Block Diagram
 
+![RK3588s block diagram](/img/cm5/rk3588s-block-diagram.webp)
+
 ### System block diagram
+
+![Radxa CM5 block diagram](/img/cm5/cm5-block-diagram.webp)
 
 ## Documentation guidelines
 
@@ -67,7 +73,11 @@ This chapter introduces system login, network connection, etc to let user to be 
 
 ### [Android](/compute-module/cm5/android)
 
+Mainly introduces how to burn, use and compile the Android system.
+
 ### [Hareware Info](/compute-module/cm5/hardware)
+
+Introduces hardware information, such as hardware interfaces, supported accessories, etc.
 
 ### [Accessories](/compute-module/cm5/accessories)
 
