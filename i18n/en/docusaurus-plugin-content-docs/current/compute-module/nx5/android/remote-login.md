@@ -10,13 +10,13 @@ Introduce how to access SBC through a personal computer (PC) via serial port,adb
 
 <Tabs queryString="target">
 
-<TabItem value="Serial" label="Serial login">
+<TabItem value="serial" label="Serial login">
 
 <Serial platform="rk" model="nx5"/>
 
 </TabItem>
 
-<TabItem value="ADB" label="ADB login">
+<TabItem value="adb" label="ADB login">
 
 ADB is a bridge between your Android device and your computer, and is used to fully operate and manage your Android device on your computer.
 

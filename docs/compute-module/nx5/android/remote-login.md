@@ -26,7 +26,7 @@ adb（调试桥）安装：
 
 <TabItem value="adb_windows" label="Windows">
 
-从Android[官方网站](https://developer.android.google.cn/)下载Windows版本的adb工具包，下载解压后需要配置环境变量:
+从Android[官方网站](https://source.android.com/docs/setup/build/adb)下载Windows版本的adb工具包，下载解压后需要配置环境变量:
 
 方式一：在终端窗口输入以下命令：
 
@@ -54,7 +54,7 @@ sudo apt install adb
 
 <TabItem value="adb_mac" label="Mac">
 
-从Android[官方网站](https://developer.android.google.cn/)下载Mac版本的adb工具包，下载解压后需要配置环境变量:
+从Android[官方网站](https://source.android.com/docs/setup/build/adb)下载Mac版本的adb工具包，下载解压后需要配置环境变量:
 打开终端输入一下命令进行环境变量配置：
 
 ```bash
