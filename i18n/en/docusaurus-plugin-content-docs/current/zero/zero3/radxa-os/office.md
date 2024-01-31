@@ -1,5 +1,5 @@
-import Headless from "../../../common/radxa-os/\_headless.mdx";
+import Office from "../../../common/radxa-os/\_office.mdx";
 
-# Headless Mode
+# Office
 
-<Headless />
+<Office />
