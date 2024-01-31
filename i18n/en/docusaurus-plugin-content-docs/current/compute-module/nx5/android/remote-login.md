@@ -30,7 +30,13 @@ install adb(Android Debug Bridge):
 
 Download the Windows version of the adb toolkit from [Android](https://developer.android.google.cn/),and after downloading and decompressing,you need to configure the environment variables:
 
-Method 1:Enter the following command in the terminal window:set HTTP_PROXY=myserver:1981
+Method 1:Enter the following command in the terminal window:
+
+```bash
+
+set HTTP_PROXY=myserver:1981
+
+```
 
 Method 2:Open system settings and modify environment variables:![NX5 adb](/img/nx5/adb_config_en.webp)
 
@@ -39,8 +45,11 @@ Method 2:Open system settings and modify environment variables:![NX5 adb](/img/n
 <TabItem value="adb_linux" label="Linux">
 
 Use the following command to install:
+
 ```bash
+
 sudo apt install adb
+
 ```
 
 </TabItem> 
@@ -73,12 +82,14 @@ export PATH=${path}:~/platform-tools( '~' is the path of the extracted toolkit)
 2. Open the computer terminal and enter adb devices to confirm that the Radxa NX5 is recognized.Type adb shell to login.
 
 ```bash
+
 $ adb devices
   List of devices attached
   f94f8e0d28380ceb device
 
 $ adb shell
   RadxaRockNX5:/ $
+
 ```
 
 </TabItem>
@@ -101,10 +112,12 @@ Wireless ADB is supported on Android 11 and later.
 4. Open a computer terminal and type adb connect 10.0.0.16:45613 to connect to the Radxa NX5,type adb shell to login.
 
 ```bash
+
 $ adb connect 10.0.0.16:45613
 
 $ adb shell
   RadxaRockNX5:/ $
+  
 ```
 
 </TabItem>

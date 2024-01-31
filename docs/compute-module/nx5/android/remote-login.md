@@ -28,7 +28,13 @@ adb（调试桥）安装：
 
 从Android[官方网站](https://developer.android.google.cn/)下载Windows版本的adb工具包，下载解压后需要配置环境变量:
 
-方式一：在终端窗口输入以下命令：set HTTP_PROXY=myserver:1981
+方式一：在终端窗口输入以下命令：
+
+```bash
+
+set HTTP_PROXY=myserver:1981
+
+```
 
 方式二：打开系统设置，修改环境变量：![NX5 adb](/img/nx5/adb_config.webp)
 
@@ -37,8 +43,11 @@ adb（调试桥）安装：
 <TabItem value="adb_linux" label="Linux">
 
 使用以下命令安装即可：
+
 ```bash
+
 sudo apt install adb
+
 ```
 
 </TabItem> 
@@ -47,8 +56,11 @@ sudo apt install adb
 
 从Android[官方网站](https://developer.android.google.cn/)下载Mac版本的adb工具包，下载解压后需要配置环境变量:
 打开终端输入一下命令进行环境变量配置：
+
 ```bash
+
 export PATH=${path}:~/platform-tools('~'代表解压出来的工具包路径)
+
 ```
 
 </TabItem> 
@@ -71,12 +83,14 @@ export PATH=${path}:~/platform-tools('~'代表解压出来的工具包路径)
 2. 打开计算机终端输入 adb devices 确认识别到 Radxa NX5 ,输入 adb shell 登录
 
 ```bash
+
 $ adb devices
   List of devices attached
   f94f8e0d28380ceb device
 
 $ adb shell
   RadxaRockNX5:/ $
+
 ```
 
 </TabItem>
