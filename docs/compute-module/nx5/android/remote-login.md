@@ -10,13 +10,13 @@ import Serial from "../../../common/general/\_serial.mdx"
 
 <Tabs queryString="target">
 
-<TabItem value="Serial" label="串口登录">
+<TabItem value="serial" label="串口登录">
 
 <Serial platform="rk" model="nx5"/>
 
 </TabItem>
 
-<TabItem value="ADB" label="adb登录">
+<TabItem value="adb" label="adb登录">
 
 ### 准备工作
 
