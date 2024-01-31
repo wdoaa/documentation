@@ -1,4 +1,4 @@
-import Network from "../../../common/radxa-os/config/\_network.mdx";
+import Network from "../../../common/radxa-os/\_network.mdx";
 
 # Network Settings
 
