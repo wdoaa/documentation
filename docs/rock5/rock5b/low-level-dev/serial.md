@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 import Serial from "../../../common/general/\_serial.mdx"
 
 # UART 串口控制台
