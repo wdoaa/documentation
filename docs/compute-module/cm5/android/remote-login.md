@@ -10,13 +10,13 @@ import Serail from "../../../common/general/\_serial.mdx"
 
 <Tabs queryString="target">
 
-<TabItem value="Serial" label="串口登录">
+<TabItem value="serial" label="串口登录">
 
 <Serail platform="rk" model="nx5"/>
 
 </TabItem>
 
-<TabItem value="ADB" label="adb登录">
+<TabItem value="adb" label="adb登录">
 
 ADB（android debugbridge）是你的Android设备和电脑之间的桥梁，用于在电脑上全面操作和管理你的Android设备。
 
