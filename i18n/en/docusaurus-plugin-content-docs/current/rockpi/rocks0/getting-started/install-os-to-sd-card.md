@@ -14,7 +14,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 
 ## Image Download
 
-Please go to [Download Summary](/rockpi/rocks0/getting-started/download.md) to download the corresponding image file.
+Please go to [Download Summary](/rockpi/rocks0/getting-started/download) to download the corresponding image file.
 
 ## Install System
 
