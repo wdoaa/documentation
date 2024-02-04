@@ -30,19 +30,19 @@ sidebar_position: 2
 
 ![rocks0 sequence](/img/rockpi/s0/rock-s0-signal-sequence.webp)
 
-## USB OTG 线材
+### USB OTG 线材
 
 ROCK S0 适用 4-Pin MX1.25mm 转 公头 USB 的线材，该线材可接到 5V 适配器上为 ROCK S0 供电，也可以直接接到主机进行通信。
 
 ![rocks0 otg](/img/rockpi/s0/rocks0-otg-wire.webp)
 
-## USB HOST 线材
+### USB HOST 线材
 
 ROCK S0 适用 4-Pin MX1.25mm 转 母头 USB 线材，该线材可为 ROCK S0 提供一个接usb设备的接口。
 
 ![rocks0 usb](/img/rockpi/s0/rocks0-usb-wire.webp)
 
-## 以太网线材
+### 以太网线材
 
 ROCK S0 适用 4-Pin MX1.25mm 转 网口线材，该线材可为 ROCK S0 接入 100Mbps 以太网网络。
 
