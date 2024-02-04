@@ -12,21 +12,21 @@ sidebar_position: 2
 
 #### USB OTG / HOST Signal Definition
 
-| color | definition |
-| ----- | ---------- |
-| red   | 5V         |
-| white | USB_DM     |
-| green | USB_DP     |
-| black | GND        |
+| color | signal |
+| ----- | ------ |
+| red   | 5V     |
+| white | USB_DM |
+| green | USB_DP |
+| black | GND    |
 
 #### 100Mbps Ethernet Signal Definition
 
-| 颜色  | 定义 |
-| ----- | ---- |
-| red   | RXN  |
-| green | RXP  |
-| white | TXN  |
-| black | TXP  |
+| color | signal |
+| ----- | ------ |
+| red   | RXN    |
+| green | RXP    |
+| white | TXN    |
+| black | TXP    |
 
 ![rocks0 sequence](/img/rockpi/s0/rock-s0-signal-sequence.webp)
 
