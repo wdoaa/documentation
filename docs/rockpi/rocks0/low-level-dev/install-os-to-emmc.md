@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 # 安装系统到 eMMC
@@ -7,7 +7,6 @@ sidebar_position: 3
 ## 准备工作
 
 - 1x [Radxa 4P to USB-A Male Cable](/rockpi/rocks0/getting-started/preparation#usb-otg-线材)
-- 1x 5V 电源适配器
 
 ## 镜像下载
 
