@@ -1,19 +1,17 @@
----
-sidebar_position: 20
----
-
-# RTSP 远程推流教程(基于 FFmpeg)
-
 ## 需求
 
 1. 兼容摄像头
 2. 如使用 ROCK 5B，也可使用 HDMI RX 作为视频源
 
-:::caution
-使用 HDMI RX 时，低于 720P 分辨率的输入源可能会导致编码失败
-:::
+<Tabs queryString="target">
+
+<TabItem value="ffmpeg" label="基于 FFmpeg">
 
 ## 服务端配置
+
+:::tip
+使用 HDMI RX 时，低于 720P 分辨率的输入源可能会导致编码失败
+:::
 
 ### 安装编译依赖
 
@@ -57,6 +55,54 @@ tar -xzvf mediamtx_v1.0.0_linux_arm64v8.tar.gz
 nohup ./mediamtx &
 sudo ffmpeg -re -f v4l2 -i /dev/video0 -c:v hevc -rc_mode 0 -level 30 -f rtsp rtsp://0.0.0.0:8554/stream
 ```
+
+</TabItem>
+
+<TabItem value="gstreamer" label="基于 Gstreamer">
+
+## 服务端配置
+
+:::tip
+使用 HDMI RX 时，目前 gst-mppenc 暂不支持 NV24(YCbCr444) 与 RGB 输入，需要 HDMI 输入端切换颜色格式为 NV12(YCbCr420) 或 NV16(YCbCr422)，或者使用 FFmpeg 进行推流。
+:::
+
+### 安装编译依赖
+
+```bash
+sudo apt update
+sudo apt install libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev build-essential meson libcgroup-dev gobject-introspection libgirepository1.0-dev
+```
+
+### 获取 gst-rtsp-server 源码
+
+```bash
+wget https://gstreamer.freedesktop.org/src/gst-rtsp-server/gst-rtsp-server-1.18.6.tar.xz
+tar -xvf gst-rtsp-server-1.18.6.tar.xz
+```
+
+### 编译 gst-rtsp-server
+
+```bash
+cd gst-rtsp-server-1.18.6/
+meson build
+cd build
+ninja
+```
+
+### 运行 gst-rtsp-server
+
+:::info
+此处我们假定 `/dev/video0` 是你想要使用的视频源。如果你的摄像头被分配到了其他的名称下，请替换以下命令行中对应的文件名。
+:::
+
+```bash
+cd examples/
+./test-launch --gst-debug-level=3 "( v4l2src device=/dev/video0 ! queue ! mpph265enc bps=51200000 rc-mode=vbr !  rtph265pay name=pay0 pt=97 )"
+```
+
+</TabItem>
+
+</Tabs>
 
 ## 客户端配置
 

@@ -1,19 +1,17 @@
----
-sidebar_position: 20
----
-
-# RTSP Remote Streaming Guide (based on FFmpeg)
-
 ## Preparation
 
 1. Compatible Cameras
 2. If using the ROCK 5B, you can also use the HDMI RX as a video source
 
-:::caution
-Input sources with lower than 720P resolution may cause encoding failure when using HDMI RX.
-:::
+<Tabs queryString="target">
+
+<TabItem value="ffmpeg" label="Based on FFmpeg">
 
 ## Server Configuration
+
+:::tip
+Input sources with lower than 720P resolution may cause encoding failure when using HDMI RX.
+:::
 
 ### Installation of compilation dependencies
 
@@ -57,6 +55,54 @@ tar -xzvf mediamtx_v1.0.0_linux_arm64v8.tar.gz
 nohup ./mediamtx &
 sudo ffmpeg -re -f v4l2 -i /dev/video0 -c:v hevc -rc_mode 0 -level 30 -f rtsp rtsp://0.0.0.0:8554/stream
 ```
+
+</TabItem>
+
+<TabItem value="gstreamer" label="Based on Gstreamer">
+
+## Server Configuration
+
+:::tip
+When using HDMI RX, gst-mppenc does not support NV24(YCbCr444) and RBG inputs currently, you need to switch the colour format of HDMI input to NV12(YCbCr420) or NV16(YCbCr422), or use FFmpeg for streaming.
+:::
+
+### Installation of compilation dependencies
+
+```bash
+sudo apt update
+sudo apt install libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev build-essential meson libcgroup-dev gobject-introspection libgirepository1.0-dev
+```
+
+### Get gst-rtsp-server source code
+
+```bash
+wget https://gstreamer.freedesktop.org/src/gst-rtsp-server/gst-rtsp-server-1.18.6.tar.xz
+tar -xvf gst-rtsp-server-1.18.6.tar.xz
+```
+
+### Build gst-rtsp-server
+
+```bash
+cd gst-rtsp-server-1.18.6/
+meson build
+cd build
+ninja
+```
+
+### Run gst-rtsp-server
+
+:::info
+Here we assume that `/dev/video0` is the video source you want to use. If your camera is assigned to a different name, replace the corresponding device name in the following command line.
+:::
+
+```bash
+cd examples/
+./test-launch --gst-debug-level=3 "( v4l2src device=/dev/video0 ! queue ! mpph265enc bps=51200000 rc-mode=vbr !  rtph265pay name=pay0 pt=97 )"
+```
+
+</TabItem>
+
+</Tabs>
 
 ## Client Configuration
 
