@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Preparation
@@ -32,19 +32,19 @@ sidebar_position: 2
 
 ### USB OTG Cable
 
-Radxa 4P to USB-A Male Cable is a 4-Pin MX1.25mm to Male USB cable that can be connected to a 5V adapter to power the rock s0 or directly to a host computer for communication.
+The Radxa 4P to USB-A Male Cable is a 4-Pin MX1.25mm to Male USB cable that can be connected to a 5V adapter to power the ROCK S0 or directly to a host computer for communication.
 
 ![rocks0 otg](/img/rockpi/s0/rocks0-otg-wire.webp)
 
 ### USB HOST Cable
 
-Radxa 4P to USB-A Female Cable is designed for use with the 4-Pin MX1.25mm to Female USB cable, which provides the rock s0 with an interface to a usb device.
+The Radxa 4P to USB-A Female Cable is a 4-Pin MX1.25mm to female USB cable that provides the ROCK S0 with an interface to USB devices.
 
 ![rocks0 usb](/img/rockpi/s0/rocks0-usb-wire.webp)
 
 ### 100Mbps Ethernet Cable
 
-Radxa 4P to Ethernet Adapter Cable is designed for use with the 4-Pin MX1.25mm to Ethernet cable, which connects the rock s0 to a 100Mbps Ethernet network.
+The Radxa 4P to Ethernet Adapter Cable is a 4-Pin MX1.25mm to Ethernet adapter cable that provides access to a 100Mbps Ethernet network for the ROCK S0.
 
 ![rocks0 eth](/img/rockpi/s0/rocks0-eth-wire.webp)
 
@@ -52,7 +52,7 @@ Radxa 4P to Ethernet Adapter Cable is designed for use with the 4-Pin MX1.25mm t
 
 ### Power supply
 
-The Radxa ROCK S0 is powered by [4 Pin USB 2.0 OTG port](/img/rockpi/s0/rocks0-otg-wire.webp), which supports 5V input only.
+The Radxa ROCK S0's power supply connector is a 4-Pin USB2.0 OTG connector, which can be used with [USB OTG Cable](/rockpi/rocks0/getting-started/preparation#usb-host-cable), **supports 5V input only**.
 
 ### Boot Media
 
@@ -64,16 +64,18 @@ Used to create system boot disk
 
 ### Network connection
 
-ROCK S0 has a Wi-Fi module on board, you can access the network via Wi-Fi or via [Ethernet](/img/rockpi/s0/rocks0-eth-wire.webp).
+The ROCK S0 has an on-board Wi-Fi module. The network can be accessed via Wi-Fi and a 4-Pin 100Mbps Ethernet connector.The 4-Pin 100Mbps Ethernet connector requires an [100Mbps Ethernet Cable](/rockpi/rocks0/getting-started/preparation#100mbps-ethernet-cable).
 
-### USB to TTL serial port
+### Serial Debugging
 
-[Serial cable](/rockpi/rocks0/low-level-dev/serial.md) is used to input debugging commands.
+Please refer to [Serial Debugging Documentation](/rockpi/rocks0/low-level-dev/serial.md).
+
+## Antenna Switch
+
+Please refer to [Antenna Switch Documentation](antenna-switch)
 
 ## FAQ
 
 ## Notes
 
-## Reference
-
-[Supported Accessories](... /accessories)
+## Accessories

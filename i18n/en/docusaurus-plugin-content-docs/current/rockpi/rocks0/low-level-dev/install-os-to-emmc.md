@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# Install the system to EMMC
+# Install OS to eMMC
 
 ## Preparation
 
-- 1x [OTG cable](/rockpi/rocks0/accessories/rocks0-wire.md)
+- 1x [Radxa 4P to USB-A Male Cable](/rockpi/rocks0/getting-started/preparation#usb-otg-cable)
 - 1x 5V power adapter
 
 ## Image Download
@@ -23,16 +23,16 @@ How to enter Maskrom Mode of Radxa ROCK S0
 2. Press and hold the Maskrom button on the front of the device.
 3. Connect the OTG cable to the USB of the host PC, if the green light of the power supply is always on, it will enter the Maskrom mode successfully.
 
-In Maskrom mode, you can use [rkdevtool](rkdevtool) or [upgrade-tool](upgrade-tool) to erase, wire-flash, etc. your product.
+In Maskrom mode, you can use [rkdevtool](../low-level-dev/rkdevtool) or [upgrade-tool](../low-level-dev/upgrade-tool) to erase, wire-flash, etc. your product.
 
 ## Install the system to eMMC
 
-[Installation for Windows](rkdevtool)
+[Installation for Windows](../low-level-dev/rkdevtool)
 
-[Linux installation](rkdeveloptool)
+[Linux installation](../low-level-dev/rkdeveloptool)
 
 ## Boot the system
 
-- Use the OTG cable to connect the board's [4 Pin USB 2.0 OTG port](/rockpi/rocks0/getting-started/overview.md) to the power adapter, and then the system will start booting up with a blinking green light.
+- Using [Radxa 4P to USB-A Male Cable](/rockpi/rocks0/getting-started/preparation#usb-otg-cable) to connect the 4-Pin USB2.0 connector on the board to the power adapter, and then the system will start booting up with the green light blinking.
 
 ## FAQ

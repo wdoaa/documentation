@@ -1,10 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-import Ether from '../../../common/general/\_etcher.mdx'
+import Etcher from '../../../common/general/\_etcher.mdx'
 
-## Install OS
+# Install OS to SD Card
 
 ## Preparation
 
@@ -18,18 +18,18 @@ Please go to [Download Summary](/rockpi/rocks0/getting-started/download.md) to d
 
 ## Install System
 
-<Ether model="zero3" />
+<Etcher model="rocks0" />
 
 ## Boot the system
 
 - After successfully burning the microSD card according to the above steps, insert the microSD card into the MicroSD Card Slot.
 
-- The power supply port of ROCK S0 is [4 Pin USB 2.0 OTG port](/rockpi/rocks0/getting-started/overview.md), please use [OTG cable](/rockpi/rocks0/accessories/rocks0-wire.md) to Connect the power supply port and the power adapter.
+- The power supply port of ROCK S0 is 4-Pin USB 2.0 OTG port, please use [USB OTG Cable](/rockpi/rocks0/getting-started/preparation#usb-otg-cable) to Connect the power supply port and the power adapter.
 
 :::tip
 ROCK S0 only supports `5V` power supply.
 :::
 
-## Reference
+## Install OS to eMMC
 
-[Install OS on eMMC](/rockpi/rocks0/low-level-dev/install-os-on-emmc.md)
+[Install OS on eMMC](/rockpi/rocks0/getting-started/install-os-to-emmc.md)
