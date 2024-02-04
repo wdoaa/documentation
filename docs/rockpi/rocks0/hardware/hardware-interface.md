@@ -11,23 +11,31 @@ sidebar_position: 4
 
 ## 电源接口
 
-Radxa ROCK S0 的供电接口为 [4 Pin USB 2.0 OTG port](/img/rockpi/s0/rocks0-otg-wire.webp)，仅支持 5V 输入。
+Radxa ROCK S0 的供电接口为 4-Pin USB 2.0 OTG 接口，请使用 USB OTG 线材，仅支持 5V 输入。
+
+![Radxa 4P to USB-A Male Cable](/img/rockpi/s0/rocks0-otg-wire.webp)
 
 ## 调试串口
 
 [调试串口](/rockpi/rocks0/low-level-dev/serial.md)用于输入调试指令
 
-## OTG 接口
+## USB OTG 接口
 
-通过[OTG 公线](/img/rockpi/s0/rocks0-otg-wire.webp)连接 PC，进行通信
+通过 USB OTG 线材连接 PC，进行通信
 
-## USB 接口
+![Radxa 4P to USB-A Male Cable](/img/rockpi/s0/rocks0-otg-wire.webp)
 
-通过[USB 母线](/img/rockpi/s0/rocks0-usb-wire.webp)连接 USB 设备
+## USB HOST 接口
+
+通过 USB HOST 线材连接 USB 设备
+
+![USB 母线](/img/rockpi/s0/rocks0-usb-wire.webp)
 
 ## 有线网口
 
-通过[以太网线](/img/rockpi/s0/rocks0-eth-wire.webp)接入网络。
+通过以太网线材接入网络。
+
+![以太网线](/img/rockpi/s0/rocks0-eth-wire.webp)
 
 ## WI-FI
 
