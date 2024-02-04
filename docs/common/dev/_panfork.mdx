@@ -1,26 +1,20 @@
----
-sidebar_position: 17
----
-
-# RK3588 Installing Panfork Open Source GPU Driver
-
-## Mainline Xorg server switching with Rockchip Xorg server
+## 切换 Xorg server
 
 :::info
-Although the official image comes with a vendor Mali driver, it only supports OpenGL ES, which is not compatible with the OpenGL interface used by most applications in the Linux ecosystem.
-The Panfork open source driver needs to run on the mainline Xorg server, and the vendor Mali driver needs to run on the Rockchip Xorg server.
-So we need the following command to switch the Xorg server version.
+虽然官方镜像自带了厂商 Mali 驱动，但是只支持 OpenGL ES，不符合 Linux 生态大多数应用使用的 OpenGL 接口。
+Panfork 开源驱动需要运行于主线 Xorg server，厂商 Mali 驱动需要运行于 Rockchip Xorg server。
+所以我们需要如下命令切换 Xorg server 版本。
 :::
 
 ```bash
 sudo apt update
 sudo apt-get install xserver-xorg-core/bullseye
 
-#   To restore the Rockchip Xorg server, run the following command
-#   sudo apt-get install  xserver-xorg-core/rockchip-bullseye
+#  如需恢复 Rockchip Xorg server，请运行以下命令
+#  sudo apt-get install  xserver-xorg-core/rockchip-bullseye
 ```
 
-## Installation of compilation dependencies
+## 安装编译依赖
 
 ```bash
 sudo apt update
@@ -28,7 +22,7 @@ sudo apt install build-essential meson git python3-mako libexpat1-dev bison flex
 sudo pip3 install cmake ninja
 ```
 
-## Compile and install dri2to3
+## 编译并安装 dri2to3
 
 ```bash
 git clone https://gitlab.com/panfork/dri2to3.git
@@ -38,7 +32,7 @@ meson setup
 sudo ninja install
 ```
 
-## Compile and install libdrm
+## 编译并安装 libdrm
 
 ```bash
 cd ~/
@@ -49,7 +43,7 @@ meson
 sudo ninja install
 ```
 
-## Compile and install Wayland protocols
+## 编译并安装 Wayland protocols
 
 ```bash
 cd ~/
@@ -61,7 +55,7 @@ meson
 sudo ninja install
 ```
 
-## Compile and install Mesa
+## 编译并安装 Mesa
 
 ```bash
 cd ~/
@@ -72,7 +66,7 @@ meson -Dgallium-drivers=panfrost -Dvulkan-drivers= -Dllvm=disabled --prefix=/opt
 sudo ninja install
 ```
 
-## Setting the priority of Panfork dependencies
+## 设置 Panfork 相关依赖的优先值
 
 ```bash
 echo /opt/panfrost/lib/aarch64-linux-gnu | sudo tee /etc/ld.so.conf.d/0-panfrost.conf
@@ -80,26 +74,26 @@ sudo mv /etc/ld.so.conf.d/00-aarch64-mali.conf /etc/ld.so.conf.d/2-aarch64-mali.
 sudo ldconfig
 ```
 
-## test effect
+## 测试效果
 
-### 1.Restart Window Manager
+### 1.重启窗口管理器
 
 ```bash
 systemctl restart sddm.service
 ```
 
-### 2.Login Desktop
+### 2.登录桌面
 
-### 3.Open the virtual terminal corresponding to the desktop environment and run the following command
+### 3.打开桌面环境对应的虚拟终端并运行以下命令
 
 :::info
-The driver runs better under Wayland, use apt to install `plasma-workspace-wayland` and select the corresponding session in the SDDM login screen.
+驱动运行在 Wayland 下性能更佳，可使用 apt 安装 `plasma-workspace-wayland`，并在 SDDM 登录界面选择对应会话。
 :::
 
 ```bash
 sudo apt update
-sudo apt install glmark-x11 #Install glmark-wayland if your desktop is running in a Wayland environment.
+sudo apt install glmark-x11  # 如果桌面运行在 Wayland 环境下可安装 glmark-wayland
 glmark2
 ```
 
-![glmark2 running result](/img/general-tutorial/panfork/panfork.webp)
+![glmark2 运行结果](/img/general-tutorial/panfork/panfork.webp)
