@@ -31,4 +31,4 @@ ROCK S0 只支持 `5V` 供电。
 
 ## 烧录 OS 到 eMMC
 
-请参考[安装 OS 到 eMMC](/rockpi/rocks0/getting-started/install-os-to-emmc)
+请参考[安装 OS 到 eMMC](/rockpi/rocks0/low-level-dev/install-os-to-emmc)

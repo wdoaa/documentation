@@ -32,4 +32,4 @@ ROCK S0 only supports `5V` power supply.
 
 ## Install OS to eMMC
 
-[Install OS on eMMC](/rockpi/rocks0/getting-started/install-os-to-emmc.md)
+[Install OS on eMMC](/rockpi/rocks0/low-level-dev/install-os-to-emmc)
