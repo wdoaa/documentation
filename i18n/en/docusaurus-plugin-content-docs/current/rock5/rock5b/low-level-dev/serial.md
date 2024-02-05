@@ -1,9 +1,5 @@
----
-sidebar_position: 2
----
-
 import Serial from "../../../common/general/\_serial.mdx"
 
-# UART Serial console
+# UART Serial Console
 
 <Serial platform="rk" />

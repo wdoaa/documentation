@@ -25,7 +25,7 @@ sidebar_position: 3
   The ROCK 5B is equipped with a 16MB SPI NOR Flash and a PCIe M.2 M-Key connector. the SPI NOR Flash stores the bootloader.
   the NVME SSD stores the entire system image (at least the kernel and rootfs).
   the ROCK 5B is equipped with a 16MB SPI NOR Flash and a PCIe M.2 M-Key connector.  
-  For more information, please check [SPI NOR Flash and PCIe NVME SSD boot](/rock5/lowlevel-development/bootloader_spi_flash)
+  For more information, please check [SPI NOR Flash and PCIe NVME SSD boot](/rock5/rock5b/low-level-dev/bootloader_spi_flash)
 
 ### Is the heatsink included in the price?
 
@@ -39,10 +39,3 @@ sidebar_position: 3
   3.  Using a 12V DC USB-C port power supply
   4.  To check the availability of other power supplies reported by the Radxa community please check the basic support information on the motherboard.
 
-### ROCK 5B not booting, how to troubleshoot
-
-- Troubleshooting steps for the ROCK 5B are as follows:
-  1.  Power off the ROCK 5B, remove the eMMC module, SD card, NVMe SSD
-  2.  Press and hold the Maskrom Button (**see label 25** in the ROCK 5B labeling diagram) [5B Maskrom Button](/rock5/rock5b/getting-started/overview).
-  3.  Connect the ROCK 5B to the computer via USB Type C using the USB Type A to Type C cable
-  4.  Check if there is a new unknown USB device in the Windows Device Manager, if so, the ROCK 5B has been successfully recognised. If not, please try another independent USB port as a priority. It is recommended to connect the ROCK 5B to a separate USB port on the back panel of the computer to ensure that it has sufficient power supply.

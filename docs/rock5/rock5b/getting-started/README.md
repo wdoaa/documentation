@@ -1,9 +1,7 @@
 ---
-sidebar_position: 5
+sidebar_position: 10
 ---
 
-# 新手入门
-
-让 ROCK 5B 跑起来把！
+# 快速上手
 
 <DocCardList />
