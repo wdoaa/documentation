@@ -5,6 +5,7 @@ import Addled from "./rsetup/_add-led.mdx";
 import Devicetree from "./rsetup/_devicetree.mdx";
 import InstallOverlays from "./rsetup/_install-overlays.mdx";
 import DisableFIQ from "./rsetup/_disable-fiq.mdx";
+import EnableUart2 from "./rsetup/_enable-uart2-m0.mdx";
 
 ## rsetup
 
@@ -181,9 +182,15 @@ This option is for Configure Device Tree Overlay.
 
 </Details>
 
-<Details summary="Configure PIN 8 & PIN 10 as GPIOs">
+<Details summary="Configure Pins 8 and 10 as GPIOs">
 
 <DisableFIQ />
+
+</Details>
+
+<Details summary="Configure UART2_M0 as normal serial port">
+
+<EnableUart2 />
 
 </Details>
 

@@ -5,6 +5,7 @@ import Addled from "./rsetup/_add-led.mdx";
 import Devicetree from "./rsetup/_devicetree.mdx";
 import InstallOverlays from "./rsetup/_install-overlays.mdx";
 import DisableFIQ from "./rsetup/_disable-fiq.mdx";
+import EnableUart2 from "./rsetup/_enable-uart2-m0.mdx";
 
 ## rsetup
 
@@ -182,9 +183,15 @@ import DisableFIQ from "./rsetup/_disable-fiq.mdx";
 
 </Details>
 
-<Details summary="将 PIN 8 和 PIN 10 配置为 GPIO">
+<Details summary="将 Pin8 和 Pin10 配置为 GPIO">
 
 <DisableFIQ />
+
+</Details>
+
+<Details summary="将 UART2_M0 配置为普通串口">
+
+<EnableUart2 />
 
 </Details>
 
