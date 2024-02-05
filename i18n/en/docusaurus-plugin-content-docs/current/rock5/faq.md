@@ -38,4 +38,3 @@ sidebar_position: 3
   2.  Using a higher speed SD card or eMMC module and disabling the bootloader/kernel serial console.
   3.  Using a 12V DC USB-C port power supply
   4.  To check the availability of other power supplies reported by the Radxa community please check the basic support information on the motherboard.
-
