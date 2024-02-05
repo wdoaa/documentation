@@ -47,58 +47,42 @@ The Radxa X2L doesn't come with a CMOS battery. For the first time power on, the
 
 - After downloading and installing Rufus, open the program. Next, insert the USB flash drive into the computer, and then choose the corresponding USB drive from the Rufus device list. Finally, select the ISO file you want to burn to demonstrate the burning process for Windows 10, with the burning process for Ubuntu being the same.
 
-![install_rufus](/img/x/x_rufus.webp)
+![install_rufus](/img/x/x2l/x-rufus.webp)
 
 - After clicking Start, please wait patiently for the burning process to finish. If the burning is unsuccessful, try the operation again or switch to another USB flash drive.
 
 ### Operation Before Burning
 
+![Radxa X2L Overview](/img/x/x2l/radxa_x2l_ports.webp)
+
 - Gently insert the NVMe SSD into the corresponding M.2 M Key slot, and secure it in place using M2 x 4 flat-head screws.
 
-![install_ssd](/img/x/x_ssd.webp)
+- Insert the USB device, which has already been burned, into the USB 3.0 port.
 
-- Insert the USB drive, which has already been burned, into the USB port.
+- Connect the display to the HDMI port of Radxa X2L using an HDMI cable.
 
-![install_usb1](/img/x/x_usb1.webp)
-
-- Connect the display to the motherboard using an HDMI cable.
-
-![install_hdmi](/img/x/x_hdmi.webp)
-
-- Plug in the mouse and keyboard.
-
-![install_usb2](/img/x/x_usb2.webp)
+- Insert a mouse and keyboard into the USB 2.0 ports.
 
 ### Install OS
 
 - Power on and start the system, then follow the process to install the image.
 
-![install_win1](/img/x/x_win10_01.webp)
+![install_win1](/img/x/x2l/x-win10_01.webp)
 
-![install_win1](/img/x/x_win10_02.webp)
+![install_win1](/img/x/x2l/x-win10_02.webp)
 
-![install_win1](/img/x/x_win10_03.webp)
+![install_win1](/img/x/x2l/x-win10_03.webp)
 
-## Install Driver
+## [Install Driver](/x/x2l/driver)
 
-### Radxa X2L
+## [BIOS Setting](/x/x2l/bios)
 
-- Please refer to [Install Driver](/x/x2l/driver)
+## [Use of accessories](/x/x2l/accessories/)
 
-## BIOS Setting
+### [Heatsink 9010A](/x/x2l/accessories/heatsink-9010a)
 
-- Please refer to [BIOS Setting](/x/x2l/bios)
+### [Wireless Module](/x/x2l/accessories/wireless-module)
 
-## Use of accessories
+## [Hardware Information](/x/x2l/hardware/)
 
-### Heatsink 9010A
-
-- Please refer to [Heatsink 9010A](/x/x2l/accessories/heatsink-9010a)
-
-### Wireless Module
-
-- Please refer to [Wireless Module](/x/x2l/accessories/wireless-module)
-
-## Hardware Information
-
-- Please refer to [Hardware Information](/x/x2l/hardware/hardware-info)
+## [Software Development](/x/x2l/software-development)

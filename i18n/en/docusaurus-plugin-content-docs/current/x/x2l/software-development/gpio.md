@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# GPIO Tutorials
+# GPIO
 
 ## GPIO Definition
 
