@@ -36,7 +36,7 @@ Radxa X2L 没有配备 CMOS 电池。首次开机时，BIOS 会初始化硬件�
 
 - 支持 HDMI 接口的显示屏
 
-- 支持 USB 的鼠标和键盘
+- 支持 USB 接口的鼠标和键盘
 
 - 支持 PD 协议的电源适配器
   :::tip
@@ -47,7 +47,7 @@ Radxa X2L 没有配备 CMOS 电池。首次开机时，BIOS 会初始化硬件�
 
 - 下载并安装 Rufus 后，打开程序。随后，将 U 盘插入电脑，然后在 Rufus 设备列表中选择相应的 U 盘。最后，选中要烧录的 ISO 文件，演示 Windows 10 的烧录过程，而 Ubuntu 的烧录方式相同。
 
-![install_rufus](/img/x/x2l/x_rufus.webp)
+![install_rufus](/img/x/x2l/x-rufus.webp)
 
 - 单击 "开始 "后，请耐心等待刻录过程结束。如果刻录不成功，请再次尝试操作或切换到另一个 USB 闪存盘。
 
@@ -57,7 +57,7 @@ Radxa X2L 没有配备 CMOS 电池。首次开机时，BIOS 会初始化硬件�
 
 - 将 NVMe 固态硬盘轻轻插入相应的 M.2 M Key 插槽，并使用 M2 x 4 平头螺钉将其固定到位。
 
-- 将已经完成烧录的 U 盘插入 USB3.0 接口中。
+- 将已经完成烧录的 U 盘插入 USB 3.0 接口中。
 
 - 使用 HDMI 线缆将显示屏与主板 HDMI 接口相连接。
 
@@ -65,13 +65,13 @@ Radxa X2L 没有配备 CMOS 电池。首次开机时，BIOS 会初始化硬件�
 
 ### 安装 OS
 
-- 接通电源并启动系统，然后按照程序安装 OS。
+- 接通电源并启动 OS，然后按照程序安装 OS。
 
-![install_win1](/img/x/x2l/x_win10_01.webp)
+![install_win1](/img/x/x2l/x-win10_01.webp)
 
-![install_win1](/img/x/x2l/x_win10_02.webp)
+![install_win1](/img/x/x2l/x-win10_02.webp)
 
-![install_win1](/img/x/x2l/x_win10_03.webp)
+![install_win1](/img/x/x2l/x-win10_03.webp)
 
 ## [驱动安装](/x/x2l/driver)
 

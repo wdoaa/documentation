@@ -47,7 +47,7 @@ The Radxa X2L doesn't come with a CMOS battery. For the first time power on, the
 
 - After downloading and installing Rufus, open the program. Next, insert the USB flash drive into the computer, and then choose the corresponding USB drive from the Rufus device list. Finally, select the ISO file you want to burn to demonstrate the burning process for Windows 10, with the burning process for Ubuntu being the same.
 
-![install_rufus](/img/x/x2l/x_rufus.webp)
+![install_rufus](/img/x/x2l/x-rufus.webp)
 
 - After clicking Start, please wait patiently for the burning process to finish. If the burning is unsuccessful, try the operation again or switch to another USB flash drive.
 
@@ -57,7 +57,7 @@ The Radxa X2L doesn't come with a CMOS battery. For the first time power on, the
 
 - Gently insert the NVMe SSD into the corresponding M.2 M Key slot, and secure it in place using M2 x 4 flat-head screws.
 
-- Insert the USB device, which has already been burned, into the USB3.0 port.
+- Insert the USB device, which has already been burned, into the USB 3.0 port.
 
 - Connect the display to the HDMI port of Radxa X2L using an HDMI cable.
 
@@ -67,11 +67,11 @@ The Radxa X2L doesn't come with a CMOS battery. For the first time power on, the
 
 - Power on and start the system, then follow the process to install the image.
 
-![install_win1](/img/x/x2l/x_win10_01.webp)
+![install_win1](/img/x/x2l/x-win10_01.webp)
 
-![install_win1](/img/x/x2l/x_win10_02.webp)
+![install_win1](/img/x/x2l/x-win10_02.webp)
 
-![install_win1](/img/x/x2l/x_win10_03.webp)
+![install_win1](/img/x/x2l/x-win10_03.webp)
 
 ## [Install Driver](/x/x2l/driver)
 
