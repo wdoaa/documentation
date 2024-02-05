@@ -1,26 +1,17 @@
----
-sidebar_position: 10
----
+## Configure Pins 8 and 10 as GPIOs
 
-# Configure PIN 8 && PIN 10 as normal GPIOs
-
-:::info
+:::tip
 By default, the UART2_M0 interface is a FIQ debugging serial port, which can output logs of DDR Init, U-Boot, Linux Kernel, etc. for debugging. Therefore, it is not recommended to cancel this configuration as you can use other serial ports if not necessary.
 :::
 
-## Preparation
-
-- A Radxa single board computer or computing module running the official Radxa distribution.
-
-## Start rsetup and go to the device tree management interface
+## Disable the FIQ-Debugger configuration.
 
 ```bash
 rsetup
+
+# Follow these options to access the Manage overlays interface
+# Overlays -> Manage overlays
 ```
-
-## After entering rsetup, follow [Device Tree Settings](/radxa-os/rsetup/devicetree) to enter the Device Tree management interface.
-
-## Disable the FIQ-Debugger configuration.
 
 Tick `Disable FIQ Debugger.`
 
