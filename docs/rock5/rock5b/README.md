@@ -4,8 +4,6 @@ sidebar_position: 5
 
 # ROCK 5B
 
-<!-- 上面 SBC 需要更换为具体的产品型号 -->
-
 ## 产品介绍
 
 ### 实物照片
@@ -21,8 +19,6 @@ sidebar_position: 5
 :::tip
 除了下面的 **其他系统** 目录外，其他内容都是围绕 Radxa OS (Radxa 基于 Debian 定制的系统) 展开。
 :::
-
-<!-- 以下括号中的链接路径 /rock5/rock5b 更换为当前产品的路径 -->
 
 ### [快速上手](/rock5/rock5b/getting-started)
 
