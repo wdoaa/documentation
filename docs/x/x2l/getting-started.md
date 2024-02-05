@@ -47,58 +47,42 @@ Radxa X2L 没有配备 CMOS 电池。首次开机时，BIOS 会初始化硬件�
 
 - 下载并安装 Rufus 后，打开程序。随后，将 U 盘插入电脑，然后在 Rufus 设备列表中选择相应的 U 盘。最后，选中要烧录的 ISO 文件，演示 Windows 10 的烧录过程，而 Ubuntu 的烧录方式相同。
 
-![install_rufus](/img/x/x_rufus.webp)
+![install_rufus](/img/x/x2l/x_rufus.webp)
 
 - 单击 "开始 "后，请耐心等待刻录过程结束。如果刻录不成功，请再次尝试操作或切换到另一个 USB 闪存盘。
 
 ### 上电前操作
 
+![Radxa X2L Overview](/img/x/x2l/radxa_x2l_ports.webp)
+
 - 将 NVMe 固态硬盘轻轻插入相应的 M.2 M Key 插槽，并使用 M2 x 4 平头螺钉将其固定到位。
 
-![install_ssd](/img/x/x_ssd.webp)
+- 将已经完成烧录的 U 盘插入 USB3.0 接口中。
 
-- 将已经完成烧录的 U 盘插入 USB 接口中。
+- 使用 HDMI 线缆将显示屏与主板 HDMI 接口相连接。
 
-![install_usb1](/img/x/x_usb1.webp)
-
-- 使用 HDMI 线缆将显示屏与主板相连接。
-
-![install_hdmi](/img/x/x_hdmi.webp)
-
-- 插入鼠标和键盘。
-
-![install_usb2](/img/x/x_usb2.webp)
+- 在 USB 2.0 接口插入鼠标和键盘。
 
 ### 安装 OS
 
 - 接通电源并启动系统，然后按照程序安装 OS。
 
-![install_win1](/img/x/x_win10_01.webp)
+![install_win1](/img/x/x2l/x_win10_01.webp)
 
-![install_win1](/img/x/x_win10_02.webp)
+![install_win1](/img/x/x2l/x_win10_02.webp)
 
-![install_win1](/img/x/x_win10_03.webp)
+![install_win1](/img/x/x2l/x_win10_03.webp)
 
-## 驱动安装
+## [驱动安装](/x/x2l/driver)
 
-### Radxa X2L
+## [BIOS 设置](/x/x2l/bios)
 
-- 请浏览[驱动安装](/x/x2l/driver)
+## [配件支持](/x/x2l/accessories/)
 
-## BIOS 设置
+### [散热片 9010A](/x/x2l/accessories/heatsink-9010a)
 
-- 请浏览[升级 BIOS](/x/x2l/bios)
+### [无线模块](/x/x2l/accessories/wireless-module)
 
-## 配件使用
+## [硬件信息](/x/x2l/hardware/)
 
-### 散热片 9010A
-
-- 请浏览[散热片 9010A](/x/x2l/accessories/heatsink-9010a)
-
-### 无线模块
-
-- 请浏览[无线模块](/x/x2l/accessories/wireless-module)
-
-## 硬件信息
-
-- 请浏览[硬件信息](/x/x2l/hardware/hardware-info)
+## [软件开发](/x/x2l/software-development)
