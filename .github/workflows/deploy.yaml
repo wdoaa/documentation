@@ -10,14 +10,10 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-    env:
-      GH_TOKEN: ${{ github.token }}
     strategy:
       fail-fast: false
       matrix:
-        test: ["", check-external-links]
+        test: [""]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -74,24 +70,71 @@ jobs:
             echo 'Please install pre-commit and run `pre-commit run --all-files` to fix it.'
             echo 'Strongly recommended to run `pre-commit install` to catch issues before pushing.'
             echo 'You can learn more abour pre-commit from https://pre-commit.com/'
+            exit 1
+          fi
+  test-optional:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        test: [check-external-links]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: pre-commit check-external-links
+        shell: bash
+        run: |
+          set -o pipefail
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends webp
+          pip install pre-commit
 
-            if [[ -z "${{ matrix.test }}" ]]
+          CI_FAIL=false
+          EXTRA_ARGS=("--all-files")
+
+          if [ "${{ github.event_name }}" == "push" ]
+          then
+            if [ "${{ github.event.created }}" != "true" ]
             then
-              exit 1
-            elif [[ "${{github.event_name}}" == "pull_request" ]]
-            then
-              case "${{ matrix.test }}"
-              in
-                check-external-links)
-                  if [ "${{ github.event.action }}" == "opened" ]
-                  then
-                    #This is currently broken, see https://github.com/cli/cli/issues/8374
-                    #gh pr comment ${{github.event.number}} --body "Found potential broken links in the changed files."
-                    :
-                  fi
-                  ;;
-              esac
+              git fetch origin ${{ github.event.before }}:old_head
+              FROM_REF="${{ github.event.before }}"
+              TO_REF="${{ github.event.after }}"
+              EXTRA_ARGS=("--from-ref" "$FROM_REF" "--to-ref" "$TO_REF")
             fi
+          elif [ "${{ github.event_name }}" == "pull_request" ]
+          then
+            FROM_REF="${{ github.event.pull_request.base.sha }}"
+            TO_REF="${{ github.event.pull_request.head.sha }}"
+            EXTRA_ARGS=("--from-ref" "$FROM_REF" "--to-ref" "$TO_REF")
+          elif [ "${{ github.event_name }}" == "merge_group" ]
+          then
+            git fetch origin ${{ github.event.merge_group.base_sha }}:old_head
+            FROM_REF="${{ github.event.merge_group.base_sha }}"
+            TO_REF="${{ github.event.merge_group.head_sha }}"
+            EXTRA_ARGS=("--from-ref" "$FROM_REF" "--to-ref" "$TO_REF")
+          fi
+
+          if [[ ! -z "${{ matrix.test }}" ]]
+          then
+            EXTRA_ARGS+=("--hook-stage" "manual" "${{ matrix.test }}")
+          fi
+
+          if ! pre-commit run --show-diff-on-failure "${EXTRA_ARGS[@]}" 2>&1 | tee /tmp/ci_result.log
+          then
+            CI_FAIL=true
+          fi
+
+          if $CI_FAIL
+          then
+            echo ''
+            echo '=== Issue detected! ==='
+            echo 'Suggest changes are listed above.'
+            echo 'Please install pre-commit and run `pre-commit run --all-files` to fix it.'
+            echo 'Strongly recommended to run `pre-commit install` to catch issues before pushing.'
+            echo 'You can learn more abour pre-commit from https://pre-commit.com/'
+            exit 1
           fi
   build:
     needs: test
