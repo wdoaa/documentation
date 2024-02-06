@@ -6,6 +6,9 @@ sidebar_position: 4
 
 ## Interface overview
 
+![Radxa NX5](/img/nx5/nx5-overview.webp)
+![Radxa NX5 IO](/img/nx5/nx5-io/nx5-io-overview.webp)
+
 - 4x USB3.0 Host
 - 1x Micro USB 2.0 OTG
 - 2x MIPI CSI
@@ -23,9 +26,16 @@ sidebar_position: 4
 
 ## Power
 
+Powered by DC power connector, supports 5V input only.
+
 ## Debug Serial Port
 
+For system debugging, low-level log message output.
+Refer to [Serial Debugging](../radxa-os/low-level-dev/serial).
+
 ## Ethernet Port
+
+Provides Ethernet interface to Gigabit Ethernet.
 
 ## 40 PIN GPIO
 
@@ -71,12 +81,20 @@ Radxa NX5 IO provides a 40pin GPIO socket, which is compatible with most sensor 
 
 ## WIFI/BT
 
+Provides M.2 KEY interface, which is compatible with common PCIe protocol NICs in the market, such as Radxa Wireless A8 modules.
+
 ## HDMI/DP
+
+Equipped with full-size HDMI and DP connectors, supporting regular 4K, 2K, 1080P resolutions, the HDMI interface supports resolutions up to 8K.
 
 ## USB
 
+Provides 4x USB3.0 ports, compatible with USB2.0.
+
 ## MIPI CSI
 
-## MIPI DSI
+MIPI camera support.
 
 ## MicroSD
+
+Can be used as a system boot disk or as a storage medium.
