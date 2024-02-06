@@ -6,6 +6,9 @@ sidebar_position: 4
 
 ## 接口总览
 
+![Radxa NX5](/img/nx5/nx5-overview.webp)
+![Radxa NX5 IO](/img/nx5/nx5-io/nx5-io-overview.webp)
+
 - 4x USB3.0 Host
 - 1x Micro USB 2.0 OTG
 - 2x MIPI CSI
@@ -23,9 +26,16 @@ sidebar_position: 4
 
 ## 电源接口
 
+采用 DC 电源接口供电，仅支持 5V 输入
+
 ## 调试串口
 
+用于系统调试，底层日志消息输出
+参考 [串口调试](../radxa-os/low-level-dev/serial)
+
 ## 有线网口
+
+提供以太网接口，可接入千兆以太网
 
 ## 40 PIN GPIO
 
@@ -70,12 +80,20 @@ Radxa NX5 IO 提供了一个40pin针脚的GPIO座子，兼容于市面上大部�
 
 ## WIFI/BT
 
+提供 M.2 KEY 接口，可兼容市面上常见的 PCIe 协议网卡，如 Radxa Wireless A8 模组
+
 ## HDMI/DP
+
+配备全尺寸 HDMI 和 DP 接口，支持常规的4K、2K、1080P等分辨率, HDMI 接口最高支持 8K 分辨率
 
 ## USB
 
+提供 4 个 USB3.0 端口，兼容 USB2.0
+
 ## MIPI CSI
 
-## MIPI DSI
+支持 MIPI 摄像头
 
 ## MicroSD
+
+可用于系统启动盘，也可以充当存储介质使用
