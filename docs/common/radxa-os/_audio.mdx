@@ -14,13 +14,13 @@
 
 除了图形界面，我们还可以从终端设置音频。我们提供了 `alsamixer` 用于音量管理，通过这个命令进入设置 UI：
 
-```
-radxa@rock-5a:~$ alsamixer
+```bash
+alsamixer
 ```
 
 使用`up`和`down`箭头键调节音量。
 
-```
+```bash
 ┌────────────────────────────── AlsaMixer v1.2.4 ──────────────────────────────┐
 │ Card: PulseAudio                                     F1:  Help               │
 │ Chip: PulseAudio                                     F2:  System information │
@@ -48,13 +48,13 @@ radxa@rock-5a:~$ alsamixer
 
 切换其他音频输出设备，首先要知道连接了哪些设备，下面提供了一个搜索方法：
 
-```
-radxa@rock-5a:~$ pacmd list-sinks | grep -e 'index:' -e 'name:'
+```bash
+pacmd list-sinks | grep -e 'index:' -e 'name:'
 ```
 
 您将看到连接的音频设备的索引和名称，如下所示：
 
-```
+```bash
     index: 0
         name: <alsa_output.platform-dp0-sound.HDMI__hw_rockchiphdmi1__sink>
     index: 1
@@ -66,8 +66,8 @@ radxa@rock-5a:~$ pacmd list-sinks | grep -e 'index:' -e 'name:'
 带有“\*”的索引表示它是最高优先级的设备。
 以下命令将帮助您更改默认输出设备：
 
-```
-radxa@rock-5a:~$ pacmd set-default-sink alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink  # 'alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink' is the name of the device you want to set.
+```bash
+pacmd set-default-sink alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink  # 'alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink' is the name of the device you want to set.
 ```
 
 想了解更多信息，请查看 [pacmd page](https://man.archlinux.org/man/extra/pulseaudio/pacmd.1.en).

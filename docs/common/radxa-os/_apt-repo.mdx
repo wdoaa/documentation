@@ -12,7 +12,7 @@ APT 仓库的配置文件一般保存在以下两个地方：
 以下是 RadxaOS 中常见的额外仓库：
 
 ```bash
-radxa@radxa-zero-2pro:~$ ls /etc/apt/sources.list.d/
+$ ls /etc/apt/sources.list.d/
 bookworm-backports.list  bookworm-updates.list  radxa.list
 bookworm-security.list   radxa-amlogic.list
 ```
@@ -22,7 +22,7 @@ bookworm-security.list   radxa-amlogic.list
 这些文件提供了上游的一些额外仓库。其中 `bookworm` 是操作系统代号，具体可通过以下命令查询：
 
 ```bash
-radxa@radxa-zero-2pro:~$ grep VERSION_CODENAME /etc/os-release
+$ grep VERSION_CODENAME /etc/os-release
 VERSION_CODENAME=bookworm
 ```
 

@@ -16,13 +16,13 @@ The volume control and mute operate on the currently selected device.
 
 In addition to the graphical interface, we can also set up the audio from the terminal. We provide `alsamixer` for volume management, entering the setting ui by this command:
 
-```
-radxa@rock-5a:~$ alsamixer
+```bash
+alsamixer
 ```
 
 Use the `up` and `down` arrow keys to adjust the volume.
 
-```
+```bash
 ┌────────────────────────────── AlsaMixer v1.2.4 ──────────────────────────────┐
 │ Card: PulseAudio                                     F1:  Help               │
 │ Chip: PulseAudio                                     F2:  System information │
@@ -50,13 +50,13 @@ Use the `up` and `down` arrow keys to adjust the volume.
 
 For changing to other audio output devices, you should get which devices are connected at first, a search is provided below:
 
-```
-radxa@rock-5a:~$ pacmd list-sinks | grep -e 'index:' -e 'name:'
+```bash
+pacmd list-sinks | grep -e 'index:' -e 'name:'
 ```
 
 You will see the index and name of the connected audio devices like this:
 
-```
+```bash
     index: 0
         name: <alsa_output.platform-dp0-sound.HDMI__hw_rockchiphdmi1__sink>
     index: 1
@@ -68,8 +68,8 @@ You will see the index and name of the connected audio devices like this:
 The index with `*` indicates that it's the highest priority device.
 The following command would help you to change default output device:
 
-```
-radxa@rock-5a:~$ pacmd set-default-sink alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink  # 'alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink' is the name of the device you want to set.
+```bash
+pacmd set-default-sink alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink  # 'alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink' is the name of the device you want to set.
 ```
 
 For more information, please check [pacmd page](https://man.archlinux.org/man/extra/pulseaudio/pacmd.1.en).
