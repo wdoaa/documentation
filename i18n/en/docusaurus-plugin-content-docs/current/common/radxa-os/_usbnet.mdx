@@ -7,19 +7,19 @@ You can set up a shared network between two products by connecting their OTG por
 
 **Software**: If your SBC has not the latest software, connect you SBC to internet and type the following command:
 
-```
+```bash
 sudo apt update && sudo apt full-upgrade
 ```
 
 **Service**: After updating software, you need to start the `radxa-usbnet` service:
 
-```
+```bash
 sudo systemctl enable --now radxa-usbnet
 ```
 
 **Status**: Typing the command to confirm if the service is running:
 
-```
+```bash
 sudo systemctl status radxa-usbnet.service
 ```
 
@@ -31,14 +31,14 @@ At first, connect the two SBC OTG ports by USB-A to USB-A cable.
 Device identity of this shared network depends on what [overlay](../os-config/rsetup#overlay) you enable,the host machine shares the network to device mahine.
 The host machine enable this overlay:
 
-```
-		[*] Set OTG port to Host mode
+```bash
+[*] Set OTG port to Host mode
 ```
 
 The device machine enable this overlay:
 
-```
-		[*] Set OTG port to Peripheral mode
+```bash
+[*] Set OTG port to Peripheral mode
 ```
 
 Reboot after enable options.
@@ -53,13 +53,13 @@ This guide you set it on terminal:
 
 Before operating, confirm if there is a new networkcard device:
 
-```
-radxa@rock-5a:~$ ip a
+```bash
+ip a
 ```
 
 The name of it may be different:
 
-```
+```bash
 3: enxca5bfb533dd4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
     link/ether ca:5b:fb:53:3d:d4 brd ff:ff:ff:ff:ff:ff
     inet6 fe80::b989:8daf:feb5:f020/64 scope link noprefixroute
@@ -70,13 +70,13 @@ If there is not a new network card, you may need to set overlay once again.
 
 Network Manager Tool is the recommended tool to manage the network, typing the command to open the interface:
 
-```
-radxa@rock-5a:~$ sudo nmtui
+```bash
+sudo nmtui
 ```
 
 After identification, the setting interface appears:
 
-```
+```bash
                               NetworkManager TUI
 
                             Please select an option
@@ -94,7 +94,7 @@ Select `Edit a connection -- <Add>` to add a `Ethernet` adapter:
 ![add adapter](/img/configuration/add_adapter.webp)
 Of the many options, we only need to fill in two of them:
 
-```
+```bash
         Device____  # Enter the third network card name you get by 'ip a', like: enxca5bfb533dd4
         IPv4 CONFIGURATION <Shared> # Change <Automatic> to <Shared>
 ```
@@ -102,7 +102,7 @@ Of the many options, we only need to fill in two of them:
 Save the configuration and return to setting interface to `Activate a connection`, select the option you just add.
 It would be following if you apply it right:
 
-```
+```bash
                 USB Ethernet
                     * Ethernet connection 1
 ```
@@ -110,13 +110,13 @@ It would be following if you apply it right:
 **Confirm adapter setting:**
 After you settings, check if there is a IP address of third network card:
 
-```
-radxa@rock-5a:~$ ip a
+```bash
+ip a
 ```
 
 The expected output result is like following:
 
-```
+```bash
 3: enxca5bfb533dd4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
     link/ether ca:5b:fb:53:3d:d4 brd ff:ff:ff:ff:ff:ff
     inet 10.42.0.1/24 brd 10.42.0.255 scope global noprefixroute enxca5bfb533dd4
@@ -135,7 +135,7 @@ Relative to Host machine, it woulb be easy for device machine settings.
 At first, enable the `Set OTG port to Peripheral mode` overlay and start the `radxa-usbnet` service, reboot.
 Typing `ip a` to confirm if a new device named `usb0` like the following added:
 
-```
+```bash
 3: usb0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
     link/ether 76:c7:9d:9e:d5:da brd ff:ff:ff:ff:ff:ff
 ```
@@ -146,15 +146,15 @@ If not, check previous steps: reopen the overlay (Don't forget to reboot.) and r
 Next, set up the adapter as set up the Host device:
 Open the Network Manager Tool:
 
-```
-radxa@rock-5a:~$ sudo nmtui
+```bash
+sudo nmtui
 ```
 
 Select `Edit a connection -- <Add>` to add a `Ethernet` adapter:
 
 Only the Device option should be modify, type 'usb0':
 
-```
+```bash
 Device usb0
 ```
 
@@ -164,7 +164,7 @@ Other options remain default. Save the configuration.
 
 Return to setting interface to `Activate a connection`, select the option you just add.
 
-```
+```bash
                 Ethernet (usb0)
                     Ethernet connection 1
 ```
@@ -175,9 +175,8 @@ It would take a few seconds to connect to Host device.
 
 Check if usb0 get the IP address like following:
 
-```
-radxa@rock-5a:~$ ip a
-
+```bash
+$ ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo

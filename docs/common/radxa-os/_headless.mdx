@@ -13,7 +13,7 @@
 有些产品需要安装 WiFi 模块来连接到无线网络。
 :::
 
-将系统镜像烧写到 microSD 卡后不要从你的Linux或Windows机器拔出， 可以在文件系统中找到配置文件夹。其中有两个文件**before.txt\*和**config.txt\*\*。
+将系统镜像烧写到 microSD 卡后不要从你的Linux或Windows机器拔出， 可以在文件系统中找到配置文件夹。其中有两个文件**before.txt**和**config.txt**。
 
 **before.txt**： Radxa首次启动配置，它将被复制到Linux根文件系统的正确位置，机器将使用这些设置来启动无线网络。
 
@@ -21,7 +21,7 @@
 
 要启用自动Wi-Fi连接，在**before.txt**中添加以下一行：
 
-```
+```bash
 connect_wi-fi YOUR_WIFI_SSID YOUR_WIFI_PASSWORD
 ```
 
@@ -46,5 +46,6 @@ connect_wi-fi YOUR_WIFI_SSID YOUR_WIFI_PASSWORD
 安装ssh服务后，通过用户名和ip地址直接在终端上进行远程连接，如以下代码：
 `ssh <username>@[IP address]`
 
-例如： `ssh radxa@192.168.42.100`.
+例如： `ssh radxa@192.168.42.100`
+
 ![ssh connect](/img/configuration/ssh-connect.webp)

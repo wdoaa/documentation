@@ -4,24 +4,34 @@ This is a tutorial on how to access the board remotely from another computer usi
 
 1.  Check the SSH service status. Run the following command in the terminal:
 
-        sudo service ssh status
+```bash
+sudo service ssh status
+```
 
     If the SSH service is not installed, you can use the following command to install it:
 
-        sudo apt-get update
-        sudo apt-get install ssh
+```bash
+sudo apt-get update
+sudo apt-get install ssh
+```
 
     If the SSH service is not started or runs abnormally, run the following command to restart it:
 
-        sudo service sshd restart
+```bash
+sudo service sshd restart
+```
 
 2.  Open the terminal program and enter the following command:
 
-        ssh [username]@[IP address]  # or ssh [username]@[hostname]
+```bash
+ssh [username]@[IP address]  # or ssh [username]@[hostname]
+```
 
     Example:
 
-        ssh radxa@192.168.2.100
+```bash
+ssh radxa@192.168.2.100
+```
 
 3.  You need to enter the user password to successfully connect to the Debian system.
     This is a basic SSH connection process. You can use other SSH options for more advanced connections.
@@ -51,7 +61,6 @@ The IP address in the same network segment as the host is the IP address require
        valid_lft 43176sec preferred_lft 43176sec
     inet6 fe80::8e:d164:96ea:40b6/64 scope link noprefixroute
        valid_lft forever preferred_lft forever
-
 ```
 
 #### Find IP via Angryip
@@ -133,13 +142,13 @@ startkde &
 
 3. After the configuration is edited, restart the VNC server:
 
-```shell
+```bash
 vncserver -localhost no
 ```
 
 4. View the VNC server:
 
-```shell
+```bash
 vncserver -list
 
 TigerVNC server sessions.

@@ -4,24 +4,34 @@
 
 1.  检查 SSH 服务状态。 在终端中运行以下命令：
 
-        sudo service ssh status
+```bash
+sudo service ssh status
+```
 
     如果没有安装 SSH 服务，可以使用以下命令安装：
 
-        sudo apt-get update
-        sudo apt-get install ssh
+```bash
+sudo apt-get update
+sudo apt-get install ssh
+```
 
     如果 SSH 服务没有启动或者运行异常，可以使用以下命令重新启动：
 
-        sudo service sshd restart
+```bash
+sudo service sshd restart
+```
 
 2.  打开终端程序并输入以下命令：
 
-        ssh [username]@[IP address]  # 或者 ssh [username]@[hostname]
+```bash
+ssh [username]@[IP address]  # 或者 ssh [username]@[hostname]
+```
 
     例如：
 
-        ssh radxa@192.168.2.100
+```bash
+ssh radxa@192.168.2.100
+```
 
 3.  需要输入用户密码才能成功连接到Debian系统。
     这是一个基本的 SSH 连接过程。 您可以使用其他 SSH 选项进行更高级的连接。
@@ -73,25 +83,25 @@ ip a
 
 1. 打开终端应用程序并输入以下命令以更新包列表:
 
-```
+```bash
 sudo apt-get update
 ```
 
 2. 输入以下命令安装TigerVNC Server:
 
-```
+```bash
 sudo apt-get install tigervnc-standalone-server
 ```
 
 3. 安装dbus-x11依赖项以确保与你的VNC服务器的正确连接：
 
-```
+```bash
 sudo apt-get install dbus-x11
 ```
 
 4. 安装后完成VNC服务器的初始配置，请使用vncserver命令来设置安全密码并创建初始配置文件：
 
-```
+```bash
 vncserver
 ```
 
@@ -103,20 +113,20 @@ Would you like to enter a view-only password (y/n)? n 提示是否只是观看�
 
 1. 一旦 TigerVNC 启动，它将创建一个 VNC 会话，其中包含 VNC 服务器的 IP 地址和端口号（通常为 5901）,因与要改变VNC服务器的配置方式，首先用以下命令停止运行在5901端口的VNC服务器实例：
 
-```
+```bash
 vncserver -kill :1
 ```
 
 2. 运行vncserver命令时会在~/.vnc目录下生成一个xstartup，没有生成请手动创建并赋予可执行权限：
 
-```
+```bash
 touch ~/.vnc/xstartup
 chmod +x ~/.vnc/xstartup
 ```
 
 编辑xstartup配置文件如下：
 
-```
+```bash
 radxa@rock-5b:~$ cat ~/.vnc/xstartup
 #!/bin/sh
 unset SESSION_MANAGER
@@ -132,13 +142,13 @@ startkde &
 
 3. 配置编辑好后，重新启动VNC服务器：
 
-```
+```bash
 vncserver -localhost no
 ```
 
 4. 查看VNC服务器：
 
-```
+```bash
 vncserver -list
 TigerVNC server sessions:
 X DISPLAY #	RFB PORT #	PROCESS ID	SERVER

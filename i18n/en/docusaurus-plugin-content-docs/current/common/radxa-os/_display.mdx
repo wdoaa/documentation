@@ -15,13 +15,13 @@ You can modify the following settings in it:
 We also provide `xrandr` for display settings.
 With the following command you can check the current display status:
 
-```
+```bash
 xrandr
 ```
 
 There is an example:
 
-```
+```bash
 radxa@rock-5a:~$ xrandr
 Screen 0: minimum 320 x 200, current 1920 x 1080, maximum 16384 x 16384
 HDMI-1 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis) 0mm x 0mm
@@ -49,7 +49,7 @@ You can check which monitor is connected and the corresponding resolution.
 You can rotate your screen display by modifying the [Display Settings](display#system-settings-display-settings)-Orientation.
 Or you can also achieving by command:
 
-```
+```bash
 Single Screen:
    xrandr -o left     # Rotate 90 degrees to the left
    xrandr -o right    # Rotate 90 degrees to the right
@@ -68,7 +68,7 @@ You can get the supported MIPI screen model from the [overlay menu](../os-config
 
 Before using the MIPI screen, you need to enable the corresponding overlay and reboot.
 
-```
+```bash
         ...
         [ ] Enable Radxa Display 10HD
         [ ] Enable Radxa Display 8HD
@@ -81,7 +81,7 @@ Before using the MIPI screen, you need to enable the corresponding overlay and r
 
 In addition to Settings, the following commands enable you to modify in the display settings:
 
-```
+```bash
 Dual Screen:
    # HDMI-1 --screen 1   DP-1 --screen 2
    xrandr --output HDMI-1 --primary # SetUp Home Screen

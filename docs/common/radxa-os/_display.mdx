@@ -15,13 +15,13 @@
 我们还提供了`xrandr`用于显示设置。
 通过以下命令，你可以检查当前的显示状态：
 
-```
+```bash
 xrandr
 ```
 
 举例：
 
-```
+```bash
 radxa@rock-5a:~$ xrandr
 Screen 0: minimum 320 x 200, current 1920 x 1080, maximum 16384 x 16384
 HDMI-1 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis) 0mm x 0mm
@@ -49,7 +49,7 @@ DP-1 disconnected (normal left inverted right x axis y axis)
 你可以通过修改[Display Settings](display#system-settings-display-settings)-Orientation来旋转你的屏幕显示。
 或者你也可以通过命令实现：
 
-```
+```bash
 Single Screen:
    xrandr -o left     # Rotate 90 degrees to the left
    xrandr -o right    # Rotate 90 degrees to the right
@@ -68,7 +68,7 @@ Radxa 的一些产品支持通过带状线缆连接的 MIPI 显示器。但是�
 
 在使用 MIPI 屏幕之前，你需要启用相应的 overlay 并重启。
 
-```
+```bash
         ...
         [ ] Enable Radxa Display 10HD
         [ ] Enable Radxa Display 8HD
@@ -81,7 +81,7 @@ Radxa 的一些产品支持通过带状线缆连接的 MIPI 显示器。但是�
 
 除设置 之外，以下命令也能够修改显示设置：
 
-```
+```bash
 Dual Screen:
    # HDMI-1 --screen 1   DP-1 --screen 2
    xrandr --output HDMI-1 --primary # SetUp Home Screen
