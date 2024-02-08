@@ -33,61 +33,6 @@ sidebar_position: 1
 
 </div>
 
-## RP2040 程序编译
-
-### 下载
-
-```
-    $ git clone https://github.com/raspberrypi/pico-sdk.git --branch master
-    $ cd pico-sdk
-    $ git submodule update --init    // USB functionality
-    $ cd ..
-    $ git clone https://github.com/raspberrypi/pico-examples.git --branch master
-```
-
-### 编译
-
-```
-    cd pico-examples
-    mkdir build
-    cd build
-    export PICO_SDK_PATH=../../pico-sdk
-    $ cmake ..
-    cd blink
-    make -j4
-```
-
-### 使用方法
-
-- 例如： pico-examples/blink/blink.c
-
-```
-int main() {
-#ifndef PICO_DEFAULT_LED_PIN
-#warning blink example requires a board with a regular LED
-#else
-    //const uint LED_PIN = PICO_DEFAULT_LED_PIN;
-    const uint LED_PIN = 28; // 这里我们改成 28 (也就是 pin 3)
-    gpio_init(LED_PIN);
-    gpio_set_dir(LED_PIN, GPIO_OUT);
-    while (true) {
-        gpio_put(LED_PIN, 1);
-        sleep_ms(250);
-        gpio_put(LED_PIN, 0);
-        sleep_ms(250);
-    }
-#endif
-}
-```
-
-- 修改好之后，在 pico-examples/build/ 目录下执行
-
-```
-make
-```
-
-- 编译好的程序在 pico-examples/build/blink/ 目录下， 我们需要的是 .uf2 结尾的文件
-
 ![Pico Example](/img/x/x2l/flash_program.webp)
 
 ## 安装 micro-python

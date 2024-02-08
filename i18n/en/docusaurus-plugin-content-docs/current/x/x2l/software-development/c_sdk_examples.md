@@ -29,7 +29,7 @@ git submodule update --init
 git clone https://github.com/raspberrypi/pico-examples.git --branch master
 ```
 
-## Compile
+### Compile
 
 ```
 export PICO_SDK_PATH=path/to/pico-sdk
@@ -38,3 +38,5 @@ mkdir build
 cd build
 cmake .. && make -j4
 ```
+
+### [Burning](./flash.md)
