@@ -88,29 +88,6 @@ make
 
 - The compiled program is in the pico-examples/build/blink/ directory, and we need files that end in .uf2.
 
-### Flashing
-
-- Create a new usb.sh file to open the rp2040 usb.
-
-```
-ps@ps-palmshell:~$ cat usb.sh
-#! /bin/bash
-
-sudo gpioset gpiochip1 60=1
-sudo gpioset gpiochip1 61=1
-
-sleep 1
-
-sudo gpioset gpiochip1 60=0
-sudo gpioset gpiochip1 61=0
-```
-
-- Execute the usb.sh program and the RP2040 will appear as a usb device.
-
-- Drag the .uf2 file into the usb device, the usb device disappears and the program starts executing.
-
-![Pico Example](/img/x/x2l/flash_program.webp)
-
 ## Install micro-python
 
 - Download [Micro Python](https://micropython.org/download/RPI_PICO/)，Download RPI_PICO_W-20231027-v1.22.0-preview.61.g6cd99910c.uf2 Done!
