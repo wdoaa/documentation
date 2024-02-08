@@ -32,19 +32,3 @@ sidebar_position: 10
 |           |           |           |           |    GND    | <div className='black'>20</div> | <div className='green'>21</div> |  GPIO25   | SPI1 CSn  | UART1 RX  | I2C0 SCL  | PWM4 B    |
 
 </div>
-
-## Install micro-python
-
-- Download [Micro Python](https://micropython.org/download/RPI_PICO/)，Download RPI_PICO_W-20231027-v1.22.0-preview.61.g6cd99910c.uf2 Done!
-- Open the rp2040 usb device (source usb.sh)
-- Drag RPI_PICO_W-20231027-v1.22.0-preview.61.g6cd99910c.uf2 into the usb and wait for the usb device to disappear to take effect.
-
-- Install Thonny ide
-
-```
-sudo apt-get install Thonny -y
-```
-
-- Open the Thonny ide and start writing the micro-python program. At this point, we have successfully set up the micro-python environment.
-
-![Flash Micro Python](/img/x/x2l/flash_micro_python.webp)
