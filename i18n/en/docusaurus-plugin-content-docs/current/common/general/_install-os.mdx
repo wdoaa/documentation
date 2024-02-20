@@ -1,3 +1,5 @@
+import { Section } from "@site/src/utils/docs";
+
 import Etcher from "./_etcher.mdx";
 import Rkdeveloptool from "../dev/_rkdeveloptool.mdx";
 import Rkdevtool from "../dev/_rkdevtool.mdx";
@@ -91,6 +93,8 @@ After writing the image to the NVMe SSD, to boot from the NVMe SSD you need to w
   </TabItem>
 </Tabs>
 
+<Section compatible="^aml" platform={props.platform}>
+
 ## Method II
 
 If your device uses a Rockchip chip, refer to the following tutorial:
@@ -110,3 +114,5 @@ If your device uses a Rockchip chip, refer to the following tutorial:
 #### upgrade-tool (Multiple devices can be burned at the same time)
 
 <Upgradetool />
+
+</Section>

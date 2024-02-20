@@ -1,3 +1,5 @@
+import { Section } from "@site/src/utils/docs";
+
 import Etcher from "./_etcher.mdx";
 import Rkdeveloptool from "../dev/_rkdeveloptool.mdx";
 import Rkdevtool from "../dev/_rkdevtool.mdx";
@@ -87,6 +89,8 @@ import Upgradetool from "../dev/_upgrade-tool.mdx";
   </TabItem>
 </Tabs>
 
+<Section compatible="^aml" platform={props.platform}>
+
 ## 方法二
 
 如果您的设备使用 Rockchip 芯片，可参考以下教程：
@@ -106,3 +110,5 @@ import Upgradetool from "../dev/_upgrade-tool.mdx";
 #### upgrade-tool （可同时烧录多台设备）
 
 <Upgradetool />
+
+</Section>
