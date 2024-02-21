@@ -21,3 +21,9 @@ sidebar_position: 10
 - Finally, plug the Ethernet cable into the port of Radxa ZERO 3E Gigabit Ethernet.
 
 ![zero 3e poe hat 04](/img/zero/zero3/zero_3e_poe_hat_04.webp)
+
+## Points to Note
+
+- If a Gigabit Ethernet cable is connected to the Gigabit port of Radxa ZERO 3E but Radxa ZERO 3E fails to start, please check the following:
+  - Ensure that the switch/router on the other end supports PoE functionality.
+  - Check if the screws are securely fastened, as the implementation of PoE functionality involves screws and copper pillars to connect Radxa ZERO 3E and Radxa ZERO 3E PoE HAT.

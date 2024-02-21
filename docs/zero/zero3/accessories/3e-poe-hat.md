@@ -21,3 +21,9 @@ sidebar_position: 10
 - 最后，将以太网电缆插入 Radxa ZERO 3E 的以太网端口。
 
 ![zero 3e poe hat 04](/img/zero/zero3/zero_3e_poe_hat_04.webp)
+
+## 问题记录
+
+- 如果连接了千兆以太网电缆到 Radxa ZERO 3E 的千兆端口但未能启动 Radxa ZERO 3E，请检查以下事项：
+  - 确保另一端的交换机/路由器是否支持 PoE 功能。
+  - 检查螺丝是否已正确固定，因为 PoE 功能的实现涉及螺丝和铜柱，用以连接 Radxa ZERO 3E 和 Radxa ZERO 3E PoE HAT。
