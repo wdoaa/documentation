@@ -10,10 +10,9 @@ Radxa 23W PoE HAT is a HAT accessory designed for Raspberry Pi, Radxa ROCK 3 and
 The 23W PoE HAT allows you to power your Raspberry Pi, ROCK 3 and 4 series or Jetson Nano using Power over Ethernet–enabled networks;
 for this product to be used, the network it is connected to needs to have power-sourcing equipment installed.
 
-<Tabs queryString="section">
-<TabItem value="specs" label="Hardware Introduction">
+## Hardware Introduction
 
-## Supported Products
+### Supported Products
 
 | Model | Supported Products                                                                   |
 | :---: | ------------------------------------------------------------------------------------ |
@@ -31,7 +30,7 @@ The difference between Fx and FxL:
 FxL has the 40 pins GPIO pin-out, you can also use the 40 pins GPIO, but you can't while using Fx. As the picture following:  
 ![Fx and FxL](/img/accessories/poe-hat/23w-poe-l.webp)
 
-## Features
+### Features
 
 - 802.3at up to 23W(5V/4.6A)
 - PWM control FAN up to 12000RPM
@@ -41,8 +40,8 @@ FxL has the 40 pins GPIO pin-out, you can also use the 40 pins GPIO, but you can
 - Clean design by hiding the fan and the big transformer inside
 - EEPROM for HAT identity and driver probe
 
-</TabItem>
-<TabItem value="hardware" label="Hareware Information">
+## Hardware Information
+
 <Tabs queryString="model">
 <TabItem value="f3" label="F3/F3L Pinout">
 
@@ -111,9 +110,6 @@ PoE HAT for ROCK 4 series.
 </TabItem>
 </Tabs>
 
-## 2D file
+### 2D file
 
 You can download the 2D file(.dwg format) on [Radxa 23W PoE HAT 2D file](https://dl.radxa.com/accessories/poe-hat/rockpi_poe_hat_V1.2_20190521.dwg)
-
-</TabItem>
-</Tabs>

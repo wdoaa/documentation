@@ -10,10 +10,9 @@ Radxa 23W PoE HAT 是专为树莓派、Radxa ROCK 3 和 4 系列以及 Jetson Na
 通过 23W PoE HAT，您可以使用支持以太网供电的网络为树莓派、ROCK 3 和 4 系列或 Jetson Nano 供电；
 如要使用本产品，需要额外的 PoE 供电设备。
 
-<Tabs queryString="section">
-<TabItem value="specs" label="硬件介绍">
+## 硬件介绍
 
-## 产品支持
+### 产品支持
 
 |  型号  | 支持的产品                                                                        |
 | :----: | --------------------------------------------------------------------------------- |
@@ -30,7 +29,7 @@ F3 和 F4 的区别在于：
 L版本额外提供了 40 针引脚，可以在使用 HAT 的同时连接其他外设：  
 ![Fx and FxL](/img/accessories/poe-hat/23w-poe-l.webp)
 
-## 特性
+### 特性
 
 - 支持 802.3at 协议，最高电源输出可达 23W（5V/4.6A）
 - PWM 风扇
@@ -40,9 +39,8 @@ L版本额外提供了 40 针引脚，可以在使用 HAT 的同时连接其他�
 - 设计简洁，将风扇和大变压器隐藏在内部
 - 用于识别 HAT 的 EEPROM
 
-</TabItem>
+## 硬件信息
 
-<TabItem value="hardware" label="Hareware Information">
 <Tabs queryString="model">
 <TabItem value="f3" label="F3/F3L Pinout">
 
@@ -111,9 +109,6 @@ L版本额外提供了 40 针引脚，可以在使用 HAT 的同时连接其他�
 </TabItem>
 </Tabs>
 
-## 2D 文件
+### 2D 文件
 
 您可以在 [Radxa 23W PoE HAT 2D 文件](https://dl.radxa.com/accessories/poe-hat/rockpi_poe_hat_V1.2_20190521.dwg) 上下载 2D 文件（.dwg 格式）。
-
-</TabItem>
-</Tabs>
