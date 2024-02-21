@@ -22,7 +22,7 @@ sidebar_position: 5
 
 <table>
     <tr>
-        <td align="center">型号</td>
+        <td align="center">Model</td>
         <td align="center">Radxa ROCK 3A</td>
     </tr>
     <tr>
@@ -31,30 +31,30 @@ sidebar_position: 5
     </tr>
     <tr>
         <td align="center">CPU</td>
-        <td colspan="2" align="center">四核 Cortex-A55, 频率最高达 1.6GHz</td>
+        <td colspan="2" align="center">Quad-core Cortex-A55, up to 1.6GHz</td>
     </tr>
     <tr>
         <td align="center">GPU</td>
-        <td colspan="2" align="center">Arm Mali™‑G52‑2EE, 支持 Arm Mali™‑G52‑2EE, OpenGL® ES1.1/2.0/3.2, Vulkan® 1.1, OpenCL™ 2.0</td>
+        <td colspan="2" align="center">Arm Mali™‑G52‑2EE, Supports Arm Mali™‑G52‑2EE, OpenGL® ES1.1/2.0/3.2, Vulkan® 1.1, OpenCL™ 2.0</td>
     </tr>
     <tr>
-        <td align="center">内存</td>
+        <td align="center">RAM</td>
         <td colspan="2" align="center">1/2/4/8 GB LPDDR4</td>
     </tr>
     <tr>
-        <td align="center">存储</td>
-        <td align="center">板载 eMMC 模块：0/8/16/32/64 GB<br/>microSD 存储卡</td>
+        <td align="center">Storage</td>
+        <td align="center">eMMC on Board：0/8/16/32/64 GB<br/>microSD Card</td>
     </tr>
     <tr>
-        <td align="center">显示</td>
-        <td colspan="2" align="center">提供 Micro HDMI 接口：支持 1080p60 输出</td>
+        <td align="center">Display</td>
+        <td colspan="2" align="center">Provide Micro HDMI Interface：Supports 1080p60 output</td>
     </tr>
     <tr>
-        <td align="center">以太网</td>
-        <td align="center">支持以太网供电（PoE）的千兆以太网<br/>PoE 需要额外的可选 HAT</td>
+        <td align="center">Ethernet</td>
+        <td align="center">Gigabit Ethernet, Supports POE<br/>PoE requires additional optional HAT</td>
     </tr>
     <tr>
-        <td align="center">无线通讯</td>
+        <td align="center">Wireless</td>
         <td align="center">Wi-Fi 6 (802.11 b/g/n) BT 5.0 with BLE</td>
     </tr>
     <tr>
@@ -62,19 +62,19 @@ sidebar_position: 5
         <td colspan="2" align="center">USB 2.0 Type-C OTG x1<br/>USB 3.0 Type-C HOST x1</td>
     </tr>
     <tr>
-        <td align="center">摄像头</td>
-        <td colspan="2" align="center">1x4 通道 MIPI CSI</td>
+        <td align="center">Camera</td>
+        <td colspan="2" align="center">1x4 lane MIPI CSI</td>
     </tr>
     <tr>
-        <td align="center">其他</td>
-        <td colspan="2" align="center">40 针扩展座</td>
+        <td align="center">Others</td>
+        <td colspan="2" align="center">40 Pin extends Header</td>
     </tr>
     <tr>
-        <td align="center">供电</td>
-        <td colspan="2" align="center">需要 5V/2A 电源适配器</td>
+        <td align="center">Power</td>
+        <td colspan="2" align="center">Requires 5V/2A adapter</td>
     </tr>
     <tr>
-        <td align="center">尺寸</td>
+        <td align="center">Size</td>
         <td colspan="2" align="center">65mm x 30mm</td>
     </tr>
 </table>
