@@ -12,7 +12,7 @@ sidebar_position: 5
 
 ### 实物照片
 
-![ROCK 3A Overview](/img/rock3/rock3a-interfaces.webp)
+![ROCK 3A Overview](/img/rock3/3a/rock3a-interfaces.webp)
 
 ### 芯片框图
 
