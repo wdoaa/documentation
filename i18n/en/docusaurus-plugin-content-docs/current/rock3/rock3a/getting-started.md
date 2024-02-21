@@ -10,7 +10,7 @@ PCIe 3.0, PCIe 2.0, 40-pin color expansion header, RTC. Also, ROCK 3A supports U
 
 ## Annotation Diagram
 
-![ROCK 3A Overview](/img/rock3/rock3a-interfaces.webp)
+![ROCK 3A Overview](/img/rock3/3a/rock3a-interfaces.webp)
 
 <details>
 
