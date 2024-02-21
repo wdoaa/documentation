@@ -10,7 +10,7 @@ Introduces system login, network connection, etc to let user to be familiar with
 
 ## User name and Password
 
-The user name and password added by default to the Radxa ZERO 3 series are:
+The user name and password added by default to the Radxa OS are:
 
 ```
 User name：radxa/rock
@@ -32,7 +32,7 @@ sudo nmcli device wifi connect <ssid> password <passwd>     #Connect WiFi
 
 ### Ethernet
 
-Radxa ZERO 3E has Gigabit Ethernet on board, just connect the cable to enable internet access, use the `ip a ` command to view the ip
+Radxa ROCK 5A has Gigabit Ethernet on board, just connect the cable to enable internet access, use the `ip a ` command to view the ip
 
 ## Automatic login
 
