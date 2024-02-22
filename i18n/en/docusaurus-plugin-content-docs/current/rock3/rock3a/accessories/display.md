@@ -25,20 +25,20 @@ Radxa Display 8 HD provides FPC, one side of the FPC is for connecting to the sc
 
 Connect the FPC to the 8HD screen as shown in the figure, pull up the FPC connector latch with your finger, insert the FPC cable into the slot, then press the latch to fix the FPC cable.
 
-<img src="../../../img/accessories/rock3a-FPC-to-8hd.webp" width="500" alt="Radxa Display 8 HD" />
+<img src="../../../img/accessories/rock3a-fpc-to-8hd.webp" width="500" alt="Radxa Display 8 HD" />
 
 Connect the FPC to the ROCK 3A as shown. The ROCK 3A provides a MIPI DSI interface. Pull up the white module of the MIPI DSI interface, insert the FPC into the connector and pull down the white module to secure the FPC.
 
-<img src="../../../img/accessories/rock3a-FPC-to-dsi.webp" alt="rock 3a FPC to dsi" width="500" />
+<img src="../../../img/accessories/rock3a-fpc-to-dsi.webp" alt="rock 3a fpc to dsi" width="500" />
 
 Connect the pins on the FPC to the corresponding pins on the 40 PIN on the ROCK 3A using DuPont wire as shown.
 
-<img src="../../../img/accessories/rock3a-FPC-to-40pin.webp" alt="rock 3a FPC to 40 pin" width="500" />
+<img src="../../../img/accessories/rock3a-fpc-to-40pin.webp" alt="rock 3a fpc to 40 pin" width="500" />
 
 Below is a sample connection diagram.
 
-<img src="../../../img/accessories/rock3a-FPC-pin.webp" alt="rock 3a FPC pin" width="500" />
-<img src="../../../img/accessories/rock3a-FPC-connect.webp" alt="rock 3a FPC connect" width="500" />
+<img src="../../../img/accessories/rock3a-fpc-pin.webp" alt="rock 3a fpc pin" width="500" />
+<img src="../../../img/accessories/rock3a-fpc-connect.webp" alt="rock 3a fpc connect" width="500" />
 
 ## Software Configuration
 

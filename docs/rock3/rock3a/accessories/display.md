@@ -10,7 +10,7 @@ sidebar_position: 20
 
 Radxa ROCK 3A 拥有一个 15 PIN 的 DSI 接口,接口定义如下:
 
-<img src="/img/rock3/3a/rock3a-mipi-dsi-tx-2lanes.webp" width = "500" alt="rock 3a mipi dsi tx 2lanes" />
+<img src="../../../img/rock3/3a/rock3a-mipi-dsi-tx-2lanes.webp" width = "500" alt="rock 3a mipi dsi tx 2lanes" />
 
 ## 支持列表
 
@@ -25,20 +25,20 @@ Radxa Display 8 HD 提供的 FPC，FPC 一边是用于接屏幕，另一边是�
 
 如图将 FPC 连接到 8HD 屏，用手指向上拉起 FPC 连接器锁扣，将 FPC 排线插入卡槽，然后按下锁扣固定 FPC 排线。
 
-<img src="/img/accessories/rock3a-FPC-to-8hd.webp" width="500" alt="Radxa Display 8 HD" />
+<img src="../../../img/accessories/rock3a-FPC-to-8hd.webp" width="500" alt="Radxa Display 8 HD" />
 
 如图所示，将 FPC 连接到 ROCK 3A。 ROCK 3A 提供了一个 MIPI DSI 接口。 将 MIPI DSI 接口的白色模块拉起，将 FPC 插入连接器，将白色模块拉下固定 FPC 。
 
-<img src="/img/accessories/rock3a-FPC-to-dsi.webp" alt="rock 3a FPC to dsi" width="500" />
+<img src="../../../img/accessories/rock3a-FPC-to-dsi.webp" alt="rock 3a FPC to dsi" width="500" />
 
 如图所示，使用杜邦线将 FPC 上的引脚与 ROCK 3A 上 40 PIN 上相对应的管脚相连接。
 
-<img src="/img/accessories/rock3a-FPC-to-40pin.webp" alt="rock 3a FPC to 40 pin"  width="500"/>
+<img src="../../../img/accessories/rock3a-FPC-to-40pin.webp" alt="rock 3a FPC to 40 pin" width="500" />
 
 下面是连接示例图:
 
-<img src="/img/accessories/rock3a-FPC-pin.webp" alt="rock 3a FPC pin" width="500" />
-<img src="/img/accessories/rock3a-FPC-connect.webp" alt="rock 3a FPC connect" width="500" />
+<img src="../../../img/accessories/rock3a-fpc-pin.webp" alt="rock 3a fpc pin" width="500" />
+<img src="../../../img/accessories/rock3a-fpc-connect.webp" alt="rock 3a fpc connect" width="500" />
 
 ## 软件配置
 
