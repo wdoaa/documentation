@@ -16,4 +16,4 @@ The Radxa ROCK 3A comes with a 15-pin CSI connector. For more information, see [
 
 ## Screen
 
-The Radxa ROCK 3A has a 15-pin DSI connector. See [Camera Tutorial](.../accessories/display)
+The Radxa ROCK 3A has a 15-pin DSI connector. See [Camera Tutorial](../accessories/display)

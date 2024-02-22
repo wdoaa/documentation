@@ -1,48 +1,34 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Install the system to EMMC
+import Ether from '../../../common/general/\_etcher.mdx'
+
+# Install the operating system
 
 ## Preparation
 
-- Radxa ROCK 3A motherboard
-- eMMC module
-- 1x USB cable (USB C on one end, USB A on the other)
-- 1x 5V power adapter (recommended [Radxa Power PD30W](/accessories/pd_30w))
+- 1x microSD card (capacity >=8GB)
+- 1x microSD card reader
+- 5V power adapter (recommended [Radxa Power PD30W] ( /accessories/pd-30w))
 
 ## Image Download
 
-Please go to [Resource Download Summary](/rock3/rock3a/getting-started/download.md) to download the corresponding image file.
+Please go to [Resource Download Summary](/rock3/rock3a/getting-started/download) to download the corresponding image file.
 
-## Enter Maskrom mode
+## Install the system
 
-- Disconnect the power of the board.
-- Remove the SD card and insert the eMMC module.
-- Connect the USB3.0 port of the Radxa ROCK 3A to the PC using USB A-A.
-- Short the following pins
-- Power up the board.
-- Remove the right yellow jumper cap, keep the left yellow jumper cap.
+<Etcher model="rock3a" />
 
-<img src="/img/rock3/3a/rock3a-maskrom.webp" alt="rock 3a maskrom" width="500" />
+## Start the system
 
-- Check for USB devices
-  _ Linux/macOS: Check if "Bus 001 Device 112: ID 2207:350a Fuzhou Rockchip Electronics Company" is displayed after running lsusb.
-  _ Windows: Open RKDevTool and you will see the device in "maskrom mode".
-  <img src="/img/rock3/3a/rock3a-select-loader-bin.webp" alt="rock 3a select loader bin" width="500" />
-
-## Installing the system to eMMC
-
-[Windows installation](rkdevtool)
-
-[Linux installation](rkdeveloptool)
-
-## Boot the system
-
-- Power up the board, then the system starts booting with the status light blinking.
+- After successfully burning the microSD card as described above, insert the microSD card into the microSD slot of the Radxa ROCK 3A.
+- The power supply interface of Radxa ROCK 3A is [USB 2.0 OTG Type C port](/rock3/rock3a/hardware-design/hardware-interface), please use Type-C cable to connect the power supply port and the adapter.
 
 :::tip
-Radxa ROCK 3A supports `5V/12V` power supply. Radxa recommends using [Radxa Power PD30W](/accessories/pd_30w).
+The Radxa ROCK 3A only supports `5V` power supply. Radxa recommends using the [Radxa Power PD30W] (... /accessories/pd-30w).
 :::
 
-## Reference
+## Reference Documentation
+
+[Install OS image to eMMC] (. /install-os-on-emmc)
