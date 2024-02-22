@@ -19,11 +19,11 @@ Rock 3a can boot from microSD card or eMMC, so install os on microSD card or eMM
 
 - 1x microSD card (capacity >=8GB)
 - 1x microSD card reader
-- 5V power adapter (recommended [Radxa Power PD30W] ( /accessories/pd-30w))
+- 5V power adapter (recommended [Radxa Power PD30W] (/accessories/pd-30w))
 
 ## Image Download
 
-Please go to [Resource Download Summary](../../../images.md) to download the corresponding image file.
+Please go to [Resource Download Summary](../../../images) to download the corresponding image file.
 
 ## Install the system
 
@@ -35,7 +35,7 @@ Please go to [Resource Download Summary](../../../images.md) to download the cor
 - The power supply interface of Radxa ROCK 3A is [USB 2.0 OTG Type C port](/rock3/rock3a/hardware-design/hardware-interface), please use Type-C cable to connect the power supply port and the adapter.
 
 :::tip
-The Radxa ROCK 3A only supports `5V` power supply. Radxa recommends using the [Radxa Power PD30W](../accessories/pd-30w).
+The Radxa ROCK 3A only supports `5V` power supply. Radxa recommends using the [Radxa Power PD30W](../../accessories/pd-30w).
 :::
 
 </TabItem>
@@ -50,7 +50,7 @@ The Radxa ROCK 3A only supports `5V` power supply. Radxa recommends using the [R
 
 ### Prepare the image file
 
-Please go to [Download Summary](../../../images.md) to download image.
+Please go to [Download Summary](../../../images) to download image.
 
 ## System installation
 
@@ -93,7 +93,7 @@ Please go to [Download Summary](../../../images.md) to download image.
 - The Rock 3a will boot up with the green power LED on.
 
 :::tip
-Radxa ROCK 3A supports `5V/12V` power supply. Radxa recommends using [Radxa Power PD30W](/accessories/pd_30w).
+Radxa ROCK 3A supports `5V/12V` power supply. Radxa recommends using [Radxa Power PD30W](../../accessories/pd-30w).
 :::
 
 </TabItem>
