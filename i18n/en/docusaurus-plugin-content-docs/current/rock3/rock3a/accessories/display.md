@@ -27,7 +27,7 @@ Connect the FPC to the 8HD screen as shown in the figure, pull up the FPC connec
 
 <img src="../../../img/accessories/rock3a-fpc-to-8hd.webp" width="500" alt="Radxa Display 8 HD" />
 
-Connect the FPC to the ROCK 3A as shown. The ROCK 3A provides a MIPI DSI interface. Pull up the white module of the MIPI DSI interface, insert the FPC into the connector and pull down the white module to secure the FPC.
+Connect the FPC to the ROCK 3A as shown. The ROCK 3A provides a MIPI DSI interface. Pull up the latch on the MIPI DSI interface, insert the FPC into the connector, and pull down the latch to secure the FPC.
 
 <img src="../../../img/accessories/rock3a-fpc-to-dsi.webp" alt="rock 3a fpc to dsi" width="500" />
 

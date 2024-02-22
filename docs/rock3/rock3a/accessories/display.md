@@ -27,7 +27,7 @@ Radxa Display 8 HD 提供的 FPC，FPC 一边是用于接屏幕，另一边是�
 
 <img src="../../../img/accessories/rock3a-FPC-to-8hd.webp" width="500" alt="Radxa Display 8 HD" />
 
-如图所示，将 FPC 连接到 ROCK 3A。 ROCK 3A 提供了一个 MIPI DSI 接口。 将 MIPI DSI 接口的白色模块拉起，将 FPC 插入连接器，将白色模块拉下固定 FPC 。
+如图所示，将 FPC 连接到 ROCK 3A。 ROCK 3A 提供了一个 MIPI DSI 接口。 将 MIPI DSI 接口的锁扣拉起，将 FPC 插入连接器，将锁扣拉下固定 FPC 。
 
 <img src="../../../img/accessories/rock3a-FPC-to-dsi.webp" alt="rock 3a FPC to dsi" width="500" />
 
