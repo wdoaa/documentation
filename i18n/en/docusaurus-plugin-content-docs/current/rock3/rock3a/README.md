@@ -29,7 +29,7 @@ sidebar_position: 5
     </tr>
     <tr>
         <td align="center">CPU</td>
-        <td colspan="2" align="center">Quad-core Cortex-A55, up to 1.6GHz</td>
+        <td colspan="2" align="center">Quad-core Cortex-A55, up to 2GHz</td>
     </tr>
     <tr>
         <td align="center">GPU</td>

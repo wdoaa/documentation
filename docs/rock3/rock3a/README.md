@@ -29,7 +29,7 @@ sidebar_position: 5
     </tr>
     <tr>
         <td align="center">CPU</td>
-        <td colspan="2" align="center">四核 Cortex-A55, 频率最高达 1.6GHz</td>
+        <td colspan="2" align="center">四核 Cortex-A55, 频率最高达 2GHz</td>
     </tr>
     <tr>
         <td align="center">GPU</td>
