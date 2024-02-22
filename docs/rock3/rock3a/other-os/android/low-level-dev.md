@@ -37,7 +37,7 @@ Dockerfile 是一个构建 Docker 镜像的文本文件，可以根据以下内�
    ENV USER=android11-docker
    ARG USER_ID=0
    ARG GROUP_ID=0
-   RUN groupadd -g ${GROUP_ID} jenkins-docker && useradd -m -g jenkins-docker -u ${USER_ID} android11-docker
+   RUN groupadd -g ${GROUP_ID} jenkins-docker && useradd -m -g jenkins-docker -u ${USER_ID}   android11-docker
 
    USER android11-docker
 

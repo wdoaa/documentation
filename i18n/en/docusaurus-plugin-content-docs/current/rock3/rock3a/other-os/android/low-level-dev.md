@@ -37,10 +37,9 @@ Dockerfile is a text file for building a Docker image. The environment required 
    ENV USER=android11-docker
    ARG USER_ID=0
    ARG GROUP_ID=0
-   RUN groupadd -g ${GROUP_ID} jenkins-docker && useradd -m -g jenkins-docker -u ${USER_ID} android12-docker
+   RUN groupadd -g ${GROUP_ID} jenkins-docker && useradd -m -g jenkins-docker -u ${USER_ID}   android11-docker
 
    USER android11-docker
-
 
 ```
 
