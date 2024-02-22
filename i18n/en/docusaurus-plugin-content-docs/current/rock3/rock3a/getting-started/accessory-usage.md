@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Accessory usage instructions
 
-This section describes the accessories supported by the Radxa ROCK 3A and how to use them.
+This section describes the common accessories supported by the Radxa ROCK 3A and how to use them.
 
 ## Interface overview
 
