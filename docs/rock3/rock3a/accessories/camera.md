@@ -8,8 +8,8 @@ sidebar_position: 20
 
 Radxa ROCK 3A 拥有一个 15 PIN 的 CSI 接口,接口定义如下:
 
-<img src="/img/rock3/3a/rock3a-actual-sci.webp" width = "500" alt="rock 3a sci actual"/>
-<img src="/img/rock3/3a/rock3a-mipi-2lanes.webp" width = "500" alt="rock 3a mipi 2lanes"/>
+<img src="../../../img/rock3/3a/rock3a-actual-sci.webp" width = "500" alt="rock 3a sci actual"/>
+<img src="../../../img/rock3/3a/rock3a-mipi-2lanes.webp" width = "500" alt="rock 3a mipi 2lanes"/>
 
 目前支持的摄像头有:
 
@@ -26,7 +26,7 @@ Radxa ROCK 3A 拥有一个 15 PIN 的 CSI 接口,接口定义如下:
 sudo rsetup
 ```
 
-<img src="/img/rock3/3a/rock3a-rsetup-camera-v2.webp" width = "700" height="300" alt="rock 3a rsetup camera v2"/>
+<img src="../../../img/rock3/3a/rock3a-rsetup-camera-v2.webp" width = "700" height="300" alt="rock 3a rsetup camera v2"/>
 
 确认之后重启生效
 
@@ -38,7 +38,7 @@ sudo rsetup
 请注意 camera 排线的接口朝向！
 :::
 
-<img src="/img/rock3/3a/rock3a-rpi-imx219.webp" width = "500" alt="rock 3a rpi imx219"/>
+<img src="../../../img/rock3/3a/rock3a-rpi-imx219.webp" width = "500" alt="rock 3a rpi imx219"/>
 
 ### 图像预览
 
@@ -55,4 +55,4 @@ sudo apt install cheese
 sudo cheese
 ```
 
-<img src="/img/rock3/3a/rock3a-cheese.webp" width = "700" alt="rock 3a cheese" />
+<img src="../../../img/rock3/3a/rock3a-cheese.webp" width = "700" alt="rock 3a cheese" />

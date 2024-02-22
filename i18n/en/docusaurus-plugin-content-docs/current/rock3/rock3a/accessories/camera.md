@@ -8,7 +8,6 @@ sidebar_position: 20
 
 The Radxa ROCK 3A has a 15 PIN CSI interface defined as follows.
 
-<!-- ![rock 3a sci actual](/img/rock3/3a/rock3a-actual-sci.webp) -->
 <img src="../../../img/rock3/3a/rock3a-actual-sci.webp" width = "500" alt="rock 3a sci actual"/>
 <img src="../../../img/rock3/3a/rock3a-mipi-2lanes.webp" width = "500" alt="rock 3a mipi 2lanes"/>
 
