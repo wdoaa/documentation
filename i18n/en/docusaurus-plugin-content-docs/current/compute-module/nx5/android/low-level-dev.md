@@ -47,7 +47,7 @@ Dockerfile is a text file for building a Docker image. The environment required 
 #### Build Docker image
 
 ```bash
-$ docker build -t android-builder:11.x --build-arg USER_ID=`id -u` --build-arg GROUP_ID=`id -g` $(which-dir-dockerfile-in)
+$ docker build -t android-builder:12.x --build-arg USER_ID=`id -u` --build-arg GROUP_ID=`id -g` $(which-dir-dockerfile-in)
 
 ```
 
@@ -59,7 +59,9 @@ Repo is a tool used in Android development to manage multiple Git repositories. 
 
 ```bash
 
- radxa$ docker build -t android-builder:12.x --build-arg USER_ID=`id -u` --build-arg GROUP_ID=`id -g` $(which-dir-dockerfile-in)
+$ wget https://storage.googleapis.com/git-repo-downloads/repo -P ~/bin/
+or
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
 ```
 

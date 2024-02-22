@@ -59,7 +59,9 @@ Repo 是 Android 开发中用于管理多个 Git 仓库的工具，它是一个P
 
 ```bash
 
- radxa$ docker build -t android-builder:12.x --build-arg USER_ID=`id -u` --build-arg GROUP_ID=`id -g` $(which-dir-dockerfile-in)
+$ wget https://storage.googleapis.com/git-repo-downloads/repo -P ~/bin/
+or
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
 ```
 
