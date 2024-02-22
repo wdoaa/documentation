@@ -6,9 +6,7 @@ sidebar_position: 5
 
 ## 产品介绍
 
-- ROCK 3A 配备了四核 Cortex-A55 ARM 处理器和 LPDDR4 运行内存， 最高支持 4K@60 的 HDMI、MIPI DSI、MIPI CSI、带麦克风的 3.5 毫米耳机插孔、USB 端口、千兆以太网、PCIe 3.0、PCIe 2.0、40 pin GPIO 扩展座、RTC。
-  此外，ROCK 3A 还支持 PD 和 QC 协议供电。
-- Radxa ZERO 3W/3E 专为包括制造商、物联网开发人员、业余爱好者和 PC DIY 爱好者在内的多元化用户群量身定制，是一个超小尺寸的多功能的平台，可以用于各种不同的应用，包括物联网设备、机器学习边缘计算、家庭自动化、教育和娱乐等。
+- ROCK 3A 配备了四核 Cortex-A55 ARM 处理器和 LPDDR4 运行内存， 最高支持 4K@60 的 HDMI、MIPI DSI、MIPI CSI、带麦克风的 3.5 毫米耳机插孔、USB 端口、千兆以太网、PCIe 3.0、PCIe 2.0、40 pin GPIO 扩展座、RTC。 此外，ROCK 3A 还支持 PD 和 QC 协议供电。
 
 ### 实物照片
 
@@ -16,7 +14,7 @@ sidebar_position: 5
 
 ### 芯片框图
 
-![RK3566 block diagram](/img/rock3/rk3566_block_diagram.webp)
+![rk3568 block diagram](/img/rock3/3a/rock3a-system-block-diagram.webp)
 
 ### 特性
 
@@ -27,7 +25,7 @@ sidebar_position: 5
     </tr>
     <tr>
         <td align="center">SoC</td>
-        <td colspan="2" align="center">Rockchip RK3566</td>
+        <td colspan="2" align="center">Rockchip rk3568</td>
     </tr>
     <tr>
         <td align="center">CPU</td>

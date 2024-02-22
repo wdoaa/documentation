@@ -6,9 +6,7 @@ sidebar_position: 5
 
 ## Product Description
 
-- The ROCK 3A features a quad-core Cortex-A55 ARM processor and LPDDR4 RAM, and supports up to 4K@60 HDMI, MIPI DSI, MIPI CSI, 3.5mm headphone jack with microphone, USB port, Gigabit Ethernet, PCIe 3.0, PCIe 2.0, 40-pin GPIO docking station, RTC. The ROCK 3A also supports a 3.5mm headphone jack.
-  In addition, the ROCK 3A supports PD and QC protocol power supply.
-- Tailored for a diverse user base including manufacturers, IoT developers, hobbyists and PC DIY enthusiasts, the Radxa ZERO 3W/3E is an ultra-small and versatile platform that can be used for a wide variety of applications including IoT devices, machine learning edge computing, home automation, education and entertainment.
+- The ROCK 3A features a quad-core Cortex-A55 ARM processor and LPDDR4 RAM, and supports up to 4K@60 HDMI, MIPI DSI, MIPI CSI, 3.5mm headphone jack with microphone, USB port, Gigabit Ethernet, PCIe 3.0, PCIe 2.0, 40-pin GPIO docking station, RTC. The ROCK 3A also supports a 3.5mm headphone jack. In addition, the ROCK 3A supports PD and QC protocol power supply.
 
 ### Physical Photos
 
@@ -16,7 +14,7 @@ sidebar_position: 5
 
 ### Chip Block Diagram
 
-![RK3566 block diagram](/img/rock3/rk3566_block_diagram.webp)
+![rk3568 block diagram](/img/rock3/3a/rock3a-system-block-diagram.webp)
 
 ### Features
 
@@ -27,7 +25,7 @@ sidebar_position: 5
     </tr>
     <tr>
         <td align="center">SoC</td>
-        <td colspan="2" align="center">Rockchip RK3566</td>
+        <td colspan="2" align="center">Rockchip rk3568</td>
     </tr>
     <tr>
         <td align="center">CPU</td>
