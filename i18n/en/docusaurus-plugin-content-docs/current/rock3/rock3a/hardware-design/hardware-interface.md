@@ -10,6 +10,8 @@ sidebar_position: 4
 
 ## Power
 
+Support QC 3.0/2.0 adapter, 9V/2A, 12V/1.5A
+
 ## Debug Serial Port
 
 ## Ethernet Port
