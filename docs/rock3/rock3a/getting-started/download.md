@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ## 硬件设计
 
-<!-- 历史版本也要列出，按照版本号分开列出 -->
+[V1.31 原理图/位号图](https://dl.radxa.com/rock3/docs/hw/3a/radxa_rock_3a_v1310_3d.zip)
 
 ## 刷机工具
 

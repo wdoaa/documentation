@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ## Hardware Design
 
-<! --- History versions should also be listed, separated by version number -->
+[V1.31 Schematic/Bitmap](https://dl.radxa.com/rock3/docs/hw/3a/radxa_rock_3a_v1310_3d.zip)
 
 ## Brush tools
 
