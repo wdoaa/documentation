@@ -33,9 +33,9 @@ sidebar_position: 1
 
 ## 安装系统到 eMMC
 
-[Windows 环境下安装](rkdevtool)
+[Windows 环境下安装](../low-level-dev/rkdeveloptool)
 
-[Linux 环境下安装](rkdeveloptool)
+[Linux 环境下安装](../low-level-dev/rkdeveloptool)
 
 ## 启动系统
 
