@@ -14,7 +14,7 @@ sidebar_position: 5
 
 ### 芯片框图
 
-![rk3568 block diagram](/img/rock3/3a/rock3a-system-block-diagram.webp)
+![rk3568 block diagram](/img/rock3/rk3568_block_diagram.webp)
 
 ### 特性
 
