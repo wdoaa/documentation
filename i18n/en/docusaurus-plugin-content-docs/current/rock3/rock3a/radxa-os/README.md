@@ -26,7 +26,7 @@ Password： radxa/rock
 ```
 nmcli device wifi                                           # Scan WiFi
 sudo nmcli device wifi connect <ssid> password <passwd>     # Connect to WiFi
-``
+```
 
 ### Ethernet
 
@@ -49,4 +49,3 @@ sudo nmcli device wifi connect <ssid> password <passwd>     # Connect to WiFi
 ## Office
 
 ## Android In Container
-```
