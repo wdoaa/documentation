@@ -45,3 +45,8 @@ repos:
     rev: v1.16.23
     hooks:
       - id: typos
+  - repo: https://github.com/milin/gitown
+    rev: v0.1.7
+    hooks:
+      - id: gitown
+        args: ["--codeowners_filename=.github/CODEOWNERS"]
