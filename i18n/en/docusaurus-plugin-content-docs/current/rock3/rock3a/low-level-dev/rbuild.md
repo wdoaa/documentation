@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Systematic compilation
+# Build System
 
 import RBUILD from '../../../common/dev/\_rbuild.mdx';
 
