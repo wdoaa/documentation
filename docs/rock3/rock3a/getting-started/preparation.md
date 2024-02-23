@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ### 电源
 
-Radxa ROCK 3A 采用 Type-C 接口供电，支持 5V/12V 输入。瑞莎推荐使用 [Radxa Power PD30W](/accessories/pd_30w)
+Radxa ROCK 3A 采用 Type-C 接口供电，支持 5V/12V 输入。瑞莎推荐使用 [Radxa Power PD30W](../accessories/pd_30w)
 
 :::tip
 瑞莎推荐使用 [Radxa Power PD30W](../accessories/pd-30w)。

@@ -33,9 +33,9 @@ Please go to [Download Summary](/rock3/rock3a/getting-started/download.md) to do
 
 ## Installing the system to eMMC
 
-[Installation in Windows environment](... /low-level-dev/rkdeveloptool)
+[Installation in Windows environment](../low-level-dev/rkdeveloptool)
 
-[Installation for Linux](... /low-level-dev/rkdeveloptool) /low-level-dev/rkdeveloptool)
+[Installation for Linux](../low-level-dev/rkdeveloptool) /low-level-dev/rkdeveloptool)
 
 ## Booting the system
 

@@ -12,7 +12,7 @@ This section describes the common accessories supported by the Radxa ROCK 3A and
 
 ## Camera
 
-The Radxa ROCK 3A comes with a 15-pin CSI connector. For more information, see [Camera Tutorial](... /accessories/camera)
+The Radxa ROCK 3A comes with a 15-pin CSI connector. For more information, see [Camera Tutorial](../accessories/camera)
 
 ## Screen
 

@@ -40,4 +40,4 @@ Used to extend the USB port for external devices such as USB mouse, USB keyboard
 
 ## Documentation
 
-[Supported Accessories] (... /... /accessories)
+[Supported Accessories] (../../accessories)

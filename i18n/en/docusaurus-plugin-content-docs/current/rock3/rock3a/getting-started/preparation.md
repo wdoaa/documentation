@@ -8,10 +8,10 @@ sidebar_position: 1
 
 ### Power Supply
 
-Radxa ROCK 3A is powered by Type-C connector and supports 5V/12V input. Radxa recommends using the [Radxa Power PD30W](/accessories/pd_30w)
+Radxa ROCK 3A is powered by Type-C connector and supports 5V/12V input. Radxa recommends using the [Radxa Power PD30W](../accessories/pd_30w)
 
 :::tip
-Renesas recommends using [Radxa Power PD30W](... /accessories/pd-30w).
+Renesas recommends using [Radxa Power PD30W](../accessories/pd-30w).
 :::
 
 ### Boot media
