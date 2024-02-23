@@ -26,7 +26,7 @@ Please go to [Resource Download Summary](/rock3/rock3a/getting-started/download)
 - The power supply interface of Radxa ROCK 3A is [USB 2.0 OTG Type C port](/rock3/rock3a/hardware-design/hardware-interface), please use Type-C cable to connect the power supply port and the adapter.
 
 :::tip
-The Radxa ROCK 3A only supports `5V` power supply. Radxa recommends using the [Radxa Power PD30W] (... /accessories/pd-30w).
+Radxa ROCK 3A supports QC 3.0/2.0 adapter, 9V/2A, 12V/1.5A. Radxa recommends using the [Radxa Power PD30W] (... /accessories/pd-30w).
 :::
 
 ## Reference Documentation
