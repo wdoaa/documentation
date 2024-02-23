@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-## Resource Download Summary
+# Resource Download Summary
 
 ## Hardware Design
 
