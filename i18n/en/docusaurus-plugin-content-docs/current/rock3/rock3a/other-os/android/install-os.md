@@ -23,7 +23,7 @@ Rock 3a can boot from microSD card or eMMC, so install os on microSD card or eMM
 
 ## Image Download
 
-Please go to [Resource Download Summary](./download.md) to download the corresponding image file.
+Please go to [Resource Download Summary](../../getting-started/download) to download the corresponding image file.
 
 ## Install the system
 
@@ -50,7 +50,7 @@ Radxa ROCK 3A supports QC 3.0/2.0 adapter, 9V/2A, 12V/1.5A. Radxa recommends usi
 
 ### Prepare the image file
 
-Please go to [Download Summary](./download.md) to download image.
+Please go to [Download Summary](../../getting-started/download) to download image.
 
 ## System installation
 

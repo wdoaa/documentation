@@ -23,7 +23,7 @@ import Etcher from '../../../../common/general/\_etcher.mdx'
 
 ## 镜像下载
 
-请到 [资源下载汇总](./download.md) 下载对应的镜像文件
+请到 [资源下载汇总](../../getting-started/download) 下载对应的镜像文件
 
 ## 安装系统
 
@@ -52,7 +52,7 @@ Radxa ROCK 3A 支持 QC 3.0/2.0 适配器, 9V/2A，12V/1.5A。瑞莎推荐使用
 
 ### 镜像下载
 
-请到 [资源下载汇总](./download.md) 下载对应的镜像文件
+请到 [资源下载汇总](../../getting-started/download) 下载对应的镜像文件
 
 ## 系统安装
 
