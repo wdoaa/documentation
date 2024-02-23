@@ -16,4 +16,4 @@ Radxa ROCK 3A 带有一个 15-pin 的 CSI 接口。更多信息请参见[摄像�
 
 ## 屏幕
 
-Radxa ROCK 3A 带有一个 15-pin 的 DSI 接口。更多信息请参见[摄像头使用教程](../accessories/display)
+Radxa ROCK 3A 带有一个 15-pin 的 DSI 接口。更多信息请参见[屏幕使用教程](../accessories/display)
