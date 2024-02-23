@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-import Ether from '../../../common/general/\_etcher.mdx'
+import Etcher from '../../../common/general/\_etcher.mdx'
 
 # Install the operating system
 
