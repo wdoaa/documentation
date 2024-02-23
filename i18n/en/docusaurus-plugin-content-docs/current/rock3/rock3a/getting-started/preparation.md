@@ -44,4 +44,4 @@ Used for USB port interface expansion, can be connected to devices such as USB m
 
 ## Documentation
 
-[Supported Accessories](... /accessories)
+[Supported Accessories](../accessories)
