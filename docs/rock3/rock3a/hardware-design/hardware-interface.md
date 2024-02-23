@@ -126,8 +126,6 @@ ROCK 3A 提供一个 40 pin GPIO 扩展座，兼容市场上大多数传感器�
 </TabItem>
 </Tabs>
 
-#### GPIO 编号
-
 ## 蓝牙
 
 ## USB C OTG 口

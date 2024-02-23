@@ -126,8 +126,6 @@ Tip: Actual compatibility is subject to actual usage.
 </TabItem>
 </Tabs>
 
-#### GPIO Number
-
 ## Bluetooth
 
 ## USB C OTG
