@@ -8,7 +8,7 @@ This section describes the common accessories supported by the Radxa ROCK 3A and
 
 ## Interface overview
 
-! [rock3a-interfaces](/img/rock3/3a/rock3a-system-block-diagram.webp)
+![rock3a-interfaces](/img/rock3/3a/rock3a-system-block-diagram.webp)
 
 ## Camera
 
