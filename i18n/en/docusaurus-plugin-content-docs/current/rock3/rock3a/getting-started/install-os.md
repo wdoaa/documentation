@@ -31,4 +31,4 @@ The Radxa ROCK 3A only supports `5V` power supply. Radxa recommends using the [R
 
 ## Reference Documentation
 
-[Install OS image to eMMC] (. /install-os-on-emmc)
+[Install OS image to eMMC] (../low-level-dev/install-os-on-emmc)

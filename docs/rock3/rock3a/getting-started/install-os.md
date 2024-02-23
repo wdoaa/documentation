@@ -31,4 +31,4 @@ Radxa ROCK 3A 只支持 `5V` 供电。瑞莎推荐使用 [Radxa Power PD30W](../
 
 ## 参考文档
 
-[安装操作系统镜像到 eMMC](./install-os-on-emmc)
+[安装操作系统镜像到 eMMC](../low-level-dev/install-os-on-emmc)
