@@ -10,7 +10,7 @@ import Ether from '../../../common/general/\_etcher.mdx'
 
 - 1x microSD card (capacity >=8GB)
 - 1x microSD card reader
-- 5V power adapter (recommended [Radxa Power PD30W] ( /accessories/pd-30w))
+- 5V power adapter (recommended [Radxa Power PD30W](../accessories/pd-30w))
 
 ## Image Download
 
