@@ -10,6 +10,11 @@ import Serial from "../../../common/general/\_serial.mdx"
 
 ## 用户名和密码
 
+```
+User name：radxa/rock
+Password： radxa/rock
+```
+
 ## 串口登录
 
 <Serial platform="rk" />
