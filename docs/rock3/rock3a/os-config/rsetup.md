@@ -1,3 +1,3 @@
-import Rsetup from "../../../common/config/\_rsetup.mdx";
+import RSETUP from "../../../common/config/\_rsetup.mdx"
 
-<Rsetup />
+<RSETUP />
