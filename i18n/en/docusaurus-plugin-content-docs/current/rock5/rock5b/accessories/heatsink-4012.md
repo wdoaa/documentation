@@ -1,45 +1,46 @@
 ---
-sidebar_position: 20
+sidebar_position: 40
 ---
 
-# Heatsink 4012 Tutorial
+# Heatsink 4012
 
-Heatsink 4012 is a cooling fan specially tailored for ROCK 5B. The installation tutorial is shown in the figure:
+## Installation
 
-- Paste the cooling silicone on the radiator;
+Heatsink 4012 is a customized cooling fan for ROCK 5B, the installation tutorial is shown in the picture:
+
+- Apply the thermal silicone to the heat sink;
 
 ![Heatsink 4012](/img/rock5b/heatsink4012-use-1.webp)
 
-- Apply thermal silica gel on the chip;
+- Apply thermal silicone to the chip;
 
 ![Heatsink 4012](/img/rock5b/heatsink4012-use-2.webp)
 
-- Align the buckle with the exposed copper area of ROCK 5B and press down;
-- Connect the power cord.
+- Align the snap with the exposed copper area of the ROCK 5B and press it down;
+- Connecting the power cord is complete.
 
 ![Heatsink 4012](/img/rock5b/heatsink4012-use-3.webp)
 
-## Configuration
+## Configure
 
-The operating system has three modes by default：
+系统默认是有三种模式
 
-- **power_allocator**: The system defaults to fanless mode or DC fan mode. Make sure that the machine can still work stably without a cooling fan;
-- **user_space**: Manually control cooling fan mode. Users can control the speed of the cooling fan through the command terminal according to your needs;
-- **step_wise**: automatic temperature adjustment mode. When the temperature of the CPU is below 60°C, the cooling fan is in a dormant state; And when the temperature of the CPU reaches above 60°C, the cooling fan starts to work.
-  **Note: When ROCK 5B is in shutdown or sleep state, the cooling fan does not work.**
+- **power_allocator**: The system defaults to fanless mode or DC fan mode. Ensure that the machine can still work stably without a cooling fan;
+- **user_space**: Manual control of the cooling fan mode. Users can control the speed of the cooling fan through the command terminal according to their needs;
+- **step_wise**: Automatic Temperature Adjustment Mode: The cooling fan is dormant when the CPU is below 60 degrees Celsius, and starts to work when the CPU reaches above 60 degrees Celsius.
+  **NOTE: The cooling fan will not operate when the ROCK 5B is in the power off and sleep states.**
 
-You can use the command terminal by "`retsup->Hardware`->`Thermal governor`", then use the `space bar` to select the mode, the specific operation is as follows:
+You can select the mode from the command terminal `rsetup` -> `Hardware` -> `Thermal governor` by using the `space bar` as follows:
 
-Press "Ctrl + Alt + T" simultaneously to open a terminal, run `rsetup` command as below:
+Simultaneously press `Ctrl + Alt + T` to open the terminal and run the `rsetup` command as follows:
 
-```
+```bash
 radxa@rock-5b:~$ rsetup
 ```
 
-Typing the password and select `Hardware` to rsetup tool interface.  
-Select `Hardware`:
+Enter the password and select `Hardware` to access the hardware console interface:
 
-```
+```bash
 Please select an option below:
         System Maintenance
         Hardware
@@ -51,9 +52,9 @@ Please select an option below:
         <Ok>            <Cancel>
 ```
 
-Then, select `Thermal governor`.
+Press and enter `Thermal governor`
 
-```
+```bash
 Manage on-board hardware:
         Video capture devices
         GPIO LEDs
@@ -62,7 +63,7 @@ Manage on-board hardware:
         <Ok>            <Cancel>
 ```
 
-Select mode with `spacebar`
+Selection of modes with the `spacebar'
 
 ```bash
 ┌─────────────────────────────────────────┤ RSETUP ├───────────────────────────────────────────────┐
@@ -87,43 +88,43 @@ Select mode with `spacebar`
 └──────────────────────────────────────────────────────────────────────────────────────────────────│
 ```
 
-If you choose `user_space` mode, you need to manually control the cooling fan.
+If you are in `user_space` mode, you need to control the cooling fan manually.
 
-Find the node of the fan device `pwm-fan`:
+First, you need to find the fan device node `pwm-fan`.
 
-```
+```bash
 cat /sys/class/thermal/cooling_device*/type
 ```
 
-For example, the node of the pwm fan is `cooling_device1`:
+As an example, this cooling fan is mounted on `cooling_device1`, which you will see by `cat /sys/class/thermal/cooling_device1/type` to `pwm-fan`:
 
-```
+```bash
 radxa@rock-5b: cat /sys/class/thermal/cooling_device1/type
 pwm-fan
 ```
 
-**Note: The following operations take `cooling_device1` as an example.**
+**Note: The following operation is based on `cooling_device1` as an example**.
 
-Directly open the highest speed:
+Directly turn on the cooling fan maximum speed: ``
 
 ```
 radxa@rock-5b:~$ sudo cp /sys/class/thermal/cooling_device1/max_state /sys/class/thermal/cooling_device1/cur_state
 ```
 
-You can check how many speeds the cooling fan supports through the following:
+You can see how many RPMs the cooling fan supports with the following command:
 
 ```
 radxa@rock-5b:~$ cat /sys/class/thermal/cooling_device1/max_state
 4
 ```
 
-If you want to select the third speed, follow the instructions below:
+To select the third speed, follow these instructions:
 
 ```
 echo 3 | sudo tee /sys/class/thermal/cooling_device1/cur_state
 ```
 
-If you want to use another speed gear, you just need to change the number. If you want to turn off the cooling fan, just select 0 for the speed gear.
+If you want to use other speed gears, just change the numbers. If you want to turn off the cooling fan, select 0 for the speed slot.
 
 ```
 echo 0 | sudo tee /sys/class/thermal/cooling_device1/cur_state
