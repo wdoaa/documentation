@@ -47,7 +47,7 @@ ROCK 5A provides a 40pin GPIO socket, which is compatible with most sensor appli
 
 </div>
 </TabItem>
-<TabItem value="x1_2" label="x1.2">
+<TabItem value="x1_2" label="x1.2/v1.1">
 
 <div className='gpio_style'>
 
