@@ -37,7 +37,7 @@ There are two methods available to flash the SPI:
 
 1. Boot linux from µSD card/eMMC
 
-   Please check [flash guides](../rock5b/getting-started/before-start) for guidance.
+   Please check [flash guides](../rock5b/getting-started/) for guidance.
 
 2. Download required files on the ROCK 5
 

@@ -32,7 +32,7 @@ ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模
 
 1. 从SD card 或 eMMC 启动 Linux 系统
 
-   详细教程请看入门使用教程中的[烧录方式选择](../rock5b/getting-started/before-start)
+   详细教程请看入门使用教程中的[烧录方式选择](../rock5b/getting-started/)
 
 2. 在 ROCK 5B 上下载必要的文件
 

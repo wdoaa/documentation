@@ -6,7 +6,7 @@ sidebar_position: 30
 
 Radxa为ROCK 5 Model B单板电脑设计了特别定制的金属外壳，是让您的 ROCK 5B 平稳高效运行的完美解决方案。该外壳坚固耐用，可为电路板提供保护，同时还可以轻松访问 ROCK 5B 的所有端口。它还具有冷却功能，可为电路板提供被动冷却，确保 ROCK 5B 即使在最苛刻的条件下也能保持在正常温度工作。
 
-关于如何安装，请参考 [ROCK 5B 金属外壳使用教程](/rock5/rock5b/accessories-guides/metal-case).
+关于如何安装，请参考 [ROCK 5B 金属外壳使用教程](/rock5/rock5b/accessories/metal-case).
 
 ![Radxa Metal Case for ROCK 5B](/img/accessories/metal-case-1.webp)
 
