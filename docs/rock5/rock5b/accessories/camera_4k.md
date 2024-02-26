@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Radxa Camera 4K 使用教程
+# Radxa Camera 4K
 
 ![Camera-4K 安装-01](/img/rock5b/rock5b-with-4k-camera-FPC.webp)  
 ![Camera-4K 安装-02](/img/rock5b/rock5b-4k-camera-connected.webp)  

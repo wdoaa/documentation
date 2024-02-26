@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# M.2 E Key to SATA 使用
+# M.2 E Key to SATA
 
 ROCK 5B有一个M.2 E-Key，支持PCIe 2.1 1-lanes、SATA、SDIO、UART。
 

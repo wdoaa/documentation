@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Radxa Display 8 HD使用教程
+# Radxa Display 8 HD
 
 ![显示屏安装-01](/img/rock5b/rock5b-display-8hd-FPC.webp)  
 ![显示屏安装-02](/img/rock5b/rock5b-display-8hd-connected.webp)
