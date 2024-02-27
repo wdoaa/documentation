@@ -47,7 +47,7 @@ ROCK 5A 提供了一个40pin针脚的GPIO座子，兼容于市面上大部分传
 
 </div>
 </TabItem>
-<TabItem value="x1_2" label="x1.2">
+<TabItem value="x1_2" label="x1.2/v1.1">
 
 <div className='gpio_style'>
 
