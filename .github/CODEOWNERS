@@ -46,6 +46,7 @@ src                 @xzuoqi @akgnah
 static              @xzuoqi @akgnah
 #####################CI/CD####################
 .github             @RadxaYuntian
+.pre-commit-config.yaml @CodeChenL @RadxaYuntian
 ####################gitown####################
 static/img/rock3/Rock3C-bottom-800px.webp @Maycides
 docs/rock3/rock3c/os-config/rsetup.md @u7985
