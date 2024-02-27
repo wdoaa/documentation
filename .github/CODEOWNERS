@@ -51,3 +51,4 @@ static/img/rock3/Rock3C-bottom-800px.webp @Maycides
 docs/rock3/rock3c/os-config/rsetup.md @u7985
 .gitownrc @CodeChenL
 .github/CODEOWNERS @CodeChenL
+.cz.toml @CodeChenL
