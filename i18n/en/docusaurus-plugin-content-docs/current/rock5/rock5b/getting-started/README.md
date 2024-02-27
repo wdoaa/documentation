@@ -1,7 +1,7 @@
 ---
-侧边栏位置： 10
+Sidebar position: 10
 ---
 
-# 快速上手
+# Quick start
 
 <DocCardList />
