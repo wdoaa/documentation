@@ -1,0 +1,53 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+# These owners will be the default owners for everything in the repo.
+# * <@insert_github_username>
+#
+# Order is important. The last matching pattern has the most precedence.
+
+
+# This file is also being managed automatically by the gitown tool.
+####################Global####################
+*                   @radxa-docs/Editor
+######################SBC#####################
+**/compute-module   @vamrs-feng @Ken-Vamrs
+**/cm3              @vamrs-feng
+**/cm3i             @vamrs-feng
+**/cm5              @Ken-Vamrs
+**/nx5              @vamrs-feng
+**/nio              @RadxaStephen
+**/rock3            @Radxa-Alvin @RadxaMitchell @Ken-Vamrs
+**/e25              @Radxa-Alvin
+**/rock3a           @RadxaMitchell
+**/rock3b           @Ken-Vamrs
+**/rock3c           @Radxa-Alvin
+**/rock4            @RadxaStephen
+**/rock5            @RadxaStephen @yjxyx
+**/rock5a           @RadxaStephen
+**/rock5b           @RadxaStephen
+**/rock5itx         @yjxyx
+**/rockpi           @RadxaMitchell @Ken-Vamrs
+**/rockpie          @RadxaMitchell
+**/rockpis          @RadxaMitchell
+**/rocks0           @Ken-Vamrs
+**/x                @shawnchainw
+**/zero             @RadxaYuntian @Radxa-Alvin
+**/zero/zero        @RadxaYuntian
+**/zero2pro         @RadxaYuntian
+**/zero3            @Radxa-Alvin
+**/common/radxa-os  @RadxaYuntian
+**/common/config    @RadxaYuntian
+###################Front End##################
+*.js                @xzuoqi @akgnah
+*.ts                @xzuoqi @akgnah
+*.css               @xzuoqi @akgnah
+*.json              @xzuoqi @akgnah
+src                 @xzuoqi @akgnah
+static              @xzuoqi @akgnah
+#####################CI/CD####################
+.github             @RadxaYuntian
+####################gitown####################
+static/img/rock3/Rock3C-bottom-800px.webp @Maycides
+docs/rock3/rock3c/os-config/rsetup.md @u7985
+.gitownrc @CodeChenL
+.github/CODEOWNERS @CodeChenL
