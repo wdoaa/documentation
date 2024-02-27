@@ -2,7 +2,7 @@
 sidebar_position: 50
 ---
 
-# Accessory list
+# Accessories
 
 Introduces information about supported accessories
 

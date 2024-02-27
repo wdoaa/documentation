@@ -2,6 +2,6 @@
 Sidebar position: 10
 ---
 
-# Quick start
+# Getting Started
 
 <DocCardList />
