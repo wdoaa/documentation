@@ -110,3 +110,4 @@ i18n/en/docusaurus-plugin-content-docs/current/template/module/radxa-os/low-leve
 docs/x/x2l/software-development/flash.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/install-os-on-nvme.md @nascs
 docs/rock5/rock5b/getting-started/install-os.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/template/sbc/os-config/rsetup/led.md @peterwang2050
