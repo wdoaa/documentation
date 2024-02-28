@@ -157,7 +157,7 @@ The ROCK 5B is supplied with a 40pin pin GPIO cradle that is compatible with mos
 
 - The ROCK5B has a 40-pin expansion connector. Each pin is color coded.
 
-<div className='gpio_style'>
+<div className='gpio_style' style={{ overflow :"auto"}}>
 
 | GPIO number |  Function8  |  Function7   |  Function6   |  Function5  |   Function4   |  Function3  | Function2  | Function1 |               Pin#               |              Pin#               | Function1  | Function2  | Function3  |                 Function4                 |  Function5  |  Function6   |  Function7   | Function8 | GPIO number |
 | :---------: | :---------: | :----------: | :----------: | :---------: | :-----------: | :---------: | :--------: | :-------: | :------------------------------: | :-----------------------------: | :--------: | :--------: | :--------: | :---------------------------------------: | :---------: | :----------: | :----------: | :-------: | :---------: |

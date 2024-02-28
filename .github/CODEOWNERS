@@ -111,3 +111,8 @@ docs/x/x2l/software-development/flash.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/install-os-on-nvme.md @nascs
 docs/rock5/rock5b/getting-started/install-os.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/template/sbc/os-config/rsetup/led.md @peterwang2050
+docs/rock5/rock5a/getting-started/before-start.md @Maycides @melooooooooooo
+docs/compute-module/cm3/mp-deployment/backup.md @u7985
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero3/app-development/README.md @peterwang2050
+i18n/en/docusaurus-plugin-content-docs/current/rock3/rock3b/accessories-guides/lcd-10-fhd.md @RadxaMitchell
+docs/nio/nio12l/install-yocto-system.md @peterwang2050
