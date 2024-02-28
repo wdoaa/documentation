@@ -2,7 +2,7 @@
 sidebar_position: 40
 ---
 
-# Heatsink 4012
+# 风扇配置
 
 ## 安装
 
