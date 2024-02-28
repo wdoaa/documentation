@@ -6,19 +6,35 @@ sidebar_position: 1
 
 ## Development preparation
 
-<! -- The following unneeded devices can be deleted -->
+### Power Supply
 
-### Power supply
+The Radxa ROCK 5B supports USB Type-C PD 2.0 at 9V/2A, 12V/2A, 15V/2A and 20V/2A.
 
-## Boot media
+:::tip
+Radxa recommends using the [Radxa Power PD30W] (../accessories/pd-30w).
+:::
+
+### Boot media
+
+microSD card with a capacity of at least 8GB, for system boot disk
 
 ### microSD card reader
 
+Used to create the system boot disk
+
 ### Monitor
 
-### Network connection
+For monitors with HDMI connectors, the Radxa ROCK 5B has two HDMI output ports, both of which support CEC and HDMI 2.1 with resolutions up to 8Kp60 and 4Kp60 respectively, and its Type-C connector can also support video output.  
+In addition, the ROCK 5B has one HDMI input port that supports HDMI 2.1 input with a resolution of 4Kp60.
+
+### Network Connection
+
+Radxa ROCK 5B has an Ethernet port for network access via Ethernet; Radxa ROCK 5B has an M.2 E Key connector with 2230 mounting holes on the front side of the motherboard, which provides PCIe 2.1 single-channel, USB, SATA, SDIO, PCM, and UART signals, and supports the industry standard M.2 WiFi 6 module.  
+If you want to access the Internet via a wireless module, Radxa recommends [Radxa Wireless A8](/accessories/wireless-a8). The interface specification of the Radxa Wireless A8 is M.2 2230 E port, so install it on the M.2 E port of the Radxa ROCK 5B and set up a wifi network to access the Internet. Please refer to [Network Settings](...) for details. /radxa-os/network).
 
 ### Type-C Hub
+
+Used to extend the USB port interface, can be connected to devices such as USB mouse, USB keyboard and so on.
 
 ### USB Mouse
 
@@ -28,6 +44,6 @@ sidebar_position: 1
 
 ### Precautions
 
-## Reference Documentation
+## Documentation
 
 [Supported Accessories](../accessories)
