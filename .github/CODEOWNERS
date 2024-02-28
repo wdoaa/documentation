@@ -121,3 +121,6 @@ i18n/en/docusaurus-plugin-content-docs/current/compute-module/nx5/getting-starte
 docs/rock5/rock5b/low-level-dev/serial.md @u7985
 docs/template/sbc/other-os/android/README.md @peterwang2050
 docs/rock5/rock5a/getting-started/overview.md @Maycides
+i18n/en/docusaurus-plugin-content-docs/current/compute-module/cm5/radxa-os/app-dev/wiringx.md @Ken-Vamrs
+docs/zero/zero3/app-development/rtsp.md @u7985
+docs/compute-module/cm5/getting-started/install-os.md @Ken-Vamrs
