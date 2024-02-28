@@ -1,5 +1,3 @@
----
-sidebar_position: 1
----
+import Rsetup from "../../../common/config/\_rsetup.mdx";
 
-# rsetup
+<Rsetup />
