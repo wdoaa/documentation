@@ -5,7 +5,7 @@ default_install_hook_types:
 
 repos:
   - repo: https://github.com/radxa-docs/pre-commit-hooks
-    rev: 2c1448fab9257562c9b80b6803c4dcfcc215c73f
+    rev: 1985d9abac63823842beb7d68216685915dd5130
     hooks:
       - id: use-webp-image
       - id: fix-en-dash-list
@@ -17,6 +17,8 @@ repos:
       - id: index-to-README
       - id: globally-available-components
       - id: remove-category-json
+      - id: check-chinese
+        files: "i18n/en/docusaurus-plugin-content-docs/current"
   - repo: https://github.com/detailyang/pre-commit-shell
     rev: v1.0.6
     hooks:
@@ -51,7 +53,7 @@ repos:
         stages:
           - pre-commit
   - repo: https://github.com/crate-ci/typos
-    rev: v1.16.23
+    rev: v1.18.2
     hooks:
       - id: typos
   - repo: https://github.com/milin/gitown
@@ -60,7 +62,7 @@ repos:
       - id: gitown
         args: ["--codeowners_filename=.github/CODEOWNERS"]
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.15.0
+    rev: v3.16.0
     hooks:
       - id: commitizen
       - id: commitizen-branch
