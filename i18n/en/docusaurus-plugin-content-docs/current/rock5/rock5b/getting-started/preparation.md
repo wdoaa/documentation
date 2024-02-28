@@ -30,7 +30,7 @@ In addition, the ROCK 5B has one HDMI input port that supports HDMI 2.1 input wi
 ### Network Connection
 
 Radxa ROCK 5B has an Ethernet port for network access via Ethernet; Radxa ROCK 5B has an M.2 E Key connector with 2230 mounting holes on the front side of the motherboard, which provides PCIe 2.1 single-channel, USB, SATA, SDIO, PCM, and UART signals, and supports the industry standard M.2 WiFi 6 module.  
-If you want to access the Internet via a wireless module, Radxa recommends [Radxa Wireless A8](/accessories/wireless-a8). The interface specification of the Radxa Wireless A8 is M.2 2230 E port, so install it on the M.2 E port of the Radxa ROCK 5B and set up a wifi network to access the Internet. Please refer to [Network Settings](...) for details. /radxa-os/network).
+If you want to access the Internet through a wireless module, Radxa recommends using the [Radxa Wireless A8](/accessories/wireless-a8). The interface specification of the Radxa Wireless A8 is M.2 2230 E. Install it on the M.2 E port of the Radxa ROCK 5B and set up a wifi network to access the Internet. Please refer to [Network Settings](../radxa-os/network) for details.
 
 ### Type-C Hub
 
