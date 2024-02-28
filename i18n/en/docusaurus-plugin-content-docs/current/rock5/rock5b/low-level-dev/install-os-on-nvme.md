@@ -74,4 +74,4 @@ When M.2 NVME SSD is written with Android (or Linux) images before, now we chang
 
 ## Boot from NVME SSD
 
-After you write the image to NVME SSD, to boot from the NVME SSD, you need to write the bootloader to SPI flash. Check Install to SPI to boot from NVME SSD.
+After you write the image to NVME SSD, to boot from the NVME SSD, you need to write the bootloader to SPI flash. Check [Install to SPI to boot from NVME SSD](./bootloader_spi_flash).

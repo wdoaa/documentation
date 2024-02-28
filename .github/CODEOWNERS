@@ -98,3 +98,14 @@ i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/hardware-design/READ
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/apps-deployment/README.md @nascs
 docs/rock5/rock5b/getting-started/preparation.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/getting-started/preparation.md @nascs
+docs/compute-module/cm5/android/install-os.mdx @y0w0
+static/img/rock5b/rock5b-4k-camera-connected.webp @Maycides
+static/img/rock5b/downloads/OpenMandriva.webp @Maycides
+docs/rock3/rock3b/install-os.md @u7985
+docs/compute-module/nx5/getting-started/accessory-usage.md @peterwang2050
+docs/compute-module/nx5/README.md @peterwang2050
+src/components/CustomDocItem/TOC/Desktop/index.js @xzuoqi
+docs/zero/zero3/app-development/gpiod.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/template/module/radxa-os/low-level-dev/README.md @peterwang2050
+docs/x/x2l/software-development/flash.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/install-os-on-nvme.md @nascs

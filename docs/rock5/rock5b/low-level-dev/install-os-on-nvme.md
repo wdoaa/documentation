@@ -74,4 +74,4 @@ sudo sudo xzcat 'your compressed image path' | dd of='your NVME SSD device path'
 
 ## 从 NVME 固态硬盘启动
 
-将镜像写入 NVME SSD 后，要从 NVME SSD 启动，需要将引导加载程序写入 SPI 闪存。选中安装到 SPI 以从 NVME SSD 启动。
+将镜像写入 NVME SSD 后，要从 NVME SSD 启动，需要将引导加载程序写入 SPI 闪存。选中[安装到 SPI 以从 NVME SSD 启动](./bootloader_spi_flash)。
