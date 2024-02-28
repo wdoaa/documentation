@@ -109,3 +109,4 @@ docs/zero/zero3/app-development/gpiod.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/template/module/radxa-os/low-level-dev/README.md @peterwang2050
 docs/x/x2l/software-development/flash.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/install-os-on-nvme.md @nascs
+docs/rock5/rock5b/getting-started/install-os.md @nascs

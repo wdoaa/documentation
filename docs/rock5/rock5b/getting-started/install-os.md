@@ -58,5 +58,5 @@ Radxa ROCK 5B 支持 9V/2A、12V/2A、15V/2A 和 20V/2A 的 USB Type-C PD 2.0。
 
 ## 参考文档
 
-[安装操作系统镜像到 eMMC](../low-level-dev/install-os-on-emmc)
-[安装操作系统镜像到 NVME 固态硬盘上](../low-level-dev/install-os-on-nvme)
+- [安装操作系统镜像到 eMMC](../low-level-dev/install-os-on-emmc)
+- [安装操作系统镜像到 NVME 固态硬盘上](../low-level-dev/install-os-on-nvme)
