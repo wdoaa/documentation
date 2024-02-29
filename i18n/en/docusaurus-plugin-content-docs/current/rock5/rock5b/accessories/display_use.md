@@ -20,5 +20,6 @@ radxa@rock-5b:~$ rsetup
 :::caution [Caution]
 
 1. Please enable the `[] Enable Radxa Display 8 HD` item Overlay. 2.
-2. Quit and reboot after successfully enabling the display of `[*] Enable Radxa Display 8 HD` for the configuration to take effect.  
-   :::
+2. Quit and reboot after successfully enabling the display of `[*] Enable Radxa Display 8 HD` for the configuration to take effect.
+
+:::

@@ -21,8 +21,9 @@ radxa@rock-5b:~$ rsetup
 :::caution [Caution]
 
 1. Please enable the `[] Enable Radxa Camera 4K` item Overlay. 2.
-2. Quit and reboot after enabling successfully displaying `[*] Enable Radxa Camera 4K` for the configuration to take effect.  
-   :::
+2. Quit and reboot after enabling successfully displaying `[*] Enable Radxa Camera 4K` for the configuration to take effect.
+
+:::
 
 ## Testing Radxa Camera 4K
 

@@ -20,5 +20,6 @@ radxa@rock-5b:~$ rsetup
 :::caution [注意]
 
 1. 请启用 `[] Enable Radxa Display 8 HD` 项 Overlay。
-2. 在启用成功显示 `[*] Enable Radxa Display 8 HD` 后退出重启才能使配置生效。  
-   :::
+2. 在启用成功显示 `[*] Enable Radxa Display 8 HD` 后退出重启才能使配置生效。
+
+:::
