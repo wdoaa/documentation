@@ -57,7 +57,11 @@ Radxa ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
     </tr>
     <tr>
         <td align="center">显示</td>
-        <td colspan="2" align="center">通过两个 HDMI、一个DP（type C）、一个 MIPI DSI 最多接四台显示设备</td>
+        <td colspan="2" align="center">通过两个 HDMI、一个DP（type C）、一个 MIPI DSI 最多接四台显示设备<br/>分辨率高达 3x 4K@60FPS + 1x 1080P@60FPS 或者 1x 8K@60FPS + 1x 4K@60FPS + 1x 1080P@60FPS</td>
+    </tr>
+    <tr>
+        <td align="center">硬件编解码</td>
+        <td colspan="2" align="center">H.265/VP9 (HEVC)/AVS2 硬件解码（高达 8Kp60<br/>H.264 硬件解码（最高 8Kp30<br/>H.265/H.264 硬件编码(最高 8Kp30)</td>
     </tr>
     <tr>
         <td align="center">以太网</td>

@@ -125,3 +125,10 @@ i18n/en/docusaurus-plugin-content-docs/current/compute-module/cm5/radxa-os/app-d
 docs/zero/zero3/app-development/rtsp.md @u7985
 docs/compute-module/cm5/getting-started/install-os.md @Ken-Vamrs
 docs/rock5/rock5b/README.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5itx/hardware-design/README.md @Ken-Vamrs
+i18n/en/docusaurus-plugin-content-docs/current/template/tcm/accessories/pd-30w.md @peterwang2050
+i18n/en/docusaurus-plugin-content-docs/current/rock3/rock3a/getting-started/_maskrom.mdx @nascs
+docs/zero/zero3/other-os/android/remote-login.md @y0w0
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/other-os/README.md @nascs
+docs/template/sbc/radxa-os/README.md @peterwang2050
+docs/compute-module/cm5/radxa-os/low-level-dev/README.md @u7985

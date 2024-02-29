@@ -57,7 +57,11 @@ The Radxa ROCK 5B offers multiple memory options: 4GB, 8GB and 16GB LPDDR4x.
     </tr>
     <tr>
         <td align="center">Display</td>
-        <td colspan="2" align="center">Up to four display devices via two HDMI, one DP (type C), one MIPI DSI</td>
+        <td colspan="2" align="center">Up to four display devices via two HDMI, one DP (type C), one MIPI DSI<br/>Resolution up to 3x 4K@60FPS + 1x 1080P@60FPS or 1x 8K@60FPS + 1x 4K@60FPS + 1x 1080P@60FPS</td>
+    </tr>
+    <tr>
+        <td align="center">Hardware codec</td>
+        <td colspan="2" align="center">H.265/VP9 (HEVC)/AVS2 Hardware Decoding (up to 8Kp60)<br/>H.264 Hardware Decoding (up to 8Kp30<br/>H.265/H.264 Hardware Encoding (up to 8Kp30))</td>
     </tr>
     <tr>
         <td align="center">Ethernet</td>
