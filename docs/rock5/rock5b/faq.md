@@ -11,7 +11,7 @@ sidebar_position: 10
 按以下步骤排除 ROCK 5B 故障：
 
 * 关闭 ROCK 5B 电源，取出 eMMC 模块、SD 卡、NVMe SSD
-* 按住 MASKROOM 按钮 [（标签 32）](../hardware-design/hardware-interface)
+* 按住 MASKROOM 按钮 [（标签 32）](./hardware-design/hardware-interface)
 * 使用 USB A to C 电缆将 ROCK 5B USB C 接口插入电脑，绿色 LED 灯应亮起
 * 检查电脑 "设备管理器 "中是否有新的 USB 设备，如果有，说明 ROCK 5B 已激活。如果没有，请尝试其他 USB 端口，我们建议将 ROCK 5B 连接到电脑的后面板。
 

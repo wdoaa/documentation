@@ -11,7 +11,7 @@ sidebar_position: 10
 To troubleshoot if ROCK 5B is defective in the following steps:
 
 * Power off the ROCK 5B, remove eMMC module, SD card, NVMe SSD
-* Press and hold the maskrom button[（label 32）](../hardware-design/hardware-interface)
+* Press and hold the maskrom button[（label 32）](./hardware-design/hardware-interface)
 * Plug the ROCK 5B USB C to PC with USB A to C cable, the Green LED should be solid on
 Check if there is new USB device in the PC Device Manager, if yes, the ROCK 5B is live. If not, try other USB ports, we recommend to connect ROCK 5B to the back panel of the PC.
 
