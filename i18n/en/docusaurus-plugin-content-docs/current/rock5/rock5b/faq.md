@@ -4,9 +4,45 @@ sidebar_position: 10
 
 # FAQ
 
-## Hot Topic
+## General
 
-### Question 2: My ROCK 5B doesn't boot, how to check if it's dead
+### Question 1: Get connection with Community
+
+* Forum: http://forum.radxa.com
+* Discord: https://rock.sh/go
+* QQ Group: 591048098
+
+### Question 2: ROCK 5B will have WiFi 6E support. Does the new ROCK 5b board come with a (6E) wifi chip. Or will this be purchased separately?
+
+WiFi Card is not included by default since different users require different WiFi speed. The Radxa team recommends a wifi card with RTL8852BE chip for a balance between price and performance.
+
+### Question 3:  Without eMMC and TF card, can ROCK 5B boot from PCIe M.2 NVME SSD?
+
+Yes. ROCK 5B can boot from PCIe M.2 NVME SSD.
+ROCK 5B is equipped with one 16MB SPI Nor Flash and PCIe M.2 M-Key connector.
+SPI Nor Flash stores bootloader. And NVME SSD stores whole system image (at least kernel and rootfs).
+For image writing, please refer to this guide. [SPI Nor Flash](./low-level-dev/bootloader_spi_flash) and [PCIe NVME SSD boot](./low-level-dev/install-os-on-nvme).
+
+### Question 4: Also, are heatsinks and fans included in the price?
+
+No, the heatsink and fan are not included by default.
+
+## Power Supply
+
+### Question 1: My new ROCK 5B can not boot / stuck in infinite boot loop
+
+ROCK 5B supports USB PD power negotiation to higher voltage such as 9V, 12V, 15V, 20V to meet the total system power load requirements(around 30W with WiFi, SSD, USB peripherals etc). Currently the PD negotiation is implemented in the kernel driver, we need to boot to the kernel to start negotiation, however some Power Supply can not wait the ROCK 5B to negotiate and cut the power off when timeout, which cause the infinite boot loop. We provide the following suggestions:
+
+- Use official Power Supply - Radxa Power PD 30W. (Strongly recommended) The Radxa Power PD 30W is - tested with all conditions on ROCK 5B.
+- Use faster SD card or eMMC module and disable the bootloader/kernel serial console
+- Use a dummy 12V USB C power supply
+- Check the other Power Supply status reported by the community.
+- Wait for Radxa's porting of the PD negotiation to the bootloader(u-boot)
+- Double check your power supply can deliver the power needed especialy on 5v. Many power supply will max out their 5v at 3amp (15W) while other voltages can go way higher.
+
+## Boot
+
+### Question 1: My ROCK 5B doesn't boot, how to check if it's dead
 
 To troubleshoot if ROCK 5B is defective in the following steps:
 
@@ -20,7 +56,9 @@ Check if there is new USB device in the PC Device Manager, if yes, the ROCK 5B i
 * you can manually add the HDMI resolution and framerate in the /boot/extlinux/extlinux.conf
 * just add video=1920x1080@60 to the append line (just change the resolution and framerate to a resolution your monitor supports)
 
-### Question 3: Radxa APT public key is not available
+## OS
+
+### Question 1: Radxa APT public key is not available
 
 When I try to run apt update, i get following error:
 
