@@ -35,7 +35,7 @@ Radxa ROCK 5B 可以从 microSD 卡启动，也可以从 EMMC 启动，基于不
 - Radxa Radxa ROCK 5B 的供电接口为 [USB 2.0 OTG Type C port](/rock5/rock5b/hardware-design/hardware-interface)，请使用 Type-C 线缆连接供电口和适配器。
 
 :::tip
-Radxa ROCK 5B 支持 9V/2A、12V/2A、15V/2A 和 20V/2A 的 USB Type-C PD 2.0。瑞莎推荐使用 [Radxa Power PD30W](../accessories/pd-30w)。
+Radxa ROCK 5B 支持 9V/2A、12V/2A、15V/2A 和 20V/2A 的 USB Type-C PD 2.0。瑞莎推荐使用 [Radxa Power PD30W](../../accessories/pd-30w)。
 :::
 
 ## 参考文档
@@ -72,9 +72,9 @@ Radxa ROCK 5B 支持 9V/2A、12V/2A、15V/2A 和 20V/2A 的 USB Type-C PD 2.0。
 <img src="/img/rock5b/rock-5b-maskrom-01.webp" alt="Radxa ROCK 5B maskrom" width="500" />
 
 - 查看是否有 USB 设备
-  _ Linux/macOS: 检查执行 lsusb 后是否有显示 "Bus 001 Device 112: ID 2207:350a Fuzhou Rockchip Electronics Company"
-  _ Windows: 打开 RKDevTool 您会看到设备处于 "maskrom mode".
-  <img src="/img/rock5b/rock-5b-select-loader-bin.webp" alt="Radxa ROCK 5B select loader bin" width="500" />
+  - Linux/macOS: 检查执行 lsusb 后是否有显示 "Bus 001 Device 112: ID 2207:350a Fuzhou Rockchip Electronics Company"
+  - Windows: 打开 RKDevTool 您会看到设备处于 "maskrom mode".
+    <img src="/img/rock5b/rock-5b-select-loader-bin.webp" alt="Radxa ROCK 5B select loader bin" width="500" />
 
 <Tabs queryString="target">
 
