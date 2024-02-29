@@ -134,3 +134,9 @@ docs/template/sbc/radxa-os/README.md @peterwang2050
 docs/compute-module/cm5/radxa-os/low-level-dev/README.md @u7985
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/getting-started/install-os.md @nascs
 docs/rock5/rock5b/other-os/android/download.md @nascs
+docs/rock5/rock5b/other-os/android/preparation.md @nascs
+static/img/rock3/3a/rock3a-actual-sci.webp @nascs
+static/img/rock5b/downloads/AmiRock.webp @Maycides
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero2pro/low-level-dev/README.md @u7985
+docs/template/tcm/other-os/android/remote-login.md @peterwang2050
+docs/compute-module/nx5/radxa-os/low-level-dev/rbuild.md @peterwang2050

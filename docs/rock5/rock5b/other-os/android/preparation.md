@@ -6,17 +6,11 @@ sidebar_position: 1
 
 ## 开发准备
 
-<!-- 以下配件多的删除，少的添加 -->
-
 ### 供电
 
-<!--
-xxx 采用 Type-C 接口供电，仅支持 5V 输入。建议最低使用 5V/2A 电源适配器。
-
 :::tip
-瑞莎推荐使用 [Radxa Power PD30W](/accessories/pd_30w)。
+Radxa ROCK 5B 支持 9V/2A、12V/2A、15V/2A 和 20V/2A 的 USB Type-C PD 2.0。瑞莎推荐使用 [Radxa Power PD30W](../accessories/pd-30w)。
 :::
--->
 
 ### 存储
 
@@ -27,10 +21,6 @@ microSD 卡，容量不小于 8GB, 用于系统启动盘
 用于制作系统启动盘
 
 ### 显示
-
-<!--
-HDMI接口的显示器，XXX 最高支持 1920 x 1080 分辨率。
--->
 
 ### 网络连接
 
@@ -47,7 +37,5 @@ HDMI接口的显示器，XXX 最高支持 1920 x 1080 分辨率。
 ## 注意事项
 
 ## 参考文档
-
-<!-- 这个和核实下，Android 支持的配件和 Linux 可能不一样 -->
 
 [支持的配件](../../accessories)
