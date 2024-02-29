@@ -6,21 +6,98 @@ sidebar_position: 5
 
 ## 产品介绍
 
+Radxa ROCK 5B 是一款基于 RK3588 芯片组的优雅单板计算机 (SBC)。其 100 x 75 mm 的紧凑尺寸几乎涵盖了 RK3588 的所有功能，提供卓越的灵活性和可扩展性。ROCK 5B 为极客、单板机爱好者、物联网爱好者和高校师生等用户提供了将想法变为现实的坚实基础。它在边缘计算、人工智能、云计算、智能监控和其他领域有着广泛的应用。
+
+Radxa ROCK 5B 可作为：
+
+- 个人桌面计算机
+- 个人私有服务器
+- 安卓影音播放器
+- 机器人控制器
+- 区块链节点
+
+其他更多使用场景，等你来发掘
+
+Radxa ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
+
 ### 实物照片
+
+<img src="/img/rock5b/rock-5b-overview.webp" alt="rock 5b overview" width="500" />
 
 ### 芯片框图
 
+<img src="/img/rock5b/rk3588-block-diagram.webp" alt="rk3588 system diagram" width="700" />
+
 ### 特性
 
+<table>
+    <tr>
+        <td align="center">型号</td>
+        <td align="center">Radxa ROCK 5B</td>
+    </tr>
+    <tr>
+        <td align="center">SoC</td>
+        <td colspan="2" align="center">Rockchip rk3588</td>
+    </tr>
+    <tr>
+        <td align="center">CPU</td>
+        <td colspan="2" align="center">四大核 Cortex‑A76 主频在 2.2~2.4Ghz 之间 加上四小核 Cortex‑A55 主频为 1.8Ghz</td>
+    </tr>
+    <tr>
+        <td align="center">GPU</td>
+        <td colspan="2" align="center">Mali G610MP4 GPU，支持 OpenGLES 1.1、2.0 和 3.2，OpenCL 最高 2.2 和 Vulkan 1.2</td>
+    </tr>
+    <tr>
+        <td align="center">内存</td>
+        <td colspan="2" align="center">4/8/16 64 位 LPDDR4x</td>
+    </tr>
+    <tr>
+        <td align="center">存储</td>
+        <td align="center">板载 eMMC 模块：0/8/16/32/64 GB<br/>microSD 存储卡</td>
+    </tr>
+    <tr>
+        <td align="center">显示</td>
+        <td colspan="2" align="center">通过两个 HDMI、一个DP（type C）、一个 MIPI DSI 最多接四台显示设备</td>
+    </tr>
+    <tr>
+        <td align="center">以太网</td>
+        <td align="center">支持以太网供电（PoE）的千兆以太网<br/>PoE 需要额外的可选 HAT</td>
+    </tr>
+    <tr>
+        <td align="center">无线通讯</td>
+        <td align="center">Wi-Fi 6 (802.11 b/g/n) BT 5.0 with BLE</td>
+    </tr>
+    <tr>
+        <td align="center">USB</td>
+        <td colspan="2" align="center">2x USB 2 端口<br/>1x USB 3 HOST 端口, 1x USB3 OTG 端口</td>
+    </tr>
+    <tr>
+        <td align="center">摄像头</td>
+        <td colspan="2" align="center">1x4 通道 MIPI CSI</td>
+    </tr>
+    <tr>
+        <td align="center">其他</td>
+        <td colspan="2" align="center">40 针扩展座</td>
+    </tr>
+    <tr>
+        <td align="center">供电</td>
+        <td colspan="2" align="center">支持 9V/2A、12V/2A、15V/2A 和 20V/2A 的 USB Type-C PD 2.0</td>
+    </tr>
+    <tr>
+        <td align="center">尺寸</td>
+        <td colspan="2" align="center">100 x 75 mm</td>
+    </tr>
+</table>
+
 ### 系统框图
+
+<img src="/img/rock5b/rock-5b-block-digram.webp" alt="rock 5b system diagram" width="700" />
 
 ## 文档使用指引
 
 :::tip
 除了下面的 **其他系统** 目录外，其他内容都是围绕 Radxa OS (Radxa 基于 Debian 定制的系统) 展开。
 :::
-
-<!-- 以下括号中的链接路径 /rock5/rock5b 更换为当前产品的路径 -->
 
 ### [快速上手](/rock5/rock5b/getting-started)
 
