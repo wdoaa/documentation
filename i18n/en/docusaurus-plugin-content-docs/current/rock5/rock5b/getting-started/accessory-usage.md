@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Accessory usage instructions
+# Accessory instructions
 
 This section describes the common accessories supported by the Radxa ROCK 5B and how to use them.
 
