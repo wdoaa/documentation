@@ -70,8 +70,8 @@ For more mirrors, please check: [Radxa ROCK 5B Release](https://github.com/radxa
 ## FCC SDOC
 
 - **Report number: BCTC2208647334C**
-- Compliance Link.
-  [FCC Supplier's Declaration of Conformity](https://dl.radxa.com/rock5/compliance/5b/fcc-sdoc/BCTC2208647334C-ROCK-5B-FCC-sDoC- comformity.pdf)
+- Compliance Link:
+[FCC Supplier's Declaration of Conformity](https://dl.radxa.com/rock5/compliance/5b/fcc-sdoc/BCTC2208647334C-ROCK-5B-FCC-sDoC-comformity.pdf)
 
 - **Test Standards: FCC Part 15B**.
   [Test Report](https://dl.radxa.com/rock5/compliance/5b/fcc-sdoc/BCTC2208647334E-ROCK-5B-FCC-sDoC-report.pdf)
