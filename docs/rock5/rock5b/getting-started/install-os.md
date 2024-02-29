@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+import Etcher from '../../../common/general/\_etcher.mdx'
+
 # 安装操作系统
 
 ## 准备工作
@@ -11,8 +13,8 @@ sidebar_position: 2
 - 以下大容量存储卡之一：
 
   - microSD， 大于 8GB
-  - eMMC Module， 大于8GB
-  - 推荐使用 Radxa eMMC Module <img src="/img/accessories/emmc-module.webp" alt="Radxa eMMC Module" width="300" />.
+  - eMMC Module， 大于8GB， 推荐使用 Radxa eMMC Module
+    <img src="/img/accessories/emmc-module.webp" alt="Radxa eMMC Module" width="300" />.
 
 - 电源供应
 

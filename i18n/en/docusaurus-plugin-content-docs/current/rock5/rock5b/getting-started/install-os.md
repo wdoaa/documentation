@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+import Etcher from '../../../common/general/\_etcher.mdx'
+
 # Installing the operating system
 
 ## Preparation
@@ -11,8 +13,8 @@ sidebar_position: 2
 - One of the following high-capacity memory cards:
 
   - microSD, greater than 8GB
-  - eMMC Module, greater than 8GB
-  - Radxa eMMC Module recommended <img src="/img/accessories/emmc-module.webp" alt="Radxa eMMC Module" width="300" />.
+  - eMMC Module, greater than 8GB, Radxa eMMC Module recommended
+    <img src="/img/accessories/emmc-module.webp" alt="Radxa eMMC Module" width="300" />.
 
 - Power Supply
 
