@@ -17,7 +17,7 @@ Radxa 为 ROCK 5 Model B单板电脑设计了特别定制的金属外壳。 该�
 
 ## 安装步骤
 
-- 将散热片的导热柱和ROCK 5B的SOC涂上导热硅脂。
+- 将散热片的导热柱和 ROCK 5B 的SOC涂上导热硅脂。
 
 ![](/img/accessories/use-metal-case-1.webp)
 

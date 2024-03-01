@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # M.2 E Key to SATA
 
-ROCK 5B有一个M.2 E-Key，支持PCIe 2.1 1-lanes、SATA、SDIO、UART。
+ROCK 5B 有一个M.2 E-Key，支持PCIe 2.1 1-lanes、SATA、SDIO、UART。
 
 它可以使用转接板（breakout board）使M.2 E-key变成SATA
 
