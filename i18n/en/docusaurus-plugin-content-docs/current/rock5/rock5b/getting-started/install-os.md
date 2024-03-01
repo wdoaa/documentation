@@ -21,7 +21,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
   - The ROCK 5B is powered by a Type-C connector with a wide range of input voltages from 5V to 21V.
   - ROCK 5B supports USB Type-C PD 2.0 with 9V/2A, 12V/2A, 15V/2A and 20V/2A.
   - The Type-C cable you use needs to support data communication. We call it USB Type-C charging data cable.
-  - We recommend using the official Radxa Power PD 30W <img src="/img/accessories/pd-30w.webp" alt="Radxa Power PD 30W" width="300" />.
+  - We recommend using the official Radxa Power PD 30W 。<img src="/img/accessories/pd-30w.webp" alt="Radxa Power PD 30W" width="300" />
 
 - USB Keyboard and Mouse
 

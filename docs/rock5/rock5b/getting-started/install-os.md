@@ -21,7 +21,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
   - ROCK 5B采用Type-C接口供电，输入电压范围广，从5V到21V。
   - ROCK 5B 支持 9V/2A、12V/2A、15V/2A 和 20V/2A 的 USB Type-C PD 2.0。
   - 您使用的 Type-C 数据线需要支持数据通信。 我们称之为USB Type-C充电数据线。
-  - 推荐使用官方的 Radxa Power PD 30W <img src="/img/accessories/pd-30w.webp" alt="Radxa Power PD 30W" width="300" />.
+  - 推荐使用官方的 Radxa Power PD 30W 。<img src="/img/accessories/pd-30w.webp" alt="Radxa Power PD 30W" width="300" />
 
 - USB 键盘和鼠标
 
