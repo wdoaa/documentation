@@ -4,7 +4,7 @@ sidebar_position: 20
 
 # Metal casing
 
-Radxa has designed a specially customized metal enclosure for the ROCK 5 Model B single board computer. This ruggedized enclosure provides protection for the board and easy access to all ports of the ROCK 5B. It also has a cooling feature that provides passive cooling for the board, ensuring that the ROCK 5B will operate at the right temperature even under the harshest conditions. This beautiful enclosure is the perfect solution to keep your ROCK 5B running smoothly and efficiently.
+Radxa has designed a specially customized metal enclosure for the ROCK 5 Model B single board computer. This ruggedized enclosure provides protection for the board and easy access to all ports of the ROCK 5B. It also has a cooling feature that provides passive cooling for the board, ensuring that the ROCK 5B will operate at the right temperature even under the harsh conditions. This beautiful enclosure is the perfect solution to keep your ROCK 5B running smoothly and efficiently.
 
 **When you receive your ROCK 5B in a metal enclosure, check out the product listing:**
 
