@@ -58,16 +58,14 @@ i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/README
 i18n/en/docusaurus-plugin-content-docs/current/rock3/rock3a/os-config/rsetup.md @nascs
 static/img/common/etcher/rock5a-step3.webp @u7985
 docs/compute-module/nx5/radxa-os/apps-deploy/README.md @peterwang2050
-i18n/en/docusaurus-plugin-content-docs/current/nio/nio12l/download/README.md peterwang2050
+i18n/en/docusaurus-plugin-content-docs/current/nio/nio12l/download/README.md @peterwang2050
 i18n/en/docusaurus-plugin-content-docs/current/zero/zero3/os-config/rsetup.md @peterwang2050
 docs/rock3/images.md @Maycides
-i18n/en/docusaurus-plugin-content-docs/current/nio/nio12l/download/README.md @peterwang2050
 static/img/rock3/3b/rock3b-otg.webp @Maycides
 i18n/en/docusaurus-plugin-content-docs/current/compute-module/cm5/radxa-os/os-usage/README.md @Ken-Vamrs
 static/img/zero/zero3/radxa_zero_3w.webp @Radxa-Alvin
 docs/x/x2l/bios/bios-clear.md @melooooooooooo
 src/components/CustomDocItem/Content/index.d.ts @xzuoqi
-docs/compute-module/nx5/android/remote-login.md @ace
 static/img/rock5b/rock5b-4k-camera.webp @Maycides
 docs/rock3/rock3b/hardware/rock3b-gpio.md @nascs
 docs/nio/nio12l/getting-started.md @jack-ma @Radxa-Alvin
