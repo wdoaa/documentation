@@ -10,11 +10,16 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 
 - ROCK 5B motherboard
 
-- One of the following high-capacity memory cards:
+- High-capacity memory card (either one or the other):
 
-  - microSD, greater than 8GB
-  - eMMC Module, greater than 8GB, Radxa eMMC Module recommended
+  - microSD, greater than 8GB (for booting from SD)
+  - eMMC Module, greater than 8GB, Radxa eMMC Module recommended (for booting from eMMC Module)
     <img src="/img/accessories/emmc-module.webp" alt="Radxa eMMC Module" width="300" />.
+
+- Card Reader (either one or the other)
+
+  - microSD card reader (for booting from SD)
+  - eMMC card reader (for booting from eMMC Module).
 
 - Power Supply
 
@@ -36,10 +41,6 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 
   - The ROCK 5B outputs a dedicated serial console for the CPU to access low-level debug messages.
   - Recommended Radxa USB to TTL Cable <img src="/img/accessories/usb-ttl.webp" alt="USB to TTL Cable" width="300" />.
-
-- Card Reader (choose one or two)
-  - microSD card reader: for burning images to microSD card
-  - eMMC reader: for burning images to eMMC modules, recommended Radxa eMMC USB3 reader ! [Radxa eMMC USB3 reader](/img/accessories/emmc-reader-02.webp).
 
 ## Image Download
 

@@ -10,11 +10,16 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 
 - ROCK 5B 主板
 
-- 以下大容量存储卡之一：
+- 大容量存储卡（二选一）：
 
-  - microSD， 大于 8GB
-  - eMMC Module， 大于8GB， 推荐使用 Radxa eMMC Module
+  - microSD， 大于 8GB （用于从 SD 启动）
+  - eMMC Module， 大于8GB， 推荐使用 Radxa eMMC Module （用于从 eMMC Module 启动）
     <img src="/img/accessories/emmc-module.webp" alt="Radxa eMMC Module" width="300" />.
+
+- 读卡器（二选一）
+
+  - microSD 读卡器（用于从 SD 启动）
+  - eMMC 读卡器 （用于从 eMMC Module 启动）.
 
 - 电源供应
 
@@ -36,10 +41,6 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 
   - ROCK 5B 为 CPU 输出一个专用串行控制台，可以访问低级调试消息。
   - 推荐使用Radxa USB to TTL Cable <img src="/img/accessories/usb-ttl.webp" alt="USB to TTL Cable" width="300" />.
-
-- 读卡器（二选一）
-  - microSD 读卡器: 用于将镜像烧录到 microSD 卡中
-  - eMMC 读卡器: 用于将镜像烧录到eMMC 模块中，推荐使用 Radxa eMMC USB3 reader ![Radxa eMMC USB3 reader](/img/accessories/emmc-reader-02.webp).
 
 ## 镜像下载
 
