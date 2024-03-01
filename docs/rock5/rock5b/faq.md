@@ -10,7 +10,8 @@ sidebar_position: 10
 
 - Forum: http://forum.radxa.com
 - Discord: https://rock.sh/go
-- QQ Group: 591048098
+- QQ 群: 591048098
+- 微信群: https://docs.radxa.com/welcome
 
 ### 问题二： ROCK 5B 将支持 WiFi 6E。新的 ROCK 5B 板是否自带 (6E) WIFI 芯片？还是需要单独购买？
 

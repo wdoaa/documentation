@@ -11,6 +11,7 @@ sidebar_position: 10
 - Forum: http://forum.radxa.com
 - Discord: https://rock.sh/go
 - QQ Group: 591048098
+- WeChat Group: https://docs.radxa.com/welcome
 
 ### Question 2: ROCK 5B will have WiFi 6E support. Does the new ROCK 5b board come with a (6E) wifi chip. Or will this be purchased separately?
 
