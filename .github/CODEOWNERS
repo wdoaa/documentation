@@ -150,3 +150,10 @@ i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/hardware-design/hard
 docs/rock5/rock5b/getting-started/accessory-usage.md @nascs
 docs/rock5/rock5b/low-level-dev/install-os-on-nvme.md @nascs
 docs/rock5/rock5b/low-level-dev/bootloader_spi_flash.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rockpi/rocks0/app-development/gpiod.md @Ken-Vamrs
+docs/accessories/cm3-io-board.md @melooooooooooo
+static/img/cm3/ethernet_combo.webp @melooooooooooo
+docs/template/module/hardware/hw-interface.md @peterwang2050
+docs/zero/zero3/other-os/android/download.md @peterwang2050
+static/img/general-tutorial/rknn/space_shuttle_224.webp @CodeChenL
+docs/rockpi/rockpis/README.md @melooooooooooo
