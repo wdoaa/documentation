@@ -8,15 +8,15 @@ sidebar_position: 10
 
 ### Question 1: Get connection with Community
 
-* Forum: http://forum.radxa.com
-* Discord: https://rock.sh/go
-* QQ Group: 591048098
+- Forum: http://forum.radxa.com
+- Discord: https://rock.sh/go
+- QQ Group: 591048098
 
 ### Question 2: ROCK 5B will have WiFi 6E support. Does the new ROCK 5b board come with a (6E) wifi chip. Or will this be purchased separately?
 
 WiFi Card is not included by default since different users require different WiFi speed. The Radxa team recommends a wifi card with RTL8852BE chip for a balance between price and performance.
 
-### Question 3:  Without eMMC and TF card, can ROCK 5B boot from PCIe M.2 NVME SSD?
+### Question 3: Without eMMC and TF card, can ROCK 5B boot from PCIe M.2 NVME SSD?
 
 Yes. ROCK 5B can boot from PCIe M.2 NVME SSD.
 ROCK 5B is equipped with one 16MB SPI Nor Flash and PCIe M.2 M-Key connector.
@@ -38,7 +38,7 @@ ROCK 5B supports USB PD power negotiation to higher voltage such as 9V, 12V, 15V
 - Use a dummy 12V USB C power supply
 - Check the other Power Supply status reported by the community.
 - Wait for Radxa's porting of the PD negotiation to the bootloader(u-boot)
-- Double check your power supply can deliver the power needed especialy on 5v. Many power supply will max out their 5v at 3amp (15W) while other voltages can go way higher.
+- Double check your power supply can deliver the power needed especially on 5v. Many power supply will max out their 5v at 3amp (15W) while other voltages can go way higher.
 
 ## Boot
 
@@ -46,15 +46,15 @@ ROCK 5B supports USB PD power negotiation to higher voltage such as 9V, 12V, 15V
 
 To troubleshoot if ROCK 5B is defective in the following steps:
 
-* Power off the ROCK 5B, remove eMMC module, SD card, NVMe SSD
-* Press and hold the maskrom button[（label 32）](./hardware-design/hardware-interface)
-* Plug the ROCK 5B USB C to PC with USB A to C cable, the Green LED should be solid on
-Check if there is new USB device in the PC Device Manager, if yes, the ROCK 5B is live. If not, try other USB ports, we recommend to connect ROCK 5B to the back panel of the PC.
+- Power off the ROCK 5B, remove eMMC module, SD card, NVMe SSD
+- Press and hold the maskrom button[（label 32）](./hardware-design/hardware-interface)
+- Plug the ROCK 5B USB C to PC with USB A to C cable, the Green LED should be solid on
+  Check if there is new USB device in the PC Device Manager, if yes, the ROCK 5B is live. If not, try other USB ports, we recommend to connect ROCK 5B to the back panel of the PC.
 
 ### Question 2: My ROCK 5B HDMI doesn't display anything
 
-* you can manually add the HDMI resolution and framerate in the /boot/extlinux/extlinux.conf
-* just add video=1920x1080@60 to the append line (just change the resolution and framerate to a resolution your monitor supports)
+- you can manually add the HDMI resolution and framerate in the /boot/extlinux/extlinux.conf
+- just add video=1920x1080@60 to the append line (just change the resolution and framerate to a resolution your monitor supports)
 
 ## OS
 
@@ -64,8 +64,8 @@ When I try to run apt update, i get following error:
 
 ```
 root@rock-5b:~# apt update
-Hit:1 http://security.debian.org/debian-security bullseye-security InRelease   
-Hit:2 http://httpredir.debian.org/debian bullseye InRelease                    
+Hit:1 http://security.debian.org/debian-security bullseye-security InRelease
+Hit:2 http://httpredir.debian.org/debian bullseye InRelease
 Get:3 http://apt.radxa.com/bullseye-stable bullseye InRelease [2362 B]
 Hit:4 http://httpredir.debian.org/debian bullseye-updates InRelease
 Hit:5 http://httpredir.debian.org/debian bullseye-backports InRelease

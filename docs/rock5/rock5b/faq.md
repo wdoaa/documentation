@@ -8,9 +8,9 @@ sidebar_position: 10
 
 ### 问题一： 联系社区
 
-* Forum: http://forum.radxa.com
-* Discord: https://rock.sh/go
-* QQ Group: 591048098
+- Forum: http://forum.radxa.com
+- Discord: https://rock.sh/go
+- QQ Group: 591048098
 
 ### 问题二： ROCK 5B 将支持 WiFi 6E。新的 ROCK 5B 板是否自带 (6E) WIFI 芯片？还是需要单独购买？
 
@@ -46,15 +46,15 @@ ROCK 5B 支持将 USB PD 电源协商至更高的电压，如 9V、12V、15V、2
 
 按以下步骤排除 ROCK 5B 故障：
 
-* 关闭 ROCK 5B 电源，取出 eMMC 模块、SD 卡、NVMe SSD
-* 按住 MASKROOM 按钮 [（标签 32）](./hardware-design/hardware-interface)
-* 使用 USB A to C 电缆将 ROCK 5B USB C 接口插入电脑，绿色 LED 灯应亮起
-* 检查电脑 "设备管理器 "中是否有新的 USB 设备，如果有，说明 ROCK 5B 已激活。如果没有，请尝试其他 USB 端口，我们建议将 ROCK 5B 连接到电脑的后面板。
+- 关闭 ROCK 5B 电源，取出 eMMC 模块、SD 卡、NVMe SSD
+- 按住 MASKROOM 按钮 [（标签 32）](./hardware-design/hardware-interface)
+- 使用 USB A to C 电缆将 ROCK 5B USB C 接口插入电脑，绿色 LED 灯应亮起
+- 检查电脑 "设备管理器 "中是否有新的 USB 设备，如果有，说明 ROCK 5B 已激活。如果没有，请尝试其他 USB 端口，我们建议将 ROCK 5B 连接到电脑的后面板。
 
 ### 问题二： 我的 ROCK 5B HDMI 不能显示任何内容
 
-* 您可以在 /boot/extlinux/extlinux.conf 中手动添加 HDMI 分辨率和帧速率
-* 只需在附加行中添加 video=1920x1080@60（只需将分辨率和帧频改为显示器支持的分辨率即可）
+- 您可以在 /boot/extlinux/extlinux.conf 中手动添加 HDMI 分辨率和帧速率
+- 只需在附加行中添加 video=1920x1080@60（只需将分辨率和帧频改为显示器支持的分辨率即可）
 
 ## 系统
 
@@ -64,8 +64,8 @@ ROCK 5B 支持将 USB PD 电源协商至更高的电压，如 9V、12V、15V、2
 
 ```
 root@rock-5b:~# apt update
-Hit:1 http://security.debian.org/debian-security bullseye-security InRelease   
-Hit:2 http://httpredir.debian.org/debian bullseye InRelease                    
+Hit:1 http://security.debian.org/debian-security bullseye-security InRelease
+Hit:2 http://httpredir.debian.org/debian bullseye InRelease
 Get:3 http://apt.radxa.com/bullseye-stable bullseye InRelease [2362 B]
 Hit:4 http://httpredir.debian.org/debian bullseye-updates InRelease
 Hit:5 http://httpredir.debian.org/debian bullseye-backports InRelease
