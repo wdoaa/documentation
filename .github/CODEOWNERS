@@ -159,3 +159,9 @@ static/img/general-tutorial/rknn/space_shuttle_224.webp @CodeChenL
 docs/rockpi/rockpis/README.md @melooooooooooo
 i18n/en/docusaurus-plugin-content-docs/current/rock5/lowlevel-development/bootloader_spi_flash.md @Maycides
 i18n/en/docusaurus-plugin-content-docs/current/rock5/products.md @Maycides
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/install-os-on-emmc.md @nascs
+docs/rock5/rock5b/apps-deployment/README.md @nascs
+docs/rock5/rock5b/app-development/panfork.md @nascs
+docs/rock5/rock5b/app-development/canbus.md @nascs
+docs/rock5/rock5b/low-level-dev/rbuild.md @nascs
+docs/rock5/rock5b/accessories/README.md @nascs
