@@ -39,4 +39,4 @@ cd build
 cmake .. && make -j4
 ```
 
-### [Burning](./flash.md)
+### [Burning](./flash)

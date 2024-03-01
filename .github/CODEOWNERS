@@ -51,17 +51,16 @@ static              @xzuoqi @akgnah
 static/img/rock3/Rock3C-bottom-800px.webp @Maycides
 docs/rock3/rock3c/os-config/rsetup.md @u7985
 .gitownrc @CodeChenL
-.github/CODEOWNERS @CodeChenL
+.github/CODEOWNERS @nascs @CodeChenL
 .cz.toml @CodeChenL
 src/components/CustomDocItem/Footer/styles.module.css @xzuoqi
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/README.md @u7985
 i18n/en/docusaurus-plugin-content-docs/current/rock3/rock3a/os-config/rsetup.md @nascs
 static/img/common/etcher/rock5a-step3.webp @u7985
 docs/compute-module/nx5/radxa-os/apps-deploy/README.md @peterwang2050
-i18n/en/docusaurus-plugin-content-docs/current/nio/nio12l/download/README.md peterwang2050
+i18n/en/docusaurus-plugin-content-docs/current/nio/nio12l/download/README.md @peterwang2050
 i18n/en/docusaurus-plugin-content-docs/current/zero/zero3/os-config/rsetup.md @peterwang2050
 docs/rock3/images.md @Maycides
-i18n/en/docusaurus-plugin-content-docs/current/nio/nio12l/download/README.md @peterwang2050
 static/img/rock3/3b/rock3b-otg.webp @Maycides
 i18n/en/docusaurus-plugin-content-docs/current/compute-module/cm5/radxa-os/os-usage/README.md @Ken-Vamrs
 static/img/zero/zero3/radxa_zero_3w.webp @Radxa-Alvin
@@ -84,3 +83,4 @@ i18n/en/docusaurus-plugin-content-docs/current/template/sbc/radxa-os/locale.md @
 docs/template/sbc/radxa-os/using-apt.md @nascs
 docs/template/sbc/os-config/bootparam.md @nascs
 docs/template/sbc/radxa-os/display.md @nascs
+docs/x/x2l/software-development/c_sdk_examples.md @nascs
