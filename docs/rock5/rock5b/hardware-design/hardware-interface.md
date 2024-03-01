@@ -258,3 +258,5 @@ ROCK 5B 支持 Maskrom 模式，这是 CPU 等待 USB OTG 端口命令的一种�
 当需要把镜像写到 SPI NOR Flash 或 eMMC 板上时，需要使用 Maskrom 按钮进入 Maskrom 模式。
 
 ## WIFI
+
+[请参考支持的 WIFI 型号](../accessories/wifi_bt_access)

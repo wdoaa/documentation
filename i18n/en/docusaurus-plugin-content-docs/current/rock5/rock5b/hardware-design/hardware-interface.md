@@ -258,3 +258,5 @@ The ROCK 5B supports Maskrom mode, a special mode of operation in which the CPU 
 When you need to write an image to the SPI NOR Flash or eMMC board, you need to use the Maskrom button to enter the Maskrom mode.
 
 ## WIFI
+
+[Please refer to the supported WIFI models](../accessories/wifi_bt_access)
