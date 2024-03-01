@@ -144,7 +144,7 @@ TF 卡的接口针脚规格如下所示：
 
 请参考 MIPI [屏幕兼容情况](../getting-started/accessory-usage#屏幕)。
 
-## 40 PIN GPIO
+## 40 PIN GPIO (18)
 
 #### GPIO 电压
 
@@ -256,3 +256,5 @@ Open RKDevTool and you would see the device is in Found One MASKROM Device.
 ROCK 5B 支持 Maskrom 模式，这是 CPU 等待 USB OTG 端口命令的一种特殊操作模式。
 
 当需要把镜像写到 SPI NOR Flash 或 eMMC 板上时，需要使用 Maskrom 按钮进入 Maskrom 模式。
+
+## WIFI

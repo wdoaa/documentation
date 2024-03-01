@@ -144,7 +144,7 @@ Please refer to MIPI [camera compatibility](../getting-started/accessory-usage#C
 
 Please refer to MIPI [screen compatibility](../getting-started/accessory-usage#Screen).
 
-## 40 PIN GPIO
+## 40 PIN GPIO (18)
 
 #### GPIO Voltage
 
@@ -256,3 +256,5 @@ Definition table (top to bottom in the image):
 The ROCK 5B supports Maskrom mode, a special mode of operation in which the CPU waits for commands from the USB OTG port.
 
 When you need to write an image to the SPI NOR Flash or eMMC board, you need to use the Maskrom button to enter the Maskrom mode.
+
+## WIFI
