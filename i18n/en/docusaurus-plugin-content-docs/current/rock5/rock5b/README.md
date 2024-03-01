@@ -39,7 +39,7 @@ More usage scenarios are waiting for you to discover!
     </tr>
     <tr>
         <td align="center">CPU</td>
-        <td colspan="2" align="center">Quad-core Cortex-A76 with up to 2.4 GHz<br/>Quad-core Cortex-A55 at 1.8GHz</td>
+        <td colspan="2" align="center">Quad-core Cortex-A76 with up to 2.4 GHz<br/>Quad-core Cortex-A55 at up to 1.8GHz</td>
     </tr>
     <tr>
         <td align="center">GPU</td>
