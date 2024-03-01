@@ -51,27 +51,22 @@ The ROCK 5B comes with a 4-lane DSI interface. The following is a list of curren
 <table>
   <tr>
     <th>Screen Name</th>
-    <th>Sensor Type</th>
     <th>分辨率</th>
   </tr>
   <tr>
     <td>ALLNET 5 inch DSI Display</td>
-    <td>FT5426</td>
     <td>800 ×3(RGB) ×480 pixel</td>
   </tr>
   <tr>
     <td>Radxa Display 8 HD</td>
-    <td>GT9XX</td>
     <td>1280x800 pixel</td>
   </tr>
   <tr>
     <td>Radxa Display 10FHD</td>
-    <td>GT9XX</td>
     <td>1200x1920 pixel </td>
   </tr>
   <tr>
     <td>Raspberry Pi 7 inch Touchscreen</td>
-    <td>FT5426</td>
     <td>800 x 480 pixels</td>
   </tr>
 </table>
