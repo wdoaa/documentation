@@ -7,10 +7,10 @@ sidebar_class_name: hidden
 
 ## Preparation
 
-- ROCK 5B motherboard
+- ROCK 5B main board
 - eMMC module
 - 1x USB cable (USB C on one end, USB A on the other)
-- 1x 5V power adapter (recommended [Radxa Power PD30W](../accessories/pd-30w))
+- 1x 9V/2A or 12V/2A, 15V/2A and 20V/2A power adapter(recommended [Radxa Power PD30W](../accessories/pd-30w))
 
 ## Image Download
 

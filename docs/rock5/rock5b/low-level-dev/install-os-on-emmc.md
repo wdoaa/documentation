@@ -10,7 +10,7 @@ sidebar_class_name: hidden
 - ROCK 5B 主板
 - eMMC module
 - 1x USB 线 （一端 USB C，一端 USB A）
-- 1x 5V 电源适配器 (推荐使用 [Radxa Power PD30W](../accessories/pd-30w))
+- 1x 9V/2A 或者 12V/2A、15V/2A 和 20V/2A 的电源适配器 (推荐使用 [Radxa Power PD30W](../accessories/pd-30w))
 
 ## 镜像下载
 
