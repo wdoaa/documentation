@@ -39,7 +39,7 @@ ROCK 5B 可作为：
     </tr>
     <tr>
         <td align="center">CPU</td>
-        <td colspan="2" align="center">四大核 Cortex‑A76 频率最高达 2.4GHz<br/>四小核 Cortex‑A55 主频为 1.8Ghz</td>
+        <td colspan="2" align="center">四大核 Cortex‑A76 频率最高达 2.4GHz<br/>四小核 Cortex‑A55 主频为 1.8GHz</td>
     </tr>
     <tr>
         <td align="center">GPU</td>
