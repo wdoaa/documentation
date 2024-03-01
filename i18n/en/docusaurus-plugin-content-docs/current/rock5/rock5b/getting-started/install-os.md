@@ -37,7 +37,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
   - The ROCK 5B outputs a dedicated serial console for the CPU to access low-level debug messages.
   - Recommended Radxa USB to TTL Cable <img src="/img/accessories/usb-ttl.webp" alt="USB to TTL Cable" width="300" />.
 
-- Card Reader (optional)
+- Card Reader (choose one or two)
   - microSD card reader: for burning images to microSD card
   - eMMC reader: for burning images to eMMC modules, recommended Radxa eMMC USB3 reader ! [Radxa eMMC USB3 reader](/img/accessories/emmc-reader-02.webp).
 
