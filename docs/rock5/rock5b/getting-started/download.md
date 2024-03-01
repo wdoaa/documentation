@@ -14,20 +14,20 @@ sidebar_position: 5
 
 ### V1.41(预生产版)
 
-[V1.41 2D Top&Bottom dxf](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock5b_v141_dimension_20220728_dxf.zip)  
-[V1.41 2D Top&Bottom pdf](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock5b_v141_dimension_20220728_pdf.zip) - 下载 ROCK 5B 预生产版的 2D CAD。
-[V1.41 2D Drawings](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock5b_v141_dimension_20220728_dxf.zip)
+- [V1.41 2D Top&Bottom dxf](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock5b_v141_dimension_20220728_dxf.zip)
+- [V1.41 2D Top&Bottom pdf](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock5b_v141_dimension_20220728_pdf.zip) - 下载 ROCK 5B 预生产版的 2D CAD。
+- [V1.41 2D Drawings](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock5b_v141_dimension_20220728_dxf.zip)
 
 ### V1.42
 
-[v1.42 3D 图 stp](https://dl.radxa.com/rock5/5b/docs/hw/ROCK5B_v1.42_3D.step.zip) - 下载 ROCK 5B v1.42 3D 文件  
-[v1.42 原理图 pdf](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1423_sch.pdf) - 下载 ROCK 5B V1.42 的原理图  
-[v1.42 SMD pdf](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1423_smd.pdf) - 下载 ROCK 5B V1.42 的元器件位置参考表
+- [v1.42 3D 图 stp](https://dl.radxa.com/rock5/5b/docs/hw/ROCK5B_v1.42_3D.step.zip) - 下载 ROCK 5B v1.42 3D 文件
+- [v1.42 原理图 pdf](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1423_sch.pdf) - 下载 ROCK 5B V1.42 的原理图
+- [v1.42 SMD pdf](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1423_smd.pdf) - 下载 ROCK 5B V1.42 的元器件位置参考表
 
 ### V1.423
 
-[ROCK 5B V1.423 SCH](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1423_sch.pdf)
-[ROCK 5B V1.423 SMD](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1423_smd.pdf)
+- [ROCK 5B V1.423 SCH](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1423_sch.pdf)
+- [ROCK 5B V1.423 SMD](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1423_smd.pdf)
 
 ### V1.44
 
@@ -37,8 +37,8 @@ L2203 L2205 L2300 L2301 L2303 改成 3225 封装的 RHP322512T-R24M
 
 ### V1.45
 
-[ROCK 5B V1.45 SCH](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1450_schematic.pdf)
-[ROCK 5B V1.45 SMD](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1450_smd.pdf)
+- [ROCK 5B V1.45 SCH](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1450_schematic.pdf)
+- [ROCK 5B V1.45 SMD](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1450_smd.pdf)
 
 ### V1.46
 
