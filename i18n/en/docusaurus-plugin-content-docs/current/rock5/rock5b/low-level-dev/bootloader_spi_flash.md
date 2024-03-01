@@ -9,12 +9,12 @@ The PCIe NVME SSD stores all system imgs.
 
 ## Introduction
 
-The ROCK 5B has an SPI Flash (SPI Flash), and the ROCK 5A has an SPI Flash module that is multiplexed with the eMMC module in the B2B slot, which contains the bootloader for backup booting and supports booting of other media (e.g., NVMe, SATA, USB 3), as well as booting of other media that the SoC does not support booting. media that are not supported by the SoC itself.
+The ROCK 5B has an SPI Flash (SPI Flash), which contains the bootloader for backup booting and supports booting of other media (e.g., NVMe, SATA, USB 3), as well as booting of other media that the SoC does not support booting. media that are not supported by the SoC itself.
 
 There are two ways to burn SPI
 
-1. Beginner method: burn SPI by ROCK 5B itself. 2.
-2. Advanced method: burn SPI through host and Maskrom mode (**Currently, ROCK 5A can only burn SPI module in this way**)
+1. Beginner method: burn SPI by ROCK 5B itself.
+2. Advanced method: burn SPI through host and Maskrom mode
 
 <Tabs queryString="method">
 <TabItem value="basic" label="初级方法" default>
@@ -152,7 +152,7 @@ You have now finished burning the bootloader with NVMe boot support.
 
 ### Preparation
 
-- ROCK 5B/ROCK 5A
+- ROCK 5B
 - Good power adapter
 - Linux image, Android not supported
 - Micro SD card or eMMC module
@@ -164,7 +164,7 @@ You have now finished burning the bootloader with NVMe boot support.
 1. Install drivers and tools
 
 - Please check the tool tutorial to install RockChip Flash tools on Windows/Linux/MacOS PC.
-- We set ROCK 5B/ROCK 5A to Maskrom mode to communicate with RockChip tools via rkdevelopool on Linux/macOS and RkDevtool on Windows PC.
+- We set ROCK 5B to Maskrom mode to communicate with RockChip tools via rkdevelopool on Linux/macOS and RkDevtool on Windows PC.
 
 2. Get the RK3588 loader and U-boot images.
 
@@ -174,7 +174,6 @@ You have now finished burning the bootloader with NVMe boot support.
   - [Official version](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/release/rock-5b-spi-image-g49da44e116d.img), u-boot serial console off
   - [Debug version](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/debug/rock-5b-spi-image-g3caf61a44c2-debug.img), u-boot serial console startup
   - [Armbian version](https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img), required when installing armbian image to M.2 NVME SSDs
-  - [ROCK 5A version](https://dl.radxa.com/rock5/sw/images/loader/rock-5a/rock-5a-spi-image-g4b32117-20230605.img), used for ROCK 5A.
 
 3. ROCK 5B enters Maskrom mode.
 
@@ -186,22 +185,7 @@ You have now finished burning the bootloader with NVMe boot support.
 - Plug the USB-A to Type-C cable into the ROCK 5B Type-C port and connect the other end to a PC.
 - Release the gold button and check the USB device.
 
-4. ROCK 5A Entering Maskrom Mode
-
-- Unplug the board.
-- Remove the eMMC or other storage media.
-- Plug one end of the USB-A to USB-A cable into ** the top of ** [USB 3.0 port](../../rock5a/getting-started/overview) on the ROCK 5A . (labeled 8), and the other end into the USB 3.0 port of your computer.
-- Plug in and start the board:  
-  ! [ROCK 5A power on](/img/rock5a/rock5a_power.webp)
-- Load the SPI Flash module.
-
-- Another way is to put the two [maskrom pins] before powering up (../../rock5a/getting-started/overview) (labeled 23) before powering on the device, this way there is no need to remove the eMMC module and other memories.
-- Then check the USB device.
-- For macOS hosts: `lsusb` The result should be: `. .ID 2207:350b Fuzhou Rockchip Electronics Co. Composite Device`.
-- For Linux hosts: `lsusb` The result should be: `. ID 2207:350b Fuzhou Rockchip Electronics Company`.
-- For Windows hosts: Open RKDevTool and you will see that the device is in the **Found a MASKROM device** category.
-
-5. Write u-boot image to SPI NOR flash or erase SPI NOR flash
+4. Write u-boot image to SPI NOR flash or erase SPI NOR flash
 
 - Option 1. Burning with Linux PC/Mac
   On linux or Mac, run rkdeveloptool
@@ -211,7 +195,7 @@ sudo rkdeveloptool ld
 DevNo=1 Vid=0x2207,Pid=0x350b,LocationID=106 Maskrom
 ``
 
-This command does the following: loads the loader onto the ROCK 5B/ROCK 5A and initializes the memory and prepares the environment for burning.
+This command does the following: loads the loader onto the ROCK 5B and initializes the memory and prepares the environment for burning.
 
 ```bash
 sudo rkdeveloptool db /path/to/rk3588_spl_loader_v1.08.111.bin
@@ -240,7 +224,7 @@ Open RKDevTool.exe and you will see the following screen:
 
 ![RKDevTool-01](/zh/img/rock5b/rock-5b-spi-flash-01.webp)
 
-Step 1: Make sure the ROCK 5B/ROCK 5A is in maskrom mode
+Step 1: Make sure the ROCK 5B is in maskrom mode
 If your ROCK 5B is in maskrom mode and connected to a PC, you can see that the program detects it as shown in circle 2 of the diagram
 Found One MASKROM Device
 
@@ -282,7 +266,7 @@ sync
 
 Option 2: Erase on host Linux PC/Mac
 
-Before erasing, make sure the ROCK 5B/ROCK 5A is in Maskrom mode
+Before erasing, make sure the ROCK 5B is in Maskrom mode
 
 - Open RKDevTool and select Advanced Function.
 - Select rk3588_spl_loader_v1.08.111.bin on Boot and click the Download button.

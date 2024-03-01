@@ -149,3 +149,4 @@ docs/rock5/rock5b/hardware-design/hardware-interface.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/hardware-design/hardware-interface.md @nascs
 docs/rock5/rock5b/getting-started/accessory-usage.md @nascs
 docs/rock5/rock5b/low-level-dev/install-os-on-nvme.md @nascs
+docs/rock5/rock5b/low-level-dev/bootloader_spi_flash.md @nascs

@@ -9,12 +9,12 @@ SPI Nor Flash 存储 bootloader 文件，像 idbloader.img 和 u-boot.itb。
 
 ## 介绍
 
-ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模块复用 B2B 插槽的 SPI Flash 模块，它包含用于备份引导的bootloader，并支持引导其他介质（比如 NVMe、SATA、USB 3），并支持引导其他 SoC 本身不支持启动的介质。
+ROCK 5B 上有一个 SPI Flash（SPI 闪存），它包含用于备份引导的bootloader，并支持引导其他介质（比如 NVMe、SATA、USB 3），并支持引导其他 SoC 本身不支持启动的介质。
 
 以下介绍两个烧录 SPI 的方式
 
 1. 初级方法：通过 ROCK 5B 自身烧录 SPI
-2. 高级方法：通过主机和 Maskrom 模式烧录 SPI（**目前 ROCK 5A 只能通过这种方式烧录 SPI 模块**）
+2. 高级方法：通过主机和 Maskrom 模式烧录 SPI
 
 <Tabs queryString="method">
 <TabItem value="basic" label="初级方法" default>
@@ -152,7 +152,7 @@ ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模
 
 ### 准备
 
-- ROCK 5B/ROCK 5A
+- ROCK 5B
 - 良好的电源适配器
 - Linux 镜像，不支持 Android
 - Micro SD 卡或 eMMC 模块
@@ -164,7 +164,7 @@ ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模
 1. 安装驱动和工具
 
 - 请查看工具教程，在 Windows/Linux/MacOS PC 上安装 RockChip Flash tools。
-- 我们将 ROCK 5B/ROCK 5A 设置为 Maskrom 模式，通过 Linux/macOS 上的rkdevelopool 和 Windows PC 上的 RkDevtool，与 RockChip 工具通信。
+- 我们将 ROCK 5B 设置为 Maskrom 模式，通过 Linux/macOS 上的rkdevelopool 和 Windows PC 上的 RkDevtool，与 RockChip 工具通信。
 
 2. 获取 RK3588 loader 和 U-boot images
 
@@ -174,7 +174,6 @@ ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模
   - [正式版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/release/rock-5b-spi-image-g49da44e116d.img)，u-boot 串口控制台关闭
   - [Debug版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/debug/rock-5b-spi-image-g3caf61a44c2-debug.img)，u-boot 串口控制台启动
   - [Armbian版本](https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img)，需要安装 armbian Image 到 M.2 NVME SSD 时使用
-  - [ROCK 5A 版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5a/rock-5a-spi-image-g4b32117-20230605.img)，用于ROCK 5A。
 
 3. ROCK 5B 进入 Maskrom 模式
 
@@ -186,22 +185,7 @@ ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模
 - 将 USB-A 转 Type-C 线缆插入 ROCK 5B Type-C 端口，另一端连接 PC。
 - 松开金色按钮，然后检查 USB 设备。
 
-4. ROCK 5A 进入 Maskrom 模式
-
-- 拔掉板子的电源。
-- 将 eMMC 或其他存储介质取下。
-- 把 USB-A 转 USB-A 线一端插入 ROCK 5A **上方的** [USB 3.0 端口](../../rock5a/getting-started/overview)(8号标注)，另一端接入电脑 USB 3.0 端口。
-- 插电启动板子：  
-  ![ROCK 5A power on](/img/rock5a/rock5a_power.webp)
-- 装上 SPI Flash 模块。
-
-- 另一种方法是在开机前把两个 [maskrom 针脚](../../rock5a/getting-started/overview)(23号标注)短接，这种方式不需要把 eMMC 模块和其他存储器拿下来。
-- 然后检查 USB 设备。
-- 对于 macOS 主机：`lsusb` 结果应该是： `... ID 2207:350b Fuzhou Rockchip Electronics Co., Ltd. Composite Device`
-- 对于 Linux 主机：`lsusb` 结果应该是：`... ID 2207:350b Fuzhou Rockchip Electronics Company`
-- 对于 Windows 主机：打开 RKDevTool，您会看到该设备处于**找到一个 MASKROM 设备**
-
-5. 将 u-boot 镜像写入 SPI NOR flash 或擦除 SPI NOR flash
+4. 将 u-boot 镜像写入 SPI NOR flash 或擦除 SPI NOR flash
 
 - 选择1. 使用 Linux PC/Mac 烧录
   在 linux 或 Mac 上，运行 rkdeveloptool
@@ -211,7 +195,7 @@ sudo rkdeveloptool ld
 DevNo=1 Vid=0x2207,Pid=0x350b,LocationID=106 Maskrom
 ```
 
-此命令操作：加载 loader 到 ROCK 5B/ROCK 5A 上运行并初始化内存并准备烧录环境等。
+此命令操作：加载 loader 到 ROCK 5B 上运行并初始化内存并准备烧录环境等。
 
 ```bash
 sudo rkdeveloptool db /path/to/rk3588_spl_loader_v1.08.111.bin
@@ -240,7 +224,7 @@ rkdeveloptool rd
 
 ![RKDevTool-01](/zh/img/rock5b/rock-5b-spi-flash-01.webp)
 
-第1步：确认 ROCK 5B/ROCK 5A 处于 maskrom 模式
+第1步：确认 ROCK 5B 处于 maskrom 模式
 如果你的 ROCK 5B 处于 maskrom 模式并连接 PC，你可以看到程序检测到它，如图圆圈2
 Found One MASKROM Device
 
@@ -282,7 +266,7 @@ sync
 
 选择2：在主机 Linux PC/Mac 上擦除
 
-在擦除之前，请确保 ROCK 5B/ROCK 5A 进入 Maskrom 模式
+在擦除之前，请确保 ROCK 5B 进入 Maskrom 模式
 
 - 打开 RKDevTool，选择 Advanced Function。
 - 在 Boot 上选择 rk3588_spl_loader_v1.08.111.bin，然后点击下载按钮。
