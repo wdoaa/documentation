@@ -51,7 +51,7 @@ The ROCK 5B comes with a 4-lane DSI interface. The following is a list of curren
 <table>
   <tr>
     <th>Screen Name</th>
-    <th>sensor Type</th>
+    <th>Sensor Type</th>
     <th>分辨率</th>
   </tr>
   <tr>

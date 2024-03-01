@@ -51,7 +51,7 @@ ROCK 5B 带有一个 4-lane 的 DSI 接口。以下是目前支持的屏幕列�
 <table>
   <tr>
     <th>Screen Name</th>
-    <th>sensor 型号</th>
+    <th>Sensor 型号</th>
     <th>分辨率</th>
   </tr>
   <tr>
