@@ -6,9 +6,9 @@ sidebar_position: 5
 
 ## 产品介绍
 
-Radxa ROCK 5B 是一款基于 RK3588 芯片组的优雅单板计算机 (SBC)。其 100 x 75 mm 的紧凑尺寸几乎涵盖了 RK3588 的所有功能，提供卓越的灵活性和可扩展性。ROCK 5B 为极客、单板机爱好者、物联网爱好者和高校师生等用户提供了将想法变为现实的坚实基础。它在边缘计算、人工智能、云计算、智能监控和其他领域有着广泛的应用。
+ROCK 5B 是一款基于 RK3588 芯片组的优雅单板计算机 (SBC)。其 100 x 75 mm 的紧凑尺寸几乎涵盖了 RK3588 的所有功能，提供卓越的灵活性和可扩展性。ROCK 5B 为极客、单板机爱好者、物联网爱好者和高校师生等用户提供了将想法变为现实的坚实基础。它在边缘计算、人工智能、云计算、智能监控和其他领域有着广泛的应用。
 
-Radxa ROCK 5B 可作为：
+ROCK 5B 可作为：
 
 - 个人桌面计算机
 - 个人私有服务器
@@ -18,7 +18,7 @@ Radxa ROCK 5B 可作为：
 
 其他更多使用场景，等你来发掘
 
-Radxa ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
+ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
 
 ### 实物照片
 
@@ -33,7 +33,7 @@ Radxa ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
 <table>
     <tr>
         <td align="center">型号</td>
-        <td align="center">Radxa ROCK 5B</td>
+        <td align="center">ROCK 5B</td>
     </tr>
     <tr>
         <td align="center">SoC</td>
