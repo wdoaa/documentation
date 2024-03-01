@@ -16,13 +16,11 @@ ROCK 5B 可作为：
 - 机器人控制器
 - 区块链节点
 
-其他更多使用场景，等你来发掘
-
-ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
+其他更多使用场景，等你来发掘！
 
 ### 实物照片
 
-<img src="/img/rock5b/rock-5b-overview.webp" alt="rock 5b overview" width="500" />
+<img src="/img/rock5b/rock-5b-overview.webp" alt="rock 5b overview" width="700" />
 
 ### 芯片框图
 

@@ -18,11 +18,9 @@ ROCK 5B can be used as:
 
 More usage scenarios are waiting for you to discover!
 
-The ROCK 5B offers multiple memory options: 4GB, 8GB and 16GB LPDDR4x.
-
 ### Physical Photos
 
-<img src="/img/rock5b/rock-5b-overview.webp" alt="rock 5b overview" width="500" />
+<img src="/img/rock5b/rock-5b-overview.webp" alt="rock 5b overview" width="700" />
 
 ### Chip block diagram
 
