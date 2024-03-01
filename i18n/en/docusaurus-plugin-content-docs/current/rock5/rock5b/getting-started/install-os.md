@@ -52,7 +52,7 @@ Please go to [Resource Download Summary](./download) to download the correspondi
 ## Booting the system
 
 - After successfully burning the microSD card/eMMC as described above, insert the microSD card/eMMC into the microSD/eMMC slot of the ROCK 5B.
-- The power connector of ROCK 5B is [USB 2.0 OTG Type C port] (../hardware-design/hardware-interface), please use a Type-C cable to connect the power supply port and the adapter.
+- The power connector of ROCK 5B is [USB 2.0 OTG Type C port](../hardware-design/hardware-interface), please use a Type-C cable to connect the power supply port and the adapter.
 
 :::tip
 The ROCK 5B supports USB Type-C PD 2.0 with 9V/2A, 12V/2A, 15V/2A and 20V/2A. Radxa recommends using the [Radxa Power PD30W](../accessories/pd-30W).
