@@ -138,7 +138,11 @@ The interface pin specifications of the TF card are shown below:
 
 ## MIPI CSI (16)
 
+Please refer to MIPI [camera compatibility](../accessories/camera_4k).
+
 ## MIPI DSI (17)
+
+Refer to MIPI [screen compatibility](../accessories/display_use).
 
 ## 40 PIN GPIO
 

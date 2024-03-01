@@ -145,3 +145,6 @@ i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/getting-started/down
 docs/rock5/rock5b/low-level-dev/install-os-on-emmc.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/other-os/android/install-os.md @nascs
 docs/rock5/rock5b/getting-started/download.md @nascs
+docs/rock5/rock5b/hardware-design/hardware-interface.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/hardware-design/hardware-interface.md @nascs
+docs/rock5/rock5b/getting-started/accessory-usage.md @nascs

@@ -138,7 +138,11 @@ TF 卡的接口针脚规格如下所示：
 
 ## MIPI CSI (16)
 
+请参考 MIPI [摄像头兼容情况](../accessories/camera_4k)。
+
 ## MIPI DSI (17)
+
+请参考 MIPI [屏幕兼容情况](../accessories/display_use)。
 
 ## 40 PIN GPIO
 
