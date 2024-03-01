@@ -42,7 +42,7 @@ The ROCK 5B comes with a 4-lane CSI interface. The following is a list of curren
   </tr>
 </table>
 
-For camera usage, please refer to [Camera Tutorials](../accessories/camera_4k)
+For camera usage, please refer to [Camera Usage](../accessories/camera_4k)
 
 ## Screen
 
@@ -71,4 +71,4 @@ The ROCK 5B comes with a 4-lane DSI interface. The following is a list of curren
   </tr>
 </table>
 
-For screen usage, please refer to [Screen usage tutorial](../accessories/display_use)
+For screen usage, please refer to [Screen Usage](../accessories/display_use)
