@@ -60,5 +60,5 @@ ROCK 5B 支持 9V/2A、12V/2A、15V/2A 和 20V/2A 的 USB Type-C PD 2.0。瑞莎
 
 ## 参考文档
 
-- [安装操作系统镜像到 eMMC](../low-level-dev/install-os-on-emmc)
+- [从 USB OTG 口安装操作系统镜像到 eMMC](../low-level-dev/install-os-on-emmc-from-usb-otg)
 - [安装操作系统镜像到 NVME 固态硬盘上](../low-level-dev/install-os-on-nvme)
