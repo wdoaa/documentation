@@ -37,7 +37,8 @@ L2203 L2205 L2300 L2301 L2303 改成 3225 封装的 RHP322512T-R24M
 
 ### V1.45
 
-丝印更新
+[ROCK 5B V1.45 SCH](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1450_schematic.pdf)
+[ROCK 5B V1.45 SMD](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1450_smd.pdf)
 
 ### V1.46
 
