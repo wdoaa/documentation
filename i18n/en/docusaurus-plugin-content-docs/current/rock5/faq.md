@@ -43,6 +43,6 @@ sidebar_position: 3
 
 - Troubleshooting steps for the ROCK 5B are as follows:
   1.  Power off the ROCK 5B, remove the eMMC module, SD card, NVMe SSD
-  2.  Press and hold the Maskrom Button (**see label 25** in the ROCK 5B labeling diagram) [5B Maskrom Button](/rock5/rock5b/getting-started/overview).
+  2.  Press and hold the Maskrom Button (**see label 25** in the ROCK 5B labeling diagram) [5B Maskrom Button](/rock5/rock5b/getting-started/).
   3.  Connect the ROCK 5B to the computer via USB Type C using the USB Type A to Type C cable
   4.  Check if there is a new unknown USB device in the Windows Device Manager, if so, the ROCK 5B has been successfully recognised. If not, please try another independent USB port as a priority. It is recommended to connect the ROCK 5B to a separate USB port on the back panel of the computer to ensure that it has sufficient power supply.
