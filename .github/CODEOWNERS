@@ -51,7 +51,7 @@ static              @xzuoqi @akgnah
 static/img/rock3/Rock3C-bottom-800px.webp @Maycides
 docs/rock3/rock3c/os-config/rsetup.md @u7985
 .gitownrc @CodeChenL
-.github/CODEOWNERS @nascs @CodeChenL
+.github/CODEOWNERS @CodeChenL @nascs
 .cz.toml @CodeChenL
 src/components/CustomDocItem/Footer/styles.module.css @xzuoqi
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/README.md @u7985
@@ -148,3 +148,4 @@ docs/rock5/rock5b/getting-started/download.md @nascs
 docs/rock5/rock5b/hardware-design/hardware-interface.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/hardware-design/hardware-interface.md @nascs
 docs/rock5/rock5b/getting-started/accessory-usage.md @nascs
+docs/rock5/rock5b/low-level-dev/install-os-on-nvme.md @nascs

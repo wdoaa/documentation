@@ -12,7 +12,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 #### 准备工作
 
 - ROCK 5B 主板
-- 1x 5V 电源适配器（推荐 [Radxa Power PD30W](../accessories/pd-30w)
+- 1x 5V 电源适配器（推荐 [Radxa Power PD30W](../accessories/pd-30w)）
 - 一个 M.2 NVME 固态硬盘
 - NVME 转 USB3.0 读卡器或带 NVME 插槽的 PC
 
