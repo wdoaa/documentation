@@ -39,4 +39,4 @@ cd build
 cmake .. && make -j4
 ```
 
-### [烧录](./flash.md)
+### [烧录](./flash)
