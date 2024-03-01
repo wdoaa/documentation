@@ -16,7 +16,7 @@ You can get the guide and help if you have some problems from the link below:
 
 ## Installation
 
-- Download page: [fydeOS-Radxa ROCK 5B](https://fydeos.io/download/device/rock5b-fydeos)
+- Download page: [fydeOS-ROCK 5B](https://fydeos.io/download/device/rock5b-fydeos)
 - Version: 16.1
 - Date: Apr 28, 2023
 - Installation guide: [fydeOS Installation guide](https://fydeos.io/docs/knowledge-base/getting-started/fydeos-for-pc)

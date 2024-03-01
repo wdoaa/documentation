@@ -48,13 +48,13 @@ Pins 1-31 widened to 0.3mm, two locator pins widened to 0.7mm
 
 ## Operating system images
 
-- [Radxa ROCK 5B Debian Build 39](https://github.com/radxa-build/rock-5b/releases/download/b39/rock-5b_debian_bullseye_xfce_b39.img.xz)
+- [ROCK 5B Debian Build 39](https://github.com/radxa-build/rock-5b/releases/download/b39/rock-5b_debian_bullseye_xfce_b39.img.xz)
 
 :::caution
 Except for the above mirrors, which have been fully tested officially, the other mirrors have not been rigorously tested and may have unknown issues, and are for evaluation purposes only.
 :::
 
-For more mirrors, please check: [Radxa ROCK 5B Release](https://github.com/radxa-build/rock-5b/releases/latest)
+For more mirrors, please check: [ROCK 5B Release](https://github.com/radxa-build/rock-5b/releases/latest)
 
 ## Quality Approvals
 

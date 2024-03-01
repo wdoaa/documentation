@@ -6,9 +6,9 @@ sidebar_position: 5
 
 ## Product Description
 
-The Radxa ROCK 5B is an elegant single board computer (SBC) based on the RK3588 chipset. Its compact size of 100 x 75 mm encompasses almost all the features of the RK3588, providing excellent flexibility and scalability. the ROCK 5B provides a solid foundation for users such as geeks, SBC enthusiasts, IoT enthusiasts, and university students and faculty to turn their ideas into realities. It has a wide range of applications in edge computing, artificial intelligence, cloud computing, smart surveillance and other fields.
+The ROCK 5B is an elegant single board computer (SBC) based on the RK3588 chipset. Its compact size of 100 x 75 mm encompasses almost all the features of the RK3588, providing excellent flexibility and scalability. the ROCK 5B provides a solid foundation for users such as geeks, SBC enthusiasts, IoT enthusiasts, and university students and faculty to turn their ideas into realities. It has a wide range of applications in edge computing, artificial intelligence, cloud computing, smart surveillance and other fields.
 
-Radxa ROCK 5B can be used as:
+ROCK 5B can be used as:
 
 - Personal desktop computer
 - Personal private server
@@ -18,7 +18,7 @@ Radxa ROCK 5B can be used as:
 
 More usage scenarios are waiting for you to discover!
 
-The Radxa ROCK 5B offers multiple memory options: 4GB, 8GB and 16GB LPDDR4x.
+The ROCK 5B offers multiple memory options: 4GB, 8GB and 16GB LPDDR4x.
 
 ### Physical Photos
 
@@ -33,7 +33,7 @@ The Radxa ROCK 5B offers multiple memory options: 4GB, 8GB and 16GB LPDDR4x.
 <table>
     <tr>
         <td align="center">Model</td>
-        <td align="center">Radxa ROCK 5B</td>
+        <td align="center">ROCK 5B</td>
     </tr>
     <tr>
         <td align="center">SoC</td>

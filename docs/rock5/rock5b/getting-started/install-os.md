@@ -51,11 +51,11 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 
 ## 启动系统
 
-- 按照上述步骤成功烧录 microSD 卡后，将 microSD 卡插入 Radxa ROCK 5B 的 MicroSD 插槽内。
-- Radxa ROCK 5B 的供电接口为 [USB 2.0 OTG Type C port](../hardware-design/hardware-interface)，请使用 Type-C 线缆连接供电口和适配器。
+- 按照上述步骤成功烧录 microSD 卡后，将 microSD 卡插入 ROCK 5B 的 MicroSD 插槽内。
+- ROCK 5B 的供电接口为 [USB 2.0 OTG Type C port](../hardware-design/hardware-interface)，请使用 Type-C 线缆连接供电口和适配器。
 
 :::tip
-Radxa ROCK 5B 支持 9V/2A、12V/2A、15V/2A 和 20V/2A 的 USB Type-C PD 2.0。瑞莎推荐使用 [Radxa Power PD30W](../accessories/pd-30w)。
+ROCK 5B 支持 9V/2A、12V/2A、15V/2A 和 20V/2A 的 USB Type-C PD 2.0。瑞莎推荐使用 [Radxa Power PD30W](../accessories/pd-30w)。
 :::
 
 ## 参考文档

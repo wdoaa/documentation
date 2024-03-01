@@ -7,7 +7,7 @@ sidebar_class_name: hidden
 
 ## 准备工作
 
-- Radxa ROCK 5B 主板
+- ROCK 5B 主板
 - eMMC module
 - 1x USB 线 （一端 USB C，一端 USB A）
 - 1x 5V 电源适配器 (推荐使用 [Radxa Power PD30W](../accessories/pd-30w))
@@ -46,7 +46,7 @@ Output:Bus 001 Device 030: ID 2207:350b Fuzhou Rockchip Electronics Company
 - 给开发板上电，然后系统开始启动，状态灯闪烁。
 
 :::tip
-Radxa ROCK 5B 支持 `5V/12V/20V` 供电。瑞莎推荐使用 [Radxa Power PD30W](../accessories/pd-30w)。
+ROCK 5B 支持 `5V/12V/20V` 供电。瑞莎推荐使用 [Radxa Power PD30W](../accessories/pd-30w)。
 :::
 
 ## 常见问题

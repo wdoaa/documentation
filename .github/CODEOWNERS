@@ -142,3 +142,6 @@ docs/template/tcm/other-os/android/remote-login.md @peterwang2050
 docs/compute-module/nx5/radxa-os/low-level-dev/rbuild.md @peterwang2050
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/getting-started/accessory-usage.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/getting-started/download.md @nascs
+docs/rock5/rock5b/low-level-dev/install-os-on-emmc.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/other-os/android/install-os.md @nascs
+docs/rock5/rock5b/getting-started/download.md @nascs

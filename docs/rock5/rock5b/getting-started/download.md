@@ -48,13 +48,13 @@ L2203 L2205 L2300 L2301 L2303 改成 3225 封装的 RHP322512T-R24M
 
 ## 操作系统镜像
 
-- [Radxa ROCK 5B Debian Build 39](https://github.com/radxa-build/rock-5b/releases/download/b39/rock-5b_debian_bullseye_xfce_b39.img.xz)
+- [ROCK 5B Debian Build 39](https://github.com/radxa-build/rock-5b/releases/download/b39/rock-5b_debian_bullseye_xfce_b39.img.xz)
 
 :::caution
 除了上面的镜像经过官方充分测试外，其他镜像未经过严格测试，可能会存在未知问题，仅用于评估使用。
 :::
 
-更多镜像请查看：[Radxa ROCK 5B Release](https://github.com/radxa-build/rock-5b/releases/latest)
+更多镜像请查看：[ROCK 5B Release](https://github.com/radxa-build/rock-5b/releases/latest)
 
 ## 质量认证
 

@@ -7,7 +7,7 @@ sidebar_class_name: hidden
 
 ## Preparation
 
-- Radxa ROCK 5B motherboard
+- ROCK 5B motherboard
 - eMMC module
 - 1x USB cable (USB C on one end, USB A on the other)
 - 1x 5V power adapter (recommended [Radxa Power PD30W](../accessories/pd-30w))
@@ -46,7 +46,7 @@ Open RKDevTool and you will see that the device is in the Found One MASKROM Devi
 - Power up the board and start the system with the status light blinking.
 
 :::tip
-Radxa ROCK 5B supports `5V/12V/20V` power supply. Radxa recommends using [Radxa Power PD30W](../accessories/pd-30w).
+ROCK 5B supports `5V/12V/20V` power supply. Radxa recommends using [Radxa Power PD30W](../accessories/pd-30w).
 :::
 
 ## Frequently Asked Questions

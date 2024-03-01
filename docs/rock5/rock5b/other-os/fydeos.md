@@ -16,7 +16,7 @@ sidebar_position: 10
 
 ## 安装
 
-- 下载页面： [fydeOS-Radxa ROCK 5B](https://fydeos.io/download/device/rock5b-fydeos)
+- 下载页面： [fydeOS-ROCK 5B](https://fydeos.io/download/device/rock5b-fydeos)
 - 版本: 16.1
 - 日期： 2023 年 4 月 28 日
 - 安装指南： [fydeOS 安装指南](https://fydeos.io/docs/knowledge-base/getting-started/fydeos-for-pc)

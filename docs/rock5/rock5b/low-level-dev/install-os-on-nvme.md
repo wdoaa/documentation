@@ -11,7 +11,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 
 #### 准备工作
 
-- Radxa ROCK 5B 主板
+- ROCK 5B 主板
 - 1x 5V 电源适配器（推荐 [Radxa Power PD30W](../accessories/pd-30w)
 - 一个 M.2 NVME 固态硬盘
 - NVME 转 USB3.0 读卡器或带 NVME 插槽的 PC
@@ -28,7 +28,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 
 ### 准备工作
 
-- Radxa ROCK 5B 主板
+- ROCK 5B 主板
 - 1x 5V 电源适配器（推荐 [Radxa Power PD30W](../accessories/pd-30w)
 - 一个 M.2 NVME 固态硬盘
 - NVME 转 USB3.0 读卡器或带 NVME 插槽的 PC
@@ -44,7 +44,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 
 ### 检查是否检测到 NVME 固态硬盘
 
-在 Radxa ROCK 5B 上
+在 ROCK 5B 上
 
 ```
 sudo fdisk -l
@@ -61,7 +61,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 #### 写镜像
 
-在 Radxa ROCK 5B 上：
+在 ROCK 5B 上：
 
 ```
 sudo sudo xzcat 'your compressed image path' | dd of='your NVME SSD device path' bs=1M status=progress

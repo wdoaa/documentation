@@ -11,7 +11,7 @@ import Etcher from '../../../common/general/\_etcher.mdx'
 
 ### Preparation
 
-- Radxa ROCK 5B main board
+- ROCK 5B main board
 - 1x 5V power adapter (recommended [Radxa Power PD30W](../accessories/pd-30w))
 - One M.2 NVME SSD
 - NVME to USB3.0 reader or a PC with NVME slot
@@ -28,7 +28,7 @@ Please go to [Resource Download Summary](/rock5/rock5b/getting-started/download.
 
 ### Preparation
 
-- Radxa ROCK 5B main board
+- ROCK 5B main board
 - 1x 5V power adapter (recommended [Radxa Power PD30W](../accessories/pd-30w))
 - One M.2 NVME SSD
 - NVME to USB3.0 reader or a PC with NVME slot
@@ -44,7 +44,7 @@ Please refer to the [System Installation Guide for SD Card/eMMC](../getting-star
 
 ### Check if NVME SSD is detected
 
-On Radxa ROCK 5B:
+On ROCK 5B:
 
 ```
 sudo fdisk -l
@@ -61,7 +61,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 ### Write Image
 
-On Radxa ROCK 5B:
+On ROCK 5B:
 
 ```
 sudo sudo xzcat 'your compressed image path' | dd of='your NVME SSD device path' bs=1M status=progress
