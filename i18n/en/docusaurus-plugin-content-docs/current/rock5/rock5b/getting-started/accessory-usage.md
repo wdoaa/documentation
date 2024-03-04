@@ -51,7 +51,7 @@ The ROCK 5B comes with a 4-lane DSI interface. The following is a list of curren
 <table>
   <tr>
     <th>Screen Name</th>
-    <th>分辨率</th>
+    <th>Resolution</th>
   </tr>
   <tr>
     <td>ALLNET 5 inch DSI Display</td>

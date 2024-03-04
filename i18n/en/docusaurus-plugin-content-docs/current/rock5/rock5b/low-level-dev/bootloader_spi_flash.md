@@ -17,7 +17,7 @@ There are two ways to burn SPI
 2. Advanced method: burn SPI through host and Maskrom mode
 
 <Tabs queryString="method">
-<TabItem value="basic" label="初级方法" default>
+<TabItem value="basic" label="Primary method" default>
 
 ## Primary method
 
@@ -146,7 +146,7 @@ You have now finished burning the bootloader with NVMe boot support.
 - If you have already burned the system on the NVMe SSD, power down the ROCK 5B, remove the µSD card or eMMC module, and power it back up. It should now boot from NVMe
 
 </TabItem>
-<TabItem value="advanced" label="高级方法">
+<TabItem value="advanced" label="Advanced method">
 
 ## Advanced methods
 

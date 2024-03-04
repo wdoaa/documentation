@@ -33,13 +33,13 @@ sidebar_position: 2
 
 ### X Family
 
-| 型号                 | 简介                      |
+| model                | summary                   |
 | -------------------- | ------------------------- |
 | [X2L](/x/x2l) (2023) | Intel J4125 with RPi 2040 |
 
 ### NIO Family
 
-| 型号                       | 简介                             |
+| model                      | summary                          |
 | -------------------------- | -------------------------------- |
 | [NIO 12L](/nio/12l) (2024) | MediaTek Genio 1200 with 4K HDMI |
 
