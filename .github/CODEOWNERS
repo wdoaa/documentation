@@ -46,7 +46,7 @@ src                 @xzuoqi @akgnah
 static              @xzuoqi @akgnah
 #####################CI/CD####################
 .github             @RadxaYuntian
-.pre-commit-config.yaml @CodeChenL @RadxaYuntian
+.pre-commit-config.* @CodeChenL @RadxaYuntian
 ####################gitown####################
 static/img/rock3/Rock3C-bottom-800px.webp @Maycides
 docs/rock3/rock3c/os-config/rsetup.md @u7985
@@ -85,7 +85,7 @@ docs/template/sbc/radxa-os/display.md @nascs
 docs/x/x2l/software-development/c_sdk_examples.md @nascs
 static/img/rock3/3a/rock3a-rpi-imx219.webp @nascs
 i18n/en/docusaurus-plugin-content-docs/current/compute-module/cm5/radxa-os/apps-deploy/samba.md @Ken-Vamrs
-docs/rock3/rock3a/other-os/android/remote-login.md @ace
+docs/rock3/rock3a/other-os/android/remote-login.md @skljfi
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5a/accessories-guides/lcd-8-hd.md @Maycides
 docs/rock5/rock5itx/low-level-dev/rkdevtool.md @u7985
 docs/template/sbc/other-os/android/download.md @peterwang2050
@@ -169,3 +169,23 @@ docs/rock5/rock5b/low-level-dev/install-os-on-emmc-from-usb-otg.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/install-os-on-emmc-from-usb-otg.md @nascs
 docs/rock5/rock5b/faq.md @nascs
 docs/productlist.md @melooooooooooo
+.pre-commit-config.yaml @CodeChenL
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/accessories/camera_4k.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/other-os/android/low-level-dev.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/radxa-os/backup.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/radxa-os/README.md @nascs
+docs/rock5/rock5b/radxa-os/audio.md @nascs
+static/img/rock5itx/rock5itx-debug-console.webp @Ken-Vamrs
+docs/template/sbc/getting-started/install-os.md @peterwang2050
+x5/radxa-os/sys-config/bootparam.md @u7985
+i18n/en/docusaurus-plugin-content-docs/current/rockpi/rocks0/low-level-dev/rkdevtool.md @Ken-Vamrs
+i18n/en/docusaurus-plugin-content-docs/current/compute-module/nx5/radxa-os/sys-config/bootparam.md @u7985
+i18n/en/docusaurus-plugin-content-docs/current/template/module/radxa-os/low-level-dev/rkdevtool.md @peterwang2050
+docs/rock5/rock5b/apps-deployment/docker.md @nascs
+docs/rock5/rock5b/radxa-os/display.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/radxa-os/user.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/radxa-os/office.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/rbuild.md @nascs
+docs/rock5/rock5b/radxa-os/README.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/productlist.md @melooooooooooo
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/bootloader_spi_flash.md @nascs

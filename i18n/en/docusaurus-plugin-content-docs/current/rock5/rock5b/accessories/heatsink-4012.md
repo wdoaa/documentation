@@ -23,7 +23,7 @@ Heatsink 4012 is a customized cooling fan for ROCK 5B, the installation tutorial
 
 ## Configure
 
-系统默认是有三种模式
+There are three modes by default:
 
 - **power_allocator**: The system defaults to fanless mode or DC fan mode. Ensure that the machine can still work stably without a cooling fan;
 - **user_space**: Manual control of the cooling fan mode. Users can control the speed of the cooling fan through the command terminal according to their needs;

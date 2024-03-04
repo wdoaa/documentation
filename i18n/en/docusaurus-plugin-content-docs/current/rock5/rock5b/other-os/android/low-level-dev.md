@@ -146,13 +146,13 @@ android12 $ ./mkimage.sh
 ```bash
 android12 $ cd rockdev
 android12/rockdev $ rm -rf Image
-android12/rockdev $ ln -s Image-${PRODUCT_NAME} 图像
+android12/rockdev $ ln -s Image-${PRODUCT_NAME} Image
 ```
 
 - Packaged as an RK update format image
 
 ```
-radxa:rock-android12/rockdev $ ./mkupdate.sh rk3588 镜像
+radxa:rock-android12/rockdev $ ./mkupdate.sh rk3588 Image
 ```
 
 Generated update.img in the rockdev/ directory
