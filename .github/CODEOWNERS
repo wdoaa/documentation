@@ -190,3 +190,13 @@ docs/rock5/rock5b/radxa-os/README.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/productlist.md @melooooooooooo
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/bootloader_spi_flash.md @nascs
 docs/common/dev/_qt-cross-compile.mdx @nascs
+static/img/common/qt/qt_demo_kit_select.webp @nascs
+i18n/en/docusaurus-plugin-content-docs/current/zero/zero3/app-development/qt_cross_compile.md @nascs
+i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/app-development/qt_cross_compile.md @nascs
+docs/zero/zero3/app-development/qt_cross_compile.md @nascs
+static/img/common/qt/qt_demo_info.webp @nascs
+static/img/common/qt/qt_installation.webp @nascs
+static/img/common/qt/qt_kits_build_essential.webp @nascs
+static/img/common/qt/qt_location.webp @nascs
+static/img/common/qt/qt_device.webp @nascs
+docs/rock5/rock5b/app-development/qt_cross_compile.md @nascs
