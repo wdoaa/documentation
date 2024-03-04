@@ -84,7 +84,6 @@ docs/template/sbc/os-config/bootparam.md @nascs
 docs/template/sbc/radxa-os/display.md @nascs
 docs/x/x2l/software-development/c_sdk_examples.md @nascs
 static/img/rock3/3a/rock3a-rpi-imx219.webp @nascs
-docs/x/x2l/software-development/c_sdk_examples.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/compute-module/cm5/radxa-os/apps-deploy/samba.md @Ken-Vamrs
 docs/rock3/rock3a/other-os/android/remote-login.md @ace
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5a/accessories-guides/lcd-8-hd.md @Maycides
@@ -169,3 +168,4 @@ i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/accessories/wifi_bt_
 docs/rock5/rock5b/low-level-dev/install-os-on-emmc-from-usb-otg.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/install-os-on-emmc-from-usb-otg.md @nascs
 docs/rock5/rock5b/faq.md @nascs
+docs/productlist.md @melooooooooooo

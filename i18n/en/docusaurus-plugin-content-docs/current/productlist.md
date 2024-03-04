@@ -31,12 +31,24 @@ sidebar_position: 2
 | [ROCK 5A](/rock5/rock5a/) (2023) | Credit-Card Size SBC with 4K + 8K Display |
 | [ROCK 5B](/rock5/rock5b/) (2023) | 8K SBC with Quad Display                  |
 
+### X Family
+
+| 型号                 | 简介                      |
+| -------------------- | ------------------------- |
+| [X2L](/x/x2l) (2023) | Intel J4125 with RPi 2040 |
+
+### NIO Family
+
+| 型号                       | 简介                             |
+| -------------------------- | -------------------------------- |
+| [NIO 12L](/nio/12l) (2024) | MediaTek Genio 1200 with 4K HDMI |
+
 ## Radxa Compute Module Family
 
-| Model                                    | Description                      |
-| ---------------------------------------- | -------------------------------- |
-| Radxa CM3S (2022)                        | RK3566 with an SODIMM Interface  |
-| [Radxa CM3](/compute-module/cm3/) (2022) | RK3566 with a B2B Interface      |
-| Radxa CM3I (2023)                        | RK3568(J) with a B2B Interface   |
-| Radxa CM5 (2023)                         | RK3588S with a B2B Interface     |
-| Radxa NX5 (2023)                         | RK3588S with an SODIMM Interface |
+| Model                                      | Description                      |
+| ------------------------------------------ | -------------------------------- |
+| Radxa CM3S (2022)                          | RK3566 with an SODIMM Interface  |
+| [Radxa CM3](/compute-module/cm3/) (2022)   | RK3566 with a B2B Interface      |
+| [Radxa CM3I](/compute-module/cm3i/) (2023) | RK3568(J) with a B2B Interface   |
+| [Radxa CM5](/compute-module/cm5/)          | RK3588S with a B2B Interface     |
+| [Radxa NX5](/compute-module/nx5/) (2023)   | RK3588S with an SODIMM Interface |
