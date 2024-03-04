@@ -189,3 +189,4 @@ i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/rbuild
 docs/rock5/rock5b/radxa-os/README.md @nascs
 i18n/en/docusaurus-plugin-content-docs/current/productlist.md @melooooooooooo
 i18n/en/docusaurus-plugin-content-docs/current/rock5/rock5b/low-level-dev/bootloader_spi_flash.md @nascs
+docs/common/dev/_qt-cross-compile.mdx @nascs
