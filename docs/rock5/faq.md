@@ -38,6 +38,6 @@ sidebar_position: 3
 - ROCK 5B 故障排除步骤如下：
 
 1. ROCK 5B 断电，取出 eMMC 模块、SD卡、NVMe SSD
-2. 按住 Maskrom Button 按钮（**请查看 ROCK 5B 标注图的标签 25**）[5B Maskrom Button](/rock5/rock5b/getting-started/overview)。
+2. 按住 Maskrom Button 按钮（**请查看 ROCK 5B 标注图的标签 25**）[5B Maskrom Button](/rock5/rock5b/getting-started/)。
 3. 使用 USB Type A 转 Type C 线将 ROCK 5B 通过 USB Type C 连接到电脑
 4. 检查 Windows 设备管理器中是否有新的未知 USB 设备，有，则 ROCK 5B 已被成功识别到。 若没有，请优先尝试其他独立 USB 端口，建议将 ROCK 5B 连接到电脑的背部面板的独立 USB 接口，确保其拥有足够的供电。
