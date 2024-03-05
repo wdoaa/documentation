@@ -169,3 +169,54 @@ X DISPLAY # RFB PORT # PROCESS ID SERVER
 1. On the VNC viewer, enter the IP address and port number of the product.
 2. Use the user name and password of the VNC server to authenticate.
 3. After successful connection, you can control remotely.
+
+## TeamViewer
+
+### Installation of TeamViewer
+
+```bash
+wget https://download.teamviewer.com/download/linux/teamviewer-host_arm64.deb
+sudo apt install . /teamviewer-host_arm64.deb
+```
+
+### Setup TeamViewer
+
+```bash
+sudo teamviewer setup   # Agree to the agreement, login and authorize
+```
+
+### Configure a virtual monitor (this step is optional if a real monitor is connected)
+
+```bash
+sudo apt update
+sudo apt install xserver-xorg-video-dummy
+sudo apt remove xfce4-screensaver
+
+sudo mv /etc/X11/xorg.conf.d/20-modesetting.conf /etc/X11/xorg.conf.d/20-modesetting.bak
+sudo nano /etc/X11/xorg.conf.d/10-headless.conf
+# Add the following and reboot
+Section "Monitor"
+        Identifier "dummy_monitor"
+        HorizSync 28.0-80.0
+        VertRefresh 48.0-75.0
+        Modeline "1920x1080" 172.80 1920 2040 2248 2576 1080 1081 1084 1118
+EndSection
+
+Section "Device"
+        Identifier "dummy_card"
+        VideoRam 256000
+        Driver "dummy"
+EndSection
+
+Section "Screen"
+        Identifier "dummy_screen"
+        Device "dummy_card"
+        Monitor "dummy_monitor"
+        SubSection "Display"
+        EndSubSection
+EndSection
+```
+
+### Connect to TeamViewer
+
+Refer to [TeamViewer Official Documentation](https://community.teamviewer.com/English/kb/articles/109101-connect-via-teamviewer-classic)
