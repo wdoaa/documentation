@@ -168,3 +168,67 @@ X DISPLAY #	RFB PORT #	PROCESS ID	SERVER
 1. 在 VNC 查看器上，输入产品的 IP 地址和端口号。
 2. 使用 VNC 服务器的用户名和密码进行身份验证。
 3. 连接成功后，即可远程控制。
+
+## TeamViewer
+
+### 安装 TeamViewer
+
+```bash
+wget https://download.teamviewer.com/download/linux/teamviewer-host_arm64.deb
+sudo apt install . /teamviewer-host_arm64.deb
+```
+
+### 配置 TeamViewer
+
+```bash
+sudo teamviewer setup   # 同意协议登陆并授权
+```
+
+### 卸载 xfce4-screensaver
+
+:::info
+此项步骤可修复 TeamViewer 长时间挂机导致的键鼠控制失效的问题。
+:::
+
+```bash
+sudo apt remove xfce4-screensaver
+```
+
+### 配置虚拟显示器
+
+:::info
+如有连接真实显示器，此项步骤为可选项。
+:::
+
+```bash
+sudo apt update
+sudo apt install xserver-xorg-video-dummy
+
+sudo mv /etc/X11/xorg.conf.d/20-modesetting.conf /etc/X11/xorg.conf.d/20-modesetting.bak
+sudo nano /etc/X11/xorg.conf.d/10-headless.conf
+# 添加以下内容并重启
+Section "Monitor"
+        Identifier "dummy_monitor"
+        HorizSync 28.0-80.0
+        VertRefresh 48.0-75.0
+        Modeline "1920x1080" 172.80 1920 2040 2248 2576 1080 1081 1084 1118
+EndSection
+
+Section "Device"
+        Identifier "dummy_card"
+        VideoRam 256000
+        Driver "dummy"
+EndSection
+
+Section "Screen"
+        Identifier "dummy_screen"
+        Device "dummy_card"
+        Monitor "dummy_monitor"
+        SubSection "Display"
+        EndSubSection
+EndSection
+```
+
+### 连接 TeamViewer
+
+可参考[ TeamViewer 官方文档](https://community.teamviewer.com/Chinese/kb/articles/109101-%E9%80%9A%E8%BF%87teamviewer-%E8%BF%9E%E6%8E%A5)
