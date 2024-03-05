@@ -4,8 +4,8 @@ sidebar_position: 3
 
 # Radxa Display 8 HD
 
-! [Display Installation-01](/img/rock5b/rock5b-display-8hd-FPC.webp)  
-! [Display Installation-02](/img/rock5b/rock5b-display-8hd-connected.webp)
+![Display Installation-01](/img/rock5b/rock5b-display-8hd-FPC.webp)  
+![Display Installation-02](/img/rock5b/rock5b-display-8hd-connected.webp)
 
 - Prepare the Radxa Display 8HD or Radxa Display 10HD and connect it to the ROCK 5B via the FPC cable.
 
