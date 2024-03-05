@@ -185,12 +185,25 @@ sudo apt install . /teamviewer-host_arm64.deb
 sudo teamviewer setup   # Agree to the agreement, login and authorize
 ```
 
-### Configure a virtual monitor (this step is optional if a real monitor is connected)
+### Uninstall xfce4-screensaver
+
+:::info
+This step fixes an issue where TeamViewer hangs for a long period of time causing the keyboard and mouse controls to fail.
+:::
+
+```bash
+sudo apt remove xfce4-screensaver
+```
+
+### Configure a virtual monitor
+
+:::info
+this step is optional if a real monitor is connected.
+:::
 
 ```bash
 sudo apt update
 sudo apt install xserver-xorg-video-dummy
-sudo apt remove xfce4-screensaver
 
 sudo mv /etc/X11/xorg.conf.d/20-modesetting.conf /etc/X11/xorg.conf.d/20-modesetting.bak
 sudo nano /etc/X11/xorg.conf.d/10-headless.conf

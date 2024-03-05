@@ -171,25 +171,38 @@ X DISPLAY #	RFB PORT #	PROCESS ID	SERVER
 
 ## TeamViewer
 
-### 安装TeamViewer
+### 安装 TeamViewer
 
 ```bash
 wget https://download.teamviewer.com/download/linux/teamviewer-host_arm64.deb
 sudo apt install . /teamviewer-host_arm64.deb
 ```
 
-### 配置TeamViewer
+### 配置 TeamViewer
 
 ```bash
 sudo teamviewer setup   # 同意协议登陆并授权
 ```
 
-### 配置虚拟显示器(如有连接真实显示器，此项步骤为可选项)
+### 卸载 xfce4-screensaver
+
+:::info
+此项步骤可修复 TeamViewer 长时间挂机导致的键鼠控制失效的问题。
+:::
+
+```bash
+sudo apt remove xfce4-screensaver
+```
+
+### 配置虚拟显示器
+
+:::info
+如有连接真实显示器，此项步骤为可选项。
+:::
 
 ```bash
 sudo apt update
 sudo apt install xserver-xorg-video-dummy
-sudo apt remove xfce4-screensaver
 
 sudo mv /etc/X11/xorg.conf.d/20-modesetting.conf /etc/X11/xorg.conf.d/20-modesetting.bak
 sudo nano /etc/X11/xorg.conf.d/10-headless.conf
@@ -216,6 +229,6 @@ Section "Screen"
 EndSection
 ```
 
-### 连接TeamViewer
+### 连接 TeamViewer
 
-可参考[TeamViewer官方文档](https://community.teamviewer.com/Chinese/kb/articles/109101-%E9%80%9A%E8%BF%87teamviewer-%E8%BF%9E%E6%8E%A5)
+可参考[ TeamViewer 官方文档](https://community.teamviewer.com/Chinese/kb/articles/109101-%E9%80%9A%E8%BF%87teamviewer-%E8%BF%9E%E6%8E%A5)
