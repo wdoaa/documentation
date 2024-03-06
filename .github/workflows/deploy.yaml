@@ -75,7 +75,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        test: [check-external-links]
+        test: ["check-external-links", "gitown"]
         stage: ["manual"]
     steps:
       - name: Checkout
@@ -133,7 +133,6 @@ jobs:
             exit 1
           fi
   build:
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

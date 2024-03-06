@@ -66,8 +66,7 @@ repos:
             "--codeowners_filename=.github/CODEOWNERS",
           ]
         stages:
-          - pre-commit
-          - pre-push
+          - manual
   - repo: https://github.com/commitizen-tools/commitizen
     rev: v3.16.0
     hooks:
