@@ -75,7 +75,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        test: [check-external-links]
+        test: ["check-external-links", "gitown"]
         stage: ["manual"]
     steps:
       - name: Checkout
